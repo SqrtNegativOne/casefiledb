@@ -4,168 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casefile Database</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.5;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 2rem;
-            background-color: #f9f9f9;
-        }
-        .media-entry {
-            background: #fff;
-            border: 1px solid #ddd;
-            padding: 1rem;
-            margin-bottom: 1rem;
-            border-radius: 4px;
-        }
-        .hidden {
-            display: none;
-        }
-        .spoiler {
-            background-color: #eee;
-            color: #eee;
-            cursor: pointer;
-            padding: 0 4px;
-            border-radius: 2px;
-            transition: background-color 0.2s, color 0.2s;
-        }
-        .spoiler:hover {
-            background-color: #ddd;
-        }
-        .spoiler.revealed {
-            background-color: transparent;
-            color: inherit;
-            cursor: default;
-        }
-        button {
-            cursor: pointer;
-            padding: 0.5rem 1rem;
-            background: #007bff;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            font-size: 0.9rem;
-        }
-        button:hover {
-            background: #0056b3;
-        }
-        .details {
-            margin-top: 1rem;
-            padding-top: 1rem;
-            border-top: 1px solid #eee;
-        }
-        h2, h3 {
-            margin-top: 0;
-        }
-        .field-label {
-            font-weight: bold;
-            color: #666;
-        }
-        .death-entry, .person-entry {
-            border-left: 3px solid #007bff;
-            padding-left: 1rem;
-            margin: 0.5rem 0;
-            font-size: 0.9rem;
-        }
-        .search-container {
-            margin-bottom: 2rem;
-        }
-        input[type="text"] {
-            width: 100%;
-            padding: 0.5rem;
-            font-size: 1rem;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="search-container">
-        <input type="text" id="searchInput" placeholder="Search by author...">
+    <header class="toolbar">
+        <h1>Casefile Database</h1>
+        <div class="toolbar-controls">
+            <input type="text" id="searchInput" placeholder="Search title, creator, type...">
+            <select id="typeFilter" aria-label="Filter by media type">
+                <option value="">All types</option>
+            </select>
+            <select id="deathsFilter" aria-label="Filter by deaths">
+                <option value="">Any deaths</option>
+                <option value="0">No deaths</option>
+                <option value="1">1+ deaths</option>
+                <option value="2">2+ deaths</option>
+            </select>
+            <label class="checkbox-filter">
+                <input type="checkbox" id="twistFilter">
+                Has twist
+            </label>
+            <select id="sortField" aria-label="Sort field">
+                <option value="title">Sort: Title</option>
+                <option value="creator">Sort: Creator</option>
+                <option value="year">Sort: Year</option>
+                <option value="media_type">Sort: Type</option>
+                <option value="deaths">Sort: Deaths</option>
+            </select>
+            <select id="sortDirection" aria-label="Sort direction">
+                <option value="asc">Asc</option>
+                <option value="desc">Desc</option>
+            </select>
+            <button id="themeToggle" type="button" aria-label="Toggle dark mode">Dark mode</button>
+        </div>
+    </header>
+    <div class="meta-row">
+        <span id="resultCount" class="muted"></span>
     </div>
-    <div id="mediaList"></div>
-
+    <div class="table-wrap">
+        <table id="mediaTable" aria-label="Casefile media table">
+            <thead>
+                <tr>
+                    <th data-sort-key="title" class="sortable">Title</th>
+                    <th data-sort-key="creator" class="sortable">Creator</th>
+                    <th data-sort-key="year" class="sortable">Year</th>
+                    <th data-sort-key="media_type" class="sortable">Type</th>
+                    <th data-sort-key="deaths" class="sortable">Deaths</th>
+                    <th>Notes</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="mediaTableBody"></tbody>
+        </table>
+    </div>
     <script src="site_data.js"></script>
-    <script>
-        async function init() {
-            const data = SITE_DATA;
-            const mediaList = document.getElementById('mediaList');
-            const searchInput = document.getElementById('searchInput');
-
-            function render(filter = '') {
-                mediaList.innerHTML = '';
-                const filtered = data.filter(m => 
-                    (m.creator || '').toLowerCase().includes(filter.toLowerCase())
-                );
-
-                filtered.forEach((media, index) => {
-                    const div = document.createElement('div');
-                    div.className = 'media-entry';
-                    
-                    const header = document.createElement('div');
-                    header.innerHTML = `<strong>Author:</strong> ${media.creator || 'Unknown'}`;
-                    
-                    const showBtn = document.createElement('button');
-                    showBtn.textContent = 'Show Details';
-                    showBtn.style.marginLeft = '1rem';
-                    showBtn.onclick = () => {
-                        const details = div.querySelector('.details');
-                        details.classList.toggle('hidden');
-                        showBtn.textContent = details.classList.contains('hidden') ? 'Show Details' : 'Hide Details';
-                    };
-
-                    header.appendChild(showBtn);
-                    div.appendChild(header);
-
-                    const details = document.createElement('div');
-                    details.className = 'details hidden';
-                    
-                    // Media Details (Hidden by default)
-                    details.innerHTML = `
-                        <div><span class="field-label">Title:</span> <span class="spoiler" onclick="this.classList.add('revealed')">${media.title}</span></div>
-                        <div><span class="field-label">Year:</span> ${media.year || 'N/A'}</div>
-                        <div><span class="field-label">Type:</span> ${media.media_type}</div>
-                        ${media.notes ? `<div><span class="field-label">Notes:</span> <span class="spoiler" onclick="this.classList.add('revealed')">${media.notes}</span></div>` : ''}
-                        
-                        <h3>Persons</h3>
-                        <div class="persons">
-                            ${media.persons.map(p => `
-                                <div class="person-entry">
-                                    <span class="spoiler" onclick="this.classList.add('revealed')"><strong>${p.name}</strong></span> 
-                                    (${p.role_in_story || 'unknown'})
-                                    ${p.notes ? `<br><span class="field-label">Notes:</span> <span class="spoiler" onclick="this.classList.add('revealed')">${p.notes}</span>` : ''}
-                                </div>
-                            `).join('')}
-                        </div>
-
-                        <h3>Deaths</h3>
-                        <div class="deaths">
-                            ${media.deaths.map(d => `
-                                <div class="death-entry">
-                                    <span class="field-label">Victim:</span> <span class="spoiler" onclick="this.classList.add('revealed')">${d.victim_name || 'Unknown'}</span><br>
-                                    <span class="field-label">Cause:</span> <span class="spoiler" onclick="this.classList.add('revealed')">${d.cause} ${d.cause_subtype ? `(${d.cause_subtype})` : ''}</span><br>
-                                    ${d.cause_detail ? `<span class="field-label">Detail:</span> <span class="spoiler" onclick="this.classList.add('revealed')">${d.cause_detail}</span><br>` : ''}
-                                    <span class="field-label">Killer:</span> <span class="spoiler" onclick="this.classList.add('revealed')">${d.killer_name || 'Unknown'}</span><br>
-                                    <span class="field-label">Motive:</span> <span class="spoiler" onclick="this.classList.add('revealed')">${d.motive || 'N/A'}</span>
-                                    ${d.is_twist ? `<br><span class="spoiler" onclick="this.classList.add('revealed')"><strong>PLOT TWIST</strong></span>` : ''}
-                                </div>
-                            `).join('')}
-                        </div>
-                    `;
-                    
-                    div.appendChild(details);
-                    mediaList.appendChild(div);
-                });
-            }
-
-            searchInput.oninput = (e) => render(e.target.value);
-            render();
-        }
-
-        init();
-    </script>
+    <script src="app.js"></script>
 </body>
 </html>

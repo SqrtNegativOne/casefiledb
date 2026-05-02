@@ -2,7 +2,214 @@
 - How to prepare the database to handle locked room mysteries, categorize them?
 
 # Media to add
-- Every single Ace Attorney game. (main trilogy, Apollo Justice trilogy, Miles Edgeworth Duology, Professor Layton games.)
-- Danganronpa trilogy.
-- All Agatha Christie novels.
-- Every single episode of Monk, from the Monk wiki.
+
+## Ace Attorney
+- [ ] Phoenix Wright: Ace Attorney (2001)
+- [ ] Phoenix Wright: Ace Attorney – Justice for All (2002)
+- [ ] Phoenix Wright: Ace Attorney – Trials and Tribulations (2004)
+- [ ] Apollo Justice: Ace Attorney (2007)
+- [ ] Ace Attorney Investigations: Miles Edgeworth (2009)
+- [ ] Ace Attorney Investigations 2 (2011)
+- [ ] Professor Layton vs. Phoenix Wright: Ace Attorney (2012)
+- [ ] Phoenix Wright: Ace Attorney – Dual Destinies (2013)
+- [ ] Phoenix Wright: Ace Attorney – Spirit of Justice (2016)
+
+## Danganronpa
+- [ ] Danganronpa: Trigger Happy Havoc (2010)
+- [ ] Danganronpa 2: Goodbye Despair (2012)
+- [ ] Danganronpa V3: Killing Harmony (2017)
+
+## Agatha Christie novels
+- [x] The Mysterious Affair at Styles (1920)
+- [x] The Secret Adversary (1922)
+- [x] The Murder on the Links (1923)
+- [x] The Man in the Brown Suit (1924)
+- [ ] The Secret of Chimneys (1925)
+- [x] The Murder of Roger Ackroyd (1926)
+- [x] The Big Four (1927)
+- [x] The Mystery of the Blue Train (1928)
+- [ ] The Seven Dials Mystery (1929)
+- [x] The Murder at the Vicarage (1930)
+- [ ] The Sittaford Mystery (1931)
+- [x] Peril at End House (1932)
+- [x] Lord Edgware Dies (1933)
+- [x] Murder on the Orient Express (1934)
+- [ ] Why Didn't They Ask Evans? (1934)
+- [x] Three Act Tragedy (1935)
+- [x] Death in the Clouds (1935)
+- [x] The ABC Murders (1936)
+- [x] Murder in Mesopotamia (1936)
+- [x] Cards on the Table (1936)
+- [x] Dumb Witness (1937)
+- [x] Death on the Nile (1937)
+- [x] Appointment with Death (1938)
+- [x] Hercule Poirot's Christmas (1938)
+- [x] Murder is Easy (1939)
+- [x] And Then There Were None (1939)
+- [x] Sad Cypress (1940)
+- [x] One, Two, Buckle My Shoe (1940)
+- [x] Evil Under the Sun (1941)
+- [x] N or M? (1941)
+- [x] The Body in the Library (1942)
+- [x] Five Little Pigs (1942)
+- [x] The Moving Finger (1943)
+- [x] Towards Zero (1944)
+- [x] Death Comes as the End (1944)
+- [ ] Sparkling Cyanide (1945)
+- [x] The Hollow (1946)
+- [x] Taken at the Flood (1948)
+- [x] Crooked House (1949)
+- [x] A Murder is Announced (1950)
+- [ ] They Came to Baghdad (1951)
+- [x] Mrs McGinty's Dead (1952)
+- [x] They Do It with Mirrors (1952)
+- [x] After the Funeral (1953)
+- [x] A Pocket Full of Rye (1953)
+- [ ] Destination Unknown (1954)
+- [x] Hickory Dickory Dock (1955)
+- [x] Dead Man's Folly (1956)
+- [x] 4:50 from Paddington (1957)
+- [x] Ordeal by Innocence (1958)
+- [x] Cat Among the Pigeons (1959)
+- [x] The Pale Horse (1961)
+- [x] The Mirror Crack'd from Side to Side (1962)
+- [x] The Clocks (1963)
+- [x] A Caribbean Mystery (1964)
+- [x] At Bertram's Hotel (1965)
+- [x] Third Girl (1966)
+- [x] Endless Night (1967)
+- [x] By the Pricking of My Thumbs (1968)
+- [x] Hallowe'en Party (1969)
+- [ ] Passenger to Frankfurt (1970)
+- [x] Nemesis (1971)
+- [x] Elephants Can Remember (1972)
+- [x] Postern of Fate (1973)
+- [x] Curtain: Poirot's Last Case (1975)
+- [x] Sleeping Murder (1976)
+
+## Monk episodes
+- [ ] S01E01 - Mr. Monk and the Candidate (Part 1)
+- [ ] S01E02 - Mr. Monk and the Candidate (Part 2)
+- [ ] S01E03 - Mr. Monk and the Psychic
+- [ ] S01E04 - Mr. Monk Meets Dale the Whale
+- [ ] S01E05 - Mr. Monk Goes to the Carnival
+- [ ] S01E06 - Mr. Monk Goes to the Asylum
+- [ ] S01E07 - Mr. Monk and the Billionaire Mugger
+- [ ] S01E08 - Mr. Monk and the Other Woman
+- [ ] S01E09 - Mr. Monk and the Marathon Man
+- [ ] S01E10 - Mr. Monk Takes a Vacation
+- [ ] S01E11 - Mr. Monk and the Earthquake
+- [ ] S01E12 - Mr. Monk and the Red-Headed Stranger
+- [ ] S01E13 - Mr. Monk and the Airplane
+- [ ] S02E01 - Mr. Monk Goes Back to School
+- [ ] S02E02 - Mr. Monk Goes to Mexico
+- [ ] S02E03 - Mr. Monk Goes to the Ballgame
+- [ ] S02E04 - Mr. Monk Goes to the Circus
+- [ ] S02E05 - Mr. Monk and the Very, Very Old Man
+- [ ] S02E06 - Mr. Monk Goes to the Theater
+- [ ] S02E07 - Mr. Monk and the Sleeping Suspect
+- [ ] S02E08 - Mr. Monk Meets the Playboy
+- [ ] S02E09 - Mr. Monk and the 12th Man
+- [ ] S02E10 - Mr. Monk and the Paperboy
+- [ ] S02E11 - Mr. Monk and the Three Pies
+- [ ] S02E12 - Mr. Monk and the TV Star
+- [ ] S02E13 - Mr. Monk and the Missing Granny
+- [ ] S02E14 - Mr. Monk and the Captain's Wife
+- [ ] S02E15 - Mr. Monk Gets Married
+- [ ] S02E16 - Mr. Monk Goes to Jail
+- [ ] S03E01 - Mr. Monk Takes Manhattan
+- [ ] S03E02 - Mr. Monk and the Panic Room
+- [ ] S03E03 - Mr. Monk and the Blackout
+- [ ] S03E04 - Mr. Monk Gets Fired
+- [ ] S03E05 - Mr. Monk Meets the Godfather
+- [ ] S03E06 - Mr. Monk and the Girl Who Cried Wolf
+- [ ] S03E07 - Mr. Monk and the Employee of the Month
+- [ ] S03E08 - Mr. Monk and the Game Show
+- [ ] S03E09 - Mr. Monk Takes His Medicine
+- [ ] S03E10 - Mr. Monk and the Red Herring
+- [ ] S03E11 - Mr. Monk vs. the Cobra
+- [ ] S03E12 - Mr. Monk Gets Cabin Fever
+- [ ] S03E13 - Mr. Monk Gets Stuck in Traffic
+- [ ] S03E14 - Mr. Monk Goes to Vegas
+- [ ] S03E15 - Mr. Monk and the Election
+- [ ] S03E16 - Mr. Monk and the Kid
+- [ ] S04E01 - Mr. Monk and the Other Detective
+- [ ] S04E02 - Mr. Monk Goes Home Again
+- [ ] S04E03 - Mr. Monk Stays in Bed
+- [ ] S04E04 - Mr. Monk Goes to the Office
+- [ ] S04E05 - Mr. Monk Gets Drunk
+- [ ] S04E06 - Mr. Monk and Mrs. Monk
+- [ ] S04E07 - Mr. Monk Goes to a Wedding
+- [ ] S04E08 - Mr. Monk and Little Monk
+- [ ] S04E09 - Mr. Monk and the Secret Santa
+- [ ] S04E10 - Mr. Monk Goes to a Fashion Show
+- [ ] S04E11 - Mr. Monk Bumps His Head
+- [ ] S04E12 - Mr. Monk and the Captain's Marriage
+- [ ] S04E13 - Mr. Monk and the Big Reward
+- [ ] S04E14 - Mr. Monk and the Astronaut
+- [ ] S04E15 - Mr. Monk Goes to the Dentist
+- [ ] S04E16 - Mr. Monk Gets Jury Duty
+- [ ] S05E01 - Mr. Monk and the Actor
+- [ ] S05E02 - Mr. Monk and the Garbage Strike
+- [ ] S05E03 - Mr. Monk and the Big Game
+- [ ] S05E04 - Mr. Monk Can't See a Thing
+- [ ] S05E05 - Mr. Monk, Private Eye
+- [ ] S05E06 - Mr. Monk and the Class Reunion
+- [ ] S05E07 - Mr. Monk Gets a New Shrink
+- [ ] S05E08 - Mr. Monk Goes to a Rock Concert
+- [ ] S05E09 - Mr. Monk Meets His Dad
+- [ ] S05E10 - Mr. Monk and the Leper
+- [ ] S05E11 - Mr. Monk Makes a Friend
+- [ ] S05E12 - Mr. Monk Is at Your Service
+- [ ] S05E13 - Mr. Monk Is on the Air
+- [ ] S05E14 - Mr. Monk Visits a Farm
+- [ ] S05E15 - Mr. Monk and the Really, Really Dead Guy
+- [ ] S05E16 - Mr. Monk Goes to the Hospital
+- [ ] S06E01 - Mr. Monk and His Biggest Fan
+- [ ] S06E02 - Mr. Monk and the Rapper
+- [ ] S06E03 - Mr. Monk and the Naked Man
+- [ ] S06E04 - Mr. Monk and the Bad Girlfriend
+- [ ] S06E05 - Mr. Monk and the Birds and the Bees
+- [ ] S06E06 - Mr. Monk and the Buried Treasure
+- [ ] S06E07 - Mr. Monk and the Daredevil
+- [ ] S06E08 - Mr. Monk and the Wrong Man
+- [ ] S06E09 - Mr. Monk Is Up All Night
+- [ ] S06E10 - Mr. Monk and the Man Who Shot Santa Claus
+- [ ] S06E11 - Mr. Monk Joins a Cult
+- [ ] S06E12 - Mr. Monk Goes to the Bank
+- [ ] S06E13 - Mr. Monk and the Three Julies
+- [ ] S06E14 - Mr. Monk Paints His Masterpiece
+- [ ] S06E15 - Mr. Monk Is on the Run (Part 1)
+- [ ] S06E16 - Mr. Monk Is on the Run (Part 2)
+- [ ] S07E01 - Mr. Monk Buys a House
+- [ ] S07E02 - Mr. Monk and the Genius
+- [ ] S07E03 - Mr. Monk Gets Lotto Fever
+- [ ] S07E04 - Mr. Monk Takes a Punch
+- [ ] S07E05 - Mr. Monk Is Underwater
+- [ ] S07E06 - Mr. Monk Falls in Love
+- [ ] S07E07 - Mr. Monk's 100th Case
+- [ ] S07E08 - Mr. Monk Gets Hypnotized
+- [ ] S07E09 - Mr. Monk and the Miracle
+- [ ] S07E10 - Mr. Monk's Other Brother
+- [ ] S07E11 - Mr. Monk on Wheels
+- [ ] S07E12 - Mr. Monk and the Lady Next Door
+- [ ] S07E13 - Mr. Monk Makes the Playoffs
+- [ ] S07E14 - Mr. Monk and the Bully
+- [ ] S07E15 - Mr. Monk and the Magician
+- [ ] S07E16 - Mr. Monk Fights City Hall
+- [ ] S08E01 - Mr. Monk's Favorite Show
+- [ ] S08E02 - Mr. Monk and the Foreign Man
+- [ ] S08E03 - Mr. Monk and the UFO
+- [ ] S08E04 - Mr. Monk Is Someone Else
+- [ ] S08E05 - Mr. Monk Takes the Stand
+- [ ] S08E06 - Mr. Monk and the Critic
+- [ ] S08E07 - Mr. Monk and the Voodoo Curse
+- [ ] S08E08 - Mr. Monk Goes to Group Therapy
+- [ ] S08E09 - Happy Birthday, Mr. Monk
+- [ ] S08E10 - Mr. Monk and Sharona
+- [ ] S08E11 - Mr. Monk and the Dog
+- [ ] S08E12 - Mr. Monk Goes Camping
+- [ ] S08E13 - Mr. Monk Is the Best Man
+- [ ] S08E14 - Mr. Monk and the Badge
+- [ ] S08E15 - Mr. Monk and the End (Part 1)
+- [ ] S08E16 - Mr. Monk and the End (Part 2)

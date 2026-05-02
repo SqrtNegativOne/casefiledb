@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["wikidata_id", "title", "media_type", "persons", "deaths"],
+    "properties": {
+      "wikidata_id": { "type": "string", "description": "Unique Wikidata ID (e.g., Q2577458)" },
+      "tmdb_id": { "type": ["string", "null"] },
+      "igdb_id": { "type": ["string", "null"] },
+      "isbn": { "type": ["string", "null"] },
+      "title": { "type": "string" },
+      "media_type": {
+        "type": "string",
+        "enum": ["book", "movie", "tv_show", "tv_episode", "game", "short_story", "play", "podcast"]
+      },
+      "year": { "type": ["integer", "null"] },
+      "creator": { "type": ["string", "null"], "description": "Author, director, or creator name" },
+      "series_name": { "type": ["string", "null"] },
+      "series_number": { "type": ["number", "null"] },
+      "notes": { "type": ["string", "null"] },
+      "tags": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "persons": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["name"],
+          "properties": {
+            "name": { "type": "string" },
+            "is_fictional": { "type": "boolean", "default": true },
+            "role_in_story": {
+              "type": ["string", "null"],
+              "enum": ["protagonist", "antagonist", "victim", "detective", "bystander", "unknown", null]
+            },
+            "nationality": { "type": ["string", "null"] },
+            "ethnicity": { "type": ["string", "null"] },
+            "gender": { "type": ["string", "null"] },
+            "approximate_age": { "type": ["string", "null"] },
+            "profession": { "type": ["string", "null"] },
+            "skills": {
+              "type": ["array", "null"],
+              "items": { "type": "string" }
+            },
+            "archetype": { "type": ["string", "null"] },
+            "notes": { "type": ["string", "null"] }
+          }
+        }
+      },
+      "deaths": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["cause", "death_type"],
+          "properties": {
+            "victim_name": { "type": ["string", "null"], "description": "Must match a name in the 'persons' list" },
+            "ordinal": { "type": ["integer", "null"] },
+            "cause": {
+              "type": "string",
+              "enum": ["POISONED", "SHOT", "STABBED", "CLUBBED", "STRANGLED", "DROWNED", "BURNED", "HANGED", "FELL", "CRUSHED", "SUFFOCATED", "EXPLODED", "ELECTROCUTED", "FROZEN", "ILLNESS", "EATEN", "TORN_APART", "OTHER"]
+            },
+            "cause_subtype": { "type": ["string", "null"] },
+            "cause_detail": { "type": ["string", "null"] },
+            "death_type": {
+              "type": "string",
+              "enum": ["murder", "attempted_murder", "manslaughter", "suicide", "accident", "natural_death", "execution", "unknown"]
+            },
+            "killer_name": { "type": ["string", "null"], "description": "Must match a name in the 'persons' list" },
+            "motive": {
+              "type": ["string", "null"],
+              "enum": ["greed_inheritance", "greed_financial", "blackmail", "jealousy", "revenge", "ideology", "self_defense", "concealment", "passion", "unknown", "other", null]
+            },
+            "motive_detail": { "type": ["string", "null"] },
+            "is_central_death": { "type": "boolean", "default": false },
+            "is_twist": { "type": "boolean", "default": false },
+            "chapter_or_act": { "type": ["string", "null"] },
+            "notes": { "type": ["string", "null"] }
+          }
+        }
+      }
+    }
+  }
+}

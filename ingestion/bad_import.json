@@ -1,0 +1,17 @@
+[
+  {
+    "wikidata_id": "Q_BAD_123",
+    "title": "Bad Data",
+    "media_type": "invalid_type",
+    "persons": [
+      { "name": "Someone" }
+    ],
+    "deaths": [
+      {
+        "victim_name": "Ghost",
+        "cause": "LASER_BEAM",
+        "death_type": "magic"
+      }
+    ]
+  }
+]

@@ -11,11 +11,11 @@ from dotenv import load_dotenv
 from sqlalchemy import create_engine, event
 from sqlalchemy.orm import Session, sessionmaker
 
-from catalog.models import Base
+from .models import Base
 
-load_dotenv()
+load_dotenv(Path(__file__).parent.parent / ".env", override=True)
 
-_DATABASE_URL: str = os.getenv("DATABASE_URL", "sqlite:///./data/catalog.db")
+_DATABASE_URL: str = os.getenv("DATABASE_URL", "sqlite:///./db/catalog.db")
 
 # Auto-create the parent directory for SQLite files.
 if _DATABASE_URL.startswith("sqlite:///"):

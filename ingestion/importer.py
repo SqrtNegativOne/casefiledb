@@ -9,8 +9,8 @@ from typing import Any
 
 from sqlalchemy import select
 
-from catalog.database import get_session
-from catalog.models import Death, Media, Person, Tag, media_tag
+from schema.database import get_session
+from schema.models import Death, Media, Person, Tag, media_tag
 
 logger = logging.getLogger(__name__)
 

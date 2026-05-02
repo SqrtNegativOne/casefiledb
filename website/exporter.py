@@ -10,8 +10,8 @@ from typing import Any, Optional
 from sqlalchemy import select
 from sqlalchemy.orm import joinedload
 
-from catalog.database import get_session
-from catalog.models import Death, Media, Person
+from schema.database import get_session
+from schema.models import Death, Media, Person
 
 logger = logging.getLogger(__name__)
 

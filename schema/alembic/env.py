@@ -13,14 +13,14 @@ from alembic import context
 from dotenv import load_dotenv
 from sqlalchemy import engine_from_config, pool
 
-from catalog.models import Base
+from schema.models import Base
 
 load_dotenv()
 
 config = context.config
 
 # Override the ini-file URL with whatever is in .env.
-_db_url = os.getenv("DATABASE_URL", "sqlite:///./data/catalog.db")
+_db_url = os.getenv("DATABASE_URL", "sqlite:///./db/catalog.db")
 config.set_main_option("sqlalchemy.url", _db_url)
 
 if config.config_file_name is not None:

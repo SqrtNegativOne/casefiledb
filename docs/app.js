@@ -1,5 +1,5 @@
-(function () {
-    const data = typeof SITE_DATA !== "undefined" && Array.isArray(SITE_DATA) ? SITE_DATA : [];
+(async function () {
+    const data = await fetch("site_data.json").then((r) => r.json()).catch(() => []);
     const body = document.getElementById("mediaTableBody");
     const searchInput = document.getElementById("searchInput");
     const typeFilter = document.getElementById("typeFilter");

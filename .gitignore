@@ -1,8 +1,5 @@
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
-.Python
-*.db
-*.sqlite3
-.env
+.venv/
+.uv/
+*.pyc

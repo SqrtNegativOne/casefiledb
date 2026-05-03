@@ -7,9 +7,7 @@
 - A page to compare the works of any two different authors/pieces of media. like Christie likes her poisons, Carr likes locked rooms etc.
 - What's the point of a db file when everything is stored in json files? Why not have Python convert the json files to some structure, and verify that structure?
 - Shift all JSON files that are read by the website to show, in a different folder.
-- Make a README.md, with sections on how to browse, and a section on how to add new stuff.
 - Make it even simpler for AI agents to add pieces of media. A different prompt for movies, books, shows, games? Each should probably use fandom pages. Any tool for scraping fandom pages with extreme ease?
-- Have separate JSON files for games, books, shows, movies? Because adding everything will make this go out of control....
 - Investigate null values and see how they can be removed.
 
 - Properly handle shows and games; handle the cases of games separately from the game class, handle the episodes of a show separately from the show itself.

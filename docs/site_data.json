@@ -1,5 +1,84 @@
 [
   {
+    "wikidata_id": "Q2577458",
+    "tmdb_id": null,
+    "igdb_id": null,
+    "isbn": null,
+    "title": "Witness for the Prosecution",
+    "media_type": "short_story",
+    "year": 1925,
+    "creator": "Agatha Christie",
+    "series_name": null,
+    "series_number": null,
+    "notes": "A seemingly open-and-shut murder trial turns on a devastating twist.",
+    "tags": [
+      "golden-age",
+      "thriller"
+    ],
+    "persons": [
+      {
+        "name": "Emily French",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "50s",
+        "profession": "Wealthy widow",
+        "skills": null,
+        "archetype": "lonely spinster who befriends the wrong man",
+        "notes": null
+      },
+      {
+        "name": "Leonard Vole",
+        "is_fictional": true,
+        "role_in_story": "protagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "30s",
+        "profession": "Unemployed inventor",
+        "skills": null,
+        "archetype": "charming accused man who may or may not be guilty",
+        "notes": null
+      },
+      {
+        "name": "Romaine Heilger",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "German",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "30s",
+        "profession": "Actress",
+        "skills": [
+          "acting",
+          "deception",
+          "manipulation"
+        ],
+        "archetype": "calculating wife who engineers justice through deception",
+        "notes": "Calls herself Romaine Vole in some versions; the witness who betrays and then saves Leonard."
+      }
+    ],
+    "deaths": [
+      {
+        "victim_name": "Emily French",
+        "ordinal": 1,
+        "cause": "CLUBBED",
+        "cause_subtype": "blunt object",
+        "cause_detail": "Beaten to death in her home; Leonard Vole is accused.",
+        "death_type": "murder",
+        "killer_name": "Leonard Vole",
+        "motive": "greed_inheritance",
+        "motive_detail": "Emily had altered her will in Leonard's favour.",
+        "is_central_death": true,
+        "is_twist": true,
+        "chapter_or_act": null,
+        "notes": "Twist: Romaine's elaborate lie is itself a deception that reveals Leonard's guilt."
+      }
+    ]
+  },
+  {
     "wikidata_id": "Q57982486",
     "tmdb_id": "546554",
     "igdb_id": null,
@@ -9,57 +88,15 @@
     "year": 2019,
     "creator": "Rian Johnson",
     "series_name": "Knives Out",
-    "series_number": 1,
+    "series_number": 1.0,
     "notes": null,
     "tags": [
+      "locked-room",
       "whodunit",
       "modern",
-      "ensemble",
-      "locked-room"
+      "ensemble"
     ],
     "persons": [
-      {
-        "name": "Harlan Thrombey",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "American",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "85",
-        "profession": "crime novelist",
-        "skills": [],
-        "archetype": "patriarch",
-        "notes": null
-      },
-      {
-        "name": "Ransom Drysdale",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "American",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "30s",
-        "profession": "heir",
-        "skills": [],
-        "archetype": "privileged schemer",
-        "notes": null
-      },
-      {
-        "name": "Marta Cabrera",
-        "is_fictional": true,
-        "role_in_story": "protagonist",
-        "nationality": "American",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "20s",
-        "profession": "nurse",
-        "skills": [
-          "medicine",
-          "pharmacology"
-        ],
-        "archetype": "moral center",
-        "notes": "Cannot lie without vomiting"
-      },
       {
         "name": "Benoit Blanc",
         "is_fictional": true,
@@ -87,6 +124,48 @@
         "profession": "housekeeper",
         "skills": [],
         "archetype": "witness",
+        "notes": null
+      },
+      {
+        "name": "Harlan Thrombey",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "American",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "85",
+        "profession": "crime novelist",
+        "skills": [],
+        "archetype": "patriarch",
+        "notes": null
+      },
+      {
+        "name": "Marta Cabrera",
+        "is_fictional": true,
+        "role_in_story": "protagonist",
+        "nationality": "American",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "20s",
+        "profession": "nurse",
+        "skills": [
+          "medicine",
+          "pharmacology"
+        ],
+        "archetype": "moral center",
+        "notes": "Cannot lie without vomiting"
+      },
+      {
+        "name": "Ransom Drysdale",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "American",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "30s",
+        "profession": "heir",
+        "skills": [],
+        "archetype": "privileged schemer",
         "notes": null
       }
     ],
@@ -133,7 +212,7 @@
     "year": 2022,
     "creator": "Rian Johnson",
     "series_name": "Knives Out",
-    "series_number": 2,
+    "series_number": 2.0,
     "notes": null,
     "tags": [
       "whodunit",
@@ -142,19 +221,6 @@
       "satire"
     ],
     "persons": [
-      {
-        "name": "Miles Bron",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "American",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "40s",
-        "profession": "tech billionaire",
-        "skills": [],
-        "archetype": "fraudulent genius",
-        "notes": "Creator of Klear, an unstable hydrogen fuel"
-      },
       {
         "name": "Andi Brand",
         "is_fictional": true,
@@ -167,32 +233,6 @@
         "skills": [],
         "archetype": "wronged partner",
         "notes": "Co-founder of Miles's company; murdered before the events of the film"
-      },
-      {
-        "name": "Helen Brand",
-        "is_fictional": true,
-        "role_in_story": "protagonist",
-        "nationality": "American",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "30s",
-        "profession": "elementary school teacher",
-        "skills": [],
-        "archetype": "avenger",
-        "notes": "Andi's identical twin sister, impersonating Andi at the island party"
-      },
-      {
-        "name": "Duke Cody",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "American",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "30s",
-        "profession": "streamer/influencer",
-        "skills": [],
-        "archetype": "loose end",
-        "notes": "Severely allergic to pineapple"
       },
       {
         "name": "Benoit Blanc",
@@ -209,6 +249,45 @@
         ],
         "archetype": "eccentric genius detective",
         "notes": null
+      },
+      {
+        "name": "Duke Cody",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "American",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "30s",
+        "profession": "streamer/influencer",
+        "skills": [],
+        "archetype": "loose end",
+        "notes": "Severely allergic to pineapple"
+      },
+      {
+        "name": "Helen Brand",
+        "is_fictional": true,
+        "role_in_story": "protagonist",
+        "nationality": "American",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "30s",
+        "profession": "elementary school teacher",
+        "skills": [],
+        "archetype": "avenger",
+        "notes": "Andi's identical twin sister, impersonating Andi at the island party"
+      },
+      {
+        "name": "Miles Bron",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "American",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "40s",
+        "profession": "tech billionaire",
+        "skills": [],
+        "archetype": "fraudulent genius",
+        "notes": "Creator of Klear, an unstable hydrogen fuel"
       }
     ],
     "deaths": [
@@ -269,7 +348,7 @@
     "year": 2025,
     "creator": "Rian Johnson",
     "series_name": "Knives Out",
-    "series_number": 3,
+    "series_number": 3.0,
     "notes": null,
     "tags": [
       "whodunit",
@@ -292,6 +371,34 @@
         ],
         "archetype": "eccentric genius detective",
         "notes": null
+      },
+      {
+        "name": "Jud Duplenticy",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "nationality": "American",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "30s",
+        "profession": "priest (former boxer)",
+        "skills": [
+          "boxing"
+        ],
+        "archetype": "red herring suspect",
+        "notes": null
+      },
+      {
+        "name": "Martha Delacroix",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "American",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "60s",
+        "profession": "church secretary",
+        "skills": [],
+        "archetype": "tragic orchestrator",
+        "notes": "Orchestrated the conspiracy; ultimately sacrifices herself"
       },
       {
         "name": "Monsignor Jefferson Wicks",
@@ -323,19 +430,6 @@
         "notes": null
       },
       {
-        "name": "Martha Delacroix",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "American",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "60s",
-        "profession": "church secretary",
-        "skills": [],
-        "archetype": "tragic orchestrator",
-        "notes": "Orchestrated the conspiracy; ultimately sacrifices herself"
-      },
-      {
         "name": "Samson Holt",
         "is_fictional": true,
         "role_in_story": "victim",
@@ -347,21 +441,6 @@
         "skills": [],
         "archetype": "collateral victim",
         "notes": "Martha Delacroix's lover"
-      },
-      {
-        "name": "Jud Duplenticy",
-        "is_fictional": true,
-        "role_in_story": "bystander",
-        "nationality": "American",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "30s",
-        "profession": "priest (former boxer)",
-        "skills": [
-          "boxing"
-        ],
-        "archetype": "red herring suspect",
-        "notes": null
       }
     ],
     "deaths": [
@@ -437,7 +516,7 @@
     "year": 1920,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 1,
+    "series_number": 1.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -447,21 +526,30 @@
     ],
     "persons": [
       {
-        "name": "Hercule Poirot",
+        "name": "Alfred Inglethorp",
         "is_fictional": true,
-        "role_in_story": "detective",
-        "nationality": "Belgian",
+        "role_in_story": "antagonist",
+        "nationality": "British",
         "ethnicity": null,
         "gender": "male",
-        "approximate_age": "60s",
-        "profession": "private detective",
-        "skills": [
-          "deduction",
-          "psychology",
-          "chemistry"
-        ],
-        "archetype": "eccentric genius detective",
+        "approximate_age": "40s",
+        "profession": "none (husband of victim)",
+        "skills": [],
+        "archetype": "fortune-hunting husband",
         "notes": null
+      },
+      {
+        "name": "Arthur Hastings",
+        "is_fictional": true,
+        "role_in_story": "protagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "30s",
+        "profession": "soldier (retired)",
+        "skills": [],
+        "archetype": "Watson",
+        "notes": "Narrator of the novel"
       },
       {
         "name": "Emily Inglethorp",
@@ -474,19 +562,6 @@
         "profession": "wealthy landowner",
         "skills": [],
         "archetype": "wealthy matriarch",
-        "notes": null
-      },
-      {
-        "name": "Alfred Inglethorp",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "40s",
-        "profession": "none (husband of victim)",
-        "skills": [],
-        "archetype": "fortune-hunting husband",
         "notes": null
       },
       {
@@ -503,17 +578,21 @@
         "notes": "Appeared to be Emily's loyal friend; was Alfred's secret accomplice and lover"
       },
       {
-        "name": "Arthur Hastings",
+        "name": "Hercule Poirot",
         "is_fictional": true,
-        "role_in_story": "protagonist",
-        "nationality": "British",
+        "role_in_story": "detective",
+        "nationality": "Belgian",
         "ethnicity": null,
         "gender": "male",
-        "approximate_age": "30s",
-        "profession": "soldier (retired)",
-        "skills": [],
-        "archetype": "Watson",
-        "notes": "Narrator of the novel"
+        "approximate_age": "60s",
+        "profession": "private detective",
+        "skills": [
+          "deduction",
+          "psychology",
+          "chemistry"
+        ],
+        "archetype": "eccentric genius detective",
+        "notes": null
       }
     ],
     "deaths": [
@@ -544,13 +623,26 @@
     "year": 1923,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 2,
+    "series_number": 2.0,
     "notes": null,
     "tags": [
       "golden-age",
       "cozy"
     ],
     "persons": [
+      {
+        "name": "Arthur Hastings",
+        "is_fictional": true,
+        "role_in_story": "protagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "30s",
+        "profession": "soldier (retired)",
+        "skills": [],
+        "archetype": "Watson",
+        "notes": null
+      },
       {
         "name": "Hercule Poirot",
         "is_fictional": true,
@@ -568,17 +660,17 @@
         "notes": null
       },
       {
-        "name": "Paul Renauld",
+        "name": "Jack Renauld",
         "is_fictional": true,
-        "role_in_story": "victim",
+        "role_in_story": "bystander",
         "nationality": "French",
         "ethnicity": null,
         "gender": "male",
-        "approximate_age": "50s",
-        "profession": "businessman",
+        "approximate_age": "20s",
+        "profession": "student",
         "skills": [],
-        "archetype": "man with a secret past",
-        "notes": "Real name Georges Conneau; had a criminal past in Canada"
+        "archetype": "passionate son",
+        "notes": "In love with Marthe Daubreuil; confessed to killing father to protect Marthe"
       },
       {
         "name": "Madame Daubreuil",
@@ -594,30 +686,17 @@
         "notes": "Also known as Jeanne Beroldy; was blackmailing Renauld about his past"
       },
       {
-        "name": "Jack Renauld",
+        "name": "Paul Renauld",
         "is_fictional": true,
-        "role_in_story": "bystander",
+        "role_in_story": "victim",
         "nationality": "French",
         "ethnicity": null,
         "gender": "male",
-        "approximate_age": "20s",
-        "profession": "student",
+        "approximate_age": "50s",
+        "profession": "businessman",
         "skills": [],
-        "archetype": "passionate son",
-        "notes": "In love with Marthe Daubreuil; confessed to killing father to protect Marthe"
-      },
-      {
-        "name": "Arthur Hastings",
-        "is_fictional": true,
-        "role_in_story": "protagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "30s",
-        "profession": "soldier (retired)",
-        "skills": [],
-        "archetype": "Watson",
-        "notes": null
+        "archetype": "man with a secret past",
+        "notes": "Real name Georges Conneau; had a criminal past in Canada"
       }
     ],
     "deaths": [
@@ -648,15 +727,43 @@
     "year": 1926,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 3,
+    "series_number": 3.0,
     "notes": null,
     "tags": [
       "golden-age",
       "cozy",
-      "unreliable-narrator",
-      "locked-room"
+      "locked-room",
+      "unreliable-narrator"
     ],
     "persons": [
+      {
+        "name": "Dr. James Sheppard",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "40s",
+        "profession": "general practitioner",
+        "skills": [
+          "medicine"
+        ],
+        "archetype": "murderous narrator",
+        "notes": "The narrator of the novel; revealed to be the killer in the famous twist"
+      },
+      {
+        "name": "Flora Ackroyd",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "20s",
+        "profession": "none",
+        "skills": [],
+        "archetype": "false suspect",
+        "notes": null
+      },
       {
         "name": "Hercule Poirot",
         "is_fictional": true,
@@ -674,34 +781,6 @@
         "notes": null
       },
       {
-        "name": "Roger Ackroyd",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "60s",
-        "profession": "businessman",
-        "skills": [],
-        "archetype": "prosperous victim",
-        "notes": null
-      },
-      {
-        "name": "Dr. James Sheppard",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "40s",
-        "profession": "general practitioner",
-        "skills": [
-          "medicine"
-        ],
-        "archetype": "murderous narrator",
-        "notes": "The narrator of the novel; revealed to be the killer in the famous twist"
-      },
-      {
         "name": "Mrs. Ferrars",
         "is_fictional": true,
         "role_in_story": "victim",
@@ -715,19 +794,6 @@
         "notes": "Died before the novel begins; had been blackmailed by Dr. Sheppard"
       },
       {
-        "name": "Flora Ackroyd",
-        "is_fictional": true,
-        "role_in_story": "bystander",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "20s",
-        "profession": "none",
-        "skills": [],
-        "archetype": "false suspect",
-        "notes": null
-      },
-      {
         "name": "Ralph Paton",
         "is_fictional": true,
         "role_in_story": "bystander",
@@ -739,6 +805,19 @@
         "skills": [],
         "archetype": "prime suspect",
         "notes": "Ackroyd's stepson; primary suspect due to disappearance and secret marriage"
+      },
+      {
+        "name": "Roger Ackroyd",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "60s",
+        "profession": "businessman",
+        "skills": [],
+        "archetype": "prosperous victim",
+        "notes": null
       }
     ],
     "deaths": [
@@ -784,13 +863,39 @@
     "year": 1927,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 4,
+    "series_number": 4.0,
     "notes": "More spy thriller than classic detective novel; episodic structure adapted from short stories",
     "tags": [
       "golden-age",
       "spy-thriller"
     ],
     "persons": [
+      {
+        "name": "Abe Ryland",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "American",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "50s",
+        "profession": "millionaire",
+        "skills": [],
+        "archetype": "criminal financier",
+        "notes": "Number Two of the Big Four"
+      },
+      {
+        "name": "Arthur Hastings",
+        "is_fictional": true,
+        "role_in_story": "protagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "30s",
+        "profession": "soldier (retired)",
+        "skills": [],
+        "archetype": "Watson",
+        "notes": null
+      },
       {
         "name": "Hercule Poirot",
         "is_fictional": true,
@@ -805,19 +910,6 @@
           "psychology"
         ],
         "archetype": "eccentric genius detective",
-        "notes": null
-      },
-      {
-        "name": "Arthur Hastings",
-        "is_fictional": true,
-        "role_in_story": "protagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "30s",
-        "profession": "soldier (retired)",
-        "skills": [],
-        "archetype": "Watson",
         "notes": null
       },
       {
@@ -851,19 +943,6 @@
         ],
         "archetype": "criminal scientist",
         "notes": "Number Three of the Big Four"
-      },
-      {
-        "name": "Abe Ryland",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "American",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "50s",
-        "profession": "millionaire",
-        "skills": [],
-        "archetype": "criminal financier",
-        "notes": "Number Two of the Big Four"
       }
     ],
     "deaths": [
@@ -909,13 +988,39 @@
     "year": 1928,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 5,
+    "series_number": 5.0,
     "notes": null,
     "tags": [
       "golden-age",
       "cozy"
     ],
     "persons": [
+      {
+        "name": "Ada Mason",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "40s",
+        "profession": "lady's maid",
+        "skills": [],
+        "archetype": "hired accomplice",
+        "notes": "Real name Kitty Kidd; working with jewel thief the Comte de la Roche's associate"
+      },
+      {
+        "name": "Derek Kettering",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "30s",
+        "profession": "none (husband)",
+        "skills": [],
+        "archetype": "estranged husband",
+        "notes": "Suspect but ultimately not the killer"
+      },
       {
         "name": "Hercule Poirot",
         "is_fictional": true,
@@ -933,45 +1038,6 @@
         "notes": null
       },
       {
-        "name": "Ruth Kettering",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "American",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "30s",
-        "profession": "heiress",
-        "skills": [],
-        "archetype": "wealthy victim",
-        "notes": "Daughter of millionaire Rufus Van Aldin; travelling to Riviera"
-      },
-      {
-        "name": "Derek Kettering",
-        "is_fictional": true,
-        "role_in_story": "bystander",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "30s",
-        "profession": "none (husband)",
-        "skills": [],
-        "archetype": "estranged husband",
-        "notes": "Suspect but ultimately not the killer"
-      },
-      {
-        "name": "Ada Mason",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "40s",
-        "profession": "lady's maid",
-        "skills": [],
-        "archetype": "hired accomplice",
-        "notes": "Real name Kitty Kidd; working with jewel thief the Comte de la Roche's associate"
-      },
-      {
         "name": "Mirelle",
         "is_fictional": true,
         "role_in_story": "bystander",
@@ -983,6 +1049,19 @@
         "skills": [],
         "archetype": "lover/red herring",
         "notes": "Derek Kettering's mistress"
+      },
+      {
+        "name": "Ruth Kettering",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "American",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "30s",
+        "profession": "heiress",
+        "skills": [],
+        "archetype": "wealthy victim",
+        "notes": "Daughter of millionaire Rufus Van Aldin; travelling to Riviera"
       }
     ],
     "deaths": [
@@ -1013,7 +1092,7 @@
     "year": 1932,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 6,
+    "series_number": 6.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -1021,48 +1100,6 @@
       "country-house"
     ],
     "persons": [
-      {
-        "name": "Hercule Poirot",
-        "is_fictional": true,
-        "role_in_story": "detective",
-        "nationality": "Belgian",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "60s",
-        "profession": "private detective",
-        "skills": [
-          "deduction",
-          "psychology"
-        ],
-        "archetype": "eccentric genius detective",
-        "notes": null
-      },
-      {
-        "name": "Nick Buckley",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "20s",
-        "profession": "none",
-        "skills": [],
-        "archetype": "killer posing as victim",
-        "notes": "Staged multiple apparent attempts on her own life to create an alibi for murder"
-      },
-      {
-        "name": "Maggie Buckley",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "20s",
-        "profession": "none",
-        "skills": [],
-        "archetype": "wrong-place victim",
-        "notes": "Nick's cousin; killed by mistake while wearing Nick's shawl"
-      },
       {
         "name": "Arthur Hastings",
         "is_fictional": true,
@@ -1088,6 +1125,48 @@
         "skills": [],
         "archetype": "friend/accomplice",
         "notes": "Nick's drug-addicted friend; unwitting pawn"
+      },
+      {
+        "name": "Hercule Poirot",
+        "is_fictional": true,
+        "role_in_story": "detective",
+        "nationality": "Belgian",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "60s",
+        "profession": "private detective",
+        "skills": [
+          "deduction",
+          "psychology"
+        ],
+        "archetype": "eccentric genius detective",
+        "notes": null
+      },
+      {
+        "name": "Maggie Buckley",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "20s",
+        "profession": "none",
+        "skills": [],
+        "archetype": "wrong-place victim",
+        "notes": "Nick's cousin; killed by mistake while wearing Nick's shawl"
+      },
+      {
+        "name": "Nick Buckley",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "20s",
+        "profession": "none",
+        "skills": [],
+        "archetype": "killer posing as victim",
+        "notes": "Staged multiple apparent attempts on her own life to create an alibi for murder"
       }
     ],
     "deaths": [
@@ -1118,7 +1197,7 @@
     "year": 1933,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 7,
+    "series_number": 7.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -1126,6 +1205,21 @@
       "alibi"
     ],
     "persons": [
+      {
+        "name": "Carlotta Adams",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "American",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "20s",
+        "profession": "impressionist/actress",
+        "skills": [
+          "impersonation"
+        ],
+        "archetype": "innocent pawn",
+        "notes": "Hired to impersonate Jane Wilkinson; killed to silence her"
+      },
       {
         "name": "Hercule Poirot",
         "is_fictional": true,
@@ -1141,19 +1235,6 @@
         ],
         "archetype": "eccentric genius detective",
         "notes": null
-      },
-      {
-        "name": "Lord Edgware",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "60s",
-        "profession": "peer/nobleman",
-        "skills": [],
-        "archetype": "cruel victim",
-        "notes": "Refused to grant Jane Wilkinson a divorce"
       },
       {
         "name": "Jane Wilkinson",
@@ -1172,19 +1253,17 @@
         "notes": "The real killer despite a seemingly perfect alibi"
       },
       {
-        "name": "Carlotta Adams",
+        "name": "Lord Edgware",
         "is_fictional": true,
         "role_in_story": "victim",
-        "nationality": "American",
+        "nationality": "British",
         "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "20s",
-        "profession": "impressionist/actress",
-        "skills": [
-          "impersonation"
-        ],
-        "archetype": "innocent pawn",
-        "notes": "Hired to impersonate Jane Wilkinson; killed to silence her"
+        "gender": "male",
+        "approximate_age": "60s",
+        "profession": "peer/nobleman",
+        "skills": [],
+        "archetype": "cruel victim",
+        "notes": "Refused to grant Jane Wilkinson a divorce"
       },
       {
         "name": "Ronald Marsh",
@@ -1243,15 +1322,41 @@
     "year": 1934,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 8,
+    "series_number": 8.0,
     "notes": null,
     "tags": [
       "golden-age",
       "cozy",
-      "closed-circle",
-      "locked-room"
+      "locked-room",
+      "closed-circle"
     ],
     "persons": [
+      {
+        "name": "Daisy Armstrong",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "American",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "3",
+        "profession": null,
+        "skills": [],
+        "archetype": "inciting victim",
+        "notes": "Kidnapped and murdered by Cassetti/Ratchett; her death set the entire revenge plot in motion"
+      },
+      {
+        "name": "Hector MacQueen",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "American",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "30s",
+        "profession": "secretary",
+        "skills": [],
+        "archetype": "avenger",
+        "notes": "Son of D.A. MacQueen who was ruined by the Armstrong case"
+      },
       {
         "name": "Hercule Poirot",
         "is_fictional": true,
@@ -1269,30 +1374,17 @@
         "notes": null
       },
       {
-        "name": "Samuel Ratchett",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "American",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "60s",
-        "profession": "gangster (in hiding)",
-        "skills": [],
-        "archetype": "hidden criminal",
-        "notes": "Real name Cassetti; kidnapped and caused the death of Daisy Armstrong"
-      },
-      {
-        "name": "Hector MacQueen",
+        "name": "Mary Debenham",
         "is_fictional": true,
         "role_in_story": "antagonist",
-        "nationality": "American",
+        "nationality": "British",
         "ethnicity": null,
-        "gender": "male",
+        "gender": "female",
         "approximate_age": "30s",
-        "profession": "secretary",
+        "profession": "governess",
         "skills": [],
         "archetype": "avenger",
-        "notes": "Son of D.A. MacQueen who was ruined by the Armstrong case"
+        "notes": "Was governess in the Armstrong household"
       },
       {
         "name": "Princess Dragomiroff",
@@ -1308,30 +1400,17 @@
         "notes": "Godmother of Sonia Armstrong"
       },
       {
-        "name": "Mary Debenham",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "30s",
-        "profession": "governess",
-        "skills": [],
-        "archetype": "avenger",
-        "notes": "Was governess in the Armstrong household"
-      },
-      {
-        "name": "Daisy Armstrong",
+        "name": "Samuel Ratchett",
         "is_fictional": true,
         "role_in_story": "victim",
         "nationality": "American",
         "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "3",
-        "profession": null,
+        "gender": "male",
+        "approximate_age": "60s",
+        "profession": "gangster (in hiding)",
         "skills": [],
-        "archetype": "inciting victim",
-        "notes": "Kidnapped and murdered by Cassetti/Ratchett; her death set the entire revenge plot in motion"
+        "archetype": "hidden criminal",
+        "notes": "Real name Cassetti; kidnapped and caused the death of Daisy Armstrong"
       }
     ],
     "deaths": [
@@ -1377,7 +1456,7 @@
     "year": 1935,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 9,
+    "series_number": 9.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -1385,6 +1464,21 @@
       "country-house"
     ],
     "persons": [
+      {
+        "name": "Dr. Bartholomew Strange",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "50s",
+        "profession": "doctor",
+        "skills": [
+          "medicine"
+        ],
+        "archetype": "suspicious victim",
+        "notes": "Killed because he had begun to suspect Cartwright"
+      },
       {
         "name": "Hercule Poirot",
         "is_fictional": true,
@@ -1402,20 +1496,17 @@
         "notes": null
       },
       {
-        "name": "Sir Charles Cartwright",
+        "name": "Hermione Lytton Gore",
         "is_fictional": true,
-        "role_in_story": "antagonist",
+        "role_in_story": "bystander",
         "nationality": "British",
         "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "50s",
-        "profession": "actor (retired)",
-        "skills": [
-          "acting",
-          "disguise"
-        ],
-        "archetype": "charming killer",
-        "notes": "Famous actor; the killer"
+        "gender": "female",
+        "approximate_age": "20s",
+        "profession": "none",
+        "skills": [],
+        "archetype": "love interest",
+        "notes": "Cartwright's romantic obsession; her mother Lady Mary was intended to be a victim"
       },
       {
         "name": "Reverend Babbington",
@@ -1431,32 +1522,20 @@
         "notes": "Killed because he recognised Charles from years earlier when Charles used a different identity"
       },
       {
-        "name": "Dr. Bartholomew Strange",
+        "name": "Sir Charles Cartwright",
         "is_fictional": true,
-        "role_in_story": "victim",
+        "role_in_story": "antagonist",
         "nationality": "British",
         "ethnicity": null,
         "gender": "male",
         "approximate_age": "50s",
-        "profession": "doctor",
+        "profession": "actor (retired)",
         "skills": [
-          "medicine"
+          "acting",
+          "disguise"
         ],
-        "archetype": "suspicious victim",
-        "notes": "Killed because he had begun to suspect Cartwright"
-      },
-      {
-        "name": "Hermione Lytton Gore",
-        "is_fictional": true,
-        "role_in_story": "bystander",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "20s",
-        "profession": "none",
-        "skills": [],
-        "archetype": "love interest",
-        "notes": "Cartwright's romantic obsession; her mother Lady Mary was intended to be a victim"
+        "archetype": "charming killer",
+        "notes": "Famous actor; the killer"
       }
     ],
     "deaths": [
@@ -1502,7 +1581,7 @@
     "year": 1935,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 10,
+    "series_number": 10.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -1524,6 +1603,19 @@
           "psychology"
         ],
         "archetype": "eccentric genius detective",
+        "notes": null
+      },
+      {
+        "name": "Jane Grey",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "20s",
+        "profession": "hairdresser",
+        "skills": [],
+        "archetype": "love interest/red herring",
         "notes": null
       },
       {
@@ -1556,19 +1648,6 @@
         ],
         "archetype": "charming killer",
         "notes": "Used a blowpipe disguised among the wasp activity on the plane"
-      },
-      {
-        "name": "Jane Grey",
-        "is_fictional": true,
-        "role_in_story": "bystander",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "20s",
-        "profession": "hairdresser",
-        "skills": [],
-        "archetype": "love interest/red herring",
-        "notes": null
       }
     ],
     "deaths": [
@@ -1599,7 +1678,7 @@
     "year": 1936,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 11,
+    "series_number": 11.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -1607,6 +1686,32 @@
       "serial-killer"
     ],
     "persons": [
+      {
+        "name": "Alexander Cust",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "50s",
+        "profession": "commercial traveller",
+        "skills": [],
+        "archetype": "framed innocent",
+        "notes": "Epileptic travelling salesman; framed by Clarke to appear as the ABC killer"
+      },
+      {
+        "name": "Franklin Clarke",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "30s",
+        "profession": "none",
+        "skills": [],
+        "archetype": "hidden killer",
+        "notes": "Killed his brother Sir Carmichael Clarke; created the ABC serial killer pattern as cover"
+      },
       {
         "name": "Hercule Poirot",
         "is_fictional": true,
@@ -1624,19 +1729,6 @@
         "notes": null
       },
       {
-        "name": "Franklin Clarke",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "30s",
-        "profession": "none",
-        "skills": [],
-        "archetype": "hidden killer",
-        "notes": "Killed his brother Sir Carmichael Clarke; created the ABC serial killer pattern as cover"
-      },
-      {
         "name": "Sir Carmichael Clarke",
         "is_fictional": true,
         "role_in_story": "victim",
@@ -1648,19 +1740,6 @@
         "skills": [],
         "archetype": "true target",
         "notes": "Franklin's brother; the only intended victim"
-      },
-      {
-        "name": "Alexander Cust",
-        "is_fictional": true,
-        "role_in_story": "bystander",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "50s",
-        "profession": "commercial traveller",
-        "skills": [],
-        "archetype": "framed innocent",
-        "notes": "Epileptic travelling salesman; framed by Clarke to appear as the ABC killer"
       }
     ],
     "deaths": [
@@ -1736,7 +1815,7 @@
     "year": 1936,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 12,
+    "series_number": 12.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -1744,6 +1823,21 @@
       "exotic-setting"
     ],
     "persons": [
+      {
+        "name": "Dr. Eric Leidner",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "American",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "50s",
+        "profession": "archaeologist",
+        "skills": [
+          "archaeology"
+        ],
+        "archetype": "obsessive killer husband",
+        "notes": "Is actually Frederick Bosner, Louise's believed-dead first husband"
+      },
       {
         "name": "Hercule Poirot",
         "is_fictional": true,
@@ -1772,21 +1866,6 @@
         "skills": [],
         "archetype": "femme fatale victim",
         "notes": "Had been receiving threatening letters; her first husband was Frederick Bosner"
-      },
-      {
-        "name": "Dr. Eric Leidner",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "American",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "50s",
-        "profession": "archaeologist",
-        "skills": [
-          "archaeology"
-        ],
-        "archetype": "obsessive killer husband",
-        "notes": "Is actually Frederick Bosner, Louise's believed-dead first husband"
       },
       {
         "name": "Nurse Amy Leatheran",
@@ -1832,7 +1911,7 @@
     "year": 1936,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 13,
+    "series_number": 13.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -1840,6 +1919,35 @@
       "drawing-room"
     ],
     "persons": [
+      {
+        "name": "Anne Meredith",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "20s",
+        "profession": "companion",
+        "skills": [],
+        "archetype": "suspect with a past",
+        "notes": "Had killed a previous employer by poisoning"
+      },
+      {
+        "name": "Dr. Roberts",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "50s",
+        "profession": "general practitioner",
+        "skills": [
+          "medicine",
+          "poison"
+        ],
+        "archetype": "respectable murderer",
+        "notes": "The killer; had previously killed patients"
+      },
       {
         "name": "Hercule Poirot",
         "is_fictional": true,
@@ -1868,35 +1976,6 @@
         "skills": [],
         "archetype": "provocateur victim",
         "notes": "Hosted a dinner party where the four suspected murderers played bridge; stabbed during the game"
-      },
-      {
-        "name": "Dr. Roberts",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "50s",
-        "profession": "general practitioner",
-        "skills": [
-          "medicine",
-          "poison"
-        ],
-        "archetype": "respectable murderer",
-        "notes": "The killer; had previously killed patients"
-      },
-      {
-        "name": "Anne Meredith",
-        "is_fictional": true,
-        "role_in_story": "bystander",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "20s",
-        "profession": "companion",
-        "skills": [],
-        "archetype": "suspect with a past",
-        "notes": "Had killed a previous employer by poisoning"
       },
       {
         "name": "Mrs. Lorrimer",
@@ -1955,13 +2034,13 @@
     "year": 1937,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 14,
+    "series_number": 14.0,
     "notes": null,
     "tags": [
       "golden-age",
       "cozy",
-      "exotic-setting",
-      "closed-circle"
+      "closed-circle",
+      "exotic-setting"
     ],
     "persons": [
       {
@@ -1981,32 +2060,6 @@
         "notes": null
       },
       {
-        "name": "Linnet Ridgeway Doyle",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "20s",
-        "profession": "heiress",
-        "skills": [],
-        "archetype": "wealthy victim",
-        "notes": "Married her best friend's fiancé Simon Doyle"
-      },
-      {
-        "name": "Simon Doyle",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "20s",
-        "profession": "none",
-        "skills": [],
-        "archetype": "scheming husband",
-        "notes": "Shot Linnet while Jacqueline was establishing his alibi; also killed Louise the maid"
-      },
-      {
         "name": "Jacqueline de Bellefort",
         "is_fictional": true,
         "role_in_story": "antagonist",
@@ -2020,6 +2073,19 @@
         "notes": "Simon's true love; conspired with him to murder Linnet for her fortune"
       },
       {
+        "name": "Linnet Ridgeway Doyle",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "20s",
+        "profession": "heiress",
+        "skills": [],
+        "archetype": "wealthy victim",
+        "notes": "Married her best friend's fiancé Simon Doyle"
+      },
+      {
         "name": "Louise Bourget",
         "is_fictional": true,
         "role_in_story": "victim",
@@ -2031,6 +2097,19 @@
         "skills": [],
         "archetype": "blackmailing victim",
         "notes": "Witnessed the murder and attempted blackmail"
+      },
+      {
+        "name": "Simon Doyle",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "20s",
+        "profession": "none",
+        "skills": [],
+        "archetype": "scheming husband",
+        "notes": "Shot Linnet while Jacqueline was establishing his alibi; also killed Louise the maid"
       }
     ],
     "deaths": [
@@ -2106,7 +2185,7 @@
     "year": 1937,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 15,
+    "series_number": 15.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -2114,6 +2193,32 @@
       "country-house"
     ],
     "persons": [
+      {
+        "name": "Arthur Hastings",
+        "is_fictional": true,
+        "role_in_story": "protagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "30s",
+        "profession": "soldier (retired)",
+        "skills": [],
+        "archetype": "Watson",
+        "notes": null
+      },
+      {
+        "name": "Emily Arundell",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "70s",
+        "profession": "wealthy spinster",
+        "skills": [],
+        "archetype": "wealthy matriarch",
+        "notes": "Changed her will to leave everything to her companion Minnie Lawson shortly before dying"
+      },
       {
         "name": "Hercule Poirot",
         "is_fictional": true,
@@ -2131,19 +2236,6 @@
         "notes": null
       },
       {
-        "name": "Emily Arundell",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "70s",
-        "profession": "wealthy spinster",
-        "skills": [],
-        "archetype": "wealthy matriarch",
-        "notes": "Changed her will to leave everything to her companion Minnie Lawson shortly before dying"
-      },
-      {
         "name": "Minnie Lawson",
         "is_fictional": true,
         "role_in_story": "antagonist",
@@ -2155,19 +2247,6 @@
         "skills": [],
         "archetype": "patient poisoner",
         "notes": "Poisoned Emily with phosphorus in her medicine; had befriended Emily to inherit her estate"
-      },
-      {
-        "name": "Arthur Hastings",
-        "is_fictional": true,
-        "role_in_story": "protagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "30s",
-        "profession": "soldier (retired)",
-        "skills": [],
-        "archetype": "Watson",
-        "notes": null
       }
     ],
     "deaths": [
@@ -2198,7 +2277,7 @@
     "year": 1938,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 16,
+    "series_number": 16.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -2223,19 +2302,6 @@
         "notes": null
       },
       {
-        "name": "Mrs. Boynton",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "American",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "60s",
-        "profession": "none",
-        "skills": [],
-        "archetype": "tyrannical matriarch",
-        "notes": "Former prison wardress; psychologically abused her family for years"
-      },
-      {
         "name": "Lady Westholme",
         "is_fictional": true,
         "role_in_story": "antagonist",
@@ -2249,6 +2315,19 @@
         ],
         "archetype": "respectable killer with a secret",
         "notes": "Former American criminal (pickpocket Althea Boynton); killed to prevent exposure of her past"
+      },
+      {
+        "name": "Mrs. Boynton",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "American",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "60s",
+        "profession": "none",
+        "skills": [],
+        "archetype": "tyrannical matriarch",
+        "notes": "Former prison wardress; psychologically abused her family for years"
       },
       {
         "name": "Sarah King",
@@ -2294,7 +2373,7 @@
     "year": 1938,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 17,
+    "series_number": 17.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -2303,6 +2382,34 @@
       "closed-circle"
     ],
     "persons": [
+      {
+        "name": "Alfred Lee",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "40s",
+        "profession": "none",
+        "skills": [],
+        "archetype": "devoted son",
+        "notes": "The loyal son who genuinely cared for his father"
+      },
+      {
+        "name": "David Lee",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "40s",
+        "profession": "musician",
+        "skills": [
+          "music"
+        ],
+        "archetype": "brooding suspect",
+        "notes": null
+      },
       {
         "name": "Hercule Poirot",
         "is_fictional": true,
@@ -2344,34 +2451,6 @@
         "skills": [],
         "archetype": "killer in plain sight",
         "notes": "Illegitimate son of Simeon Lee; used his police role to control the investigation"
-      },
-      {
-        "name": "Alfred Lee",
-        "is_fictional": true,
-        "role_in_story": "bystander",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "40s",
-        "profession": "none",
-        "skills": [],
-        "archetype": "devoted son",
-        "notes": "The loyal son who genuinely cared for his father"
-      },
-      {
-        "name": "David Lee",
-        "is_fictional": true,
-        "role_in_story": "bystander",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "40s",
-        "profession": "musician",
-        "skills": [
-          "music"
-        ],
-        "archetype": "brooding suspect",
-        "notes": null
       }
     ],
     "deaths": [
@@ -2402,7 +2481,7 @@
     "year": 1940,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 18,
+    "series_number": 18.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -2410,6 +2489,19 @@
       "psychological"
     ],
     "persons": [
+      {
+        "name": "Elinor Carlisle",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "20s",
+        "profession": "none",
+        "skills": [],
+        "archetype": "wrongly accused",
+        "notes": "Charged with murdering Mary Gerrard; Poirot proves her innocent"
+      },
       {
         "name": "Hercule Poirot",
         "is_fictional": true,
@@ -2425,19 +2517,6 @@
         ],
         "archetype": "eccentric genius detective",
         "notes": null
-      },
-      {
-        "name": "Elinor Carlisle",
-        "is_fictional": true,
-        "role_in_story": "bystander",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "20s",
-        "profession": "none",
-        "skills": [],
-        "archetype": "wrongly accused",
-        "notes": "Charged with murdering Mary Gerrard; Poirot proves her innocent"
       },
       {
         "name": "Mary Gerrard",
@@ -2497,7 +2576,7 @@
     "year": 1940,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 19,
+    "series_number": 19.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -2505,37 +2584,6 @@
       "identity-swap"
     ],
     "persons": [
-      {
-        "name": "Hercule Poirot",
-        "is_fictional": true,
-        "role_in_story": "detective",
-        "nationality": "Belgian",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "60s",
-        "profession": "private detective",
-        "skills": [
-          "deduction",
-          "psychology"
-        ],
-        "archetype": "eccentric genius detective",
-        "notes": null
-      },
-      {
-        "name": "Henry Morley",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "50s",
-        "profession": "dentist",
-        "skills": [
-          "dentistry"
-        ],
-        "archetype": "inconvenient witness",
-        "notes": "Poirot's own dentist; killed because he had recognised someone"
-      },
       {
         "name": "Alistair Blunt",
         "is_fictional": true,
@@ -2563,6 +2611,37 @@
         "skills": [],
         "archetype": "blackmailer victim",
         "notes": "Died from an anaesthetic overdose in Morley's dental chair"
+      },
+      {
+        "name": "Henry Morley",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "50s",
+        "profession": "dentist",
+        "skills": [
+          "dentistry"
+        ],
+        "archetype": "inconvenient witness",
+        "notes": "Poirot's own dentist; killed because he had recognised someone"
+      },
+      {
+        "name": "Hercule Poirot",
+        "is_fictional": true,
+        "role_in_story": "detective",
+        "nationality": "Belgian",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "60s",
+        "profession": "private detective",
+        "skills": [
+          "deduction",
+          "psychology"
+        ],
+        "archetype": "eccentric genius detective",
+        "notes": null
       }
     ],
     "deaths": [
@@ -2608,31 +2687,15 @@
     "year": 1941,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 20,
+    "series_number": 20.0,
     "notes": null,
     "tags": [
       "golden-age",
       "cozy",
-      "exotic-setting",
-      "closed-circle"
+      "closed-circle",
+      "exotic-setting"
     ],
     "persons": [
-      {
-        "name": "Hercule Poirot",
-        "is_fictional": true,
-        "role_in_story": "detective",
-        "nationality": "Belgian",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "60s",
-        "profession": "private detective",
-        "skills": [
-          "deduction",
-          "psychology"
-        ],
-        "archetype": "eccentric genius detective",
-        "notes": null
-      },
       {
         "name": "Arlena Marshall",
         "is_fictional": true,
@@ -2649,17 +2712,17 @@
         "notes": "Flamboyant actress at a seaside resort; appeared to be having an affair with Patrick Redfern"
       },
       {
-        "name": "Patrick Redfern",
+        "name": "Captain Marshall",
         "is_fictional": true,
-        "role_in_story": "antagonist",
+        "role_in_story": "bystander",
         "nationality": "British",
         "ethnicity": null,
         "gender": "male",
-        "approximate_age": "30s",
-        "profession": "none",
+        "approximate_age": "40s",
+        "profession": "soldier",
         "skills": [],
-        "archetype": "scheming killer",
-        "notes": "Appeared infatuated with Arlena; actually conspiring with his wife to kill her"
+        "archetype": "wrongly suspected husband",
+        "notes": null
       },
       {
         "name": "Christine Redfern",
@@ -2677,17 +2740,33 @@
         "notes": "Patrick's wife; provided his alibi by impersonating Arlena while he killed her"
       },
       {
-        "name": "Captain Marshall",
+        "name": "Hercule Poirot",
         "is_fictional": true,
-        "role_in_story": "bystander",
+        "role_in_story": "detective",
+        "nationality": "Belgian",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "60s",
+        "profession": "private detective",
+        "skills": [
+          "deduction",
+          "psychology"
+        ],
+        "archetype": "eccentric genius detective",
+        "notes": null
+      },
+      {
+        "name": "Patrick Redfern",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
         "nationality": "British",
         "ethnicity": null,
         "gender": "male",
-        "approximate_age": "40s",
-        "profession": "soldier",
+        "approximate_age": "30s",
+        "profession": "none",
         "skills": [],
-        "archetype": "wrongly suspected husband",
-        "notes": null
+        "archetype": "scheming killer",
+        "notes": "Appeared infatuated with Arlena; actually conspiring with his wife to kill her"
       }
     ],
     "deaths": [
@@ -2718,7 +2797,7 @@
     "year": 1942,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 21,
+    "series_number": 21.0,
     "notes": "Poirot investigates a 16-year-old case through witness memories alone",
     "tags": [
       "golden-age",
@@ -2727,22 +2806,6 @@
       "retrospective"
     ],
     "persons": [
-      {
-        "name": "Hercule Poirot",
-        "is_fictional": true,
-        "role_in_story": "detective",
-        "nationality": "Belgian",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "60s",
-        "profession": "private detective",
-        "skills": [
-          "deduction",
-          "psychology"
-        ],
-        "archetype": "eccentric genius detective",
-        "notes": null
-      },
       {
         "name": "Amyas Crale",
         "is_fictional": true,
@@ -2759,19 +2822,6 @@
         "notes": "Famous painter; was having an affair with his model Elsa Greer"
       },
       {
-        "name": "Caroline Crale",
-        "is_fictional": true,
-        "role_in_story": "bystander",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "30s",
-        "profession": "none",
-        "skills": [],
-        "archetype": "wrongly convicted",
-        "notes": "Convicted of her husband's murder; died in prison; actually innocent — protected her half-sister"
-      },
-      {
         "name": "Angela Warren",
         "is_fictional": true,
         "role_in_story": "antagonist",
@@ -2785,6 +2835,19 @@
         "notes": "Caroline's half-sister; accidentally introduced coniine into the beer"
       },
       {
+        "name": "Caroline Crale",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "30s",
+        "profession": "none",
+        "skills": [],
+        "archetype": "wrongly convicted",
+        "notes": "Convicted of her husband's murder; died in prison; actually innocent — protected her half-sister"
+      },
+      {
         "name": "Elsa Greer",
         "is_fictional": true,
         "role_in_story": "bystander",
@@ -2796,6 +2859,22 @@
         "skills": [],
         "archetype": "suspect mistress",
         "notes": "Amyas's model and lover; one of the five suspects"
+      },
+      {
+        "name": "Hercule Poirot",
+        "is_fictional": true,
+        "role_in_story": "detective",
+        "nationality": "Belgian",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "60s",
+        "profession": "private detective",
+        "skills": [
+          "deduction",
+          "psychology"
+        ],
+        "archetype": "eccentric genius detective",
+        "notes": null
       }
     ],
     "deaths": [
@@ -2841,7 +2920,7 @@
     "year": 1946,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 22,
+    "series_number": 22.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -2850,22 +2929,6 @@
       "psychological"
     ],
     "persons": [
-      {
-        "name": "Hercule Poirot",
-        "is_fictional": true,
-        "role_in_story": "detective",
-        "nationality": "Belgian",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "60s",
-        "profession": "private detective",
-        "skills": [
-          "deduction",
-          "psychology"
-        ],
-        "archetype": "eccentric genius detective",
-        "notes": null
-      },
       {
         "name": "Dr. John Christow",
         "is_fictional": true,
@@ -2908,6 +2971,22 @@
         ],
         "archetype": "artistic lover",
         "notes": "John's lover; tried to protect Gerda by throwing the gun into the pool"
+      },
+      {
+        "name": "Hercule Poirot",
+        "is_fictional": true,
+        "role_in_story": "detective",
+        "nationality": "Belgian",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "60s",
+        "profession": "private detective",
+        "skills": [
+          "deduction",
+          "psychology"
+        ],
+        "archetype": "eccentric genius detective",
+        "notes": null
       },
       {
         "name": "Veronica Cray",
@@ -2968,7 +3047,7 @@
     "year": 1948,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 23,
+    "series_number": 23.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -2976,6 +3055,32 @@
       "post-war"
     ],
     "persons": [
+      {
+        "name": "David Hunter",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "30s",
+        "profession": "none",
+        "skills": [],
+        "archetype": "scheming brother-in-law",
+        "notes": "Rosaleen's brother; manipulative and protective of the inheritance"
+      },
+      {
+        "name": "Gordon Cloade",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "60s",
+        "profession": "businessman",
+        "skills": [],
+        "archetype": "wealthy victim",
+        "notes": "Killed in a wartime bombing; his new young wife inherited everything"
+      },
       {
         "name": "Hercule Poirot",
         "is_fictional": true,
@@ -2993,19 +3098,6 @@
         "notes": null
       },
       {
-        "name": "Gordon Cloade",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "60s",
-        "profession": "businessman",
-        "skills": [],
-        "archetype": "wealthy victim",
-        "notes": "Killed in a wartime bombing; his new young wife inherited everything"
-      },
-      {
         "name": "Rosaleen Cloade",
         "is_fictional": true,
         "role_in_story": "bystander",
@@ -3017,19 +3109,6 @@
         "skills": [],
         "archetype": "young widow",
         "notes": "Gordon's second wife who inherited his entire fortune; possibly a bigamist"
-      },
-      {
-        "name": "David Hunter",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "30s",
-        "profession": "none",
-        "skills": [],
-        "archetype": "scheming brother-in-law",
-        "notes": "Rosaleen's brother; manipulative and protective of the inheritance"
       },
       {
         "name": "Rowley Cloade",
@@ -3105,13 +3184,26 @@
     "year": 1952,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 24,
+    "series_number": 24.0,
     "notes": null,
     "tags": [
       "golden-age",
       "cozy"
     ],
     "persons": [
+      {
+        "name": "Evelyn Hope",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "30s",
+        "profession": "none",
+        "skills": [],
+        "archetype": "hidden identity killer",
+        "notes": "Daughter of Eva Kane; killed Mrs. McGinty to conceal her mother's criminal past"
+      },
       {
         "name": "Hercule Poirot",
         "is_fictional": true,
@@ -3129,19 +3221,6 @@
         "notes": null
       },
       {
-        "name": "Mrs. McGinty",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "60s",
-        "profession": "charwoman (cleaner)",
-        "skills": [],
-        "archetype": "inconvenient witness",
-        "notes": "Killed because she recognised a photograph linking a local resident to an old murder case"
-      },
-      {
         "name": "James Bentley",
         "is_fictional": true,
         "role_in_story": "bystander",
@@ -3155,17 +3234,17 @@
         "notes": "Convicted of Mrs. McGinty's murder; Poirot proves him innocent"
       },
       {
-        "name": "Evelyn Hope",
+        "name": "Mrs. McGinty",
         "is_fictional": true,
-        "role_in_story": "antagonist",
+        "role_in_story": "victim",
         "nationality": "British",
         "ethnicity": null,
         "gender": "female",
-        "approximate_age": "30s",
-        "profession": "none",
+        "approximate_age": "60s",
+        "profession": "charwoman (cleaner)",
         "skills": [],
-        "archetype": "hidden identity killer",
-        "notes": "Daughter of Eva Kane; killed Mrs. McGinty to conceal her mother's criminal past"
+        "archetype": "inconvenient witness",
+        "notes": "Killed because she recognised a photograph linking a local resident to an old murder case"
       }
     ],
     "deaths": [
@@ -3196,7 +3275,7 @@
     "year": 1953,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 25,
+    "series_number": 25.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -3204,6 +3283,21 @@
       "country-house"
     ],
     "persons": [
+      {
+        "name": "Cora Lansquenet",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "50s",
+        "profession": "painter",
+        "skills": [
+          "painting"
+        ],
+        "archetype": "inconvenient blurter",
+        "notes": "Said at the funeral 'But he was murdered, wasn't he?' — killed the next day to silence her"
+      },
       {
         "name": "Hercule Poirot",
         "is_fictional": true,
@@ -3221,34 +3315,6 @@
         "notes": null
       },
       {
-        "name": "Richard Abernethie",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "60s",
-        "profession": "businessman",
-        "skills": [],
-        "archetype": "poisoned patriarch",
-        "notes": "Died of gastroenteritis; actually poisoned"
-      },
-      {
-        "name": "Cora Lansquenet",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "50s",
-        "profession": "painter",
-        "skills": [
-          "painting"
-        ],
-        "archetype": "inconvenient blurter",
-        "notes": "Said at the funeral 'But he was murdered, wasn't he?' — killed the next day to silence her"
-      },
-      {
         "name": "Miss Gilchrist",
         "is_fictional": true,
         "role_in_story": "antagonist",
@@ -3260,6 +3326,19 @@
         "skills": [],
         "archetype": "greedy companion killer",
         "notes": "Cora's companion; killed both Cora and Richard to inherit; impersonated Cora after killing her"
+      },
+      {
+        "name": "Richard Abernethie",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "60s",
+        "profession": "businessman",
+        "skills": [],
+        "archetype": "poisoned patriarch",
+        "notes": "Died of gastroenteritis; actually poisoned"
       }
     ],
     "deaths": [
@@ -3305,13 +3384,26 @@
     "year": 1955,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 26,
+    "series_number": 26.0,
     "notes": null,
     "tags": [
       "golden-age",
       "cozy"
     ],
     "persons": [
+      {
+        "name": "Celia Austin",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "20s",
+        "profession": "student",
+        "skills": [],
+        "archetype": "silenced witness",
+        "notes": "Had been stealing small items — compulsive behaviour linked to anxiety; murdered when she knew too much"
+      },
       {
         "name": "Hercule Poirot",
         "is_fictional": true,
@@ -3327,19 +3419,6 @@
         ],
         "archetype": "eccentric genius detective",
         "notes": null
-      },
-      {
-        "name": "Celia Austin",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "20s",
-        "profession": "student",
-        "skills": [],
-        "archetype": "silenced witness",
-        "notes": "Had been stealing small items — compulsive behaviour linked to anxiety; murdered when she knew too much"
       },
       {
         "name": "Nigel Chapman",
@@ -3411,7 +3490,7 @@
     "year": 1956,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 27,
+    "series_number": 27.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -3419,6 +3498,34 @@
       "country-house"
     ],
     "persons": [
+      {
+        "name": "Ariadne Oliver",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "50s",
+        "profession": "crime novelist",
+        "skills": [
+          "writing"
+        ],
+        "archetype": "amateur detective",
+        "notes": "Called Poirot because something about the murder-hunt 'felt wrong'"
+      },
+      {
+        "name": "Hattie Stubbs",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "20s",
+        "profession": "none",
+        "skills": [],
+        "archetype": "murdered wife",
+        "notes": "Wife of Sir George Stubbs; disappeared during the fete; actually killed by her husband"
+      },
       {
         "name": "Hercule Poirot",
         "is_fictional": true,
@@ -3449,19 +3556,6 @@
         "notes": "Local girl cast as the 'victim' in a charity murder-hunt game; actually murdered"
       },
       {
-        "name": "Hattie Stubbs",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "20s",
-        "profession": "none",
-        "skills": [],
-        "archetype": "murdered wife",
-        "notes": "Wife of Sir George Stubbs; disappeared during the fete; actually killed by her husband"
-      },
-      {
         "name": "Sir George Stubbs",
         "is_fictional": true,
         "role_in_story": "antagonist",
@@ -3473,21 +3567,6 @@
         "skills": [],
         "archetype": "murderous schemer",
         "notes": "Killed his wife Hattie and Marlene Tucker to stage events at the fete"
-      },
-      {
-        "name": "Ariadne Oliver",
-        "is_fictional": true,
-        "role_in_story": "bystander",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "50s",
-        "profession": "crime novelist",
-        "skills": [
-          "writing"
-        ],
-        "archetype": "amateur detective",
-        "notes": "Called Poirot because something about the murder-hunt 'felt wrong'"
       }
     ],
     "deaths": [
@@ -3533,7 +3612,7 @@
     "year": 1959,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 28,
+    "series_number": 28.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -3541,6 +3620,21 @@
       "spy-thriller"
     ],
     "persons": [
+      {
+        "name": "Ann Shapland",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "30s",
+        "profession": "school secretary",
+        "skills": [
+          "languages"
+        ],
+        "archetype": "spy-killer",
+        "notes": "Working for a criminal organisation seeking the Ramat jewels"
+      },
       {
         "name": "Hercule Poirot",
         "is_fictional": true,
@@ -3558,36 +3652,6 @@
         "notes": "Appears only in the final third of the novel"
       },
       {
-        "name": "Miss Springer",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "40s",
-        "profession": "games mistress",
-        "skills": [
-          "athletics"
-        ],
-        "archetype": "inconvenient victim",
-        "notes": "Found the hidden jewels of Ramat in the sports equipment store"
-      },
-      {
-        "name": "Ann Shapland",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "30s",
-        "profession": "school secretary",
-        "skills": [
-          "languages"
-        ],
-        "archetype": "spy-killer",
-        "notes": "Working for a criminal organisation seeking the Ramat jewels"
-      },
-      {
         "name": "Miss Bulstrode",
         "is_fictional": true,
         "role_in_story": "bystander",
@@ -3601,6 +3665,21 @@
         ],
         "archetype": "institutional authority",
         "notes": "Head of Meadowbank school; suspects something is wrong"
+      },
+      {
+        "name": "Miss Springer",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "40s",
+        "profession": "games mistress",
+        "skills": [
+          "athletics"
+        ],
+        "archetype": "inconvenient victim",
+        "notes": "Found the hidden jewels of Ramat in the sports equipment store"
       }
     ],
     "deaths": [
@@ -3631,7 +3710,7 @@
     "year": 1963,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 29,
+    "series_number": 29.0,
     "notes": "Poirot investigates from his armchair; unusual structure with a spy-thriller subplot",
     "tags": [
       "golden-age",
@@ -3639,6 +3718,21 @@
       "spy-thriller"
     ],
     "persons": [
+      {
+        "name": "Colin Lamb",
+        "is_fictional": true,
+        "role_in_story": "protagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "30s",
+        "profession": "intelligence officer",
+        "skills": [
+          "intelligence work"
+        ],
+        "archetype": "field investigator",
+        "notes": "Son of Superintendent Battle; reports to Poirot"
+      },
       {
         "name": "Hercule Poirot",
         "is_fictional": true,
@@ -3656,32 +3750,17 @@
         "notes": "Primarily investigates from his flat, consulting the case files"
       },
       {
-        "name": "Colin Lamb",
+        "name": "Josefina Bland",
         "is_fictional": true,
-        "role_in_story": "protagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "30s",
-        "profession": "intelligence officer",
-        "skills": [
-          "intelligence work"
-        ],
-        "archetype": "field investigator",
-        "notes": "Son of Superintendent Battle; reports to Poirot"
-      },
-      {
-        "name": "Sheila Webb",
-        "is_fictional": true,
-        "role_in_story": "bystander",
+        "role_in_story": "antagonist",
         "nationality": "British",
         "ethnicity": null,
         "gender": "female",
-        "approximate_age": "20s",
-        "profession": "stenographer",
+        "approximate_age": "30s",
+        "profession": "typist",
         "skills": [],
-        "archetype": "witness",
-        "notes": "Found the body of an unknown man in a blind woman's sitting room"
+        "archetype": "spy killer",
+        "notes": "Part of the spy network; killed to silence witnesses"
       },
       {
         "name": "Ramsey",
@@ -3697,17 +3776,17 @@
         "notes": "An unknown man found dead; connected to a Cold War espionage network"
       },
       {
-        "name": "Josefina Bland",
+        "name": "Sheila Webb",
         "is_fictional": true,
-        "role_in_story": "antagonist",
+        "role_in_story": "bystander",
         "nationality": "British",
         "ethnicity": null,
         "gender": "female",
-        "approximate_age": "30s",
-        "profession": "typist",
+        "approximate_age": "20s",
+        "profession": "stenographer",
         "skills": [],
-        "archetype": "spy killer",
-        "notes": "Part of the spy network; killed to silence witnesses"
+        "archetype": "witness",
+        "notes": "Found the body of an unknown man in a blind woman's sitting room"
       }
     ],
     "deaths": [
@@ -3738,13 +3817,26 @@
     "year": 1966,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 30,
+    "series_number": 30.0,
     "notes": null,
     "tags": [
       "golden-age",
       "psychological"
     ],
     "persons": [
+      {
+        "name": "Andrew Restarick",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "50s",
+        "profession": "businessman",
+        "skills": [],
+        "archetype": "poisoned patriarch",
+        "notes": null
+      },
       {
         "name": "Hercule Poirot",
         "is_fictional": true,
@@ -3762,19 +3854,6 @@
         "notes": null
       },
       {
-        "name": "Norma Restarick",
-        "is_fictional": true,
-        "role_in_story": "bystander",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "20s",
-        "profession": "secretary",
-        "skills": [],
-        "archetype": "gaslighted innocent",
-        "notes": "Believes she may have committed murder; actually being drugged and manipulated by her stepmother"
-      },
-      {
         "name": "Mary Restarick",
         "is_fictional": true,
         "role_in_story": "antagonist",
@@ -3790,17 +3869,17 @@
         "notes": "Conspiring with her lover to gain Andrew Restarick's fortune; poisoning Norma to drive her to suicide or have her committed"
       },
       {
-        "name": "Andrew Restarick",
+        "name": "Norma Restarick",
         "is_fictional": true,
-        "role_in_story": "victim",
+        "role_in_story": "bystander",
         "nationality": "British",
         "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "50s",
-        "profession": "businessman",
+        "gender": "female",
+        "approximate_age": "20s",
+        "profession": "secretary",
         "skills": [],
-        "archetype": "poisoned patriarch",
-        "notes": null
+        "archetype": "gaslighted innocent",
+        "notes": "Believes she may have committed murder; actually being drugged and manipulated by her stepmother"
       }
     ],
     "deaths": [
@@ -3831,13 +3910,28 @@
     "year": 1969,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 31,
+    "series_number": 31.0,
     "notes": null,
     "tags": [
       "golden-age",
       "cozy"
     ],
     "persons": [
+      {
+        "name": "Ariadne Oliver",
+        "is_fictional": true,
+        "role_in_story": "protagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "50s",
+        "profession": "crime novelist",
+        "skills": [
+          "writing"
+        ],
+        "archetype": "amateur detective",
+        "notes": "Called Poirot after Joyce's murder"
+      },
       {
         "name": "Hercule Poirot",
         "is_fictional": true,
@@ -3866,21 +3960,6 @@
         "skills": [],
         "archetype": "witness victim",
         "notes": "Boasted at the party that she had once witnessed a murder; drowned minutes later"
-      },
-      {
-        "name": "Ariadne Oliver",
-        "is_fictional": true,
-        "role_in_story": "protagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "50s",
-        "profession": "crime novelist",
-        "skills": [
-          "writing"
-        ],
-        "archetype": "amateur detective",
-        "notes": "Called Poirot after Joyce's murder"
       },
       {
         "name": "Rowena Drake",
@@ -3939,7 +4018,7 @@
     "year": 1972,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 32,
+    "series_number": 32.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -3947,22 +4026,6 @@
       "retrospective"
     ],
     "persons": [
-      {
-        "name": "Hercule Poirot",
-        "is_fictional": true,
-        "role_in_story": "detective",
-        "nationality": "Belgian",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "70s",
-        "profession": "private detective",
-        "skills": [
-          "deduction",
-          "psychology"
-        ],
-        "archetype": "eccentric genius detective",
-        "notes": null
-      },
       {
         "name": "Ariadne Oliver",
         "is_fictional": true,
@@ -3991,6 +4054,22 @@
         "skills": [],
         "archetype": "murder-suicide patriarch",
         "notes": "Died in an apparent double shooting with his wife on a clifftop"
+      },
+      {
+        "name": "Hercule Poirot",
+        "is_fictional": true,
+        "role_in_story": "detective",
+        "nationality": "Belgian",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "70s",
+        "profession": "private detective",
+        "skills": [
+          "deduction",
+          "psychology"
+        ],
+        "archetype": "eccentric genius detective",
+        "notes": null
       },
       {
         "name": "Lady Ravenscroft",
@@ -4049,7 +4128,7 @@
     "year": 1975,
     "creator": "Agatha Christie",
     "series_name": "Hercule Poirot",
-    "series_number": 33,
+    "series_number": 33.0,
     "notes": "Written in the 1940s but withheld for publication after Christie's death; Poirot's final case",
     "tags": [
       "golden-age",
@@ -4058,6 +4137,32 @@
       "series-finale"
     ],
     "persons": [
+      {
+        "name": "Arthur Hastings",
+        "is_fictional": true,
+        "role_in_story": "protagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "60s",
+        "profession": "retired",
+        "skills": [],
+        "archetype": "Watson",
+        "notes": "Narrator; does not realise until the posthumous letter that Poirot killed Norton"
+      },
+      {
+        "name": "Barbara Franklin",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "30s",
+        "profession": "none",
+        "skills": [],
+        "archetype": "manipulated killer's victim",
+        "notes": "Poisoned by her own husband after Norton manipulated him"
+      },
       {
         "name": "Hercule Poirot",
         "is_fictional": true,
@@ -4075,19 +4180,6 @@
         "notes": "Dies at the end of the novel; shoots Norton himself and then allows his heart to fail by stopping his medication"
       },
       {
-        "name": "Arthur Hastings",
-        "is_fictional": true,
-        "role_in_story": "protagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "60s",
-        "profession": "retired",
-        "skills": [],
-        "archetype": "Watson",
-        "notes": "Narrator; does not realise until the posthumous letter that Poirot killed Norton"
-      },
-      {
         "name": "Stephen Norton",
         "is_fictional": true,
         "role_in_story": "antagonist",
@@ -4102,19 +4194,6 @@
         ],
         "archetype": "X — the manipulator",
         "notes": "Identified by Poirot as 'X': an instigator who psychologically manipulates susceptible people into committing murders"
-      },
-      {
-        "name": "Barbara Franklin",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "30s",
-        "profession": "none",
-        "skills": [],
-        "archetype": "manipulated killer's victim",
-        "notes": "Poisoned by her own husband after Norton manipulated him"
       }
     ],
     "deaths": [
@@ -4175,7 +4254,7 @@
     "year": 1930,
     "creator": "Agatha Christie",
     "series_name": "Miss Marple",
-    "series_number": 1,
+    "series_number": 1.0,
     "notes": "Miss Marple's debut novel",
     "tags": [
       "golden-age",
@@ -4183,6 +4262,47 @@
       "village"
     ],
     "persons": [
+      {
+        "name": "Anne Protheroe",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "30s",
+        "profession": "none",
+        "skills": [],
+        "archetype": "murderous wife",
+        "notes": "Killed her husband to be with her lover Lawrence Redding"
+      },
+      {
+        "name": "Colonel Protheroe",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "50s",
+        "profession": "magistrate/landowner",
+        "skills": [],
+        "archetype": "unpopular victim",
+        "notes": "Disliked by almost everyone in St. Mary Mead; his death was welcomed by many"
+      },
+      {
+        "name": "Lawrence Redding",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "30s",
+        "profession": "artist",
+        "skills": [
+          "painting"
+        ],
+        "archetype": "accomplice lover",
+        "notes": "Anne's lover; confessed falsely to protect Anne"
+      },
       {
         "name": "Miss Marple",
         "is_fictional": true,
@@ -4199,47 +4319,6 @@
         ],
         "archetype": "amateur detective",
         "notes": null
-      },
-      {
-        "name": "Colonel Protheroe",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "50s",
-        "profession": "magistrate/landowner",
-        "skills": [],
-        "archetype": "unpopular victim",
-        "notes": "Disliked by almost everyone in St. Mary Mead; his death was welcomed by many"
-      },
-      {
-        "name": "Anne Protheroe",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "30s",
-        "profession": "none",
-        "skills": [],
-        "archetype": "murderous wife",
-        "notes": "Killed her husband to be with her lover Lawrence Redding"
-      },
-      {
-        "name": "Lawrence Redding",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "30s",
-        "profession": "artist",
-        "skills": [
-          "painting"
-        ],
-        "archetype": "accomplice lover",
-        "notes": "Anne's lover; confessed falsely to protect Anne"
       },
       {
         "name": "Reverend Leonard Clement",
@@ -4283,7 +4362,7 @@
     "year": 1942,
     "creator": "Agatha Christie",
     "series_name": "Miss Marple",
-    "series_number": 2,
+    "series_number": 2.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -4291,6 +4370,34 @@
       "country-house"
     ],
     "persons": [
+      {
+        "name": "Josie Turner",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "20s",
+        "profession": "dance hostess",
+        "skills": [
+          "dancing"
+        ],
+        "archetype": "scheming accomplice",
+        "notes": "Ruby Keene's cousin; feared being supplanted; conspired with Mark Gaskell"
+      },
+      {
+        "name": "Mark Gaskell",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "30s",
+        "profession": "none",
+        "skills": [],
+        "archetype": "scheming son-in-law",
+        "notes": "Son-in-law of Conway Jefferson; conspired with Josie Turner to kill Ruby and Pamela"
+      },
       {
         "name": "Miss Marple",
         "is_fictional": true,
@@ -4309,21 +4416,6 @@
         "notes": null
       },
       {
-        "name": "Ruby Keene",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "18",
-        "profession": "dance hostess",
-        "skills": [
-          "dancing"
-        ],
-        "archetype": "young victim",
-        "notes": "Found strangled in Colonel Bantry's library; was being cultivated by wealthy Conway Jefferson"
-      },
-      {
         "name": "Pamela Reeves",
         "is_fictional": true,
         "role_in_story": "victim",
@@ -4337,32 +4429,19 @@
         "notes": "Killed and burned in a car to provide a false identity switch with Ruby Keene"
       },
       {
-        "name": "Mark Gaskell",
+        "name": "Ruby Keene",
         "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "30s",
-        "profession": "none",
-        "skills": [],
-        "archetype": "scheming son-in-law",
-        "notes": "Son-in-law of Conway Jefferson; conspired with Josie Turner to kill Ruby and Pamela"
-      },
-      {
-        "name": "Josie Turner",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
+        "role_in_story": "victim",
         "nationality": "British",
         "ethnicity": null,
         "gender": "female",
-        "approximate_age": "20s",
+        "approximate_age": "18",
         "profession": "dance hostess",
         "skills": [
           "dancing"
         ],
-        "archetype": "scheming accomplice",
-        "notes": "Ruby Keene's cousin; feared being supplanted; conspired with Mark Gaskell"
+        "archetype": "young victim",
+        "notes": "Found strangled in Colonel Bantry's library; was being cultivated by wealthy Conway Jefferson"
       }
     ],
     "deaths": [
@@ -4408,7 +4487,7 @@
     "year": 1943,
     "creator": "Agatha Christie",
     "series_name": "Miss Marple",
-    "series_number": 3,
+    "series_number": 3.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -4417,6 +4496,32 @@
       "poison-pen"
     ],
     "persons": [
+      {
+        "name": "Agnes Woddell",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "20s",
+        "profession": "maid",
+        "skills": [],
+        "archetype": "silenced witness",
+        "notes": "Killed because she recognised the letter-writer"
+      },
+      {
+        "name": "Megan Hunter",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "20s",
+        "profession": "none",
+        "skills": [],
+        "archetype": "observer",
+        "notes": "Mrs. Symmington's stepdaughter; narrator's love interest"
+      },
       {
         "name": "Miss Marple",
         "is_fictional": true,
@@ -4435,32 +4540,6 @@
         "notes": "Appears only late in the novel"
       },
       {
-        "name": "Mrs. Symmington",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "40s",
-        "profession": "solicitor's wife",
-        "skills": [],
-        "archetype": "poison-pen victim",
-        "notes": "Received a poison-pen letter and apparently committed suicide; actually murdered"
-      },
-      {
-        "name": "Megan Hunter",
-        "is_fictional": true,
-        "role_in_story": "bystander",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "20s",
-        "profession": "none",
-        "skills": [],
-        "archetype": "observer",
-        "notes": "Mrs. Symmington's stepdaughter; narrator's love interest"
-      },
-      {
         "name": "Mr. Symmington",
         "is_fictional": true,
         "role_in_story": "antagonist",
@@ -4476,17 +4555,17 @@
         "notes": "Wrote the poison-pen letters to cover the real murder of his wife; wanted to marry his children's governess Elsie Holland"
       },
       {
-        "name": "Agnes Woddell",
+        "name": "Mrs. Symmington",
         "is_fictional": true,
         "role_in_story": "victim",
         "nationality": "British",
         "ethnicity": null,
         "gender": "female",
-        "approximate_age": "20s",
-        "profession": "maid",
+        "approximate_age": "40s",
+        "profession": "solicitor's wife",
         "skills": [],
-        "archetype": "silenced witness",
-        "notes": "Killed because she recognised the letter-writer"
+        "archetype": "poison-pen victim",
+        "notes": "Received a poison-pen letter and apparently committed suicide; actually murdered"
       }
     ],
     "deaths": [
@@ -4532,15 +4611,41 @@
     "year": 1950,
     "creator": "Agatha Christie",
     "series_name": "Miss Marple",
-    "series_number": 4,
+    "series_number": 4.0,
     "notes": null,
     "tags": [
       "golden-age",
       "cozy",
-      "village",
-      "identity-swap"
+      "identity-swap",
+      "village"
     ],
     "persons": [
+      {
+        "name": "Dora Bunner",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "60s",
+        "profession": "companion",
+        "skills": [],
+        "archetype": "too-knowing friend",
+        "notes": "Charlotte's old schoolfriend; accidentally began to reveal Charlotte's true identity"
+      },
+      {
+        "name": "Letitia Blacklock",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "60s",
+        "profession": "none",
+        "skills": [],
+        "archetype": "identity thief killer",
+        "notes": "Actually Charlotte Blacklock, impersonating her dead sister Letitia to inherit Randall Goedler's fortune"
+      },
       {
         "name": "Miss Marple",
         "is_fictional": true,
@@ -4559,45 +4664,6 @@
         "notes": null
       },
       {
-        "name": "Letitia Blacklock",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "60s",
-        "profession": "none",
-        "skills": [],
-        "archetype": "identity thief killer",
-        "notes": "Actually Charlotte Blacklock, impersonating her dead sister Letitia to inherit Randall Goedler's fortune"
-      },
-      {
-        "name": "Rudi Scherz",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "Swiss",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "20s",
-        "profession": "hotel receptionist",
-        "skills": [],
-        "archetype": "hired pawn",
-        "notes": "Hired to burst in with a gun and create a diversion; shot dead by the real killer"
-      },
-      {
-        "name": "Dora Bunner",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "60s",
-        "profession": "companion",
-        "skills": [],
-        "archetype": "too-knowing friend",
-        "notes": "Charlotte's old schoolfriend; accidentally began to reveal Charlotte's true identity"
-      },
-      {
         "name": "Phillipa Haymes",
         "is_fictional": true,
         "role_in_story": "bystander",
@@ -4611,6 +4677,19 @@
         ],
         "archetype": "lodger/suspect",
         "notes": null
+      },
+      {
+        "name": "Rudi Scherz",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "Swiss",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "20s",
+        "profession": "hotel receptionist",
+        "skills": [],
+        "archetype": "hired pawn",
+        "notes": "Hired to burst in with a gun and create a diversion; shot dead by the real killer"
       }
     ],
     "deaths": [
@@ -4656,7 +4735,7 @@
     "year": 1952,
     "creator": "Agatha Christie",
     "series_name": "Miss Marple",
-    "series_number": 5,
+    "series_number": 5.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -4664,22 +4743,6 @@
       "country-house"
     ],
     "persons": [
-      {
-        "name": "Miss Marple",
-        "is_fictional": true,
-        "role_in_story": "detective",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "60s",
-        "profession": "retired spinster",
-        "skills": [
-          "observation",
-          "psychology"
-        ],
-        "archetype": "amateur detective",
-        "notes": null
-      },
       {
         "name": "Carrie Louise Serrocold",
         "is_fictional": true,
@@ -4718,6 +4781,22 @@
         "skills": [],
         "archetype": "saintly killer",
         "notes": "Carrie Louise's husband; the embezzler and killer"
+      },
+      {
+        "name": "Miss Marple",
+        "is_fictional": true,
+        "role_in_story": "detective",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "60s",
+        "profession": "retired spinster",
+        "skills": [
+          "observation",
+          "psychology"
+        ],
+        "archetype": "amateur detective",
+        "notes": null
       }
     ],
     "deaths": [
@@ -4748,7 +4827,7 @@
     "year": 1953,
     "creator": "Agatha Christie",
     "series_name": "Miss Marple",
-    "series_number": 6,
+    "series_number": 6.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -4756,37 +4835,6 @@
       "nursery-rhyme"
     ],
     "persons": [
-      {
-        "name": "Miss Marple",
-        "is_fictional": true,
-        "role_in_story": "detective",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "60s",
-        "profession": "retired spinster",
-        "skills": [
-          "observation",
-          "psychology"
-        ],
-        "archetype": "amateur detective",
-        "notes": "Comes to investigate because of Gladys Martin, a former maid she trained"
-      },
-      {
-        "name": "Rex Fortescue",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "60s",
-        "profession": "financier",
-        "skills": [
-          "finance"
-        ],
-        "archetype": "blackbird-pie victim",
-        "notes": "Died at his city office; rye grain found in his pocket (the blackbirds baked in a pie)"
-      },
       {
         "name": "Adele Fortescue",
         "is_fictional": true,
@@ -4814,6 +4862,22 @@
         "notes": "Strangled and found with a clothes peg on her nose (the maid hanging out the clothes)"
       },
       {
+        "name": "Miss Marple",
+        "is_fictional": true,
+        "role_in_story": "detective",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "60s",
+        "profession": "retired spinster",
+        "skills": [
+          "observation",
+          "psychology"
+        ],
+        "archetype": "amateur detective",
+        "notes": "Comes to investigate because of Gladys Martin, a former maid she trained"
+      },
+      {
         "name": "Percival Fortescue",
         "is_fictional": true,
         "role_in_story": "antagonist",
@@ -4827,6 +4891,21 @@
         ],
         "archetype": "respectable eldest son killer",
         "notes": "Rex's elder son; poisoned his father with taxine from yew trees to inherit"
+      },
+      {
+        "name": "Rex Fortescue",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "60s",
+        "profession": "financier",
+        "skills": [
+          "finance"
+        ],
+        "archetype": "blackbird-pie victim",
+        "notes": "Died at his city office; rye grain found in his pocket (the blackbirds baked in a pie)"
       }
     ],
     "deaths": [
@@ -4887,7 +4966,7 @@
     "year": 1957,
     "creator": "Agatha Christie",
     "series_name": "Miss Marple",
-    "series_number": 7,
+    "series_number": 7.0,
     "notes": "Also published as 'What Mrs. McGillicuddy Saw!'",
     "tags": [
       "golden-age",
@@ -4895,6 +4974,45 @@
       "country-house"
     ],
     "persons": [
+      {
+        "name": "Alfred Crackenthorpe",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "40s",
+        "profession": "none",
+        "skills": [],
+        "archetype": "greedy son killer",
+        "notes": "Killed Martine and Edmund to protect the estate from being divided"
+      },
+      {
+        "name": "Edmund Crackenthorpe",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "40s",
+        "profession": "none",
+        "skills": [],
+        "archetype": "poisoned heir",
+        "notes": "Son of Luther Crackenthorpe; poisoned"
+      },
+      {
+        "name": "Martine Crackenthorpe",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "French",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "30s",
+        "profession": "none",
+        "skills": [],
+        "archetype": "strangled stranger",
+        "notes": "Her body is eventually found in a sarcophagus at Rutherford Hall"
+      },
       {
         "name": "Miss Marple",
         "is_fictional": true,
@@ -4923,45 +5041,6 @@
         "skills": [],
         "archetype": "sole witness",
         "notes": "Saw a woman being strangled in a passing train; the only witness"
-      },
-      {
-        "name": "Martine Crackenthorpe",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "French",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "30s",
-        "profession": "none",
-        "skills": [],
-        "archetype": "strangled stranger",
-        "notes": "Her body is eventually found in a sarcophagus at Rutherford Hall"
-      },
-      {
-        "name": "Edmund Crackenthorpe",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "40s",
-        "profession": "none",
-        "skills": [],
-        "archetype": "poisoned heir",
-        "notes": "Son of Luther Crackenthorpe; poisoned"
-      },
-      {
-        "name": "Alfred Crackenthorpe",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "40s",
-        "profession": "none",
-        "skills": [],
-        "archetype": "greedy son killer",
-        "notes": "Killed Martine and Edmund to protect the estate from being divided"
       }
     ],
     "deaths": [
@@ -5007,7 +5086,7 @@
     "year": 1962,
     "creator": "Agatha Christie",
     "series_name": "Miss Marple",
-    "series_number": 8,
+    "series_number": 8.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -5016,37 +5095,6 @@
       "celebrity"
     ],
     "persons": [
-      {
-        "name": "Miss Marple",
-        "is_fictional": true,
-        "role_in_story": "detective",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "70s",
-        "profession": "retired spinster",
-        "skills": [
-          "observation",
-          "psychology"
-        ],
-        "archetype": "amateur detective",
-        "notes": null
-      },
-      {
-        "name": "Marina Gregg",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "American",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "40s",
-        "profession": "film actress",
-        "skills": [
-          "acting"
-        ],
-        "archetype": "tragic killer",
-        "notes": "Killed Heather Badcock — the woman whose innocent action caused Marina's baby to be born with congenital rubella"
-      },
       {
         "name": "Heather Badcock",
         "is_fictional": true,
@@ -5074,6 +5122,37 @@
         ],
         "archetype": "devoted husband",
         "notes": "Marina's husband; suspected the truth but covered for his wife"
+      },
+      {
+        "name": "Marina Gregg",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "American",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "40s",
+        "profession": "film actress",
+        "skills": [
+          "acting"
+        ],
+        "archetype": "tragic killer",
+        "notes": "Killed Heather Badcock — the woman whose innocent action caused Marina's baby to be born with congenital rubella"
+      },
+      {
+        "name": "Miss Marple",
+        "is_fictional": true,
+        "role_in_story": "detective",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "70s",
+        "profession": "retired spinster",
+        "skills": [
+          "observation",
+          "psychology"
+        ],
+        "archetype": "amateur detective",
+        "notes": null
       }
     ],
     "deaths": [
@@ -5119,7 +5198,7 @@
     "year": 1964,
     "creator": "Agatha Christie",
     "series_name": "Miss Marple",
-    "series_number": 9,
+    "series_number": 9.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -5127,48 +5206,6 @@
       "exotic-setting"
     ],
     "persons": [
-      {
-        "name": "Miss Marple",
-        "is_fictional": true,
-        "role_in_story": "detective",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "70s",
-        "profession": "retired spinster",
-        "skills": [
-          "observation",
-          "psychology"
-        ],
-        "archetype": "amateur detective",
-        "notes": null
-      },
-      {
-        "name": "Major Palgrave",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "60s",
-        "profession": "retired soldier",
-        "skills": [],
-        "archetype": "inciting victim",
-        "notes": "Killed before he could show Miss Marple a photograph of a known murderer"
-      },
-      {
-        "name": "Molly Kendal",
-        "is_fictional": true,
-        "role_in_story": "bystander",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "20s",
-        "profession": "hotel manager",
-        "skills": [],
-        "archetype": "threatened innocent",
-        "notes": "Runs the Golden Palm hotel with her husband Tim"
-      },
       {
         "name": "Jason Rafiel",
         "is_fictional": true,
@@ -5196,6 +5233,48 @@
         "skills": [],
         "archetype": "serial husband killer",
         "notes": "Has murdered two previous husbands; conspiring with Edward Hillingdon"
+      },
+      {
+        "name": "Major Palgrave",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "60s",
+        "profession": "retired soldier",
+        "skills": [],
+        "archetype": "inciting victim",
+        "notes": "Killed before he could show Miss Marple a photograph of a known murderer"
+      },
+      {
+        "name": "Miss Marple",
+        "is_fictional": true,
+        "role_in_story": "detective",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "70s",
+        "profession": "retired spinster",
+        "skills": [
+          "observation",
+          "psychology"
+        ],
+        "archetype": "amateur detective",
+        "notes": null
+      },
+      {
+        "name": "Molly Kendal",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "20s",
+        "profession": "hotel manager",
+        "skills": [],
+        "archetype": "threatened innocent",
+        "notes": "Runs the Golden Palm hotel with her husband Tim"
       }
     ],
     "deaths": [
@@ -5241,7 +5320,7 @@
     "year": 1965,
     "creator": "Agatha Christie",
     "series_name": "Miss Marple",
-    "series_number": 10,
+    "series_number": 10.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -5249,35 +5328,6 @@
       "spy-thriller"
     ],
     "persons": [
-      {
-        "name": "Miss Marple",
-        "is_fictional": true,
-        "role_in_story": "detective",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "70s",
-        "profession": "retired spinster",
-        "skills": [
-          "observation",
-          "psychology"
-        ],
-        "archetype": "amateur detective",
-        "notes": null
-      },
-      {
-        "name": "Michael Gorman",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "Irish",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "50s",
-        "profession": "hotel doorman",
-        "skills": [],
-        "archetype": "inconvenient witness",
-        "notes": "Actually Bess Sedgwick's former husband; knew too much about the criminal operation"
-      },
       {
         "name": "Bess Sedgwick",
         "is_fictional": true,
@@ -5306,6 +5356,35 @@
         "skills": [],
         "archetype": "endangered heiress",
         "notes": "Bess Sedgwick's secret daughter; targeted for murder by an accomplice"
+      },
+      {
+        "name": "Michael Gorman",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "Irish",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "50s",
+        "profession": "hotel doorman",
+        "skills": [],
+        "archetype": "inconvenient witness",
+        "notes": "Actually Bess Sedgwick's former husband; knew too much about the criminal operation"
+      },
+      {
+        "name": "Miss Marple",
+        "is_fictional": true,
+        "role_in_story": "detective",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "70s",
+        "profession": "retired spinster",
+        "skills": [
+          "observation",
+          "psychology"
+        ],
+        "archetype": "amateur detective",
+        "notes": null
       }
     ],
     "deaths": [
@@ -5336,7 +5415,7 @@
     "year": 1971,
     "creator": "Agatha Christie",
     "series_name": "Miss Marple",
-    "series_number": 11,
+    "series_number": 11.0,
     "notes": null,
     "tags": [
       "golden-age",
@@ -5344,6 +5423,32 @@
       "posthumous-commission"
     ],
     "persons": [
+      {
+        "name": "Clothilde Bradbury-Scott",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "50s",
+        "profession": "none",
+        "skills": [],
+        "archetype": "obsessive killer",
+        "notes": "Killed multiple young women out of obsessive jealousy; had hidden one victim's body in her garden for years"
+      },
+      {
+        "name": "Jason Rafiel",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "70s",
+        "profession": "millionaire (deceased)",
+        "skills": [],
+        "archetype": "posthumous patron",
+        "notes": "Died before the novel begins; left Miss Marple a legacy in return for solving 'a crime'"
+      },
       {
         "name": "Miss Marple",
         "is_fictional": true,
@@ -5361,19 +5466,6 @@
         "notes": "Commissioned posthumously by Jason Rafiel to investigate an unspecified crime"
       },
       {
-        "name": "Jason Rafiel",
-        "is_fictional": true,
-        "role_in_story": "bystander",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "70s",
-        "profession": "millionaire (deceased)",
-        "skills": [],
-        "archetype": "posthumous patron",
-        "notes": "Died before the novel begins; left Miss Marple a legacy in return for solving 'a crime'"
-      },
-      {
         "name": "Nora Broad",
         "is_fictional": true,
         "role_in_story": "victim",
@@ -5385,19 +5477,6 @@
         "skills": [],
         "archetype": "murdered girl",
         "notes": "One of several girls murdered by the serial killer"
-      },
-      {
-        "name": "Clothilde Bradbury-Scott",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "50s",
-        "profession": "none",
-        "skills": [],
-        "archetype": "obsessive killer",
-        "notes": "Killed multiple young women out of obsessive jealousy; had hidden one victim's body in her garden for years"
       }
     ],
     "deaths": [
@@ -5443,7 +5522,7 @@
     "year": 1976,
     "creator": "Agatha Christie",
     "series_name": "Miss Marple",
-    "series_number": 12,
+    "series_number": 12.0,
     "notes": "Written in the 1940s; Miss Marple's final case, published posthumously",
     "tags": [
       "golden-age",
@@ -5453,20 +5532,19 @@
     ],
     "persons": [
       {
-        "name": "Miss Marple",
+        "name": "Dr. James Kennedy",
         "is_fictional": true,
-        "role_in_story": "detective",
+        "role_in_story": "antagonist",
         "nationality": "British",
         "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "70s",
-        "profession": "retired spinster",
+        "gender": "male",
+        "approximate_age": "60s",
+        "profession": "doctor",
         "skills": [
-          "observation",
-          "psychology"
+          "medicine"
         ],
-        "archetype": "amateur detective",
-        "notes": null
+        "archetype": "obsessive brother killer",
+        "notes": "Helen's brother; obsessively controlling; killed Helen when she tried to leave her husband and build her own life"
       },
       {
         "name": "Gwenda Reed",
@@ -5495,19 +5573,20 @@
         "notes": "Gwenda's stepmother; strangled 18 years before the main action; Gwenda witnessed it as a child"
       },
       {
-        "name": "Dr. James Kennedy",
+        "name": "Miss Marple",
         "is_fictional": true,
-        "role_in_story": "antagonist",
+        "role_in_story": "detective",
         "nationality": "British",
         "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "60s",
-        "profession": "doctor",
+        "gender": "female",
+        "approximate_age": "70s",
+        "profession": "retired spinster",
         "skills": [
-          "medicine"
+          "observation",
+          "psychology"
         ],
-        "archetype": "obsessive brother killer",
-        "notes": "Helen's brother; obsessively controlling; killed Helen when she tried to leave her husband and build her own life"
+        "archetype": "amateur detective",
+        "notes": null
       }
     ],
     "deaths": [
@@ -5538,13 +5617,42 @@
     "year": 1922,
     "creator": "Agatha Christie",
     "series_name": "Tommy and Tuppence",
-    "series_number": 1,
+    "series_number": 1.0,
     "notes": null,
     "tags": [
       "golden-age",
       "spy-thriller"
     ],
     "persons": [
+      {
+        "name": "Jane Finn",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "nationality": "American",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "20s",
+        "profession": "survivor",
+        "skills": [],
+        "archetype": "mcguffin carrier",
+        "notes": "Sole survivor of the Lusitania disaster to have the secret documents; had amnesia"
+      },
+      {
+        "name": "Mr. Brown",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "50s",
+        "profession": "spy/criminal mastermind",
+        "skills": [
+          "manipulation",
+          "disguise"
+        ],
+        "archetype": "hidden mastermind",
+        "notes": "The mysterious master criminal; true identity concealed until the end"
+      },
       {
         "name": "Tommy Beresford",
         "is_fictional": true,
@@ -5576,35 +5684,6 @@
         ],
         "archetype": "plucky young investigator",
         "notes": null
-      },
-      {
-        "name": "Mr. Brown",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "50s",
-        "profession": "spy/criminal mastermind",
-        "skills": [
-          "manipulation",
-          "disguise"
-        ],
-        "archetype": "hidden mastermind",
-        "notes": "The mysterious master criminal; true identity concealed until the end"
-      },
-      {
-        "name": "Jane Finn",
-        "is_fictional": true,
-        "role_in_story": "bystander",
-        "nationality": "American",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "20s",
-        "profession": "survivor",
-        "skills": [],
-        "archetype": "mcguffin carrier",
-        "notes": "Sole survivor of the Lusitania disaster to have the secret documents; had amnesia"
       }
     ],
     "deaths": [
@@ -5635,7 +5714,7 @@
     "year": 1941,
     "creator": "Agatha Christie",
     "series_name": "Tommy and Tuppence",
-    "series_number": 3,
+    "series_number": 3.0,
     "notes": "Second World War spy thriller; Tommy and Tuppence hunt Nazi agents in a seaside boarding house",
     "tags": [
       "golden-age",
@@ -5643,6 +5722,34 @@
       "wartime"
     ],
     "persons": [
+      {
+        "name": "Carl von Deinim",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "nationality": "German",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "30s",
+        "profession": "scientist (refugee)",
+        "skills": [],
+        "archetype": "red herring suspect",
+        "notes": "Suspected as a German agent; innocent"
+      },
+      {
+        "name": "Mrs. Sprot",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "British (German agent)",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "30s",
+        "profession": "boarding house guest",
+        "skills": [
+          "disguise"
+        ],
+        "archetype": "enemy agent in disguise",
+        "notes": "Revealed to be a German spy; uses her own child as a shield"
+      },
       {
         "name": "Tommy Beresford",
         "is_fictional": true,
@@ -5674,34 +5781,6 @@
         ],
         "archetype": "spy",
         "notes": "Independently infiltrates the boarding house"
-      },
-      {
-        "name": "Mrs. Sprot",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "British (German agent)",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "30s",
-        "profession": "boarding house guest",
-        "skills": [
-          "disguise"
-        ],
-        "archetype": "enemy agent in disguise",
-        "notes": "Revealed to be a German spy; uses her own child as a shield"
-      },
-      {
-        "name": "Carl von Deinim",
-        "is_fictional": true,
-        "role_in_story": "bystander",
-        "nationality": "German",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "30s",
-        "profession": "scientist (refugee)",
-        "skills": [],
-        "archetype": "red herring suspect",
-        "notes": "Suspected as a German agent; innocent"
       }
     ],
     "deaths": [
@@ -5732,13 +5811,52 @@
     "year": 1968,
     "creator": "Agatha Christie",
     "series_name": "Tommy and Tuppence",
-    "series_number": 4,
+    "series_number": 4.0,
     "notes": null,
     "tags": [
       "golden-age",
       "psychological"
     ],
     "persons": [
+      {
+        "name": "Ada Fanshawe",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "80s",
+        "profession": "retired",
+        "skills": [],
+        "archetype": "nursing home victim",
+        "notes": "Tommy's aunt; hinted before her death that something was wrong at the nursing home"
+      },
+      {
+        "name": "Emma Boscowan",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "60s",
+        "profession": "none",
+        "skills": [],
+        "archetype": "serial child killer",
+        "notes": "Responsible for a series of child murders; lived near the canal cottage"
+      },
+      {
+        "name": "Mrs. Lancaster",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "70s",
+        "profession": "retired",
+        "skills": [],
+        "archetype": "mystery figure",
+        "notes": "Spoke cryptically about 'a child behind a fireplace'; disappeared from the nursing home"
+      },
       {
         "name": "Tommy Beresford",
         "is_fictional": true,
@@ -5769,45 +5887,6 @@
         ],
         "archetype": "investigator",
         "notes": "The main investigator in this novel"
-      },
-      {
-        "name": "Ada Fanshawe",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "80s",
-        "profession": "retired",
-        "skills": [],
-        "archetype": "nursing home victim",
-        "notes": "Tommy's aunt; hinted before her death that something was wrong at the nursing home"
-      },
-      {
-        "name": "Mrs. Lancaster",
-        "is_fictional": true,
-        "role_in_story": "bystander",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "70s",
-        "profession": "retired",
-        "skills": [],
-        "archetype": "mystery figure",
-        "notes": "Spoke cryptically about 'a child behind a fireplace'; disappeared from the nursing home"
-      },
-      {
-        "name": "Emma Boscowan",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "60s",
-        "profession": "none",
-        "skills": [],
-        "archetype": "serial child killer",
-        "notes": "Responsible for a series of child murders; lived near the canal cottage"
       }
     ],
     "deaths": [
@@ -5853,7 +5932,7 @@
     "year": 1973,
     "creator": "Agatha Christie",
     "series_name": "Tommy and Tuppence",
-    "series_number": 5,
+    "series_number": 5.0,
     "notes": "Christie's final novel; Tommy and Tuppence's last case",
     "tags": [
       "golden-age",
@@ -5861,6 +5940,32 @@
       "series-finale"
     ],
     "persons": [
+      {
+        "name": "KK",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "unknown",
+        "approximate_age": null,
+        "profession": "spy/traitor",
+        "skills": [],
+        "archetype": "hidden traitor",
+        "notes": "The long-concealed traitor responsible for Mary Jordan's death; identity uncovered at the end"
+      },
+      {
+        "name": "Mary Jordan",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "20s (at time of death)",
+        "profession": "intelligence agent",
+        "skills": [],
+        "archetype": "long-dead spy",
+        "notes": "Killed decades ago while investigating a treasonous spy ring; her death was hidden in a children's book code"
+      },
       {
         "name": "Tommy Beresford",
         "is_fictional": true,
@@ -5890,32 +5995,6 @@
         ],
         "archetype": "investigator",
         "notes": null
-      },
-      {
-        "name": "Mary Jordan",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "20s (at time of death)",
-        "profession": "intelligence agent",
-        "skills": [],
-        "archetype": "long-dead spy",
-        "notes": "Killed decades ago while investigating a treasonous spy ring; her death was hidden in a children's book code"
-      },
-      {
-        "name": "KK",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "unknown",
-        "approximate_age": null,
-        "profession": "spy/traitor",
-        "skills": [],
-        "archetype": "hidden traitor",
-        "notes": "The long-concealed traitor responsible for Mary Jordan's death; identity uncovered at the end"
       }
     ],
     "deaths": [
@@ -5950,59 +6029,11 @@
     "notes": "Best-selling crime novel of all time; originally published as 'Ten Little Niggers'",
     "tags": [
       "golden-age",
-      "closed-circle",
       "locked-room",
+      "closed-circle",
       "island"
     ],
     "persons": [
-      {
-        "name": "Justice Wargrave",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "60s",
-        "profession": "retired judge",
-        "skills": [
-          "law",
-          "acting",
-          "manipulation"
-        ],
-        "archetype": "judge-killer",
-        "notes": "The murderer; faked his own death and killed all ten guests; acted as self-appointed executioner"
-      },
-      {
-        "name": "Vera Claythorne",
-        "is_fictional": true,
-        "role_in_story": "bystander",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "20s",
-        "profession": "secretary (former governess)",
-        "skills": [
-          "swimming"
-        ],
-        "archetype": "guilty survivor",
-        "notes": "Let her charge Cyril Hamilton drown to clear her lover Hugo's inheritance"
-      },
-      {
-        "name": "Philip Lombard",
-        "is_fictional": true,
-        "role_in_story": "bystander",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "30s",
-        "profession": "adventurer/soldier of fortune",
-        "skills": [
-          "firearms",
-          "survival"
-        ],
-        "archetype": "morally ambiguous survivor",
-        "notes": "Abandoned 21 native men in Africa to die"
-      },
       {
         "name": "Emily Brent",
         "is_fictional": true,
@@ -6030,6 +6061,54 @@
         ],
         "archetype": "guilt-ridden victim",
         "notes": "Sent his wife's lover to certain death in WWI"
+      },
+      {
+        "name": "Justice Wargrave",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "60s",
+        "profession": "retired judge",
+        "skills": [
+          "law",
+          "acting",
+          "manipulation"
+        ],
+        "archetype": "judge-killer",
+        "notes": "The murderer; faked his own death and killed all ten guests; acted as self-appointed executioner"
+      },
+      {
+        "name": "Philip Lombard",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "30s",
+        "profession": "adventurer/soldier of fortune",
+        "skills": [
+          "firearms",
+          "survival"
+        ],
+        "archetype": "morally ambiguous survivor",
+        "notes": "Abandoned 21 native men in Africa to die"
+      },
+      {
+        "name": "Vera Claythorne",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "20s",
+        "profession": "secretary (former governess)",
+        "skills": [
+          "swimming"
+        ],
+        "archetype": "guilty survivor",
+        "notes": "Let her charge Cyril Hamilton drown to clear her lover Hugo's inheritance"
       }
     ],
     "deaths": [
@@ -6214,8 +6293,8 @@
     "notes": "Early standalone adventure thriller; features Colonel Race",
     "tags": [
       "golden-age",
-      "adventure-thriller",
-      "exotic-setting"
+      "exotic-setting",
+      "adventure-thriller"
     ],
     "persons": [
       {
@@ -6234,6 +6313,21 @@
         "notes": "Narrator; stumbles into an international criminal conspiracy"
       },
       {
+        "name": "Nadina",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": "Russian",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "30s",
+        "profession": "dancer/spy",
+        "skills": [
+          "dancing"
+        ],
+        "archetype": "double-crossing victim",
+        "notes": "A woman with jewels and secrets; killed at the Mill House"
+      },
+      {
         "name": "The Colonel",
         "is_fictional": true,
         "role_in_story": "antagonist",
@@ -6248,21 +6342,6 @@
         ],
         "archetype": "hidden mastermind",
         "notes": "The 'Colonel' is the main villain — identity revealed as Harry Rayburn's father"
-      },
-      {
-        "name": "Nadina",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "Russian",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "30s",
-        "profession": "dancer/spy",
-        "skills": [
-          "dancing"
-        ],
-        "archetype": "double-crossing victim",
-        "notes": "A woman with jewels and secrets; killed at the Mill House"
       }
     ],
     "deaths": [
@@ -6317,6 +6396,36 @@
     ],
     "persons": [
       {
+        "name": "Gordon Easterfield",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "40s",
+        "profession": "local magnate",
+        "skills": [
+          "business"
+        ],
+        "archetype": "oblivious love object",
+        "notes": "Honoria's obsession; the indirect cause of all the murders"
+      },
+      {
+        "name": "Honoria Waynflete",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "50s",
+        "profession": "antique dealer",
+        "skills": [
+          "antiques"
+        ],
+        "archetype": "village poisoner",
+        "notes": "The serial killer of Wychwood; killed multiple villagers out of obsessive passion for Gordon Easterfield"
+      },
+      {
         "name": "Luke Fitzwilliam",
         "is_fictional": true,
         "role_in_story": "protagonist",
@@ -6344,36 +6453,6 @@
         "skills": [],
         "archetype": "cassandra victim",
         "notes": "Told Luke she knew someone was committing serial murders in her village; killed before she could report to Scotland Yard"
-      },
-      {
-        "name": "Honoria Waynflete",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "50s",
-        "profession": "antique dealer",
-        "skills": [
-          "antiques"
-        ],
-        "archetype": "village poisoner",
-        "notes": "The serial killer of Wychwood; killed multiple villagers out of obsessive passion for Gordon Easterfield"
-      },
-      {
-        "name": "Gordon Easterfield",
-        "is_fictional": true,
-        "role_in_story": "bystander",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "40s",
-        "profession": "local magnate",
-        "skills": [
-          "business"
-        ],
-        "archetype": "oblivious love object",
-        "notes": "Honoria's obsession; the indirect cause of all the murders"
       }
     ],
     "deaths": [
@@ -6442,32 +6521,20 @@
     ],
     "persons": [
       {
-        "name": "Renisenb",
+        "name": "Hori",
         "is_fictional": true,
-        "role_in_story": "protagonist",
+        "role_in_story": "bystander",
         "nationality": "Egyptian",
         "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "20s",
-        "profession": "widow",
+        "gender": "male",
+        "approximate_age": "30s",
+        "profession": "scribe",
         "skills": [
-          "observation"
+          "writing",
+          "management"
         ],
-        "archetype": "innocent observer",
-        "notes": "Narrator figure; returns home to her father's house after her husband dies"
-      },
-      {
-        "name": "Nofret",
-        "is_fictional": true,
-        "role_in_story": "victim",
-        "nationality": "Egyptian",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "20s",
-        "profession": "concubine",
-        "skills": [],
-        "archetype": "divisive inciting victim",
-        "notes": "Young concubine brought home by Imhotep; her presence sets off a chain of murders"
+        "archetype": "wise adviser",
+        "notes": "The family's trusted scribe; helps Renisenb uncover the truth"
       },
       {
         "name": "Imhotep",
@@ -6485,20 +6552,32 @@
         "notes": null
       },
       {
-        "name": "Hori",
+        "name": "Nofret",
         "is_fictional": true,
-        "role_in_story": "bystander",
+        "role_in_story": "victim",
         "nationality": "Egyptian",
         "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "30s",
-        "profession": "scribe",
+        "gender": "female",
+        "approximate_age": "20s",
+        "profession": "concubine",
+        "skills": [],
+        "archetype": "divisive inciting victim",
+        "notes": "Young concubine brought home by Imhotep; her presence sets off a chain of murders"
+      },
+      {
+        "name": "Renisenb",
+        "is_fictional": true,
+        "role_in_story": "protagonist",
+        "nationality": "Egyptian",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "20s",
+        "profession": "widow",
         "skills": [
-          "writing",
-          "management"
+          "observation"
         ],
-        "archetype": "wise adviser",
-        "notes": "The family's trusted scribe; helps Renisenb uncover the truth"
+        "archetype": "innocent observer",
+        "notes": "Narrator figure; returns home to her father's house after her husband dies"
       },
       {
         "name": "Yahmose",
@@ -6582,20 +6661,17 @@
     ],
     "persons": [
       {
-        "name": "Superintendent Battle",
+        "name": "Audrey Strange",
         "is_fictional": true,
-        "role_in_story": "detective",
+        "role_in_story": "bystander",
         "nationality": "British",
         "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "50s",
-        "profession": "police detective",
-        "skills": [
-          "investigation",
-          "deduction"
-        ],
-        "archetype": "stolid police detective",
-        "notes": null
+        "gender": "female",
+        "approximate_age": "30s",
+        "profession": "none",
+        "skills": [],
+        "archetype": "wrongly suspected ex-wife",
+        "notes": "Nevile's ex-wife; framed for the murder"
       },
       {
         "name": "Lady Tressilian",
@@ -6627,17 +6703,20 @@
         "notes": "Planned the murder meticulously; arranged for suspicion to fall on others"
       },
       {
-        "name": "Audrey Strange",
+        "name": "Superintendent Battle",
         "is_fictional": true,
-        "role_in_story": "bystander",
+        "role_in_story": "detective",
         "nationality": "British",
         "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "30s",
-        "profession": "none",
-        "skills": [],
-        "archetype": "wrongly suspected ex-wife",
-        "notes": "Nevile's ex-wife; framed for the murder"
+        "gender": "male",
+        "approximate_age": "50s",
+        "profession": "police detective",
+        "skills": [
+          "investigation",
+          "deduction"
+        ],
+        "archetype": "stolid police detective",
+        "notes": null
       }
     ],
     "deaths": [
@@ -6678,21 +6757,6 @@
     ],
     "persons": [
       {
-        "name": "Charles Hayward",
-        "is_fictional": true,
-        "role_in_story": "protagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "30s",
-        "profession": "former Foreign Office attaché",
-        "skills": [
-          "investigation"
-        ],
-        "archetype": "amateur investigator",
-        "notes": "Narrator; his lover Sophia's grandfather is murdered"
-      },
-      {
         "name": "Aristide Leonides",
         "is_fictional": true,
         "role_in_story": "victim",
@@ -6706,6 +6770,34 @@
         ],
         "archetype": "patriarch victim",
         "notes": "Self-made millionaire patriarch; insulin replaced with eserine"
+      },
+      {
+        "name": "Brenda Leonides",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "30s",
+        "profession": "none",
+        "skills": [],
+        "archetype": "suspected young wife",
+        "notes": "Aristide's much younger second wife; suspected along with her young lover Laurence Brown"
+      },
+      {
+        "name": "Charles Hayward",
+        "is_fictional": true,
+        "role_in_story": "protagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "30s",
+        "profession": "former Foreign Office attaché",
+        "skills": [
+          "investigation"
+        ],
+        "archetype": "amateur investigator",
+        "notes": "Narrator; his lover Sophia's grandfather is murdered"
       },
       {
         "name": "Josephine Leonides",
@@ -6722,19 +6814,6 @@
         ],
         "archetype": "child killer",
         "notes": "The killer; a highly intelligent child who killed her grandfather and Nanny Saunders"
-      },
-      {
-        "name": "Brenda Leonides",
-        "is_fictional": true,
-        "role_in_story": "bystander",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "30s",
-        "profession": "none",
-        "skills": [],
-        "archetype": "suspected young wife",
-        "notes": "Aristide's much younger second wife; suspected along with her young lover Laurence Brown"
       },
       {
         "name": "Nanny Saunders",
@@ -6833,17 +6912,17 @@
         "notes": "Could have provided an alibi for Jacko Argyle but was away on expedition; returns to clear his name"
       },
       {
-        "name": "Rachel Argyle",
+        "name": "Hester Argyle",
         "is_fictional": true,
-        "role_in_story": "victim",
+        "role_in_story": "antagonist",
         "nationality": "British",
         "ethnicity": null,
         "gender": "female",
-        "approximate_age": "50s",
-        "profession": "philanthropist",
+        "approximate_age": "20s",
+        "profession": "none",
         "skills": [],
-        "archetype": "domineering victim",
-        "notes": "Adoptive mother of five children; murdered by one of them"
+        "archetype": "repressed killer",
+        "notes": "The actual killer; could not bear her adoptive mother's suffocating dominance"
       },
       {
         "name": "Jacko Argyle",
@@ -6859,17 +6938,17 @@
         "notes": "Convicted of Rachel's murder and died in prison; posthumously cleared"
       },
       {
-        "name": "Hester Argyle",
+        "name": "Rachel Argyle",
         "is_fictional": true,
-        "role_in_story": "antagonist",
+        "role_in_story": "victim",
         "nationality": "British",
         "ethnicity": null,
         "gender": "female",
-        "approximate_age": "20s",
-        "profession": "none",
+        "approximate_age": "50s",
+        "profession": "philanthropist",
         "skills": [],
-        "archetype": "repressed killer",
-        "notes": "The actual killer; could not bear her adoptive mother's suffocating dominance"
+        "archetype": "domineering victim",
+        "notes": "Adoptive mother of five children; murdered by one of them"
       }
     ],
     "deaths": [
@@ -6924,6 +7003,21 @@
     ],
     "persons": [
       {
+        "name": "Ariadne Oliver",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "female",
+        "approximate_age": "50s",
+        "profession": "crime novelist",
+        "skills": [
+          "observation"
+        ],
+        "archetype": "amateur adviser",
+        "notes": "Christie's self-parody character"
+      },
+      {
         "name": "Mark Easterbrook",
         "is_fictional": true,
         "role_in_story": "protagonist",
@@ -6939,19 +7033,17 @@
         "notes": null
       },
       {
-        "name": "Ariadne Oliver",
+        "name": "Thyrzta Grey",
         "is_fictional": true,
-        "role_in_story": "bystander",
+        "role_in_story": "antagonist",
         "nationality": "British",
         "ethnicity": null,
         "gender": "female",
-        "approximate_age": "50s",
-        "profession": "crime novelist",
-        "skills": [
-          "observation"
-        ],
-        "archetype": "amateur adviser",
-        "notes": "Christie's self-parody character"
+        "approximate_age": "40s",
+        "profession": "witch (self-described)",
+        "skills": [],
+        "archetype": "occult front",
+        "notes": "Runs The Pale Horse as an occult cover for a murder-for-hire scheme"
       },
       {
         "name": "Zachariah Osborne",
@@ -6968,19 +7060,6 @@
         ],
         "archetype": "professional poisoner",
         "notes": "The real killer behind the 'witchcraft' operation; supplies thallium to a murder-for-hire network"
-      },
-      {
-        "name": "Thyrzta Grey",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "female",
-        "approximate_age": "40s",
-        "profession": "witch (self-described)",
-        "skills": [],
-        "archetype": "occult front",
-        "notes": "Runs The Pale Horse as an occult cover for a murder-for-hire scheme"
       }
     ],
     "deaths": [
@@ -7030,23 +7109,10 @@
     "notes": "Stylistically different from Christie's other work; written as a psychological thriller with an unreliable narrator",
     "tags": [
       "golden-age",
-      "psychological",
-      "unreliable-narrator"
+      "unreliable-narrator",
+      "psychological"
     ],
     "persons": [
-      {
-        "name": "Michael Rogers",
-        "is_fictional": true,
-        "role_in_story": "antagonist",
-        "nationality": "British",
-        "ethnicity": null,
-        "gender": "male",
-        "approximate_age": "20s",
-        "profession": "odd-jobs man",
-        "skills": [],
-        "archetype": "murderous narrator",
-        "notes": "The narrator and killer; in love with Gipsy's Acre and conspired to inherit the land and fortune"
-      },
       {
         "name": "Ellie Rogers",
         "is_fictional": true,
@@ -7072,6 +7138,19 @@
         "skills": [],
         "archetype": "scheming lover",
         "notes": "Michael's true lover; conspired with him to kill Ellie"
+      },
+      {
+        "name": "Michael Rogers",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": "British",
+        "ethnicity": null,
+        "gender": "male",
+        "approximate_age": "20s",
+        "profession": "odd-jobs man",
+        "skills": [],
+        "archetype": "murderous narrator",
+        "notes": "The narrator and killer; in love with Gipsy's Acre and conspired to inherit the land and fortune"
       }
     ],
     "deaths": [
@@ -7101,6 +7180,80 @@
         "motive": "concealment",
         "motive_detail": "Greta knew everything and had become a danger to Michael",
         "is_central_death": false,
+        "is_twist": false,
+        "chapter_or_act": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "wikidata_id": "Q_TEST_123",
+    "tmdb_id": null,
+    "igdb_id": null,
+    "isbn": null,
+    "title": "A Test of Logic",
+    "media_type": "book",
+    "year": 2026,
+    "creator": "Gemini AI",
+    "series_name": null,
+    "series_number": null,
+    "notes": null,
+    "tags": [],
+    "persons": [
+      {
+        "name": "Mr. Error",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "nationality": null,
+        "ethnicity": null,
+        "gender": null,
+        "approximate_age": null,
+        "profession": null,
+        "skills": null,
+        "archetype": null,
+        "notes": null
+      },
+      {
+        "name": "Prof. Logic",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "nationality": null,
+        "ethnicity": null,
+        "gender": null,
+        "approximate_age": null,
+        "profession": null,
+        "skills": null,
+        "archetype": null,
+        "notes": null
+      }
+    ],
+    "deaths": [
+      {
+        "victim_name": "Prof. Logic",
+        "ordinal": null,
+        "cause": "POISONED",
+        "cause_subtype": null,
+        "cause_detail": null,
+        "death_type": "murder",
+        "killer_name": "Mr. Error",
+        "motive": "revenge",
+        "motive_detail": null,
+        "is_central_death": true,
+        "is_twist": false,
+        "chapter_or_act": null,
+        "notes": null
+      },
+      {
+        "victim_name": "Prof. Logic",
+        "ordinal": null,
+        "cause": "POISONED",
+        "cause_subtype": null,
+        "cause_detail": null,
+        "death_type": "murder",
+        "killer_name": "Mr. Error",
+        "motive": "revenge",
+        "motive_detail": null,
+        "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
         "notes": null

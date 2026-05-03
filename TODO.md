@@ -4,20 +4,20 @@
 # Media to add
 
 ## Ace Attorney
-- [ ] Phoenix Wright: Ace Attorney (2001)
-- [ ] Phoenix Wright: Ace Attorney – Justice for All (2002)
-- [ ] Phoenix Wright: Ace Attorney – Trials and Tribulations (2004)
-- [ ] Apollo Justice: Ace Attorney (2007)
-- [ ] Ace Attorney Investigations: Miles Edgeworth (2009)
-- [ ] Ace Attorney Investigations 2 (2011)
-- [ ] Professor Layton vs. Phoenix Wright: Ace Attorney (2012)
-- [ ] Phoenix Wright: Ace Attorney – Dual Destinies (2013)
-- [ ] Phoenix Wright: Ace Attorney – Spirit of Justice (2016)
+- [x] Phoenix Wright: Ace Attorney (2001)
+- [x] Phoenix Wright: Ace Attorney – Justice for All (2002)
+- [x] Phoenix Wright: Ace Attorney – Trials and Tribulations (2004)
+- [x] Apollo Justice: Ace Attorney (2007)
+- [x] Ace Attorney Investigations: Miles Edgeworth (2009)
+- [x] Ace Attorney Investigations 2 (2011)
+- [x] Professor Layton vs. Phoenix Wright: Ace Attorney (2012)
+- [x] Phoenix Wright: Ace Attorney – Dual Destinies (2013)
+- [x] Phoenix Wright: Ace Attorney – Spirit of Justice (2016)
 
 ## Danganronpa
-- [ ] Danganronpa: Trigger Happy Havoc (2010)
-- [ ] Danganronpa 2: Goodbye Despair (2012)
-- [ ] Danganronpa V3: Killing Harmony (2017)
+- [x] Danganronpa: Trigger Happy Havoc (2010)
+- [x] Danganronpa 2: Goodbye Despair (2012)
+- [x] Danganronpa V3: Killing Harmony (2017)
 
 ## Agatha Christie novels
 - [x] The Mysterious Affair at Styles (1920)

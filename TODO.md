@@ -181,35 +181,35 @@
 - [x] S06E14 - Mr. Monk Paints His Masterpiece
 - [x] S06E15 - Mr. Monk Is on the Run (Part 1)
 - [x] S06E16 - Mr. Monk Is on the Run (Part 2)
-- [ ] S07E01 - Mr. Monk Buys a House
-- [ ] S07E02 - Mr. Monk and the Genius
-- [ ] S07E03 - Mr. Monk Gets Lotto Fever
-- [ ] S07E04 - Mr. Monk Takes a Punch
-- [ ] S07E05 - Mr. Monk Is Underwater
-- [ ] S07E06 - Mr. Monk Falls in Love
-- [ ] S07E07 - Mr. Monk's 100th Case
-- [ ] S07E08 - Mr. Monk Gets Hypnotized
-- [ ] S07E09 - Mr. Monk and the Miracle
-- [ ] S07E10 - Mr. Monk's Other Brother
-- [ ] S07E11 - Mr. Monk on Wheels
-- [ ] S07E12 - Mr. Monk and the Lady Next Door
-- [ ] S07E13 - Mr. Monk Makes the Playoffs
-- [ ] S07E14 - Mr. Monk and the Bully
-- [ ] S07E15 - Mr. Monk and the Magician
-- [ ] S07E16 - Mr. Monk Fights City Hall
-- [ ] S08E01 - Mr. Monk's Favorite Show
-- [ ] S08E02 - Mr. Monk and the Foreign Man
-- [ ] S08E03 - Mr. Monk and the UFO
-- [ ] S08E04 - Mr. Monk Is Someone Else
-- [ ] S08E05 - Mr. Monk Takes the Stand
-- [ ] S08E06 - Mr. Monk and the Critic
-- [ ] S08E07 - Mr. Monk and the Voodoo Curse
-- [ ] S08E08 - Mr. Monk Goes to Group Therapy
-- [ ] S08E09 - Happy Birthday, Mr. Monk
-- [ ] S08E10 - Mr. Monk and Sharona
-- [ ] S08E11 - Mr. Monk and the Dog
-- [ ] S08E12 - Mr. Monk Goes Camping
-- [ ] S08E13 - Mr. Monk Is the Best Man
-- [ ] S08E14 - Mr. Monk and the Badge
-- [ ] S08E15 - Mr. Monk and the End (Part 1)
-- [ ] S08E16 - Mr. Monk and the End (Part 2)
+- [x] S07E01 - Mr. Monk Buys a House
+- [x] S07E02 - Mr. Monk and the Genius
+- [x] S07E03 - Mr. Monk Gets Lotto Fever
+- [x] S07E04 - Mr. Monk Takes a Punch
+- [x] S07E05 - Mr. Monk Is Underwater
+- [x] S07E06 - Mr. Monk Falls in Love
+- [x] S07E07 - Mr. Monk's 100th Case
+- [x] S07E08 - Mr. Monk Gets Hypnotized
+- [x] S07E09 - Mr. Monk and the Miracle
+- [x] S07E10 - Mr. Monk's Other Brother
+- [x] S07E11 - Mr. Monk on Wheels
+- [x] S07E12 - Mr. Monk and the Lady Next Door
+- [x] S07E13 - Mr. Monk Makes the Playoffs
+- [x] S07E14 - Mr. Monk and the Bully
+- [x] S07E15 - Mr. Monk and the Magician
+- [x] S07E16 - Mr. Monk Fights City Hall
+- [x] S08E01 - Mr. Monk's Favorite Show
+- [x] S08E02 - Mr. Monk and the Foreign Man
+- [x] S08E03 - Mr. Monk and the UFO
+- [x] S08E04 - Mr. Monk Is Someone Else
+- [x] S08E05 - Mr. Monk Takes the Stand
+- [x] S08E06 - Mr. Monk and the Critic
+- [x] S08E07 - Mr. Monk and the Voodoo Curse
+- [x] S08E08 - Mr. Monk Goes to Group Therapy
+- [x] S08E09 - Happy Birthday, Mr. Monk
+- [x] S08E10 - Mr. Monk and Sharona
+- [x] S08E11 - Mr. Monk and the Dog
+- [x] S08E12 - Mr. Monk Goes Camping
+- [x] S08E13 - Mr. Monk Is the Best Man
+- [x] S08E14 - Mr. Monk and the Badge
+- [x] S08E15 - Mr. Monk and the End (Part 1)
+- [x] S08E16 - Mr. Monk and the End (Part 2)

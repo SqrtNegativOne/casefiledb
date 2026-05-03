@@ -1,0 +1,1 @@
+Get inspired by how murders are done across fiction to commit more. Track each method of killing on your bucket list. Use advanced techniques for faking your alibi. Create convoluted locked room mechanisms Delhi Police will never understand.

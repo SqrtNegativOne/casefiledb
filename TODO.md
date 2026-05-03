@@ -129,38 +129,38 @@
 - [x] S02E14 - Mr. Monk and the Captain's Wife
 - [x] S02E15 - Mr. Monk Gets Married
 - [x] S02E16 - Mr. Monk Goes to Jail
-- [ ] S03E01 - Mr. Monk Takes Manhattan
-- [ ] S03E02 - Mr. Monk and the Panic Room
-- [ ] S03E03 - Mr. Monk and the Blackout
-- [ ] S03E04 - Mr. Monk Gets Fired
-- [ ] S03E05 - Mr. Monk Meets the Godfather
-- [ ] S03E06 - Mr. Monk and the Girl Who Cried Wolf
-- [ ] S03E07 - Mr. Monk and the Employee of the Month
-- [ ] S03E08 - Mr. Monk and the Game Show
-- [ ] S03E09 - Mr. Monk Takes His Medicine
-- [ ] S03E10 - Mr. Monk and the Red Herring
-- [ ] S03E11 - Mr. Monk vs. the Cobra
-- [ ] S03E12 - Mr. Monk Gets Cabin Fever
-- [ ] S03E13 - Mr. Monk Gets Stuck in Traffic
-- [ ] S03E14 - Mr. Monk Goes to Vegas
-- [ ] S03E15 - Mr. Monk and the Election
-- [ ] S03E16 - Mr. Monk and the Kid
-- [ ] S04E01 - Mr. Monk and the Other Detective
-- [ ] S04E02 - Mr. Monk Goes Home Again
-- [ ] S04E03 - Mr. Monk Stays in Bed
-- [ ] S04E04 - Mr. Monk Goes to the Office
-- [ ] S04E05 - Mr. Monk Gets Drunk
-- [ ] S04E06 - Mr. Monk and Mrs. Monk
-- [ ] S04E07 - Mr. Monk Goes to a Wedding
-- [ ] S04E08 - Mr. Monk and Little Monk
-- [ ] S04E09 - Mr. Monk and the Secret Santa
-- [ ] S04E10 - Mr. Monk Goes to a Fashion Show
-- [ ] S04E11 - Mr. Monk Bumps His Head
-- [ ] S04E12 - Mr. Monk and the Captain's Marriage
-- [ ] S04E13 - Mr. Monk and the Big Reward
-- [ ] S04E14 - Mr. Monk and the Astronaut
-- [ ] S04E15 - Mr. Monk Goes to the Dentist
-- [ ] S04E16 - Mr. Monk Gets Jury Duty
+- [x] S03E01 - Mr. Monk Takes Manhattan
+- [x] S03E02 - Mr. Monk and the Panic Room
+- [x] S03E03 - Mr. Monk and the Blackout
+- [x] S03E04 - Mr. Monk Gets Fired
+- [x] S03E05 - Mr. Monk Meets the Godfather
+- [x] S03E06 - Mr. Monk and the Girl Who Cried Wolf
+- [x] S03E07 - Mr. Monk and the Employee of the Month
+- [x] S03E08 - Mr. Monk and the Game Show
+- [x] S03E09 - Mr. Monk Takes His Medicine
+- [x] S03E10 - Mr. Monk and the Red Herring
+- [x] S03E11 - Mr. Monk vs. the Cobra
+- [x] S03E12 - Mr. Monk Gets Cabin Fever
+- [x] S03E13 - Mr. Monk Gets Stuck in Traffic
+- [x] S03E14 - Mr. Monk Goes to Vegas
+- [x] S03E15 - Mr. Monk and the Election
+- [x] S03E16 - Mr. Monk and the Kid
+- [x] S04E01 - Mr. Monk and the Other Detective
+- [x] S04E02 - Mr. Monk Goes Home Again
+- [x] S04E03 - Mr. Monk Stays in Bed
+- [x] S04E04 - Mr. Monk Goes to the Office
+- [x] S04E05 - Mr. Monk Gets Drunk
+- [x] S04E06 - Mr. Monk and Mrs. Monk
+- [x] S04E07 - Mr. Monk Goes to a Wedding
+- [x] S04E08 - Mr. Monk and Little Monk
+- [x] S04E09 - Mr. Monk and the Secret Santa
+- [x] S04E10 - Mr. Monk Goes to a Fashion Show
+- [x] S04E11 - Mr. Monk Bumps His Head
+- [x] S04E12 - Mr. Monk and the Captain's Marriage
+- [x] S04E13 - Mr. Monk and the Big Reward
+- [x] S04E14 - Mr. Monk and the Astronaut
+- [x] S04E15 - Mr. Monk Goes to the Dentist
+- [x] S04E16 - Mr. Monk Gets Jury Duty
 - [x] S05E01 - Mr. Monk and the Actor
 - [x] S05E02 - Mr. Monk and the Garbage Strike
 - [x] S05E03 - Mr. Monk and the Big Game
@@ -193,35 +193,35 @@
 - [x] S06E14 - Mr. Monk Paints His Masterpiece
 - [x] S06E15 - Mr. Monk Is on the Run (Part 1)
 - [x] S06E16 - Mr. Monk Is on the Run (Part 2)
-- [ ] S07E01 - Mr. Monk Buys a House
-- [ ] S07E02 - Mr. Monk and the Genius
-- [ ] S07E03 - Mr. Monk Gets Lotto Fever
-- [ ] S07E04 - Mr. Monk Takes a Punch
-- [ ] S07E05 - Mr. Monk Is Underwater
-- [ ] S07E06 - Mr. Monk Falls in Love
-- [ ] S07E07 - Mr. Monk's 100th Case
-- [ ] S07E08 - Mr. Monk Gets Hypnotized
-- [ ] S07E09 - Mr. Monk and the Miracle
-- [ ] S07E10 - Mr. Monk's Other Brother
-- [ ] S07E11 - Mr. Monk on Wheels
-- [ ] S07E12 - Mr. Monk and the Lady Next Door
-- [ ] S07E13 - Mr. Monk Makes the Playoffs
-- [ ] S07E14 - Mr. Monk and the Bully
-- [ ] S07E15 - Mr. Monk and the Magician
-- [ ] S07E16 - Mr. Monk Fights City Hall
-- [ ] S08E01 - Mr. Monk's Favorite Show
-- [ ] S08E02 - Mr. Monk and the Foreign Man
-- [ ] S08E03 - Mr. Monk and the UFO
-- [ ] S08E04 - Mr. Monk Is Someone Else
-- [ ] S08E05 - Mr. Monk Takes the Stand
-- [ ] S08E06 - Mr. Monk and the Critic
-- [ ] S08E07 - Mr. Monk and the Voodoo Curse
-- [ ] S08E08 - Mr. Monk Goes to Group Therapy
-- [ ] S08E09 - Happy Birthday, Mr. Monk
-- [ ] S08E10 - Mr. Monk and Sharona
-- [ ] S08E11 - Mr. Monk and the Dog
-- [ ] S08E12 - Mr. Monk Goes Camping
-- [ ] S08E13 - Mr. Monk Is the Best Man
-- [ ] S08E14 - Mr. Monk and the Badge
-- [ ] S08E15 - Mr. Monk and the End (Part 1)
-- [ ] S08E16 - Mr. Monk and the End (Part 2)
+- [x] S07E01 - Mr. Monk Buys a House
+- [x] S07E02 - Mr. Monk and the Genius
+- [x] S07E03 - Mr. Monk Gets Lotto Fever
+- [x] S07E04 - Mr. Monk Takes a Punch
+- [x] S07E05 - Mr. Monk Is Underwater
+- [x] S07E06 - Mr. Monk Falls in Love
+- [x] S07E07 - Mr. Monk's 100th Case
+- [x] S07E08 - Mr. Monk Gets Hypnotized
+- [x] S07E09 - Mr. Monk and the Miracle
+- [x] S07E10 - Mr. Monk's Other Brother
+- [x] S07E11 - Mr. Monk on Wheels
+- [x] S07E12 - Mr. Monk and the Lady Next Door
+- [x] S07E13 - Mr. Monk Makes the Playoffs
+- [x] S07E14 - Mr. Monk and the Bully
+- [x] S07E15 - Mr. Monk and the Magician
+- [x] S07E16 - Mr. Monk Fights City Hall
+- [x] S08E01 - Mr. Monk's Favorite Show
+- [x] S08E02 - Mr. Monk and the Foreign Man
+- [x] S08E03 - Mr. Monk and the UFO
+- [x] S08E04 - Mr. Monk Is Someone Else
+- [x] S08E05 - Mr. Monk Takes the Stand
+- [x] S08E06 - Mr. Monk and the Critic
+- [x] S08E07 - Mr. Monk and the Voodoo Curse
+- [x] S08E08 - Mr. Monk Goes to Group Therapy
+- [x] S08E09 - Happy Birthday, Mr. Monk
+- [x] S08E10 - Mr. Monk and Sharona
+- [x] S08E11 - Mr. Monk and the Dog
+- [x] S08E12 - Mr. Monk Goes Camping
+- [x] S08E13 - Mr. Monk Is the Best Man
+- [x] S08E14 - Mr. Monk and the Badge
+- [x] S08E15 - Mr. Monk and the End (Part 1)
+- [x] S08E16 - Mr. Monk and the End (Part 2)

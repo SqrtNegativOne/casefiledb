@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Authors — Casefile Database</title>
+    <title>Episodes — Casefile Database</title>
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
@@ -12,19 +12,25 @@
             <h1><a href="../" class="home-link">Casefile Database</a></h1>
             <nav class="site-nav">
                 <a href="../">Media</a>
-                <a href="../authors/" class="active">Authors</a>
-                <a href="../episodes/">Episodes</a>
+                <a href="../authors/">Authors</a>
+                <a href="../episodes/" class="active">Episodes</a>
                 <a href="../methods/">Methods</a>
                 <a href="../compare/">Compare</a>
                 <a href="../viz/">Viz</a>
             </nav>
         </div>
         <div class="toolbar-controls">
-            <input type="text" id="searchInput" placeholder="Search author...">
+            <input type="text" id="searchInput" placeholder="Search title, show...">
+            <select id="showFilter" aria-label="Filter by show">
+                <option value="">All shows</option>
+            </select>
             <select id="sortField" aria-label="Sort field">
-                <option value="name">Sort: Name</option>
-                <option value="works">Sort: Works</option>
+                <option value="show">Sort: Show</option>
+                <option value="season">Sort: Season</option>
+                <option value="episode">Sort: Episode</option>
+                <option value="year">Sort: Year</option>
                 <option value="deaths">Sort: Deaths</option>
+                <option value="title">Sort: Title</option>
             </select>
             <select id="sortDirection" aria-label="Sort direction">
                 <option value="asc">Asc</option>
@@ -37,13 +43,15 @@
         <span id="resultCount" class="muted"></span>
     </div>
     <div class="table-wrap">
-        <table aria-label="Authors table">
+        <table aria-label="Episodes table">
             <thead>
                 <tr>
-                    <th data-sort-key="name" class="sortable">Author / Creator</th>
-                    <th data-sort-key="works" class="sortable">Works</th>
-                    <th data-sort-key="deaths" class="sortable">Total deaths</th>
-                    <th>Media types</th>
+                    <th data-sort-key="show" class="sortable">Show</th>
+                    <th data-sort-key="season" class="sortable">S</th>
+                    <th data-sort-key="episode" class="sortable">Ep</th>
+                    <th data-sort-key="title" class="sortable">Title</th>
+                    <th data-sort-key="year" class="sortable">Year</th>
+                    <th data-sort-key="deaths" class="sortable">Deaths</th>
                 </tr>
             </thead>
             <tbody id="tableBody"></tbody>

@@ -29,6 +29,7 @@ The file must be a **JSON array** of objects. Each object is one media item.
 - `tmdb_id`, `igdb_id`, `isbn`: External IDs.
 - `notes`: (string) Brief observations.
 - `tags`: (array of strings) e.g. `["golden-age", "whodunit"]`.
+- `external_links`: (object, optional) External resource URLs — see External Links below.
 - `episodes`: (array of episode objects) — **for `tv_show` only**. Each episode has its own persons and deaths. See Episode Fields below.
 - `cases`: (array of case objects) — **for `game` only**. Each case/chapter has its own persons and deaths. See Case Fields below.
 
@@ -77,12 +78,47 @@ Every name used in a `death` event **must** be defined here first.
   `vigilante_justice`, `freedom`, `family_protection`, `pathological`, `mercy_killing`, `penance`,
   `unknown`, `other`.
   Key distinctions: `vigilante_justice` = self-appointed execution of those deemed guilty who escaped legal justice; `family_protection` = killing to shield family from ruin or scandal; `freedom` = escaping an unwanted relationship or controlling figure; `pathological` = compulsive or irrational psychological motive; `mercy_killing` = ending another's suffering; `penance` = atonement or confession-driven act. Reserve `other` only when none of the above fit.
+- `tropes`: (array of strings, optional) Mystery tropes that apply to this death. Choose from:
+  - `locked_room` — death occurred in a sealed space with no apparent entry/exit
+  - `impossible_crime` — the crime appears physically impossible
+  - `howcatchem` — killer is known from the start; interest is the investigation
+  - `whodunit` — identity of the killer is unknown until the end
+  - `whydunit` — killer's identity is known; the motive is the mystery
+  - `howdunit` — the method of the crime is the central puzzle
+  - `dying_clue` — the victim left a cryptic clue pointing to the killer
+  - `alibi_trick` — the killer's alibi is constructed or faked
+  - `closed_circle` — suspects are isolated together (snowbound house, island, train, etc.)
+  - `needle_in_haystack` — the killer is hidden among many plausible suspects
+  - `multiple_murderers` — more than one person committed killings
+  - `least_likely_suspect` — the killer is the character the reader would least expect
+  - `serial_killer` — multiple connected murders by the same perpetrator
+  - `frame_up` — an innocent person is deliberately framed
+  - `mistaken_identity` — the crime stems from a case of mistaken identity
 - `cause_subtype`, `cause_detail`, `motive_detail`: (string, optional) Extra detail.
 - `ordinal`: (integer, optional) Order of death within the work.
 - `is_central_death`: (boolean) `true` if this is the primary mystery.
 - `is_twist`: (boolean) `true` if the death involves a major plot twist.
 - `chapter_or_act`: (string, optional)
 - `notes`: (string, optional)
+
+---
+
+## External Links
+
+Optional object on a media item with URLs to external resources:
+
+```json
+"external_links": {
+  "tvtropes_url": "https://tvtropes.org/pmwiki/pmwiki.php/...",
+  "fandom_url": "https://example.fandom.com/wiki/...",
+  "goodreads_url": "https://www.goodreads.com/book/show/...",
+  "steam_url": "https://store.steampowered.com/app/...",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/...",
+  "itch_url": "https://example.itch.io/..."
+}
+```
+
+Only include fields you have a URL for. All fields are optional.
 
 ---
 
@@ -97,6 +133,10 @@ Every name used in a `death` event **must** be defined here first.
     "creator": "Jane Doe",
     "year": 2024,
     "tags": ["golden-age"],
+    "external_links": {
+      "goodreads_url": "https://www.goodreads.com/book/show/12345",
+      "tvtropes_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/ExampleMystery"
+    },
     "persons": [
       { "name": "Alice", "role_in_story": "victim" },
       { "name": "Bob", "role_in_story": "antagonist" }
@@ -108,6 +148,7 @@ Every name used in a `death` event **must** be defined here first.
         "cause": "POISONED",
         "death_type": "murder",
         "motive": "revenge",
+        "tropes": ["whodunit", "closed_circle"],
         "is_central_death": true,
         "is_twist": false
       }

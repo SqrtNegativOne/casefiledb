@@ -36,6 +36,35 @@ Motive = Literal[
     "unknown", "other",
 ]
 
+MysteryTrope = Literal[
+    "locked_room",         # death in a sealed space with no apparent entry/exit
+    "impossible_crime",    # crime that appears physically impossible
+    "howcatchem",          # killer known from the start; interest is the investigation
+    "whodunit",            # identity of killer unknown until the end
+    "whydunit",            # identity known; motive is the mystery
+    "howdunit",            # method of the crime is the central puzzle
+    "dying_clue",          # victim leaves a cryptic clue pointing to the killer
+    "alibi_trick",         # killer's alibi is constructed or faked
+    "closed_circle",       # suspects are isolated together (snowbound house, ship, etc.)
+    "needle_in_haystack",  # killer is hidden among many possible suspects
+    "multiple_murderers",  # more than one person committed the killings
+    "least_likely_suspect",# killer is the character the reader would least expect
+    "serial_killer",       # multiple connected murders by the same perpetrator
+    "frame_up",            # an innocent person is deliberately framed
+    "mistaken_identity",   # death or crime stems from a case of mistaken identity
+]
+
+
+class ExternalLinksModel(BaseModel):
+    """Optional external resource links for a media item."""
+
+    tvtropes_url: Optional[str] = None
+    fandom_url: Optional[str] = None
+    goodreads_url: Optional[str] = None
+    steam_url: Optional[str] = None
+    wikipedia_url: Optional[str] = None
+    itch_url: Optional[str] = None
+
 
 class PersonModel(BaseModel):
     """A character or person referenced in a death event."""
@@ -65,6 +94,7 @@ class DeathModel(BaseModel):
     killer_name: Optional[str] = None
     motive: Optional[Motive] = None
     motive_detail: Optional[str] = None
+    tropes: list[MysteryTrope] = []
     is_central_death: bool = False
     is_twist: bool = False
     chapter_or_act: Optional[str] = None
@@ -140,6 +170,7 @@ class MediaModel(BaseModel):
     series_number: Optional[float] = None
     notes: Optional[str] = None
     tags: list[str] = []
+    external_links: Optional[ExternalLinksModel] = None
     persons: list[PersonModel] = []
     deaths: list[DeathModel] = []
     episodes: list[TvEpisodeModel] = []

@@ -20,7 +20,7 @@ Cause = Literal[
     "POISONED", "SHOT", "STABBED", "CLUBBED", "STRANGLED",
     "DROWNED", "BURNED", "HANGED", "FELL", "CRUSHED",
     "SUFFOCATED", "EXPLODED", "ELECTROCUTED", "FROZEN",
-    "ILLNESS", "EATEN", "TORN_APART", "OTHER",
+    "ILLNESS", "EATEN", "TORN_APART", "VEHICULAR", "UNKNOWN", "OTHER",
 ]
 
 DeathType = Literal[
@@ -31,6 +31,8 @@ DeathType = Literal[
 Motive = Literal[
     "greed_inheritance", "greed_financial", "blackmail", "jealousy",
     "revenge", "ideology", "self_defense", "concealment", "passion",
+    "vigilante_justice", "freedom", "family_protection", "pathological",
+    "mercy_killing", "penance",
     "unknown", "other",
 ]
 

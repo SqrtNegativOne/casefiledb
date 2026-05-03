@@ -50,11 +50,15 @@ Every name used in a `death` event **must** be defined here first.
 - `victim_name`: Must match a name in `persons`.
 - `killer_name`: Must match a name in `persons`.
 - `cause`: (required) One of:
-  `POISONED`, `SHOT`, `STABBED`, `CLUBBED`, `STRANGLED`, `DROWNED`, `BURNED`, `HANGED`, `FELL`, `CRUSHED`, `SUFFOCATED`, `EXPLODED`, `ELECTROCUTED`, `FROZEN`, `ILLNESS`, `EATEN`, `TORN_APART`, `OTHER`.
+  `POISONED`, `SHOT`, `STABBED`, `CLUBBED`, `STRANGLED`, `DROWNED`, `BURNED`, `HANGED`, `FELL`, `CRUSHED`, `SUFFOCATED`, `EXPLODED`, `ELECTROCUTED`, `FROZEN`, `ILLNESS`, `EATEN`, `TORN_APART`, `VEHICULAR`, `UNKNOWN`, `OTHER`.
+  Use `VEHICULAR` for deaths caused by a vehicle (car, train, etc.). Use `UNKNOWN` when the method is not specified in the narrative. Reserve `OTHER` only for methods that fit none of the above.
 - `death_type`: (required) One of:
   `murder`, `attempted_murder`, `manslaughter`, `suicide`, `accident`, `natural_death`, `execution`, `unknown`.
 - `motive`: One of:
-  `greed_inheritance`, `greed_financial`, `blackmail`, `jealousy`, `revenge`, `ideology`, `self_defense`, `concealment`, `passion`, `unknown`, `other`.
+  `greed_inheritance`, `greed_financial`, `blackmail`, `jealousy`, `revenge`, `ideology`, `self_defense`, `concealment`, `passion`,
+  `vigilante_justice`, `freedom`, `family_protection`, `pathological`, `mercy_killing`, `penance`,
+  `unknown`, `other`.
+  Key distinctions: `vigilante_justice` = self-appointed execution of those deemed guilty who escaped legal justice; `family_protection` = killing to shield family from ruin or scandal; `freedom` = escaping an unwanted relationship or controlling figure; `pathological` = compulsive or irrational psychological motive; `mercy_killing` = ending another's suffering; `penance` = atonement or confession-driven act. Reserve `other` only when none of the above fit.
 - `cause_subtype`, `cause_detail`, `motive_detail`: (string, optional) Extra detail.
 - `ordinal`: (integer, optional) Order of death within the work.
 - `is_central_death`: (boolean) `true` if this is the primary mystery.

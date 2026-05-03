@@ -1,3 +1,7 @@
+# Continual data cleaning activities
+- Investigate null or OTHER values in the data from site_data.json and see how they can be removed by adding more categories in our schema. Done on 2026-05-04.
+- 
+
 # To brainstorm
 - Handle locked room mysteries, categorize them. Link to TV tropes pages. Maybe a property for what the hardest part in the case is? "impossible crime" "locked room" "needle in a haystack" "howcatchem" and each links to a tv tropes page? With subcategories for locked room?
 - Handle techniques of faking alibis. Link to TV tropes pages if they exist.
@@ -8,7 +12,6 @@
 - What's the point of a db file when everything is stored in json files? Why not have Python convert the json files to some structure, and verify that structure?
 - Shift all JSON files that are read by the website to show, in a different folder.
 - Make it even simpler for AI agents to add pieces of media. A different prompt for movies, books, shows, games? Each should probably use fandom pages. Any tool for scraping fandom pages with extreme ease?
-- Investigate null values and see how they can be removed.
 
 - Properly handle shows and games; handle the cases of games separately from the game class, handle the episodes of a show separately from the show itself.
 - Have each page link to tv tropes, wikipedia, fandom, steam/epic games/itch.io, goodreads?

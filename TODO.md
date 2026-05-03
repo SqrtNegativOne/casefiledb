@@ -117,38 +117,38 @@
 - [x] S02E14 - Mr. Monk and the Captain's Wife
 - [x] S02E15 - Mr. Monk Gets Married
 - [x] S02E16 - Mr. Monk Goes to Jail
-- [ ] S03E01 - Mr. Monk Takes Manhattan
-- [ ] S03E02 - Mr. Monk and the Panic Room
-- [ ] S03E03 - Mr. Monk and the Blackout
-- [ ] S03E04 - Mr. Monk Gets Fired
-- [ ] S03E05 - Mr. Monk Meets the Godfather
-- [ ] S03E06 - Mr. Monk and the Girl Who Cried Wolf
-- [ ] S03E07 - Mr. Monk and the Employee of the Month
-- [ ] S03E08 - Mr. Monk and the Game Show
-- [ ] S03E09 - Mr. Monk Takes His Medicine
-- [ ] S03E10 - Mr. Monk and the Red Herring
-- [ ] S03E11 - Mr. Monk vs. the Cobra
-- [ ] S03E12 - Mr. Monk Gets Cabin Fever
-- [ ] S03E13 - Mr. Monk Gets Stuck in Traffic
-- [ ] S03E14 - Mr. Monk Goes to Vegas
-- [ ] S03E15 - Mr. Monk and the Election
-- [ ] S03E16 - Mr. Monk and the Kid
-- [ ] S04E01 - Mr. Monk and the Other Detective
-- [ ] S04E02 - Mr. Monk Goes Home Again
-- [ ] S04E03 - Mr. Monk Stays in Bed
-- [ ] S04E04 - Mr. Monk Goes to the Office
-- [ ] S04E05 - Mr. Monk Gets Drunk
-- [ ] S04E06 - Mr. Monk and Mrs. Monk
-- [ ] S04E07 - Mr. Monk Goes to a Wedding
-- [ ] S04E08 - Mr. Monk and Little Monk
-- [ ] S04E09 - Mr. Monk and the Secret Santa
-- [ ] S04E10 - Mr. Monk Goes to a Fashion Show
-- [ ] S04E11 - Mr. Monk Bumps His Head
-- [ ] S04E12 - Mr. Monk and the Captain's Marriage
-- [ ] S04E13 - Mr. Monk and the Big Reward
-- [ ] S04E14 - Mr. Monk and the Astronaut
-- [ ] S04E15 - Mr. Monk Goes to the Dentist
-- [ ] S04E16 - Mr. Monk Gets Jury Duty
+- [x] S03E01 - Mr. Monk Takes Manhattan
+- [x] S03E02 - Mr. Monk and the Panic Room
+- [x] S03E03 - Mr. Monk and the Blackout
+- [x] S03E04 - Mr. Monk Gets Fired
+- [x] S03E05 - Mr. Monk Meets the Godfather
+- [x] S03E06 - Mr. Monk and the Girl Who Cried Wolf
+- [x] S03E07 - Mr. Monk and the Employee of the Month
+- [x] S03E08 - Mr. Monk and the Game Show
+- [x] S03E09 - Mr. Monk Takes His Medicine
+- [x] S03E10 - Mr. Monk and the Red Herring
+- [x] S03E11 - Mr. Monk vs. the Cobra
+- [x] S03E12 - Mr. Monk Gets Cabin Fever
+- [x] S03E13 - Mr. Monk Gets Stuck in Traffic
+- [x] S03E14 - Mr. Monk Goes to Vegas
+- [x] S03E15 - Mr. Monk and the Election
+- [x] S03E16 - Mr. Monk and the Kid
+- [x] S04E01 - Mr. Monk and the Other Detective
+- [x] S04E02 - Mr. Monk Goes Home Again
+- [x] S04E03 - Mr. Monk Stays in Bed
+- [x] S04E04 - Mr. Monk Goes to the Office
+- [x] S04E05 - Mr. Monk Gets Drunk
+- [x] S04E06 - Mr. Monk and Mrs. Monk
+- [x] S04E07 - Mr. Monk Goes to a Wedding
+- [x] S04E08 - Mr. Monk and Little Monk
+- [x] S04E09 - Mr. Monk and the Secret Santa
+- [x] S04E10 - Mr. Monk Goes to a Fashion Show
+- [x] S04E11 - Mr. Monk Bumps His Head
+- [x] S04E12 - Mr. Monk and the Captain's Marriage
+- [x] S04E13 - Mr. Monk and the Big Reward
+- [x] S04E14 - Mr. Monk and the Astronaut
+- [x] S04E15 - Mr. Monk Goes to the Dentist
+- [x] S04E16 - Mr. Monk Gets Jury Duty
 - [x] S05E01 - Mr. Monk and the Actor
 - [x] S05E02 - Mr. Monk and the Garbage Strike
 - [x] S05E03 - Mr. Monk and the Big Game

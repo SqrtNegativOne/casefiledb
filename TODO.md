@@ -24,17 +24,17 @@
 - [x] The Secret Adversary (1922)
 - [x] The Murder on the Links (1923)
 - [x] The Man in the Brown Suit (1924)
-- [ ] The Secret of Chimneys (1925)
+- [x] The Secret of Chimneys (1925)
 - [x] The Murder of Roger Ackroyd (1926)
 - [x] The Big Four (1927)
 - [x] The Mystery of the Blue Train (1928)
-- [ ] The Seven Dials Mystery (1929)
+- [x] The Seven Dials Mystery (1929)
 - [x] The Murder at the Vicarage (1930)
-- [ ] The Sittaford Mystery (1931)
+- [x] The Sittaford Mystery (1931)
 - [x] Peril at End House (1932)
 - [x] Lord Edgware Dies (1933)
 - [x] Murder on the Orient Express (1934)
-- [ ] Why Didn't They Ask Evans? (1934)
+- [x] Why Didn't They Ask Evans? (1934)
 - [x] Three Act Tragedy (1935)
 - [x] Death in the Clouds (1935)
 - [x] The ABC Murders (1936)
@@ -55,17 +55,17 @@
 - [x] The Moving Finger (1943)
 - [x] Towards Zero (1944)
 - [x] Death Comes as the End (1944)
-- [ ] Sparkling Cyanide (1945)
+- [x] Sparkling Cyanide (1945)
 - [x] The Hollow (1946)
 - [x] Taken at the Flood (1948)
 - [x] Crooked House (1949)
 - [x] A Murder is Announced (1950)
-- [ ] They Came to Baghdad (1951)
+- [x] They Came to Baghdad (1951)
 - [x] Mrs McGinty's Dead (1952)
 - [x] They Do It with Mirrors (1952)
 - [x] After the Funeral (1953)
 - [x] A Pocket Full of Rye (1953)
-- [ ] Destination Unknown (1954)
+- [x] Destination Unknown (1954)
 - [x] Hickory Dickory Dock (1955)
 - [x] Dead Man's Folly (1956)
 - [x] 4:50 from Paddington (1957)
@@ -80,7 +80,7 @@
 - [x] Endless Night (1967)
 - [x] By the Pricking of My Thumbs (1968)
 - [x] Hallowe'en Party (1969)
-- [ ] Passenger to Frankfurt (1970)
+- [x] Passenger to Frankfurt (1970)
 - [x] Nemesis (1971)
 - [x] Elephants Can Remember (1972)
 - [x] Postern of Fate (1973)
@@ -88,35 +88,35 @@
 - [x] Sleeping Murder (1976)
 
 ## Monk episodes
-- [ ] S01E01 - Mr. Monk and the Candidate (Part 1)
-- [ ] S01E02 - Mr. Monk and the Candidate (Part 2)
-- [ ] S01E03 - Mr. Monk and the Psychic
-- [ ] S01E04 - Mr. Monk Meets Dale the Whale
-- [ ] S01E05 - Mr. Monk Goes to the Carnival
-- [ ] S01E06 - Mr. Monk Goes to the Asylum
-- [ ] S01E07 - Mr. Monk and the Billionaire Mugger
-- [ ] S01E08 - Mr. Monk and the Other Woman
-- [ ] S01E09 - Mr. Monk and the Marathon Man
-- [ ] S01E10 - Mr. Monk Takes a Vacation
-- [ ] S01E11 - Mr. Monk and the Earthquake
-- [ ] S01E12 - Mr. Monk and the Red-Headed Stranger
-- [ ] S01E13 - Mr. Monk and the Airplane
-- [ ] S02E01 - Mr. Monk Goes Back to School
-- [ ] S02E02 - Mr. Monk Goes to Mexico
-- [ ] S02E03 - Mr. Monk Goes to the Ballgame
-- [ ] S02E04 - Mr. Monk Goes to the Circus
-- [ ] S02E05 - Mr. Monk and the Very, Very Old Man
-- [ ] S02E06 - Mr. Monk Goes to the Theater
-- [ ] S02E07 - Mr. Monk and the Sleeping Suspect
-- [ ] S02E08 - Mr. Monk Meets the Playboy
-- [ ] S02E09 - Mr. Monk and the 12th Man
-- [ ] S02E10 - Mr. Monk and the Paperboy
-- [ ] S02E11 - Mr. Monk and the Three Pies
-- [ ] S02E12 - Mr. Monk and the TV Star
-- [ ] S02E13 - Mr. Monk and the Missing Granny
-- [ ] S02E14 - Mr. Monk and the Captain's Wife
-- [ ] S02E15 - Mr. Monk Gets Married
-- [ ] S02E16 - Mr. Monk Goes to Jail
+- [x] S01E01 - Mr. Monk and the Candidate (Part 1)
+- [x] S01E02 - Mr. Monk and the Candidate (Part 2)
+- [x] S01E03 - Mr. Monk and the Psychic
+- [x] S01E04 - Mr. Monk Meets Dale the Whale
+- [x] S01E05 - Mr. Monk Goes to the Carnival
+- [x] S01E06 - Mr. Monk Goes to the Asylum
+- [x] S01E07 - Mr. Monk and the Billionaire Mugger
+- [x] S01E08 - Mr. Monk and the Other Woman
+- [x] S01E09 - Mr. Monk and the Marathon Man
+- [x] S01E10 - Mr. Monk Takes a Vacation
+- [x] S01E11 - Mr. Monk and the Earthquake
+- [x] S01E12 - Mr. Monk and the Red-Headed Stranger
+- [x] S01E13 - Mr. Monk and the Airplane
+- [x] S02E01 - Mr. Monk Goes Back to School
+- [x] S02E02 - Mr. Monk Goes to Mexico
+- [x] S02E03 - Mr. Monk Goes to the Ballgame
+- [x] S02E04 - Mr. Monk Goes to the Circus
+- [x] S02E05 - Mr. Monk and the Very, Very Old Man
+- [x] S02E06 - Mr. Monk Goes to the Theater
+- [x] S02E07 - Mr. Monk and the Sleeping Suspect
+- [x] S02E08 - Mr. Monk Meets the Playboy
+- [x] S02E09 - Mr. Monk and the 12th Man
+- [x] S02E10 - Mr. Monk and the Paperboy
+- [x] S02E11 - Mr. Monk and the Three Pies
+- [x] S02E12 - Mr. Monk and the TV Star
+- [x] S02E13 - Mr. Monk and the Missing Granny
+- [x] S02E14 - Mr. Monk and the Captain's Wife
+- [x] S02E15 - Mr. Monk Gets Married
+- [x] S02E16 - Mr. Monk Goes to Jail
 - [ ] S03E01 - Mr. Monk Takes Manhattan
 - [ ] S03E02 - Mr. Monk and the Panic Room
 - [ ] S03E03 - Mr. Monk and the Blackout
@@ -149,38 +149,38 @@
 - [ ] S04E14 - Mr. Monk and the Astronaut
 - [ ] S04E15 - Mr. Monk Goes to the Dentist
 - [ ] S04E16 - Mr. Monk Gets Jury Duty
-- [ ] S05E01 - Mr. Monk and the Actor
-- [ ] S05E02 - Mr. Monk and the Garbage Strike
-- [ ] S05E03 - Mr. Monk and the Big Game
-- [ ] S05E04 - Mr. Monk Can't See a Thing
-- [ ] S05E05 - Mr. Monk, Private Eye
-- [ ] S05E06 - Mr. Monk and the Class Reunion
-- [ ] S05E07 - Mr. Monk Gets a New Shrink
-- [ ] S05E08 - Mr. Monk Goes to a Rock Concert
-- [ ] S05E09 - Mr. Monk Meets His Dad
-- [ ] S05E10 - Mr. Monk and the Leper
-- [ ] S05E11 - Mr. Monk Makes a Friend
-- [ ] S05E12 - Mr. Monk Is at Your Service
-- [ ] S05E13 - Mr. Monk Is on the Air
-- [ ] S05E14 - Mr. Monk Visits a Farm
-- [ ] S05E15 - Mr. Monk and the Really, Really Dead Guy
-- [ ] S05E16 - Mr. Monk Goes to the Hospital
-- [ ] S06E01 - Mr. Monk and His Biggest Fan
-- [ ] S06E02 - Mr. Monk and the Rapper
-- [ ] S06E03 - Mr. Monk and the Naked Man
-- [ ] S06E04 - Mr. Monk and the Bad Girlfriend
-- [ ] S06E05 - Mr. Monk and the Birds and the Bees
-- [ ] S06E06 - Mr. Monk and the Buried Treasure
-- [ ] S06E07 - Mr. Monk and the Daredevil
-- [ ] S06E08 - Mr. Monk and the Wrong Man
-- [ ] S06E09 - Mr. Monk Is Up All Night
-- [ ] S06E10 - Mr. Monk and the Man Who Shot Santa Claus
-- [ ] S06E11 - Mr. Monk Joins a Cult
-- [ ] S06E12 - Mr. Monk Goes to the Bank
-- [ ] S06E13 - Mr. Monk and the Three Julies
-- [ ] S06E14 - Mr. Monk Paints His Masterpiece
-- [ ] S06E15 - Mr. Monk Is on the Run (Part 1)
-- [ ] S06E16 - Mr. Monk Is on the Run (Part 2)
+- [x] S05E01 - Mr. Monk and the Actor
+- [x] S05E02 - Mr. Monk and the Garbage Strike
+- [x] S05E03 - Mr. Monk and the Big Game
+- [x] S05E04 - Mr. Monk Can't See a Thing
+- [x] S05E05 - Mr. Monk, Private Eye
+- [x] S05E06 - Mr. Monk and the Class Reunion
+- [x] S05E07 - Mr. Monk Gets a New Shrink
+- [x] S05E08 - Mr. Monk Goes to a Rock Concert
+- [x] S05E09 - Mr. Monk Meets His Dad
+- [x] S05E10 - Mr. Monk and the Leper
+- [x] S05E11 - Mr. Monk Makes a Friend
+- [x] S05E12 - Mr. Monk Is at Your Service
+- [x] S05E13 - Mr. Monk Is on the Air
+- [x] S05E14 - Mr. Monk Visits a Farm
+- [x] S05E15 - Mr. Monk and the Really, Really Dead Guy
+- [x] S05E16 - Mr. Monk Goes to the Hospital
+- [x] S06E01 - Mr. Monk and His Biggest Fan
+- [x] S06E02 - Mr. Monk and the Rapper
+- [x] S06E03 - Mr. Monk and the Naked Man
+- [x] S06E04 - Mr. Monk and the Bad Girlfriend
+- [x] S06E05 - Mr. Monk and the Birds and the Bees
+- [x] S06E06 - Mr. Monk and the Buried Treasure
+- [x] S06E07 - Mr. Monk and the Daredevil
+- [x] S06E08 - Mr. Monk and the Wrong Man
+- [x] S06E09 - Mr. Monk Is Up All Night
+- [x] S06E10 - Mr. Monk and the Man Who Shot Santa Claus
+- [x] S06E11 - Mr. Monk Joins a Cult
+- [x] S06E12 - Mr. Monk Goes to the Bank
+- [x] S06E13 - Mr. Monk and the Three Julies
+- [x] S06E14 - Mr. Monk Paints His Masterpiece
+- [x] S06E15 - Mr. Monk Is on the Run (Part 1)
+- [x] S06E16 - Mr. Monk Is on the Run (Part 2)
 - [ ] S07E01 - Mr. Monk Buys a House
 - [ ] S07E02 - Mr. Monk and the Genius
 - [ ] S07E03 - Mr. Monk Gets Lotto Fever

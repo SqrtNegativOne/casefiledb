@@ -1,0 +1,613 @@
+[
+  {
+    "wikidata_id": "Q835082",
+    "title": "Apollo Justice: Ace Attorney",
+    "media_type": "game",
+    "year": 2007,
+    "creator": "Shu Takumi",
+    "series_name": "Ace Attorney",
+    "series_number": 4,
+    "notes": "Fourth main entry in the Ace Attorney series. Introduces Apollo Justice as the new protagonist. Cases span a rigged poker game murder, a hit-and-run, a concert shooting, and a seven-year-old cold case.",
+    "tags": ["mystery", "courtroom", "visual-novel", "whodunit"],
+    "persons": [
+      {
+        "name": "Apollo Justice",
+        "is_fictional": true,
+        "role_in_story": "protagonist",
+        "notes": "Defense attorney, new protagonist of the game"
+      },
+      {
+        "name": "Phoenix Wright",
+        "is_fictional": true,
+        "role_in_story": "detective",
+        "notes": "Former defense attorney, now a poker player. Mentors Apollo Justice."
+      },
+      {
+        "name": "Kristoph Gavin",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "notes": "Apollo's mentor and senior attorney, revealed to be the overarching villain"
+      },
+      {
+        "name": "Shadi Smith",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "notes": "Alias used by Zak Gramarye during the poker game. Shot by Kristoph Gavin."
+      },
+      {
+        "name": "Pal Meraktis",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "notes": "Surgeon killed in Turnabout Corner; had performed illegal surgery on Wocky Kitaki"
+      },
+      {
+        "name": "Alita Tiala",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "notes": "Wocky Kitaki's fiancée; killed Pal Meraktis to prevent exposure of bullet still in Wocky"
+      },
+      {
+        "name": "Machi Tobaye",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "notes": "Blind Borginian pianist; initially appeared to be the killer of LeTouse but was a pawn"
+      },
+      {
+        "name": "Romein LeTouse",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "notes": "Interpol agent investigating Borginian cocoon smuggling; shot during a concert"
+      },
+      {
+        "name": "Daryan Crescend",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "notes": "Detective and guitarist; the true killer of Romein LeTouse, was the cocoon smuggler"
+      },
+      {
+        "name": "Drew Misham",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "notes": "Forger and artist; poisoned by atroquinine on a stamp licked by him"
+      },
+      {
+        "name": "Vera Misham",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "notes": "Drew's daughter; poisoned by atroquinine (attempted murder, survived)"
+      },
+      {
+        "name": "Magnifi Gramarye",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "notes": "Legendary magician; shot himself (suicide) after being blackmailed by Kristoph Gavin"
+      },
+      {
+        "name": "Zak Gramarye",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "notes": "Magician, Shadi Smith is his alias; fled after acquittal, murdered by Kristoph Gavin"
+      }
+    ],
+    "deaths": [
+      {
+        "victim_name": "Shadi Smith",
+        "ordinal": 1,
+        "cause": "SHOT",
+        "death_type": "murder",
+        "killer_name": "Kristoph Gavin",
+        "motive": "revenge",
+        "motive_detail": "Kristoph Gavin killed Shadi Smith (Zak Gramarye) after losing a poker game; Zak had chosen Phoenix Wright over Kristoph as his attorney seven years prior",
+        "is_central_death": true,
+        "is_twist": true,
+        "chapter_or_act": "Turnabout Trump",
+        "notes": "Victim's true identity is Zak Gramarye, a famous magician in hiding"
+      },
+      {
+        "victim_name": "Pal Meraktis",
+        "ordinal": 2,
+        "cause": "CLUBBED",
+        "death_type": "murder",
+        "killer_name": "Alita Tiala",
+        "motive": "concealment",
+        "motive_detail": "Alita killed Meraktis to prevent him from revealing that Wocky Kitaki still had a bullet near his heart, which would expose her plan to inherit the Kitaki fortune",
+        "is_central_death": true,
+        "is_twist": false,
+        "chapter_or_act": "Turnabout Corner",
+        "notes": "Meraktis was struck with a flower pot"
+      },
+      {
+        "victim_name": "Romein LeTouse",
+        "ordinal": 3,
+        "cause": "SHOT",
+        "death_type": "murder",
+        "killer_name": "Daryan Crescend",
+        "motive": "concealment",
+        "motive_detail": "Daryan killed Interpol agent LeTouse to conceal his involvement in Borginian cocoon smuggling",
+        "is_central_death": true,
+        "is_twist": true,
+        "chapter_or_act": "Turnabout Serenade",
+        "notes": "LeTouse was an undercover Interpol agent. Daryan staged the scene to frame Machi Tobaye."
+      },
+      {
+        "victim_name": "Machi Tobaye",
+        "ordinal": 4,
+        "cause": "FELL",
+        "death_type": "accident",
+        "killer_name": null,
+        "motive": null,
+        "is_central_death": false,
+        "is_twist": false,
+        "chapter_or_act": "Turnabout Serenade",
+        "notes": "Machi fell from the stage catwalk while trying to escape; accidental death during investigation events"
+      },
+      {
+        "victim_name": "Magnifi Gramarye",
+        "ordinal": 5,
+        "cause": "SHOT",
+        "death_type": "suicide",
+        "killer_name": null,
+        "motive": null,
+        "motive_detail": "Magnifi shot himself after leaving instructions to his apprentices to shoot him; he was terminally ill and used his death as one final test",
+        "is_central_death": false,
+        "is_twist": true,
+        "chapter_or_act": "Turnabout Succession",
+        "notes": "Magnifi's suicide was staged as a murder scene. Flashback case set seven years before the main game."
+      },
+      {
+        "victim_name": "Drew Misham",
+        "ordinal": 6,
+        "cause": "POISONED",
+        "death_type": "murder",
+        "killer_name": "Kristoph Gavin",
+        "motive": "concealment",
+        "motive_detail": "Kristoph poisoned the stamp with atroquinine to silence Drew Misham, who had forged evidence for him seven years earlier",
+        "is_central_death": true,
+        "is_twist": false,
+        "chapter_or_act": "Turnabout Succession",
+        "notes": "Drew died by licking a poisoned commemorative stamp sent by Kristoph Gavin"
+      },
+      {
+        "victim_name": "Vera Misham",
+        "ordinal": 7,
+        "cause": "POISONED",
+        "death_type": "attempted_murder",
+        "killer_name": "Kristoph Gavin",
+        "motive": "concealment",
+        "motive_detail": "Kristoph poisoned both the stamp and a bottle of nail polish with atroquinine to eliminate all witnesses to his forgery",
+        "is_central_death": false,
+        "is_twist": false,
+        "chapter_or_act": "Turnabout Succession",
+        "notes": "Vera was poisoned via nail polish containing atroquinine; she survived after receiving treatment"
+      }
+    ]
+  },
+  {
+    "wikidata_id": "Q2001669",
+    "title": "Phoenix Wright: Ace Attorney – Dual Destinies",
+    "media_type": "game",
+    "year": 2013,
+    "creator": "Takeshi Yamazaki",
+    "series_name": "Ace Attorney",
+    "series_number": 5,
+    "notes": "Fifth main entry. Phoenix Wright returns as a licensed attorney. The game's overarching theme is the 'Dark Age of the Law.' Introduces Athena Cykes as a new co-protagonist.",
+    "tags": ["mystery", "courtroom", "visual-novel", "whodunit"],
+    "persons": [
+      {
+        "name": "Phoenix Wright",
+        "is_fictional": true,
+        "role_in_story": "protagonist",
+        "notes": "Veteran defense attorney, returned to active practice"
+      },
+      {
+        "name": "Apollo Justice",
+        "is_fictional": true,
+        "role_in_story": "protagonist",
+        "notes": "Defense attorney, co-protagonist of the game"
+      },
+      {
+        "name": "Athena Cykes",
+        "is_fictional": true,
+        "role_in_story": "protagonist",
+        "notes": "New defense attorney at the Wright Anything Agency, specializes in emotional perception"
+      },
+      {
+        "name": "Clay Terran",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "notes": "Apollo's best friend and astronaut; murdered by Ted Tonate in the bombing, and later stabbed by the Phantom"
+      },
+      {
+        "name": "Ted Tonate",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "notes": "Bomb disposal expert and detective; murdered Bobby Fulbright and killed Clay Terran with a bomb"
+      },
+      {
+        "name": "Bobby Fulbright",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "notes": "Detective impersonated by the Phantom; actually murdered prior to the game's events"
+      },
+      {
+        "name": "The Phantom",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "notes": "International spy of unknown identity who impersonated Bobby Fulbright throughout the game"
+      },
+      {
+        "name": "Rex Kyubi",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "notes": "Chief of Tenma Town; murdered during the festival"
+      },
+      {
+        "name": "Florent L'Belle",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "notes": "Cosmetics mogul; murdered Rex Kyubi for the mining rights to Tenma Town"
+      },
+      {
+        "name": "Constance Courte",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "notes": "Professor at Themis Legal Academy; murdered by Aristotle Means"
+      },
+      {
+        "name": "Aristotle Means",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "notes": "Professor at Themis Legal Academy; killed Courte to protect his forged evidence scheme"
+      },
+      {
+        "name": "Solomon Starbuck",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "notes": "Astronaut falsely accused of the HAT-2 explosion and Clay Terran's death"
+      },
+      {
+        "name": "Jack Shipley",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "notes": "Owner of Shipshape Aquarium; murdered in the DLC case Turnabout Reclaimed"
+      },
+      {
+        "name": "Marlon Rimes",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "notes": "Orca trainer; killed Jack Shipley to avenge the death of an orca he believed Shipley caused"
+      },
+      {
+        "name": "Yuri Cosmos",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "notes": "Director of the Cosmos Space Center; nearly framed for the HAT-2 sabotage"
+      }
+    ],
+    "deaths": [
+      {
+        "victim_name": "Clay Terran",
+        "ordinal": 1,
+        "cause": "EXPLODED",
+        "death_type": "murder",
+        "killer_name": "Ted Tonate",
+        "motive": "concealment",
+        "motive_detail": "Ted Tonate set off the HH-3000 bomb to destroy evidence of his theft; Clay Terran was killed in the explosion",
+        "is_central_death": true,
+        "is_twist": false,
+        "chapter_or_act": "Turnabout Countdown",
+        "notes": "Clay survived the initial blast but was later stabbed by the Phantom; the bombing is also the inciting incident of the game"
+      },
+      {
+        "victim_name": "Bobby Fulbright",
+        "ordinal": 2,
+        "cause": "OTHER",
+        "death_type": "murder",
+        "killer_name": "The Phantom",
+        "motive": "concealment",
+        "motive_detail": "The Phantom killed and assumed the identity of detective Bobby Fulbright to infiltrate the investigation",
+        "is_central_death": false,
+        "is_twist": true,
+        "chapter_or_act": "Turnabout for Tomorrow",
+        "notes": "Fulbright had already been killed before the game's events; his identity was stolen by the Phantom spy"
+      },
+      {
+        "victim_name": "Rex Kyubi",
+        "ordinal": 3,
+        "cause": "STABBED",
+        "death_type": "murder",
+        "killer_name": "Florent L'Belle",
+        "motive": "greed_financial",
+        "motive_detail": "Florent L'Belle killed Kyubi to gain access to the Hidden Shrine and secure gold mining rights for his company",
+        "is_central_death": true,
+        "is_twist": false,
+        "chapter_or_act": "The Monstrous Turnabout",
+        "notes": "Kyubi was killed during the Nine-Tails Vale festival; the killer exploited the legend of the yokai for misdirection"
+      },
+      {
+        "victim_name": "Constance Courte",
+        "ordinal": 4,
+        "cause": "CLUBBED",
+        "death_type": "murder",
+        "killer_name": "Aristotle Means",
+        "motive": "concealment",
+        "motive_detail": "Professor Means killed Courte because she discovered his scheme to have students forge evidence in mock trials, and threatened to expose him",
+        "is_central_death": true,
+        "is_twist": false,
+        "chapter_or_act": "Turnabout Academy",
+        "notes": "Courte was struck with a flagpole on the academy grounds"
+      },
+      {
+        "victim_name": "Clay Terran",
+        "ordinal": 5,
+        "cause": "STABBED",
+        "death_type": "murder",
+        "killer_name": "The Phantom",
+        "motive": "concealment",
+        "motive_detail": "The Phantom stabbed Clay Terran aboard the HAT-2 rocket to prevent him from reporting what he had witnessed during the mission",
+        "is_central_death": true,
+        "is_twist": true,
+        "chapter_or_act": "The Cosmic Turnabout",
+        "notes": "Clay survived the initial bombing but was stabbed by the Phantom on the rocket; this is the true murder central to the second half of the game"
+      },
+      {
+        "victim_name": "Jack Shipley",
+        "ordinal": 6,
+        "cause": "DROWNED",
+        "death_type": "murder",
+        "killer_name": "Marlon Rimes",
+        "motive": "revenge",
+        "motive_detail": "Marlon Rimes blamed Shipley for the death of Ora Shipley (a killer whale) and killed him in retaliation",
+        "is_central_death": true,
+        "is_twist": false,
+        "chapter_or_act": "Turnabout Reclaimed",
+        "notes": "DLC case. Shipley was drowned in the aquarium pool; an orca named Orla was initially suspected."
+      }
+    ]
+  },
+  {
+    "wikidata_id": "Q21009898",
+    "title": "Phoenix Wright: Ace Attorney – Spirit of Justice",
+    "media_type": "game",
+    "year": 2016,
+    "creator": "Takeshi Yamazaki",
+    "series_name": "Ace Attorney",
+    "series_number": 6,
+    "notes": "Sixth main entry. Cases span two settings: the Kingdom of Khura'in (where defense attorneys are punished with the accused) and Los Angeles. Introduces the Divination Seance mechanic.",
+    "tags": ["mystery", "courtroom", "visual-novel", "whodunit"],
+    "persons": [
+      {
+        "name": "Phoenix Wright",
+        "is_fictional": true,
+        "role_in_story": "protagonist",
+        "notes": "Defense attorney operating in the Kingdom of Khura'in"
+      },
+      {
+        "name": "Apollo Justice",
+        "is_fictional": true,
+        "role_in_story": "protagonist",
+        "notes": "Defense attorney, holds down the Wright Anything Agency in LA while Phoenix is away"
+      },
+      {
+        "name": "Athena Cykes",
+        "is_fictional": true,
+        "role_in_story": "protagonist",
+        "notes": "Defense attorney at the Wright Anything Agency"
+      },
+      {
+        "name": "Rayfa Padma Khura'in",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "notes": "Crown Princess of Khura'in; performs the Divination Seance. Later revealed to be Dhurke's adopted daughter."
+      },
+      {
+        "name": "Tahrust Inmee",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "notes": "High priest of Khura'in; found dead in the Inner Sanctum. His death is actually a suicide designed to protect his wife."
+      },
+      {
+        "name": "Rheel Neh'mu",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "notes": "Rebel fighter found dead near the Inner Sanctum; killed by Tahrust Inmee"
+      },
+      {
+        "name": "Nayna Inmee",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "notes": "Tahrust's wife; member of the Defiant Dragons rebel group. Tahrust killed to protect her."
+      },
+      {
+        "name": "Datz Are'bal",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "notes": "Leader of the Defiant Dragons rebel movement; falsely accused in Case 2"
+      },
+      {
+        "name": "Pees'lubn Andistan'dhin",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "notes": "Monk and musician at the Inner Sanctum; the true killer of Rheel Neh'mu"
+      },
+      {
+        "name": "Roger Retinz",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "notes": "TV producer, former Amazing Nine-Tails magician; orchestrated Manov Mistree's death to frame Trucy"
+      },
+      {
+        "name": "Manov Mistree",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "notes": "Magician performing with Trucy; killed by Roger Retinz's trap during a live show"
+      },
+      {
+        "name": "Trucy Wright",
+        "is_fictional": true,
+        "role_in_story": "bystander",
+        "notes": "Magician and Phoenix's adopted daughter; falsely accused of Manov Mistree's death"
+      },
+      {
+        "name": "Archie Buff",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "notes": "Archaeologist and folklorist; murdered by Bonny de Famme in case 4"
+      },
+      {
+        "name": "Bonny de Famme",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "notes": "Magician's assistant; killed Archie Buff with the help of her twin sister Betty"
+      },
+      {
+        "name": "Betty de Famme",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "notes": "Bonny's twin sister; conspired with Bonny to murder Archie Buff"
+      },
+      {
+        "name": "Dhurke Sahdmadhi",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "notes": "Leader of the Defiant Dragons and Apollo's biological father; murdered by Inga Karkhuul Khura'in"
+      },
+      {
+        "name": "Inga Karkhuul Khura'in",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "notes": "Minister of Justice of Khura'in and the Queen's consort; murdered Dhurke and later killed by Ga'ran"
+      },
+      {
+        "name": "Ga'ran Sigatar Khura'in",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "notes": "Queen of Khura'in; the ultimate villain who killed Inga and engineered the entire conspiracy"
+      },
+      {
+        "name": "Amara Sigatar Khura'in",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "notes": "Former queen of Khura'in and Rayfa's biological mother; survived an attempted murder by Ga'ran years earlier"
+      },
+      {
+        "name": "Paul Atishon",
+        "is_fictional": true,
+        "role_in_story": "antagonist",
+        "notes": "Politician and candidate; involved in the murder of Archie Buff and theft of the Founder's Orb"
+      },
+      {
+        "name": "Zeh'lot",
+        "is_fictional": true,
+        "role_in_story": "victim",
+        "notes": "Rebel/bystander killed by Pees'lubn Andistan'dhin in Case 2"
+      }
+    ],
+    "deaths": [
+      {
+        "victim_name": "Rheel Neh'mu",
+        "ordinal": 1,
+        "cause": "STABBED",
+        "death_type": "murder",
+        "killer_name": "Pees'lubn Andistan'dhin",
+        "motive": "concealment",
+        "motive_detail": "Andistan'dhin killed Neh'mu to silence him and protect his own secrets",
+        "is_central_death": false,
+        "is_twist": true,
+        "chapter_or_act": "Case 1: The Foreign Turnabout",
+        "notes": "Initially Tahrust Inmee's death is the central mystery; Neh'mu's death is uncovered as part of the investigation. Andistan'dhin is the true killer."
+      },
+      {
+        "victim_name": "Tahrust Inmee",
+        "ordinal": 2,
+        "cause": "OTHER",
+        "death_type": "suicide",
+        "killer_name": null,
+        "motive": null,
+        "motive_detail": "Tahrust took his own life to create a false murder scene that would exonerate his wife Nayna from rebel activities",
+        "is_central_death": true,
+        "is_twist": true,
+        "chapter_or_act": "Case 2: The Rite of Turnabout",
+        "notes": "Tahrust's death appears to be a murder in the Inner Sanctum; the Divination Seance is used to investigate. The twist is that he died by suicide to protect Nayna."
+      },
+      {
+        "victim_name": "Zeh'lot",
+        "ordinal": 3,
+        "cause": "STABBED",
+        "death_type": "murder",
+        "killer_name": "Pees'lubn Andistan'dhin",
+        "motive": "concealment",
+        "motive_detail": "Andistan'dhin killed Zeh'lot as part of his effort to suppress rebel activity and protect himself",
+        "is_central_death": false,
+        "is_twist": false,
+        "chapter_or_act": "Case 2: The Rite of Turnabout",
+        "notes": "Secondary death uncovered during the investigation of Case 2"
+      },
+      {
+        "victim_name": "Manov Mistree",
+        "ordinal": 4,
+        "cause": "FELL",
+        "death_type": "murder",
+        "killer_name": "Roger Retinz",
+        "motive": "revenge",
+        "motive_detail": "Retinz rigged a magic trick prop to cause Mistree to fall fatally; he framed Trucy Wright as revenge for the Gramarye family expelling him",
+        "is_central_death": true,
+        "is_twist": false,
+        "chapter_or_act": "Case 3: Turnabout Storyteller",
+        "notes": "Mistree fell through a trapdoor rigged to drop him fatally. Retinz's goal was to frame and destroy Trucy Wright."
+      },
+      {
+        "victim_name": "Archie Buff",
+        "ordinal": 5,
+        "cause": "CLUBBED",
+        "death_type": "murder",
+        "killer_name": "Bonny de Famme",
+        "motive": "greed_financial",
+        "motive_detail": "Bonny and Betty de Famme killed Buff to steal the Founder's Orb at the behest of Paul Atishon",
+        "is_central_death": true,
+        "is_twist": false,
+        "chapter_or_act": "Case 4: Turnabout Revolution (sub-case)",
+        "notes": "Buff was killed with a bust. The case is entangled with the political conspiracy around Atishon and the Founder's Orb."
+      },
+      {
+        "victim_name": "Dhurke Sahdmadhi",
+        "ordinal": 6,
+        "cause": "SHOT",
+        "death_type": "murder",
+        "killer_name": "Inga Karkhuul Khura'in",
+        "motive": "ideology",
+        "motive_detail": "Inga shot Dhurke to crush the Defiant Dragons rebellion and preserve the power structure he and Ga'ran had built",
+        "is_central_death": true,
+        "is_twist": true,
+        "chapter_or_act": "Case 5: Turnabout Revolution",
+        "notes": "Dhurke's death is a major twist; he had been operating as a ghost-like presence via the Divination Seance despite already being dead."
+      },
+      {
+        "victim_name": "Inga Karkhuul Khura'in",
+        "ordinal": 7,
+        "cause": "POISONED",
+        "death_type": "murder",
+        "killer_name": "Ga'ran Sigatar Khura'in",
+        "motive": "concealment",
+        "motive_detail": "Ga'ran poisoned Inga once he became a liability; Inga had leverage over her but she struck first to protect her secrets",
+        "is_central_death": false,
+        "is_twist": true,
+        "chapter_or_act": "Case 5: Turnabout Revolution",
+        "notes": "Inga's death reveals that Ga'ran is the true villain behind the entire game's conspiracy"
+      },
+      {
+        "victim_name": "Amara Sigatar Khura'in",
+        "ordinal": 8,
+        "cause": "POISONED",
+        "death_type": "attempted_murder",
+        "killer_name": "Ga'ran Sigatar Khura'in",
+        "motive": "greed_financial",
+        "motive_detail": "Ga'ran attempted to kill Queen Amara years before the game's events to seize the throne of Khura'in",
+        "is_central_death": false,
+        "is_twist": true,
+        "chapter_or_act": "Case 5: Turnabout Revolution",
+        "notes": "Amara survived the assassination attempt and was kept hidden. Revealed as a flashback twist in the finale."
+      }
+    ]
+  }
+]

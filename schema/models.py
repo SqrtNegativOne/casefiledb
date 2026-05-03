@@ -38,6 +38,8 @@ Motive = Literal[
 
 
 class PersonModel(BaseModel):
+    """A character or person referenced in a death event."""
+
     name: str
     is_fictional: bool = True
     role_in_story: Optional[RoleInStory] = None
@@ -52,6 +54,8 @@ class PersonModel(BaseModel):
 
 
 class DeathModel(BaseModel):
+    """A single death event."""
+
     victim_name: Optional[str] = None
     ordinal: Optional[int] = None
     cause: Cause
@@ -67,8 +71,64 @@ class DeathModel(BaseModel):
     notes: Optional[str] = None
 
 
+def _validate_death_refs(
+    persons: list[PersonModel], deaths: list[DeathModel], context: str
+) -> None:
+    """Raise ValueError if any death references a name absent from persons."""
+    known = {p.name for p in persons}
+    for death in deaths:
+        if death.victim_name and death.victim_name not in known:
+            raise ValueError(
+                f"victim_name '{death.victim_name}' not in persons for '{context}'"
+            )
+        if death.killer_name and death.killer_name not in known:
+            raise ValueError(
+                f"killer_name '{death.killer_name}' not in persons for '{context}'"
+            )
+
+
+class TvEpisodeModel(BaseModel):
+    """A single episode nested within a tv_show entry."""
+
+    wikidata_id: Optional[str] = None
+    title: str
+    season: Optional[int] = None
+    episode_number: Optional[int] = None
+    year: Optional[int] = None
+    notes: Optional[str] = None
+    tags: list[str] = []
+    persons: list[PersonModel] = []
+    deaths: list[DeathModel] = []
+
+    @model_validator(mode="after")
+    def _validate_deaths(self) -> "TvEpisodeModel":
+        """Check all death names exist in this episode's persons list."""
+        _validate_death_refs(self.persons, self.deaths, self.title)
+        return self
+
+
+class GameCaseModel(BaseModel):
+    """A case or chapter nested within a game entry."""
+
+    title: str
+    case_number: Optional[int] = None
+    notes: Optional[str] = None
+    tags: list[str] = []
+    persons: list[PersonModel] = []
+    deaths: list[DeathModel] = []
+
+    @model_validator(mode="after")
+    def _validate_deaths(self) -> "GameCaseModel":
+        """Check all death names exist in this case's persons list."""
+        _validate_death_refs(self.persons, self.deaths, self.title)
+        return self
+
+
 class MediaModel(BaseModel):
-    wikidata_id: str
+    """A top-level media item (book, show, game, episode, etc.)."""
+
+    slug: Optional[str] = None
+    wikidata_id: Optional[str] = None
     tmdb_id: Optional[str] = None
     igdb_id: Optional[str] = None
     isbn: Optional[str] = None
@@ -82,17 +142,16 @@ class MediaModel(BaseModel):
     tags: list[str] = []
     persons: list[PersonModel] = []
     deaths: list[DeathModel] = []
+    episodes: list[TvEpisodeModel] = []
+    cases: list[GameCaseModel] = []
 
     @model_validator(mode="after")
-    def _check_death_names(self) -> "MediaModel":
-        known = {p.name for p in self.persons}
-        for death in self.deaths:
-            if death.victim_name and death.victim_name not in known:
-                raise ValueError(
-                    f"victim_name '{death.victim_name}' not in persons for '{self.title}'"
-                )
-            if death.killer_name and death.killer_name not in known:
-                raise ValueError(
-                    f"killer_name '{death.killer_name}' not in persons for '{self.title}'"
-                )
+    def _validate_deaths_and_slug(self) -> "MediaModel":
+        """Populate slug from wikidata_id if absent; validate death name refs."""
+        if self.slug is None:
+            if self.wikidata_id:
+                self.slug = self.wikidata_id
+            else:
+                raise ValueError("Either slug or wikidata_id must be provided")
+        _validate_death_refs(self.persons, self.deaths, self.title)
         return self

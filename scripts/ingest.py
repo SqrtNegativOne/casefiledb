@@ -58,16 +58,16 @@ def ingest() -> None:
         sys.exit(1)
 
     existing = load_site_data()
-    existing_ids = {m["wikidata_id"] for m in existing}
+    existing_slugs = {m["slug"] for m in existing}
 
     added, skipped = 0, 0
     for item in validated:
-        if item["wikidata_id"] in existing_ids:
-            print(f"  SKIP (already exists): {item['title']} ({item['wikidata_id']})")
+        if item["slug"] in existing_slugs:
+            print(f"  SKIP (already exists): {item['title']} ({item['slug']})")
             skipped += 1
         else:
             existing.append(item)
-            existing_ids.add(item["wikidata_id"])
+            existing_slugs.add(item["slug"])
             added += 1
 
     SITE_DATA.write_text(json.dumps(existing, indent=2, ensure_ascii=False), encoding="utf-8")

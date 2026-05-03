@@ -22,7 +22,10 @@ A catalogued database of deaths in murder mystery media (books, TV, games, etc.)
 ## Schema
 
 See `AI_SCHEMA.md` for the full field reference and an example. Key rules:
-- Every `victim_name` and `killer_name` in a death must match a name in the `persons` array of the same media item.
+- `slug` is the primary key. For items with a real `wikidata_id`, slug equals wikidata_id and is auto-populated by ingest. Items with no Wikidata entry have `wikidata_id: null` and a hand-written slug (e.g. `monk-s01e01`).
+- Every `victim_name` and `killer_name` in a death must match a name in the `persons` array of the **same scope** (top-level item, episode, or game case).
+- For `game` entries, deaths live inside `cases[*].deaths` — the top-level `deaths` list is empty. Count deaths by summing across cases.
+- For `tv_show` entries, deaths live inside `episodes[*].deaths`.
 - `cause`, `death_type`, and `motive` are controlled vocabularies — see `schema/models.py` for allowed values.
 
 ## File structure
@@ -30,6 +33,7 @@ See `AI_SCHEMA.md` for the full field reference and an example. Key rules:
 ```
 docs/
   index.html        — website entry point (GitHub Pages)
+  media/            — per-item detail pages, routed by ?id=<slug>
   app.js            — all UI logic
   styles.css        — styles
   site_data.json    — the full dataset (generated, committed)
@@ -37,6 +41,7 @@ schema/
   models.py         — Pydantic models (single source of schema truth)
 scripts/
   ingest.py         — validate temp/ → append to site_data.json → clear temp/
+  validate_wikidata.py — check real Wikidata IDs against live Wikidata API
 temp/               — drop new JSON files here before ingesting
 AI_SCHEMA.md        — LLM-facing instructions for generating valid JSON
 ```
@@ -47,3 +52,8 @@ AI_SCHEMA.md        — LLM-facing instructions for generating valid JSON
 - No `import *`, no `print` outside scripts, no `pandas`, no `pip`.
 - All functions need type hints and docstrings.
 - Use `polars` if dataframe work is ever needed (not `pandas`).
+- Always open files with `encoding='utf-8'` — site_data.json contains non-ASCII characters.
+
+## Shell environment
+
+- The Bash tool runs `/usr/bin/bash` (POSIX). Use the PowerShell tool for Windows commands (`New-Item`, `Write-Host`, etc.).

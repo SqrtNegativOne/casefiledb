@@ -1,4 +1,17 @@
 (async function () {
+    // Fix hover-popup gap: track pointer entry/exit via delegation so the popup
+    // stays open even when the cursor moves from the trigger into the popup itself.
+    document.addEventListener("mouseover", (e) => {
+        const hover = e.target.closest(".note-hover");
+        if (hover) hover.classList.add("note-active");
+    });
+    document.addEventListener("mouseout", (e) => {
+        const hover = e.target.closest(".note-hover");
+        if (hover && !hover.contains(e.relatedTarget)) {
+            hover.classList.remove("note-active");
+        }
+    });
+
     const data = await fetch("site_data.json").then((r) => r.json()).catch(() => []);
     const body = document.getElementById("mediaTableBody");
     const searchInput = document.getElementById("searchInput");
@@ -37,11 +50,19 @@
     }
 
     function hasTwist(media) {
-        return (media.deaths || []).some((death) => Boolean(death.is_twist));
+        const allDeaths = [
+            ...(media.deaths || []),
+            ...(media.cases || []).flatMap((c) => c.deaths || []),
+            ...(media.episodes || []).flatMap((e) => e.deaths || []),
+        ];
+        return allDeaths.some((d) => Boolean(d.is_twist));
     }
 
     function deathCount(media) {
-        return (media.deaths || []).length;
+        const direct = (media.deaths || []).length;
+        const inCases = (media.cases || []).reduce((n, c) => n + (c.deaths || []).length, 0);
+        const inEpisodes = (media.episodes || []).reduce((n, e) => n + (e.deaths || []).length, 0);
+        return direct + inCases + inEpisodes;
     }
 
     function sortValue(media, field) {
@@ -144,7 +165,9 @@
         return (
             '<div class="details-grid">' +
             "<div>" +
-            `<strong>Wikidata:</strong> <a href="https://www.wikidata.org/wiki/${encodeURIComponent(media.wikidata_id)}" target="_blank" rel="noopener noreferrer">${escapeHtml(media.wikidata_id)}</a>` +
+            (media.wikidata_id
+                ? `<strong>Wikidata:</strong> <a href="https://www.wikidata.org/wiki/${encodeURIComponent(media.wikidata_id)}" target="_blank" rel="noopener noreferrer">${escapeHtml(media.wikidata_id)}</a>`
+                : '<strong>Wikidata:</strong> <span class="muted">none</span>') +
             "</div>" +
             "<div>" +
             "<strong>Persons</strong>" +
@@ -190,8 +213,8 @@
 
         body.innerHTML = rows
             .map((media) => {
-                const open = expandedRows.has(media.wikidata_id);
-                const title = escapeHtml(media.title || media.wikidata_id);
+                const open = expandedRows.has(media.slug);
+                const title = escapeHtml(media.title || media.slug);
                 const creator = escapeHtml(media.creator || "Unknown");
                 const year = escapeHtml(media.year || "-");
                 const type = escapeHtml(media.media_type || "-");
@@ -202,17 +225,17 @@
                 return (
                     "<tr>" +
                     "<td>" +
-                    `<a href="https://www.wikidata.org/wiki/${encodeURIComponent(media.wikidata_id)}" target="_blank" rel="noopener noreferrer">${title}</a>` +
-                    `<div class="mono">${escapeHtml(media.wikidata_id)}</div>` +
+                    `<a href="media/?id=${encodeURIComponent(media.slug)}">${title}</a>` +
+                    `<div class="mono">${escapeHtml(media.slug)}</div>` +
                     "</td>" +
                     `<td>${creator}</td>` +
                     `<td>${year}</td>` +
                     `<td>${type}</td>` +
                     `<td>${deathCount(media)}</td>` +
                     `<td>${notes}</td>` +
-                    `<td><button type="button" class="toggle-details" data-id="${escapeHtml(media.wikidata_id)}">${open ? "Hide" : "Details"}</button></td>` +
+                    `<td><button type="button" class="toggle-details" data-id="${escapeHtml(media.slug)}">${open ? "Hide" : "Details"}</button></td>` +
                     "</tr>" +
-                    `<tr class="${detailsClass}" data-details-id="${escapeHtml(media.wikidata_id)}"><td colspan="7">${details}</td></tr>`
+                    `<tr class="${detailsClass}" data-details-id="${escapeHtml(media.slug)}"><td colspan="7">${details}</td></tr>`
                 );
             })
             .join("");

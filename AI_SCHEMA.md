@@ -14,8 +14,9 @@ The script will validate, append to the website data, and delete your temp file.
 The file must be a **JSON array** of objects. Each object is one media item.
 
 ### Media Fields (Required)
-- `wikidata_id`: (string) The Wikidata ID (e.g. `"Q2577458"`). Look it up at wikidata.org.
 - `title`: (string) Full title of the work.
+- `wikidata_id`: (string or null) The Wikidata ID (e.g. `"Q2577458"`). Look it up at wikidata.org. Set to `null` if no Wikidata entry exists.
+- `slug`: (string) Unique identifier. **If `wikidata_id` is set, omit this field** — the ingest script fills it in automatically. If `wikidata_id` is null, provide a URL-safe slug, e.g. `"monk-s08e16"` or `"columbo-s01e01"`.
 - `media_type`: (string) One of: `book`, `movie`, `tv_show`, `tv_episode`, `game`, `short_story`, `play`, `podcast`.
 - `persons`: (array) Every character mentioned in a death event (see below).
 - `deaths`: (array) Death events (see below).
@@ -28,6 +29,23 @@ The file must be a **JSON array** of objects. Each object is one media item.
 - `tmdb_id`, `igdb_id`, `isbn`: External IDs.
 - `notes`: (string) Brief observations.
 - `tags`: (array of strings) e.g. `["golden-age", "whodunit"]`.
+- `episodes`: (array of episode objects) — **for `tv_show` only**. Each episode has its own persons and deaths. See Episode Fields below.
+- `cases`: (array of case objects) — **for `game` only**. Each case/chapter has its own persons and deaths. See Case Fields below.
+
+### Episode Fields (nested inside a `tv_show`)
+- `title`: (string, required) Episode title.
+- `season`: (integer, optional)
+- `episode_number`: (integer, optional)
+- `year`: (integer, optional) Air year.
+- `wikidata_id`: (string, optional) Episode Wikidata ID if one exists.
+- `notes`, `tags`: same as Media Fields.
+- `persons`, `deaths`: same as top-level Media Fields — scoped to this episode only.
+
+### Case Fields (nested inside a `game`)
+- `title`: (string, required) Case or chapter title.
+- `case_number`: (integer, optional)
+- `notes`, `tags`: same as Media Fields.
+- `persons`, `deaths`: same as top-level Media Fields — scoped to this case only.
 
 ---
 

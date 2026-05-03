@@ -8,7 +8,14 @@
 </head>
 <body>
     <header class="toolbar">
-        <h1>Casefile Database</h1>
+        <div style="display:flex;align-items:center;gap:1rem;flex-wrap:wrap;">
+            <h1>Casefile Database</h1>
+            <nav class="site-nav">
+                <a href="./" class="active">Media</a>
+                <a href="authors/">Authors</a>
+                <a href="methods/">Methods</a>
+            </nav>
+        </div>
         <div class="toolbar-controls">
             <input type="text" id="searchInput" placeholder="Search title, creator, type...">
             <select id="typeFilter" aria-label="Filter by media type">

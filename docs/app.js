@@ -300,5 +300,14 @@
 
     setTheme(getTheme());
     populateTypeFilter();
+
+    const params = new URLSearchParams(window.location.search);
+    const creatorParam = params.get("creator");
+    if (creatorParam) {
+        searchInput.value = creatorParam;
+        sortField.value = "title";
+        sortDirection.value = "asc";
+    }
+
     render();
 })();

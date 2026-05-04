@@ -56,6 +56,7 @@ Every name used in a `death` event **must** be defined here first.
 
 - `name`: (string, required)
 - `role_in_story`: One of: `protagonist`, `antagonist`, `victim`, `detective`, `bystander`, `unknown`.
+- `is_solver`: (boolean, optional) `true` if this person actively cracks the central mystery. Use this to distinguish the detective who *nominally* investigates from whoever *actually* solves it. In Sherlock Holmes, Holmes gets `is_solver: true`; in Knives Out, Marta gets `is_solver: true` (not Blanc). Leave null if ambiguous or irrelevant.
 - `is_fictional`: (boolean, default `true`)
 - `nationality`, `ethnicity`, `gender`, `approximate_age`, `profession`: (string, optional)
 - `skills`: (array of strings, optional)

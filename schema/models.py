@@ -72,6 +72,7 @@ class PersonModel(BaseModel):
     name: str
     is_fictional: bool = True
     role_in_story: Optional[RoleInStory] = None
+    is_solver: Optional[bool] = None  # True if this person actively cracks the central mystery
     nationality: Optional[str] = None
     ethnicity: Optional[str] = None
     gender: Optional[str] = None

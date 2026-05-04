@@ -83,6 +83,9 @@ class PersonModel(BaseModel):
     notes: Optional[str] = None
 
 
+WEAPON_REQUIRED_CAUSES: frozenset[str] = frozenset({"POISONED", "SHOT", "STABBED"})
+
+
 class DeathModel(BaseModel):
     """A single death event."""
 
@@ -100,6 +103,19 @@ class DeathModel(BaseModel):
     is_twist: bool = False
     chapter_or_act: Optional[str] = None
     notes: Optional[str] = None
+
+    @model_validator(mode="after")
+    def _require_cause_subtype_for_weapon_causes(self) -> "DeathModel":
+        """Require cause_subtype for POISONED, SHOT, and STABBED deaths."""
+        if self.cause in WEAPON_REQUIRED_CAUSES and not self.cause_subtype:
+            raise ValueError(
+                f"cause_subtype is required when cause is {self.cause}. "
+                "Use a specific name (e.g. 'arsenic', 'revolver', 'kitchen knife'), "
+                "'unknown' if the protagonist has no idea what was used, "
+                "'unmentioned' if the narrative never specifies, "
+                "or 'needs_review' if not yet researched."
+            )
+        return self
 
 
 def _validate_death_refs(

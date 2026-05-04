@@ -6,8 +6,19 @@ A catalogued database of deaths in murder mystery media (books, TV, games, etc.)
 
 - Python (uv) — validation and ingestion scripts
 - Pydantic — schema validation (`schema/models.py`)
-- JSON — source of truth (`docs/site_data.json`)
-- Static HTML/CSS/JS — website (`docs/`)
+- JSON — source of truth (`public/site_data.json`)
+- Vue 3 + Vite — frontend SPA (source in `src/`, built to `docs/`)
+- Vue Router — hash-mode client-side routing (`/#/`, `/#/books`, etc.)
+
+## Frontend development
+
+```
+npm install          # install deps (first time)
+npm run dev          # dev server at localhost:5173
+npm run build        # build to docs/ (commits this for GitHub Pages)
+```
+
+Pages: `/` Media · `/authors` · `/episodes` · `/methods` · `/detectives` · `/games` · `/books` · `/compare` · `/viz` · `/media/:slug`
 
 ## How to add new media
 
@@ -16,7 +27,7 @@ A catalogued database of deaths in murder mystery media (books, TV, games, etc.)
    ```
    uv run python scripts/ingest.py
    ```
-   This validates the data, appends it to `docs/site_data.json`, and deletes the temp file.
+   This validates the data, appends it to `public/site_data.json`, and deletes the temp file. Run `npm run build` afterward to rebuild the site.
 3. If validation fails, errors are printed and `temp/` is left intact for fixing.
 
 ## Schema
@@ -31,16 +42,36 @@ See `AI_SCHEMA.md` for the full field reference and an example. Key rules:
 ## File structure
 
 ```
-docs/
-  index.html        — website entry point (GitHub Pages)
-  media/            — per-item detail pages, routed by ?id=<slug>
-  app.js            — all UI logic
-  styles.css        — styles
-  site_data.json    — the full dataset (generated, committed)
+src/
+  main.js           — Vue app entry point
+  router.js         — Vue Router (hash mode) route definitions
+  App.vue           — root component (nav + router-view)
+  styles/main.css   — detective theme CSS (all pages)
+  composables/
+    useData.js      — singleton data loader + shared helpers (deathCount, allDeaths…)
+    useCoverImage.js — lazy cover image fetch (Open Library / Wikidata P18)
+  components/
+    SiteNav.vue     — hamburger nav shared across all pages
+    NoteHover.vue   — spoiler hover popover
+    CauseBadge.vue  — colour-coded cause-of-death badge
+  pages/
+    Home.vue        — media list (/)
+    Authors.vue     — /authors
+    Episodes.vue    — /episodes
+    Methods.vue     — /methods
+    Detectives.vue  — /detectives (all detective characters)
+    Games.vue       — /games
+    Books.vue       — /books
+    Compare.vue     — /compare
+    Viz.vue         — /viz
+    MediaDetail.vue — /media/:slug
+public/
+  site_data.json    — the full dataset (source of truth, committed)
+docs/               — Vite build output (committed for GitHub Pages)
 schema/
   models.py         — Pydantic models (single source of schema truth)
 scripts/
-  ingest.py         — validate temp/ → append to site_data.json → clear temp/
+  ingest.py         — validate temp/ → append to public/site_data.json → clear temp/
   validate_wikidata.py — check real Wikidata IDs against live Wikidata API
 temp/               — drop new JSON files here before ingesting
 AI_SCHEMA.md        — LLM-facing instructions for generating valid JSON

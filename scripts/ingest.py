@@ -14,7 +14,7 @@ from pydantic import ValidationError
 
 ROOT = Path(__file__).parent.parent
 TEMP_DIR = ROOT / "temp"
-SITE_DATA = ROOT / "docs" / "site_data.json"
+SITE_DATA = ROOT / "public" / "site_data.json"
 
 sys.path.insert(0, str(ROOT))
 from schema.models import MediaModel

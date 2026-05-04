@@ -72,6 +72,7 @@ Every name used in a `death` event **must** be defined here first.
 - `cause`: (required) One of:
   `POISONED`, `SHOT`, `STABBED`, `CLUBBED`, `STRANGLED`, `DROWNED`, `BURNED`, `HANGED`, `FELL`, `CRUSHED`, `SUFFOCATED`, `EXPLODED`, `ELECTROCUTED`, `FROZEN`, `ILLNESS`, `EATEN`, `TORN_APART`, `VEHICULAR`, `UNKNOWN`, `OTHER`.
   Use `VEHICULAR` for deaths caused by a vehicle (car, train, etc.). Use `UNKNOWN` when the method is not specified in the narrative. Reserve `OTHER` only for methods that fit none of the above.
+  **When `cause` is `POISONED`, `SHOT`, or `STABBED`, `cause_subtype` is required** — see below.
 - `death_type`: (required) One of:
   `murder`, `attempted_murder`, `manslaughter`, `suicide`, `accident`, `natural_death`, `execution`, `unknown`.
 - `motive`: One of:
@@ -95,7 +96,8 @@ Every name used in a `death` event **must** be defined here first.
   - `serial_killer` — multiple connected murders by the same perpetrator
   - `frame_up` — an innocent person is deliberately framed
   - `mistaken_identity` — the crime stems from a case of mistaken identity
-- `cause_subtype`, `cause_detail`, `motive_detail`: (string, optional) Extra detail.
+- `cause_subtype`: (string) **Required** when `cause` is `POISONED`, `SHOT`, or `STABBED`; optional otherwise. Specify the exact substance or weapon (e.g. `"arsenic"`, `"revolver"`, `"kitchen knife"`). Three reserved values: `"unmentioned"` if the narrative never names the specific item; `"unknown"` if the protagonist genuinely does not know what was used (an open in-story mystery); `"needs_review"` if you have not yet looked it up.
+- `cause_detail`, `motive_detail`: (string, optional) Extra narrative detail.
 - `ordinal`: (integer, optional) Order of death within the work.
 - `is_central_death`: (boolean) `true` if this is the primary mystery.
 - `is_twist`: (boolean) `true` if the death involves a major plot twist.

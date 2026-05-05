@@ -580,6 +580,28 @@ h3 { margin: 1.25rem 0 0.5rem; font-size: 0.95rem; font-weight: 600; text-transf
 
 @media (max-width: 680px) { .compare-grid { grid-template-columns: 1fr; } }
 
+.real-badge {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  background: var(--badge-bg);
+  color: var(--badge-text);
+  border: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.real-source {
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-top: 1.25rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
+  line-height: 1.4;
+}
+
 /* ─── Viz page ──────────────────────────────────────────────────── */
 .viz-wrap {
   display: grid;

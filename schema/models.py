@@ -36,6 +36,30 @@ Motive = Literal[
     "unknown", "other", "needs_review",
 ]
 
+MensRea = Literal[
+    "purposely",    # killer desired the death
+    "knowingly",    # killer knew death was certain
+    "recklessly",   # killer consciously disregarded the risk of death
+    "negligently",  # killer should have known death would result
+    "accidentally", # no culpability; death was a pure accident
+    "unknown",      # media does not make culpability clear
+    "needs_review", # placeholder; not yet researched
+]
+
+KillerCircumstance = Literal[
+    "justified",    # war, self-defense, euthanasia
+    "mitigated",    # diminished capacity
+    "neutral",      # no special circumstance
+    "unknown",      # media does not make circumstance clear
+    "needs_review", # placeholder; not yet researched
+]
+
+ExternalPageStatus = Literal[
+    "exists",       # confirmed page exists (slug/id must also be set)
+    "none",         # confirmed no page exists for this work
+    "needs_review", # not yet checked
+]
+
 MysteryTrope = Literal[
     "locked_room",         # death in a sealed space with no apparent entry/exit
     "impossible_crime",    # crime that appears physically impossible
@@ -56,14 +80,41 @@ MysteryTrope = Literal[
 
 
 class ExternalLinksModel(BaseModel):
-    """Optional external resource links for a media item."""
+    """Slugs/IDs for external resources, with per-source existence status."""
 
-    tvtropes_url: Optional[str] = None
-    fandom_url: Optional[str] = None
-    goodreads_url: Optional[str] = None
-    steam_url: Optional[str] = None
-    wikipedia_url: Optional[str] = None
-    itch_url: Optional[str] = None
+    tvtropes_slug: Optional[str] = None    # e.g. "Literature/AndThenThereWereNone"
+    tvtropes_status: ExternalPageStatus = "needs_review"
+
+    wikipedia_slug: Optional[str] = None   # e.g. "And_Then_There_Were_None"
+    wikipedia_status: ExternalPageStatus = "needs_review"
+
+    fandom_slug: Optional[str] = None      # e.g. "agathachristie/And_Then_There_Were_None"
+    fandom_status: ExternalPageStatus = "needs_review"
+
+    goodreads_id: Optional[str] = None     # numeric ID, e.g. "16299"
+    goodreads_status: ExternalPageStatus = "needs_review"
+
+    steam_id: Optional[str] = None         # numeric app ID, e.g. "1234567"
+    steam_status: ExternalPageStatus = "needs_review"
+
+    itch_slug: Optional[str] = None        # e.g. "author/game-slug"
+    itch_status: ExternalPageStatus = "needs_review"
+
+    @model_validator(mode="after")
+    def _slug_implies_exists(self) -> "ExternalLinksModel":
+        """Auto-set status to 'exists' whenever a slug/id is provided."""
+        pairs = [
+            ("tvtropes_slug", "tvtropes_status"),
+            ("wikipedia_slug", "wikipedia_status"),
+            ("fandom_slug", "fandom_status"),
+            ("goodreads_id", "goodreads_status"),
+            ("steam_id", "steam_status"),
+            ("itch_slug", "itch_status"),
+        ]
+        for slug_field, status_field in pairs:
+            if getattr(self, slug_field) and getattr(self, status_field) != "exists":
+                setattr(self, status_field, "exists")
+        return self
 
 
 class PersonModel(BaseModel):
@@ -83,6 +134,14 @@ class PersonModel(BaseModel):
     notes: Optional[str] = None
 
 
+class KillerModel(BaseModel):
+    """One killer's contribution to a death, with mens rea and circumstance."""
+
+    name: str               # must match a name in the enclosing scope's persons list
+    mens_rea: MensRea
+    circumstance: KillerCircumstance
+
+
 WEAPON_REQUIRED_CAUSES: frozenset[str] = frozenset({"POISONED", "SHOT", "STABBED"})
 
 
@@ -95,7 +154,7 @@ class DeathModel(BaseModel):
     cause_subtype: Optional[str] = None
     cause_detail: Optional[str] = None
     death_type: DeathType
-    killer_name: Optional[str] = None
+    killers: list[KillerModel] = []
     motive: Optional[Motive] = None
     motive_detail: Optional[str] = None
     tropes: list[MysteryTrope] = []
@@ -138,10 +197,11 @@ def _validate_death_refs(
             raise ValueError(
                 f"victim_name '{death.victim_name}' not in persons for '{context}'"
             )
-        if death.killer_name and death.killer_name not in known:
-            raise ValueError(
-                f"killer_name '{death.killer_name}' not in persons for '{context}'"
-            )
+        for killer in death.killers:
+            if killer.name not in known:
+                raise ValueError(
+                    f"killer name '{killer.name}' not in persons for '{context}'"
+                )
 
 
 class TvEpisodeModel(BaseModel):

@@ -144,7 +144,7 @@ const GameDetail = defineComponent({
               <tr v-for="(d, di) in c.deaths" :key="di">
                 <td class="sensitive">{{ d.victim_name || 'Unknown' }}</td>
                 <td><CauseBadge :cause="d.cause" :subtype="d.cause_subtype" /></td>
-                <td class="sensitive">{{ d.killer_name || 'Unknown' }}</td>
+                <td class="sensitive">{{ d.killers?.map(k => k.name).join(', ') || 'Unknown' }}</td>
                 <td>{{ d.death_type || '—' }}</td>
                 <td><NoteHover :text="d.notes || d.cause_detail" /></td>
               </tr>

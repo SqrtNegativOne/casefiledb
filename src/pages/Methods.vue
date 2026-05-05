@@ -89,7 +89,7 @@ function byMedia(entries) {
                     <tbody>
                       <tr v-for="(d, i) in deaths" :key="i">
                         <td class="sensitive">{{ d.victim_name || 'Unknown' }}</td>
-                        <td class="sensitive">{{ d.killer_name || 'Unknown' }}</td>
+                        <td class="sensitive">{{ d.killers?.map(k => k.name).join(', ') || 'Unknown' }}</td>
                         <td>
                           {{ d.cause }}
                           <span v-if="d.cause_subtype" class="muted">({{ d.cause_subtype }})</span>

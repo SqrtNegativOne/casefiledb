@@ -33,7 +33,7 @@ Motive = Literal[
     "revenge", "ideology", "self_defense", "concealment", "passion",
     "vigilante_justice", "freedom", "family_protection", "pathological",
     "mercy_killing", "penance",
-    "unknown", "other",
+    "unknown", "other", "needs_review",
 ]
 
 MysteryTrope = Literal[

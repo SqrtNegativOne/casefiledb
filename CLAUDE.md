@@ -4,8 +4,7 @@ A catalogued database of deaths in murder mystery media (books, TV, games, etc.)
 
 ## Stack
 
-- Python (uv) — validation and ingestion scripts
-- Pydantic — schema validation (`schema/models.py`)
+- Rust (`validator/`) — schema types + ingest binary (`cargo run --bin ingest`)
 - JSON — source of truth (`public/site_data.json`)
 - Vue 3 + Vite — frontend SPA (source in `src/`, built to `docs/`)
 - Vue Router — hash-mode client-side routing (`/#/`, `/#/books`, etc.)
@@ -23,12 +22,17 @@ Pages: `/` Media · `/authors` · `/episodes` · `/methods` · `/detectives` · 
 ## How to add new media
 
 1. Write a JSON file to `temp/` following the schema in `AI_SCHEMA.md`. The file must be a JSON array of media objects.
-2. Run the ingest script:
+2. Run the ingest binary:
    ```
-   uv run python scripts/ingest.py
+   cargo run --bin ingest --manifest-path validator/Cargo.toml
    ```
    This validates the data, appends it to `public/site_data.json`, and deletes the temp file. Run `npm run build` afterward to rebuild the site.
 3. If validation fails, errors are printed and `temp/` is left intact for fixing.
+
+To validate `public/site_data.json` without modifying it:
+   ```
+   cargo run --bin check --manifest-path validator/Cargo.toml
+   ```
 
 ## Schema
 
@@ -37,7 +41,9 @@ See `AI_SCHEMA.md` for the full field reference and an example. Key rules:
 - Every `victim_name` and `killer_name` in a death must match a name in the `persons` array of the **same scope** (top-level item, episode, or game case).
 - For `game` entries, deaths live inside `cases[*].deaths` — the top-level `deaths` list is empty. Count deaths by summing across cases.
 - For `tv_show` entries, deaths live inside `episodes[*].deaths`.
-- `cause`, `death_type`, and `motive` are controlled vocabularies — see `schema/models.py` for allowed values.
+- `cause`, `death_type`, and `motive` are controlled vocabularies — see `validator/src/models.rs` for the canonical enum definitions.
+- `means` is required on every death except when `cause` is `OTHER`. When `cause` is `UNKNOWN`, set `means: "unknown"`.
+- `motive` is required on every death except when `death_type` is `accident` or `natural_death`.
 
 ## File structure
 
@@ -68,10 +74,13 @@ src/
 public/
   site_data.json    — the full dataset (source of truth, committed)
 docs/               — Vite build output (committed for GitHub Pages)
-schema/
-  models.py         — Pydantic models (single source of schema truth)
+validator/
+  Cargo.toml        — Rust crate manifest
+  src/
+    models.rs       — Rust types (single source of schema truth)
+    main.rs         — ingest binary
+    check.rs        — validate-only binary
 scripts/
-  ingest.py         — validate temp/ → append to public/site_data.json → clear temp/
   validate_wikidata.py — check real Wikidata IDs against live Wikidata API
 temp/               — drop new JSON files here before ingesting
 AI_SCHEMA.md        — LLM-facing instructions for generating valid JSON

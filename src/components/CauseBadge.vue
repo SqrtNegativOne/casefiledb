@@ -1,5 +1,5 @@
 <script setup>
-const props = defineProps({ cause: String, subtype: String })
+const props = defineProps({ cause: String, means: String })
 
 function label(c) {
   if (!c) return 'Unknown'
@@ -9,6 +9,6 @@ function label(c) {
 
 <template>
   <span :class="['badge', `cause-${cause}`]">
-    {{ label(cause) }}<span v-if="subtype" class="muted" style="margin-left:0.25rem;font-weight:400"> ({{ subtype }})</span>
+    {{ label(cause) }}<span v-if="means" class="muted" style="margin-left:0.25rem;font-weight:400"> ({{ means }})</span>
   </span>
 </template>

@@ -184,7 +184,7 @@ const BookDetail = defineComponent({
             <tr v-for="(d, i) in book.deaths" :key="i">
               <td>{{ d.ordinal || '—' }}</td>
               <td class="sensitive">{{ d.victim_name || 'Unknown' }}</td>
-              <td><CauseBadge :cause="d.cause" :subtype="d.cause_subtype" /></td>
+              <td><CauseBadge :cause="d.cause" :means="d.means" /></td>
               <td class="sensitive">{{ d.killers?.map(k => k.name).join(', ') || 'Unknown' }}</td>
               <td>{{ d.death_type || '—' }}</td>
               <td>{{ d.is_twist ? 'Yes' : 'No' }}</td>

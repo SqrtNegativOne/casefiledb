@@ -33,7 +33,7 @@ Motive = Literal[
     "revenge", "ideology", "self_defense", "concealment", "passion",
     "vigilante_justice", "freedom", "family_protection", "pathological",
     "mercy_killing", "penance",
-    "unknown", "other",
+    "unknown", "other", "needs_review",
 ]
 
 MysteryTrope = Literal[
@@ -114,6 +114,16 @@ class DeathModel(BaseModel):
                 "'unknown' if the protagonist has no idea what was used, "
                 "'unmentioned' if the narrative never specifies, "
                 "or 'needs_review' if not yet researched."
+            )
+        return self
+
+    @model_validator(mode="after")
+    def _require_motive_for_suicide(self) -> "DeathModel":
+        """Require motive for suicide deaths; use 'unknown' if genuinely unclear."""
+        if self.death_type == "suicide" and self.motive is None:
+            raise ValueError(
+                "motive is required when death_type is 'suicide'. "
+                "Use 'unknown' if the reason is not stated in the narrative."
             )
         return self
 

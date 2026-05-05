@@ -81,20 +81,22 @@ Every name used in a `death` event **must** be defined here first.
   `unknown`, `other`, `needs_review`.
   Key distinctions: `vigilante_justice` = self-appointed execution of those deemed guilty who escaped legal justice; `family_protection` = killing to shield family from ruin or scandal; `freedom` = escaping an unwanted relationship or controlling figure; `pathological` = compulsive or irrational psychological motive; `mercy_killing` = ending another's suffering; `penance` = atonement or confession-driven act. Reserve `other` only when none of the above fit. Use `unknown` when the narrative genuinely does not state a reason; use `needs_review` as a placeholder when you have not yet researched it.
   **Required when `death_type` is `suicide`** — use `unknown` if the reason is not stated in the narrative, or `needs_review` if not yet researched.
-- `killer_culpability`: **(required)** MPC mens rea level for the killer. Choose the highest that applies:
-  - `purposely` — killer desired the death (classic premeditated murder)
-  - `knowingly` — killer didn't desire death per se but knew it was certain
-  - `recklessly` — killer consciously disregarded a substantial risk of death
-  - `negligently` — killer should have known their conduct risked death
-  - `accidentally` — zero culpability; death was a pure accident
-  - `unknown` — the media does not make the killer's mental state clear
-  - `needs_review` — placeholder when you have not yet researched it
-- `killer_circumstance`: **(required)** Contextual justification or mitigation. Choose one:
-  - `justified` — legally or morally sanctioned killing (war, self-defense, euthanasia)
-  - `mitigated` — diminished capacity (mental illness, coercion, extreme duress)
-  - `neutral` — no special circumstance applies
-  - `unknown` — the media does not make the circumstance clear
-  - `needs_review` — placeholder when you have not yet researched it
+- `killers`: (array, default `[]`) Each entry is an object with three fields describing one killer's role in the death. A death may have zero, one, or multiple killers (e.g. co-conspirators with different levels of involvement):
+  - `name`: (string, required) Must match a name in `persons`.
+  - `mens_rea`: **(required)** MPC mens rea — choose the highest that applies:
+    - `purposely` — desired the death (classic premeditation)
+    - `knowingly` — didn't desire death per se but knew it was certain
+    - `recklessly` — consciously disregarded a substantial risk of death
+    - `negligently` — should have known their conduct risked death
+    - `accidentally` — zero culpability; pure accident
+    - `unknown` — media does not make the mental state clear
+    - `needs_review` — placeholder; not yet researched
+  - `circumstance`: **(required)** Contextual justification or mitigation:
+    - `justified` — war, self-defense, euthanasia
+    - `mitigated` — diminished capacity, coercion, extreme duress
+    - `neutral` — no special circumstance
+    - `unknown` — media does not make it clear
+    - `needs_review` — placeholder; not yet researched
 - `tropes`: (array of strings, optional) Mystery tropes that apply to this death. Choose from:
   - `locked_room` — death occurred in a sealed space with no apparent entry/exit
   - `impossible_crime` — the crime appears physically impossible
@@ -123,20 +125,31 @@ Every name used in a `death` event **must** be defined here first.
 
 ## External Links
 
-Optional object on a media item with URLs to external resources:
+Optional object on a media item. Store the **identifier** for each source, not the full URL. Each source also has a `*_status` field tracking whether a page exists.
+
+| Slug/ID field | What to store | Example |
+|---|---|---|
+| `tvtropes_slug` | `Namespace/Title` after `/pmwiki/pmwiki.php/` | `"Literature/AndThenThereWereNone"` |
+| `wikipedia_slug` | Article title (underscores, no hostname) | `"And_Then_There_Were_None"` |
+| `fandom_slug` | `subdomain/PageTitle` | `"agathachristie/And_Then_There_Were_None"` |
+| `goodreads_id` | Numeric book ID only | `"16299"` |
+| `steam_id` | Numeric app ID only | `"1234567"` |
+| `itch_slug` | `author/game-slug` | `"inkle/80-days"` |
+
+Each source has a paired `*_status` field — `"exists"`, `"none"`, or `"needs_review"` (default). Setting a slug auto-implies `"exists"`; use `"none"` to record that you confirmed no page exists for this work.
 
 ```json
 "external_links": {
-  "tvtropes_url": "https://tvtropes.org/pmwiki/pmwiki.php/...",
-  "fandom_url": "https://example.fandom.com/wiki/...",
-  "goodreads_url": "https://www.goodreads.com/book/show/...",
-  "steam_url": "https://store.steampowered.com/app/...",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/...",
-  "itch_url": "https://example.itch.io/..."
+  "tvtropes_slug": "Literature/AndThenThereWereNone",
+  "wikipedia_slug": "And_Then_There_Were_None",
+  "fandom_slug": "agathachristie/And_Then_There_Were_None",
+  "fandom_status": "exists",
+  "goodreads_id": "16299",
+  "steam_status": "none"
 }
 ```
 
-Only include fields you have a URL for. All fields are optional.
+Only include fields you have data for. All fields are optional.
 
 ---
 
@@ -162,12 +175,12 @@ Only include fields you have a URL for. All fields are optional.
     "deaths": [
       {
         "victim_name": "Alice",
-        "killer_name": "Bob",
         "cause": "POISONED",
         "cause_subtype": "arsenic",
         "death_type": "murder",
-        "killer_culpability": "purposely",
-        "killer_circumstance": "neutral",
+        "killers": [
+          { "name": "Bob", "mens_rea": "purposely", "circumstance": "neutral" }
+        ],
         "motive": "revenge",
         "tropes": ["whodunit", "closed_circle"],
         "is_central_death": true,

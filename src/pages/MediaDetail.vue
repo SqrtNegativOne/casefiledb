@@ -45,14 +45,30 @@ const coverMediaRef = computed(() => displayItem.value?.parent || media.value)
 const coverUrl = useCoverImage(coverMediaRef)
 
 function extLinks(m) {
-  if (!m.external_links) return []
-  const labels = {
-    wikipedia_url: 'Wikipedia', tvtropes_url: 'TV Tropes', fandom_url: 'Fandom',
-    goodreads_url: 'Goodreads', steam_url: 'Steam', itch_url: 'itch.io',
+  const el = m.external_links
+  if (!el) return []
+  const links = []
+  if (el.wikipedia_slug)
+    links.push({ label: 'Wikipedia', url: `https://en.wikipedia.org/wiki/${el.wikipedia_slug}` })
+  if (el.tvtropes_slug)
+    links.push({ label: 'TV Tropes', url: `https://tvtropes.org/pmwiki/pmwiki.php/${el.tvtropes_slug}` })
+  if (el.fandom_slug) {
+    const slash = el.fandom_slug.indexOf('/')
+    const sub = el.fandom_slug.slice(0, slash)
+    const page = el.fandom_slug.slice(slash + 1)
+    links.push({ label: 'Fandom', url: `https://${sub}.fandom.com/wiki/${page}` })
   }
-  return Object.entries(m.external_links)
-    .filter(([, v]) => v)
-    .map(([k, v]) => ({ label: labels[k] || k, url: v }))
+  if (el.goodreads_id)
+    links.push({ label: 'Goodreads', url: `https://www.goodreads.com/book/show/${el.goodreads_id}` })
+  if (el.steam_id)
+    links.push({ label: 'Steam', url: `https://store.steampowered.com/app/${el.steam_id}/` })
+  if (el.itch_slug) {
+    const slash = el.itch_slug.indexOf('/')
+    const author = el.itch_slug.slice(0, slash)
+    const slug = el.itch_slug.slice(slash + 1)
+    links.push({ label: 'itch.io', url: `https://${author}.itch.io/${slug}` })
+  }
+  return links
 }
 </script>
 
@@ -202,7 +218,7 @@ const SubItemSection = defineComponent({
               <td>{{ d.ordinal || '—' }}</td>
               <td class="sensitive">{{ d.victim_name || 'Unknown' }}</td>
               <td><CauseBadge :cause="d.cause" :subtype="d.cause_subtype" /></td>
-              <td class="sensitive">{{ d.killer_name || 'Unknown' }}</td>
+              <td class="sensitive">{{ d.killers?.map(k => k.name).join(', ') || 'Unknown' }}</td>
               <td>{{ d.death_type || '—' }}</td>
               <td>{{ d.is_twist ? 'Yes' : 'No' }}</td>
               <td><NoteHover :text="d.notes || d.cause_detail || d.motive_detail" /></td>

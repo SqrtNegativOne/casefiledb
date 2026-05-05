@@ -274,7 +274,7 @@ const ExpandedDetail = defineComponent({
               <td>{{ d.ordinal || '—' }}<span v-if="d._scope" class="muted" style="display:block;font-size:0.75rem">{{ d._scope }}</span></td>
               <td class="sensitive">{{ d.victim_name || 'Unknown' }}</td>
               <td><CauseBadge :cause="d.cause" :subtype="d.cause_subtype" /></td>
-              <td class="sensitive">{{ d.killer_name || 'Unknown' }}</td>
+              <td class="sensitive">{{ d.killers?.map(k => k.name).join(', ') || 'Unknown' }}</td>
               <td>{{ d.death_type || '—' }}</td>
               <td>{{ d.is_twist ? 'Yes' : 'No' }}</td>
               <td><NoteHover :text="d.notes || d.cause_detail || d.motive_detail" /></td>

@@ -71,8 +71,8 @@ Every name used in a `death` event **must** be defined here first.
 - `killer_name`: Must match a name in `persons`.
 - `cause`: (required) One of:
   `POISONED`, `SHOT`, `STABBED`, `CLUBBED`, `STRANGLED`, `DROWNED`, `BURNED`, `HANGED`, `FELL`, `CRUSHED`, `SUFFOCATED`, `EXPLODED`, `ELECTROCUTED`, `FROZEN`, `ILLNESS`, `EATEN`, `TORN_APART`, `VEHICULAR`, `UNKNOWN`, `OTHER`.
-  Use `VEHICULAR` for deaths caused by a vehicle (car, train, etc.). Use `UNKNOWN` when the method is not specified in the narrative. Reserve `OTHER` only for methods that fit none of the above.
-  **When `cause` is `POISONED`, `SHOT`, or `STABBED`, `cause_subtype` is required** — see below.
+  Use `VEHICULAR` for deaths caused by a vehicle (car, train, etc.). Use `UNKNOWN` when the cause is not specified in the narrative. Reserve `OTHER` only for methods that fit none of the above.
+  **`means` is required for every `cause` except `OTHER`** — see below.
 - `death_type`: (required) One of:
   `murder`, `attempted_murder`, `manslaughter`, `suicide`, `accident`, `natural_death`, `execution`, `unknown`.
 - `motive`: One of:
@@ -80,7 +80,7 @@ Every name used in a `death` event **must** be defined here first.
   `vigilante_justice`, `freedom`, `family_protection`, `pathological`, `mercy_killing`, `penance`,
   `unknown`, `other`, `needs_review`.
   Key distinctions: `vigilante_justice` = self-appointed execution of those deemed guilty who escaped legal justice; `family_protection` = killing to shield family from ruin or scandal; `freedom` = escaping an unwanted relationship or controlling figure; `pathological` = compulsive or irrational psychological motive; `mercy_killing` = ending another's suffering; `penance` = atonement or confession-driven act. Reserve `other` only when none of the above fit. Use `unknown` when the narrative genuinely does not state a reason; use `needs_review` as a placeholder when you have not yet researched it.
-  **Required when `death_type` is `suicide`** — use `unknown` if the reason is not stated in the narrative, or `needs_review` if not yet researched.
+  **Required for all `death_type` values except `accident` and `natural_death`** — use `unknown` if the reason is not stated in the narrative, or `needs_review` if not yet researched.
 - `killers`: (array, default `[]`) Each entry is an object with three fields describing one killer's role in the death. A death may have zero, one, or multiple killers (e.g. co-conspirators with different levels of involvement):
   - `name`: (string, required) Must match a name in `persons`.
   - `mens_rea`: **(required)** MPC mens rea — choose the highest that applies:
@@ -113,7 +113,7 @@ Every name used in a `death` event **must** be defined here first.
   - `serial_killer` — multiple connected murders by the same perpetrator
   - `frame_up` — an innocent person is deliberately framed
   - `mistaken_identity` — the crime stems from a case of mistaken identity
-- `cause_subtype`: (string) **Required** when `cause` is `POISONED`, `SHOT`, or `STABBED`; optional otherwise. Specify the exact substance or weapon (e.g. `"arsenic"`, `"revolver"`, `"kitchen knife"`). Three reserved values: `"unmentioned"` if the narrative never names the specific item; `"unknown"` if the protagonist genuinely does not know what was used (an open in-story mystery); `"needs_review"` if you have not yet looked it up.
+- `means`: (string) **Required** for every `cause` except `OTHER`. Specify the exact substance, weapon, or mechanism (e.g. `"arsenic"`, `"revolver"`, `"kitchen knife"`, `"cliff edge"`, `"car"`). When `cause` is `UNKNOWN`, set `means` to `"unknown"` as well. Three additional reserved values: `"unmentioned"` if the narrative never names the specific item; `"unknown"` if the protagonist genuinely does not know what was used (an open in-story mystery); `"needs_review"` if you have not yet looked it up.
 - `cause_detail`, `motive_detail`: (string, optional) Extra narrative detail.
 - `ordinal`: (integer, optional) Order of death within the work.
 - `is_central_death`: (boolean) `true` if this is the primary mystery.
@@ -176,7 +176,7 @@ Only include fields you have data for. All fields are optional.
       {
         "victim_name": "Alice",
         "cause": "POISONED",
-        "cause_subtype": "arsenic",
+        "means": "arsenic",
         "death_type": "murder",
         "killers": [
           { "name": "Bob", "mens_rea": "purposely", "circumstance": "neutral" }

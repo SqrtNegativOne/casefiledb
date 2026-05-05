@@ -92,7 +92,7 @@ function byMedia(entries) {
                         <td class="sensitive">{{ d.killers?.map(k => k.name).join(', ') || 'Unknown' }}</td>
                         <td>
                           {{ d.cause }}
-                          <span v-if="d.cause_subtype" class="muted">({{ d.cause_subtype }})</span>
+                          <span v-if="d.means" class="muted">({{ d.means }})</span>
                           <span v-if="d.is_twist" class="badge" style="margin-left:0.3rem">twist</span>
                         </td>
                       </tr>

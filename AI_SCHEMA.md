@@ -81,6 +81,20 @@ Every name used in a `death` event **must** be defined here first.
   `unknown`, `other`, `needs_review`.
   Key distinctions: `vigilante_justice` = self-appointed execution of those deemed guilty who escaped legal justice; `family_protection` = killing to shield family from ruin or scandal; `freedom` = escaping an unwanted relationship or controlling figure; `pathological` = compulsive or irrational psychological motive; `mercy_killing` = ending another's suffering; `penance` = atonement or confession-driven act. Reserve `other` only when none of the above fit. Use `unknown` when the narrative genuinely does not state a reason; use `needs_review` as a placeholder when you have not yet researched it.
   **Required when `death_type` is `suicide`** — use `unknown` if the reason is not stated in the narrative, or `needs_review` if not yet researched.
+- `killer_culpability`: **(required)** MPC mens rea level for the killer. Choose the highest that applies:
+  - `purposely` — killer desired the death (classic premeditated murder)
+  - `knowingly` — killer didn't desire death per se but knew it was certain
+  - `recklessly` — killer consciously disregarded a substantial risk of death
+  - `negligently` — killer should have known their conduct risked death
+  - `accidentally` — zero culpability; death was a pure accident
+  - `unknown` — the media does not make the killer's mental state clear
+  - `needs_review` — placeholder when you have not yet researched it
+- `killer_circumstance`: **(required)** Contextual justification or mitigation. Choose one:
+  - `justified` — legally or morally sanctioned killing (war, self-defense, euthanasia)
+  - `mitigated` — diminished capacity (mental illness, coercion, extreme duress)
+  - `neutral` — no special circumstance applies
+  - `unknown` — the media does not make the circumstance clear
+  - `needs_review` — placeholder when you have not yet researched it
 - `tropes`: (array of strings, optional) Mystery tropes that apply to this death. Choose from:
   - `locked_room` — death occurred in a sealed space with no apparent entry/exit
   - `impossible_crime` — the crime appears physically impossible
@@ -150,7 +164,10 @@ Only include fields you have a URL for. All fields are optional.
         "victim_name": "Alice",
         "killer_name": "Bob",
         "cause": "POISONED",
+        "cause_subtype": "arsenic",
         "death_type": "murder",
+        "killer_culpability": "purposely",
+        "killer_circumstance": "neutral",
         "motive": "revenge",
         "tropes": ["whodunit", "closed_circle"],
         "is_central_death": true,

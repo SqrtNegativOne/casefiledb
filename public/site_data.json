@@ -75,7 +75,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Twist: Romaine's elaborate lie is itself a deception that reveals Leonard's guilt."
+        "notes": "Twist: Romaine's elaborate lie is itself a deception that reveals Leonard's guilt.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -185,7 +187,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "The twist: Harlan's death was unnecessary — Marta actually gave the correct medication, having recognised the viscosity difference. Ransom orchestrated the situation to make Marta appear guilty and disinherit her."
+        "notes": "The twist: Harlan's death was unnecessary — Marta actually gave the correct medication, having recognised the viscosity difference. Ransom orchestrated the situation to make Marta appear guilty and disinherit her.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Fran",
@@ -200,7 +204,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -307,7 +313,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Death occurred approximately one week before the island party; initially ruled a suicide"
+        "notes": "Death occurred approximately one week before the island party; initially ruled a suicide",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Duke Cody",
@@ -322,7 +330,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Helen Brand",
@@ -337,7 +347,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Helen survived — the bullet was stopped by a journal"
+        "notes": "Helen survived — the bullet was stopped by a journal",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -461,7 +473,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Samson Holt",
@@ -476,7 +490,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Nat Sharp",
@@ -491,7 +507,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Martha Delacroix",
@@ -506,7 +524,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -614,7 +634,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Evelyn Howard was Alfred's secret accomplice; the delayed reaction of the poison created a mystery about timing"
+        "notes": "Evelyn Howard was Alfred's secret accomplice; the delayed reaction of the poison created a mystery about timing",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -719,7 +741,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "The case involves a second unidentified female body and a false confession by Jack Renauld"
+        "notes": "The case involves a second unidentified female body and a false confession by Jack Renauld",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -841,7 +865,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Backstory death; she had also killed her first husband (Mr. Ferrars) with arsenic"
+        "notes": "Backstory death; she had also killed her first husband (Mr. Ferrars) with arsenic",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Roger Ackroyd",
@@ -856,7 +882,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "The narrator of the novel is the killer — one of crime fiction's most famous twists"
+        "notes": "The narrator of the novel is the killer — one of crime fiction's most famous twists",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -967,7 +995,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Multiple Big Four operatives die across the episodic narrative"
+        "notes": "Multiple Big Four operatives die across the episodic narrative",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Madame Olivier",
@@ -982,7 +1012,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -1087,7 +1119,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -1193,7 +1227,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Twist: the apparent victim (Nick) was actually the killer staging attempts on her own life"
+        "notes": "Twist: the apparent victim (Nick) was actually the killer staging attempts on her own life",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -1304,7 +1340,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Carlotta Adams",
@@ -1319,7 +1357,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -1452,7 +1492,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Backstory death; the motive for the entire revenge plot on the Orient Express"
+        "notes": "Backstory death; the motive for the entire revenge plot on the Orient Express",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Samuel Ratchett",
@@ -1467,7 +1509,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Twist: all twelve passengers are guilty; some wounds were post-mortem; Poirot presents two solutions and allows the passengers to go free"
+        "notes": "Twist: all twelve passengers are guilty; some wounds were post-mortem; Poirot presents two solutions and allows the passengers to go free",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -1578,7 +1622,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": "Act I",
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Dr. Bartholomew Strange",
@@ -1593,7 +1639,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": "Act II",
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -1691,7 +1739,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -1823,7 +1873,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Betty Barnard",
@@ -1838,7 +1890,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Sir Carmichael Clarke",
@@ -1853,7 +1907,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Twist: the apparent serial ABC murders were cover for a single inheritance murder"
+        "notes": "Twist: the apparent serial ABC murders were cover for a single inheritance murder",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "George Earlsfield",
@@ -1868,7 +1924,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -1965,7 +2023,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Twist: the threatening letters Louise received were sent by her own husband, who was her supposedly dead first husband in disguise"
+        "notes": "Twist: the threatening letters Louise received were sent by her own husband, who was her supposedly dead first husband in disguise",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -2074,7 +2134,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Mrs. Lorrimer",
@@ -2089,7 +2151,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -2196,7 +2260,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Twist: Simon's leg wound was real but self-inflicted; his alibi (being with the doctor while Jacqueline appeared in the lounge) was carefully staged"
+        "notes": "Twist: Simon's leg wound was real but self-inflicted; his alibi (being with the doctor while Jacqueline appeared in the lounge) was carefully staged",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Louise Bourget",
@@ -2211,7 +2277,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Simon Doyle",
@@ -2226,7 +2294,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Jacqueline de Bellefort",
@@ -2241,7 +2311,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -2334,7 +2406,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Emily had written to Poirot before dying, suspecting one of her relatives; Poirot investigates after Emily is already dead"
+        "notes": "Emily had written to Poirot before dying, suspecting one of her relatives; Poirot investigates after Emily is already dead",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -2431,7 +2505,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -2540,7 +2616,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Twist: the investigating police officer is the killer and Lee's own illegitimate son"
+        "notes": "Twist: the investigating police officer is the killer and Lee's own illegitimate son",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -2636,7 +2714,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Twist: the killer is Nurse Hopkins, not the accused Elinor Carlisle"
+        "notes": "Twist: the killer is Nurse Hopkins, not the accused Elinor Carlisle",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -2733,7 +2813,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "The exact chain of responsibility is complex; Morley may have acted under duress"
+        "notes": "The exact chain of responsibility is complex; Morley may have acted under duress",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Henry Morley",
@@ -2748,7 +2830,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -2859,7 +2943,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Twist: the apparent flirtation was an elaborate setup; Christine Redfern impersonated Arlena in a red bathing cap to create a false alibi"
+        "notes": "Twist: the apparent flirtation was an elaborate setup; Christine Redfern impersonated Arlena in a red bathing cap to create a false alibi",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -2968,7 +3054,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Twist: Caroline was convicted but innocent; she took the blame to protect young Angela. The death is classified as manslaughter given Angela's age and impulsive state."
+        "notes": "Twist: Caroline was convicted but innocent; she took the blame to protect young Angela. The death is classified as manslaughter given Angela's age and impulsive state.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Caroline Crale",
@@ -2983,7 +3071,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Backstory death; occurs before the novel's main action"
+        "notes": "Backstory death; occurs before the novel's main action",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -3096,7 +3186,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Henrietta immediately threw the gun into the pool to protect Gerda; the apparent murderer is the actual killer"
+        "notes": "Henrietta immediately threw the gun into the pool to protect Gerda; the apparent murderer is the actual killer",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Gerda Christow",
@@ -3111,7 +3203,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -3232,7 +3326,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Backstory death; the inciting event for the novel's inheritance disputes"
+        "notes": "Backstory death; the inciting event for the novel's inheritance disputes",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Enoch Arden",
@@ -3247,7 +3343,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Rosaleen Cloade",
@@ -3262,7 +3360,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -3354,7 +3454,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -3449,7 +3551,9 @@
         "is_central_death": false,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Twist: Richard's death was initially believed natural; Cora's blurted remark at the funeral sets off the investigation"
+        "notes": "Twist: Richard's death was initially believed natural; Cora's blurted remark at the funeral sets off the investigation",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Cora Lansquenet",
@@ -3464,7 +3568,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -3556,7 +3662,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Patricia Lane",
@@ -3571,7 +3679,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -3679,7 +3789,9 @@
         "is_central_death": false,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Twist: the 'missing' Hattie had already been killed; her disappearance was staged to appear as a voluntary flight"
+        "notes": "Twist: the 'missing' Hattie had already been killed; her disappearance was staged to appear as a voluntary flight",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Marlene Tucker",
@@ -3694,7 +3806,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -3793,7 +3907,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -3901,7 +4017,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "The stopped clocks and blind woman's home are carefully staged red herrings"
+        "notes": "The stopped clocks and blind woman's home are carefully staged red herrings",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -3995,7 +4113,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -4102,7 +4222,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Leopold Reynolds",
@@ -4117,7 +4239,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -4213,7 +4337,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Lady Ravenscroft",
@@ -4228,7 +4354,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Twist: the woman who died in the clifftop incident was actually Lady Ravenscroft's twin sister (who had been living as Lady Ravenscroft due to the real Lady Ravenscroft's mental illness); the identities of the two women on the cliff are a central mystery"
+        "notes": "Twist: the woman who died in the clifftop incident was actually Lady Ravenscroft's twin sister (who had been living as Lady Ravenscroft due to the real Lady Ravenscroft's mental illness); the identities of the two women on the cliff are a central mystery",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -4338,7 +4466,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Stephen Norton",
@@ -4353,7 +4483,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Twist: the killer is Poirot himself; revealed posthumously in a letter to Hastings"
+        "notes": "Twist: the killer is Poirot himself; revealed posthumously in a letter to Hastings",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Hercule Poirot",
@@ -4368,7 +4500,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Poirot's death — one of detective fiction's most famous endings"
+        "notes": "Poirot's death — one of detective fiction's most famous endings",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -4477,7 +4611,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Two false confessions complicated the investigation; Miss Marple deduced the truth from the forged time on a letter found at the scene"
+        "notes": "Two false confessions complicated the investigation; Miss Marple deduced the truth from the forged time on a letter found at the scene",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -4588,7 +4724,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Pamela Reeves",
@@ -4603,7 +4741,9 @@
         "is_central_death": false,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Twist: the burned body in the car is not Ruby Keene but an innocent girl guide; Miss Marple identifies the switch through nail varnish and other details"
+        "notes": "Twist: the burned body in the car is not Ruby Keene but an innocent girl guide; Miss Marple identifies the switch through nail varnish and other details",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -4713,7 +4853,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Twist: the poison-pen letters were written by the solicitor himself — not an anonymous malicious villager — specifically to murder his wife under cover of a general harassment campaign"
+        "notes": "Twist: the poison-pen letters were written by the solicitor himself — not an anonymous malicious villager — specifically to murder his wife under cover of a general harassment campaign",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Agnes Woddell",
@@ -4728,7 +4870,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -4838,7 +4982,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Dora Bunner",
@@ -4853,7 +4999,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -4946,7 +5094,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Twist: the entire violent incident with the young offender was staged as cover for the murder"
+        "notes": "Twist: the entire violent incident with the young offender was staged as cover for the murder",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -5056,7 +5206,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "The nursery rhyme 'Sing a Song of Sixpence' structure runs through all three murders"
+        "notes": "The nursery rhyme 'Sing a Song of Sixpence' structure runs through all three murders",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Adele Fortescue",
@@ -5071,7 +5223,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Gladys Martin",
@@ -5086,7 +5240,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -5192,7 +5348,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Edmund Crackenthorpe",
@@ -5207,7 +5365,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -5305,7 +5465,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Twist: the intended victim was not Heather Badcock but Marina herself — Heather died by accidentally taking Marina's poisoned drink"
+        "notes": "Twist: the intended victim was not Heather Badcock but Marina herself — Heather died by accidentally taking Marina's poisoned drink",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Marina Gregg",
@@ -5320,7 +5482,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -5441,7 +5605,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Victoria Johnson",
@@ -5456,7 +5622,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -5552,7 +5720,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -5658,7 +5828,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Twist: an innocent man (Michael Rafiel, Jason's son) was convicted of a different murder; the real crime was Verity Hunt's buried in the garden"
+        "notes": "Twist: an innocent man (Michael Rafiel, Jason's son) was convicted of a different murder; the real crime was Verity Hunt's buried in the garden",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Nora Broad",
@@ -5673,7 +5845,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -5769,7 +5943,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Backstory murder; the entire novel builds towards uncovering this long-buried crime"
+        "notes": "Backstory murder; the entire novel builds towards uncovering this long-buried crime",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -5880,7 +6056,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -5991,7 +6169,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -6111,7 +6291,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "child victims",
@@ -6126,7 +6308,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -6220,7 +6404,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Backstory murder that drives the entire investigation"
+        "notes": "Backstory murder that drives the entire investigation",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -6400,7 +6586,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Mrs. Rogers",
@@ -6415,7 +6603,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "General MacArthur",
@@ -6430,7 +6620,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Thomas Rogers",
@@ -6445,7 +6637,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Emily Brent",
@@ -6460,7 +6654,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Justice Wargrave",
@@ -6475,7 +6671,9 @@
         "is_central_death": false,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Twist: Wargrave faked his own death; he actually died last by a self-inflicted shot after killing all others"
+        "notes": "Twist: Wargrave faked his own death; he actually died last by a self-inflicted shot after killing all others",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Dr. Armstrong",
@@ -6490,7 +6688,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "William Blore",
@@ -6505,7 +6705,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Philip Lombard",
@@ -6520,7 +6722,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Vera's act was technically a mistake — Lombard was not Wargrave"
+        "notes": "Vera's act was technically a mistake — Lombard was not Wargrave",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Vera Claythorne",
@@ -6535,7 +6739,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Wargrave had set up the noose knowing Vera's guilt would drive her to use it; functionally a murder by manipulation"
+        "notes": "Wargrave had set up the noose knowing Vera's guilt would drive her to use it; functionally a murder by manipulation",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Justice Wargrave",
@@ -6550,7 +6756,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "The real final death; Wargrave's 'apparent' murder earlier was staged. His confession reveals the entire truth."
+        "notes": "The real final death; Wargrave's 'apparent' murder earlier was staged. His confession reveals the entire truth.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -6660,7 +6868,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Inciting incident; whether this was accident, suicide, or murder is part of the mystery"
+        "notes": "Inciting incident; whether this was accident, suicide, or murder is part of the mystery",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Nadina",
@@ -6675,7 +6885,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -6798,7 +7010,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "The murder that sets off Luke's investigation"
+        "notes": "The murder that sets off Luke's investigation",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Tommy Pierce",
@@ -6813,7 +7027,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "One of multiple village murders"
+        "notes": "One of multiple village murders",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Dr. Humbleby",
@@ -6828,7 +7044,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -6963,7 +7181,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Her death triggers the subsequent murders"
+        "notes": "Her death triggers the subsequent murders",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Satipy",
@@ -6978,7 +7198,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Sobek",
@@ -6993,7 +7215,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -7090,7 +7314,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -7214,7 +7440,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "One of Christie's most shocking twists: the killer is an 11-year-old girl"
+        "notes": "One of Christie's most shocking twists: the killer is an 11-year-old girl",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Nanny Saunders",
@@ -7229,7 +7457,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Josephine Leonides",
@@ -7244,7 +7474,9 @@
         "is_central_death": false,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Edith de Haviland also died in the car crash; a private execution and suicide combined"
+        "notes": "Edith de Haviland also died in the car crash; a private execution and suicide combined",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -7337,7 +7569,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Twist: Jacko was convicted and died for a crime he did not commit; Calgary's return triggers the real killer's exposure"
+        "notes": "Twist: Jacko was convicted and died for a crime he did not commit; Calgary's return triggers the real killer's exposure",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Jacko Argyle",
@@ -7352,7 +7586,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Backstory; a miscarriage of justice that haunts the novel"
+        "notes": "Backstory; a miscarriage of justice that haunts the novel",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -7475,7 +7711,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "multiple unnamed victims",
@@ -7490,7 +7728,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Twist: the occult practitioners at The Pale Horse are a deliberate red herring; the actual killing mechanism is thallium poisoning by the pharmacist Osborne"
+        "notes": "Twist: the occult practitioners at The Pale Horse are a deliberate red herring; the actual killing mechanism is thallium poisoning by the pharmacist Osborne",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -7567,7 +7807,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Twist: the narrator Michael is revealed in the final pages to have been the architect of his wife's murder from the start; the apparent love story is exposed as premeditated murder"
+        "notes": "Twist: the narrator Michael is revealed in the final pages to have been the architect of his wife's murder from the start; the apparent love story is exposed as premeditated murder",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Greta Andersen",
@@ -7582,7 +7824,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -7642,7 +7886,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Prof. Logic",
@@ -7657,7 +7903,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -7900,7 +8148,9 @@
             "is_central_death": true,
             "is_twist": true,
             "chapter_or_act": "Turnabout Trump",
-            "notes": "Victim's true identity is Zak Gramarye, a famous magician in hiding"
+            "notes": "Victim's true identity is Zak Gramarye, a famous magician in hiding",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -7951,7 +8201,9 @@
             "is_central_death": true,
             "is_twist": false,
             "chapter_or_act": "Turnabout Corner",
-            "notes": "Meraktis was struck with a flower pot"
+            "notes": "Meraktis was struck with a flower pot",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -8015,7 +8267,9 @@
             "is_central_death": true,
             "is_twist": true,
             "chapter_or_act": "Turnabout Serenade",
-            "notes": "LeTouse was an undercover Interpol agent. Daryan staged the scene to frame Machi Tobaye."
+            "notes": "LeTouse was an undercover Interpol agent. Daryan staged the scene to frame Machi Tobaye.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Machi Tobaye",
@@ -8030,7 +8284,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": "Turnabout Serenade",
-            "notes": "Machi fell from the stage catwalk while trying to escape; accidental death during investigation events"
+            "notes": "Machi fell from the stage catwalk while trying to escape; accidental death during investigation events",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -8107,7 +8363,9 @@
             "is_central_death": false,
             "is_twist": true,
             "chapter_or_act": "Turnabout Succession",
-            "notes": "Magnifi's suicide was staged as a murder scene. Flashback case set seven years before the main game."
+            "notes": "Magnifi's suicide was staged as a murder scene. Flashback case set seven years before the main game.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Drew Misham",
@@ -8122,7 +8380,9 @@
             "is_central_death": true,
             "is_twist": false,
             "chapter_or_act": "Turnabout Succession",
-            "notes": "Drew died by licking a poisoned commemorative stamp sent by Kristoph Gavin"
+            "notes": "Drew died by licking a poisoned commemorative stamp sent by Kristoph Gavin",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Vera Misham",
@@ -8137,7 +8397,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": "Turnabout Succession",
-            "notes": "Vera was poisoned via nail polish containing atroquinine; she survived after receiving treatment"
+            "notes": "Vera was poisoned via nail polish containing atroquinine; she survived after receiving treatment",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       }
@@ -8408,7 +8670,9 @@
             "is_central_death": true,
             "is_twist": false,
             "chapter_or_act": "Turnabout Countdown",
-            "notes": "Clay survived the initial blast but was later stabbed by the Phantom; the bombing is also the inciting incident of the game"
+            "notes": "Clay survived the initial blast but was later stabbed by the Phantom; the bombing is also the inciting incident of the game",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -8459,7 +8723,9 @@
             "is_central_death": false,
             "is_twist": true,
             "chapter_or_act": "Turnabout for Tomorrow",
-            "notes": "Fulbright had already been killed before the game's events; his identity was stolen by the Phantom spy"
+            "notes": "Fulbright had already been killed before the game's events; his identity was stolen by the Phantom spy",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -8510,7 +8776,9 @@
             "is_central_death": true,
             "is_twist": false,
             "chapter_or_act": "The Monstrous Turnabout",
-            "notes": "Kyubi was killed during the Nine-Tails Vale festival; the killer exploited the legend of the yokai for misdirection"
+            "notes": "Kyubi was killed during the Nine-Tails Vale festival; the killer exploited the legend of the yokai for misdirection",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -8561,7 +8829,9 @@
             "is_central_death": true,
             "is_twist": false,
             "chapter_or_act": "Turnabout Academy",
-            "notes": "Courte was struck with a flagpole on the academy grounds"
+            "notes": "Courte was struck with a flagpole on the academy grounds",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -8612,7 +8882,9 @@
             "is_central_death": true,
             "is_twist": true,
             "chapter_or_act": "The Cosmic Turnabout",
-            "notes": "Clay survived the initial bombing but was stabbed by the Phantom on the rocket; this is the true murder central to the second half of the game"
+            "notes": "Clay survived the initial bombing but was stabbed by the Phantom on the rocket; this is the true murder central to the second half of the game",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -8663,7 +8935,9 @@
             "is_central_death": true,
             "is_twist": false,
             "chapter_or_act": "Turnabout Reclaimed",
-            "notes": "DLC case. Shipley was drowned in the aquarium pool; an orca named Orla was initially suspected."
+            "notes": "DLC case. Shipley was drowned in the aquarium pool; an orca named Orla was initially suspected.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       }
@@ -9012,7 +9286,9 @@
             "is_central_death": false,
             "is_twist": true,
             "chapter_or_act": "Case 1: The Foreign Turnabout",
-            "notes": "Initially Tahrust Inmee's death is the central mystery; Neh'mu's death is uncovered as part of the investigation. Andistan'dhin is the true killer."
+            "notes": "Initially Tahrust Inmee's death is the central mystery; Neh'mu's death is uncovered as part of the investigation. Andistan'dhin is the true killer.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -9076,7 +9352,9 @@
             "is_central_death": true,
             "is_twist": true,
             "chapter_or_act": "Case 2: The Rite of Turnabout",
-            "notes": "Tahrust's death appears to be a murder in the Inner Sanctum; the Divination Seance is used to investigate. The twist is that he died by suicide to protect Nayna."
+            "notes": "Tahrust's death appears to be a murder in the Inner Sanctum; the Divination Seance is used to investigate. The twist is that he died by suicide to protect Nayna.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Zeh'lot",
@@ -9091,7 +9369,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": "Case 2: The Rite of Turnabout",
-            "notes": "Secondary death uncovered during the investigation of Case 2"
+            "notes": "Secondary death uncovered during the investigation of Case 2",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -9142,7 +9422,9 @@
             "is_central_death": true,
             "is_twist": false,
             "chapter_or_act": "Case 3: Turnabout Storyteller",
-            "notes": "Mistree fell through a trapdoor rigged to drop him fatally. Retinz's goal was to frame and destroy Trucy Wright."
+            "notes": "Mistree fell through a trapdoor rigged to drop him fatally. Retinz's goal was to frame and destroy Trucy Wright.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -9193,7 +9475,9 @@
             "is_central_death": true,
             "is_twist": false,
             "chapter_or_act": "Case 4: Turnabout Revolution (sub-case)",
-            "notes": "Buff was killed with a bust. The case is entangled with the political conspiracy around Atishon and the Founder's Orb."
+            "notes": "Buff was killed with a bust. The case is entangled with the political conspiracy around Atishon and the Founder's Orb.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -9270,7 +9554,9 @@
             "is_central_death": true,
             "is_twist": true,
             "chapter_or_act": "Case 5: Turnabout Revolution",
-            "notes": "Dhurke's death is a major twist; he had been operating as a ghost-like presence via the Divination Seance despite already being dead."
+            "notes": "Dhurke's death is a major twist; he had been operating as a ghost-like presence via the Divination Seance despite already being dead.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Inga Karkhuul Khura'in",
@@ -9285,7 +9571,9 @@
             "is_central_death": false,
             "is_twist": true,
             "chapter_or_act": "Case 5: Turnabout Revolution",
-            "notes": "Inga's death reveals that Ga'ran is the true villain behind the entire game's conspiracy"
+            "notes": "Inga's death reveals that Ga'ran is the true villain behind the entire game's conspiracy",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Amara Sigatar Khura'in",
@@ -9300,7 +9588,9 @@
             "is_central_death": false,
             "is_twist": true,
             "chapter_or_act": "Case 5: Turnabout Revolution",
-            "notes": "Amara survived the assassination attempt and was kept hidden. Revealed as a flashback twist in the finale."
+            "notes": "Amara survived the assassination attempt and was kept hidden. Revealed as a flashback twist in the finale.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       }
@@ -9597,7 +9887,9 @@
             "is_central_death": true,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Case 1 (Turnabout Visitor): Detective Faith killed in Edgeworth's office while Portsman searched for smuggling evidence."
+            "notes": "Case 1 (Turnabout Visitor): Detective Faith killed in Edgeworth's office while Portsman searched for smuggling evidence.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -9674,7 +9966,9 @@
             "is_central_death": false,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Rell was a smuggler framed as the 'Yatagarasu'; killed by Portsman to silence him."
+            "notes": "Rell was a smuggler framed as the 'Yatagarasu'; killed by Portsman to silence him.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Akbey Hicks",
@@ -9689,7 +9983,9 @@
             "is_central_death": true,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Case 2 (Turnabout Airlines): Interpol agent Hicks killed mid-flight to protect the smuggling ring."
+            "notes": "Case 2 (Turnabout Airlines): Interpol agent Hicks killed mid-flight to protect the smuggling ring.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -9740,7 +10036,9 @@
             "is_central_death": true,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Case 3 (The Kidnapped Turnabout): Devorae posed as kidnapper Oliver Deacon; killed by Lance Amano who staged his own kidnapping."
+            "notes": "Case 3 (The Kidnapped Turnabout): Devorae posed as kidnapper Oliver Deacon; killed by Lance Amano who staged his own kidnapping.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -9791,7 +10089,9 @@
             "is_central_death": true,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Case 4 (Turnabout Reminiscence): Flashback case; prosecutor Faraday was Kay's father and a Yatagarasu member, killed by mole Calisto Yew."
+            "notes": "Case 4 (Turnabout Reminiscence): Flashback case; prosecutor Faraday was Kay's father and a Yatagarasu member, killed by mole Calisto Yew.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -9855,7 +10155,9 @@
             "is_central_death": true,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Case 5 (Turnabout Ablaze): Smuggling lieutenant killed by ambassador Alba to prevent exposure."
+            "notes": "Case 5 (Turnabout Ablaze): Smuggling lieutenant killed by ambassador Alba to prevent exposure.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Ka-Shi Nou",
@@ -9870,7 +10172,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Case 5 (Turnabout Ablaze): Second victim killed by Alba during the climax."
+            "notes": "Case 5 (Turnabout Ablaze): Second victim killed by Alba during the climax.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       }
@@ -10206,7 +10510,9 @@
             "is_central_death": true,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Case 1 (Turnabout Inherited): Crane killed to prevent exposure of Debeste's past crimes."
+            "notes": "Case 1 (Turnabout Inherited): Crane killed to prevent exposure of Debeste's past crimes.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -10296,7 +10602,9 @@
             "is_central_death": true,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Case 2 (The Imprisoned Turnabout): Murder committed in the prison yard."
+            "notes": "Case 2 (The Imprisoned Turnabout): Murder committed in the prison yard.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Ryouken Housekeeper",
@@ -10311,7 +10619,9 @@
             "is_central_death": false,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Case 2: Prison warden secretly killed by Roland."
+            "notes": "Case 2: Prison warden secretly killed by Roland.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Patricia Roland",
@@ -10326,7 +10636,9 @@
             "is_central_death": false,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Case 2: Dogen kills Roland on behalf of Keyes's revenge scheme."
+            "notes": "Case 2: Dogen kills Roland on behalf of Keyes's revenge scheme.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -10398,7 +10710,9 @@
             "is_central_death": true,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Case 4 (The Forgotten Turnabout): Storyteller killed during a memory-loss episode."
+            "notes": "Case 4 (The Forgotten Turnabout): Storyteller killed during a memory-loss episode.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Zenitaro Tomitaro",
@@ -10413,7 +10727,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Case 4: Additional victim killed by the same perpetrator."
+            "notes": "Case 4: Additional victim killed by the same perpetrator.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -10490,7 +10806,9 @@
             "is_central_death": true,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Case 5 (The Grand Turnabout) / IS-7 flashback: Former chief prosecutor killed; covered up by Blaise Debeste."
+            "notes": "Case 5 (The Grand Turnabout) / IS-7 flashback: Former chief prosecutor killed; covered up by Blaise Debeste.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Horace Knightley",
@@ -10505,7 +10823,9 @@
             "is_central_death": false,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Case 5: Knightley eliminated by Simon Keyes (Sarushiro) as part of his revenge plot."
+            "notes": "Case 5: Knightley eliminated by Simon Keyes (Sarushiro) as part of his revenge plot.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       }
@@ -10802,7 +11122,9 @@
             "is_central_death": true,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Central murder mystery of the game; Belduke killed by Shade Kira to protect the Storyteller's secret."
+            "notes": "Central murder mystery of the game; Belduke killed by Shade Kira to protect the Storyteller's secret.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Hilda Labrume",
@@ -10817,7 +11139,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Witch trial execution carried out in Labyrinthia under the Great Witch laws."
+            "notes": "Witch trial execution carried out in Labyrinthia under the Great Witch laws.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -10855,7 +11179,9 @@
             "is_central_death": false,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "The Storyteller dies at the story's end; his death collapses the illusion sustaining Labyrinthia."
+            "notes": "The Storyteller dies at the story's end; his death collapses the illusion sustaining Labyrinthia.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       }
@@ -11165,7 +11491,9 @@
             "is_central_death": true,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Case 1 – The First Turnabout. Cindy was struck with a clock while Frank Sahwit was robbing her apartment."
+            "notes": "Case 1 – The First Turnabout. Cindy was struck with a clock while Frank Sahwit was robbing her apartment.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -11216,7 +11544,9 @@
             "is_central_death": true,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Case 2 – Turnabout Sisters. Mia was struck with a glass trophy by Redd White to prevent her from exposing him."
+            "notes": "Case 2 – Turnabout Sisters. Mia was struck with a glass trophy by Redd White to prevent her from exposing him.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -11267,7 +11597,9 @@
             "is_central_death": true,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Case 3 – Turnabout Samurai. Jack Hammer fell onto a fence spike after Dee Vasquez pushed him in self-defense during his attempt on her life."
+            "notes": "Case 3 – Turnabout Samurai. Jack Hammer fell onto a fence spike after Dee Vasquez pushed him in self-defense during his attempt on her life.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -11344,7 +11676,9 @@
             "is_central_death": true,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Case 4 – Turnabout Goodbyes. Yogi shot Hammond at Gourd Lake as revenge for Hammond's poor defense that left him faking insanity for 15 years."
+            "notes": "Case 4 – Turnabout Goodbyes. Yogi shot Hammond at Gourd Lake as revenge for Hammond's poor defense that left him faking insanity for 15 years.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Gregory Edgeworth",
@@ -11359,7 +11693,9 @@
             "is_central_death": false,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Case 4 – DL-6 Incident (15 years prior). Manfred von Karma shot Gregory Edgeworth in a stalled elevator, framing Yanni Yogi."
+            "notes": "Case 4 – DL-6 Incident (15 years prior). Manfred von Karma shot Gregory Edgeworth in a stalled elevator, framing Yanni Yogi.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -11436,7 +11772,9 @@
             "is_central_death": false,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Case 5 – Rise from the Ashes (SL-9 Incident). Joe Darke accidentally killed detective Neil Marshall during a struggle."
+            "notes": "Case 5 – Rise from the Ashes (SL-9 Incident). Joe Darke accidentally killed detective Neil Marshall during a struggle.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Neil Marshall",
@@ -11451,7 +11789,9 @@
             "is_central_death": false,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Case 5 – Rise from the Ashes. Damon Gant stabbed Neil Marshall a second time to ensure his death and fabricate evidence to blackmail Lana Skye."
+            "notes": "Case 5 – Rise from the Ashes. Damon Gant stabbed Neil Marshall a second time to ensure his death and fabricate evidence to blackmail Lana Skye.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Bruce Goodman",
@@ -11466,7 +11806,9 @@
             "is_central_death": true,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Case 5 – Rise from the Ashes. Damon Gant killed Detective Goodman to prevent the SL-9 case from being re-investigated."
+            "notes": "Case 5 – Rise from the Ashes. Damon Gant killed Detective Goodman to prevent the SL-9 case from being re-investigated.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       }
@@ -11750,7 +12092,9 @@
             "is_central_death": true,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Case 1 – Turnabout Reunion. Mimi Miney shot Dr. Grey during a spirit channeling to stop him exposing her role in a medical malpractice incident."
+            "notes": "Case 1 – Turnabout Reunion. Mimi Miney shot Dr. Grey during a spirit channeling to stop him exposing her role in a medical malpractice incident.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -11827,7 +12171,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Case 2 – Turnabout Big Top (backstory). Bat was mauled by Leon the lion after Regina playfully gave the lion a pepper-laced treat during Bat's prank; Bat fell into a coma."
+            "notes": "Case 2 – Turnabout Big Top (backstory). Bat was mauled by Leon the lion after Regina playfully gave the lion a pepper-laced treat during Bat's prank; Bat fell into a coma.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Russell Berry",
@@ -11842,7 +12188,9 @@
             "is_central_death": true,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Case 2 – Turnabout Big Top. Acro dropped a heavy bust from his window intending to kill Regina Berry but struck her father Russell by mistake."
+            "notes": "Case 2 – Turnabout Big Top. Acro dropped a heavy bust from his window intending to kill Regina Berry but struck her father Russell by mistake.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -11914,7 +12262,9 @@
             "is_central_death": true,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Case 4 – Farewell, My Turnabout. Juan Corrida was strangled in his hotel room by assassin Shelly de Killer, hired by Matt Engarde."
+            "notes": "Case 4 – Farewell, My Turnabout. Juan Corrida was strangled in his hotel room by assassin Shelly de Killer, hired by Matt Engarde.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Maya Fey",
@@ -11929,7 +12279,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Case 4 – Farewell, My Turnabout. Maya was held hostage by Shelly de Killer and threatened with execution if Phoenix did not secure a Not Guilty verdict for Engarde; ultimately freed."
+            "notes": "Case 4 – Farewell, My Turnabout. Maya was held hostage by Shelly de Killer and threatened with execution if Phoenix did not secure a Not Guilty verdict for Engarde; ultimately freed.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       }
@@ -12239,7 +12591,9 @@
             "is_central_death": true,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Case 1 – Turnabout Memories (set in the past). Dahlia pushed Doug into an electrical pole to silence him before he could warn Phoenix about the poison necklace scheme."
+            "notes": "Case 1 – Turnabout Memories (set in the past). Dahlia pushed Doug into an electrical pole to silence him before he could warn Phoenix about the poison necklace scheme.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -12290,7 +12644,9 @@
             "is_central_death": true,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Case 2 – The Stolen Turnabout. Luke Atmey killed his blackmailer Kane Bullard and framed Ron DeLite to avoid exposure as Mask*DeMasque."
+            "notes": "Case 2 – The Stolen Turnabout. Luke Atmey killed his blackmailer Kane Bullard and framed Ron DeLite to avoid exposure as Mask*DeMasque.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -12341,7 +12697,9 @@
             "is_central_death": true,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Case 3 – Recipe for Turnabout. Furio Tigre poisoned Glen Elg with his own experimental antidote compound after Glen won his debt back at poker, then impersonated Phoenix Wright to secure an acquittal."
+            "notes": "Case 3 – Recipe for Turnabout. Furio Tigre poisoned Glen Elg with his own experimental antidote compound after Glen won his debt back at poker, then impersonated Phoenix Wright to secure an acquittal.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -12405,7 +12763,9 @@
             "is_central_death": true,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Case 4 – Turnabout Beginnings (set in the past). Dahlia stabbed her half-sister Valerie, a detective who helped her frame Terry Fawles five years earlier, to prevent further exposure."
+            "notes": "Case 4 – Turnabout Beginnings (set in the past). Dahlia stabbed her half-sister Valerie, a detective who helped her frame Terry Fawles five years earlier, to prevent further exposure.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Terry Fawles",
@@ -12420,7 +12780,9 @@
             "is_central_death": false,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Case 4 – Turnabout Beginnings. Terry Fawles swallowed a capsule of poison Dahlia had given him years before as a 'promise' token; he died on the witness stand after realizing Dahlia had betrayed him."
+            "notes": "Case 4 – Turnabout Beginnings. Terry Fawles swallowed a capsule of poison Dahlia had given him years before as a 'promise' token; he died on the witness stand after realizing Dahlia had betrayed him.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -12471,7 +12833,9 @@
             "is_central_death": true,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Case 5 – Bridge to the Turnabout. Godot fatally stabbed Misty Fey (who was channeling Dahlia) to prevent Dahlia from killing Maya. He used the alias Elise Deauxnim for Misty Fey. The motive was to protect Maya in his own misguided way."
+            "notes": "Case 5 – Bridge to the Turnabout. Godot fatally stabbed Misty Fey (who was channeling Dahlia) to prevent Dahlia from killing Maya. He used the alias Elise Deauxnim for Misty Fey. The motive was to protect Maya in his own misguided way.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       }
@@ -12639,7 +13003,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Miss Brun was the last queen consort of Herzoslovakia, believed murdered in the revolution; she had been hiding in plain sight"
+        "notes": "Miss Brun was the last queen consort of Herzoslovakia, believed murdered in the revolution; she had been hiding in plain sight",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -12802,7 +13168,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Initial death that sets the plot in motion; Jimmy Thesiger is the surprising killer"
+        "notes": "Initial death that sets the plot in motion; Jimmy Thesiger is the surprising killer",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Ronny Devereux",
@@ -12817,7 +13185,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "His dying words 'Seven Dials... Tell... Jimmy Thesiger' drive Bundle to investigate"
+        "notes": "His dying words 'Seven Dials... Tell... Jimmy Thesiger' drive Bundle to investigate",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -12968,7 +13338,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "The séance's spirit 'message' that Trevelyan was dead was manipulated; Burnaby used skis to create a false alibi based on walking time"
+        "notes": "The séance's spirit 'message' that Trevelyan was dead was manipulated; Burnaby used skis to create a false alibi based on walking time",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -13111,7 +13483,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "His dying words set the entire plot in motion"
+        "notes": "His dying words set the entire plot in motion",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "John Savage",
@@ -13126,7 +13500,9 @@
         "is_central_death": false,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "The backstory murder that motivates the entire conspiracy"
+        "notes": "The backstory murder that motivates the entire conspiracy",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -13288,7 +13664,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Death ruled suicide but actually murder; the true target was eventually Iris, Rosemary's heir"
+        "notes": "Death ruled suicide but actually murder; the true target was eventually Iris, Rosemary's heir",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "George Barton",
@@ -13303,7 +13681,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "George set a trap for the killer but became the victim himself; the poisoned glass was meant for Iris"
+        "notes": "George set a trap for the killer but became the victim himself; the poisoned glass was meant for Iris",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -13442,7 +13822,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Carmichael's dying words drive the investigation forward"
+        "notes": "Carmichael's dying words drive the investigation forward",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -13584,7 +13966,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Her death gives Hilary the opportunity to impersonate her and infiltrate the compound"
+        "notes": "Her death gives Hilary the opportunity to impersonate her and infiltrate the compound",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Elsa Betterton",
@@ -13599,7 +13983,9 @@
         "is_central_death": false,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Backstory murder; Thomas's inability to produce new work since her death exposes his fraud"
+        "notes": "Backstory murder; Thomas's inability to produce new work since her death exposes his fraud",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -13757,7 +14143,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Milly Jean Cortman is revealed to be Juanita, an assassin; the murder underscores the global conspiracy"
+        "notes": "Milly Jean Cortman is revealed to be Juanita, an assassin; the murder underscores the global conspiracy",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -14065,7 +14453,9 @@
             "is_central_death": false,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Sayaka originally tried to kill Leon; he turned the knife on her."
+            "notes": "Sayaka originally tried to kill Leon; he turned the knife on her.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Leon Kuwata",
@@ -14080,7 +14470,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Execution: 'SHSL Ball, Set, Match!' Leon was found guilty of murdering Sayaka."
+            "notes": "Execution: 'SHSL Ball, Set, Match!' Leon was found guilty of murdering Sayaka.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -14144,7 +14536,9 @@
             "is_central_death": false,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Mondo was overcome with jealousy and rage when Chihiro revealed a desire to become stronger, exposing Mondo's own secret weakness."
+            "notes": "Mondo was overcome with jealousy and rage when Chihiro revealed a desire to become stronger, exposing Mondo's own secret weakness.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Mondo Owada",
@@ -14159,7 +14553,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Execution: 'Goodbye, Mondo, My Beloved.' Mondo was found guilty of murdering Chihiro."
+            "notes": "Execution: 'Goodbye, Mondo, My Beloved.' Mondo was found guilty of murdering Chihiro.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -14249,7 +14645,9 @@
             "is_central_death": false,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Junko killed her own twin sister Mukuro who was disguised as Junko to participate in the game as a student."
+            "notes": "Junko killed her own twin sister Mukuro who was disguised as Junko to participate in the game as a student.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Kiyotaka Ishimaru",
@@ -14264,7 +14662,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Celestia manipulated Hifumi into killing Ishimaru as part of her escape plan."
+            "notes": "Celestia manipulated Hifumi into killing Ishimaru as part of her escape plan.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Hifumi Yamada",
@@ -14279,7 +14679,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Celestia killed Hifumi to eliminate the witness to the Ishimaru murder."
+            "notes": "Celestia killed Hifumi to eliminate the witness to the Ishimaru murder.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Celestia Ludenberg",
@@ -14294,7 +14696,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Execution: 'The Princess of Versailles.' Celestia was found guilty of murdering Ishimaru and Yamada."
+            "notes": "Execution: 'The Princess of Versailles.' Celestia was found guilty of murdering Ishimaru and Yamada.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -14332,7 +14736,9 @@
             "is_central_death": false,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Sakura sacrificed herself to stop the group from tearing itself apart, having been exposed as Monokuma's spy."
+            "notes": "Sakura sacrificed herself to stop the group from tearing itself apart, having been exposed as Monokuma's spy.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -14383,7 +14789,9 @@
             "is_central_death": true,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Junko willingly accepted her own execution after being exposed as the mastermind; she desired despair."
+            "notes": "Junko willingly accepted her own execution after being exposed as the mastermind; she desired despair.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       }
@@ -14732,7 +15140,9 @@
             "is_central_death": false,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Victim appeared to be Byakuya Togami but was actually an impostor. Teruteru stabbed the wrong person while trying to protect his mother."
+            "notes": "Victim appeared to be Byakuya Togami but was actually an impostor. Teruteru stabbed the wrong person while trying to protect his mother.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Teruteru Hanamura",
@@ -14747,7 +15157,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Execution: 'Bon Appétit for You.' Teruteru was found guilty of murdering the Imposter."
+            "notes": "Execution: 'Bon Appétit for You.' Teruteru was found guilty of murdering the Imposter.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -14811,7 +15223,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Peko acted as Fuyuhiko's sword (tool) to avenge his sister's death at Mahiru's hands."
+            "notes": "Peko acted as Fuyuhiko's sword (tool) to avenge his sister's death at Mahiru's hands.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Peko Pekoyama",
@@ -14826,7 +15240,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Execution: 'One Woman Army.' Peko was found guilty of murdering Mahiru."
+            "notes": "Execution: 'One Woman Army.' Peko was found guilty of murdering Mahiru.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -14903,7 +15319,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Mikan was driven to kill by the Despair Disease restoring her memories of being Ultimate Despair."
+            "notes": "Mikan was driven to kill by the Despair Disease restoring her memories of being Ultimate Despair.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Hiyoko Saionji",
@@ -14918,7 +15336,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Hiyoko walked in on the crime scene and was killed to silence her."
+            "notes": "Hiyoko walked in on the crime scene and was killed to silence her.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Mikan Tsumiki",
@@ -14933,7 +15353,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Execution: 'Bye Bye Ouchies!' Mikan was found guilty of murdering Ibuki and Hiyoko."
+            "notes": "Execution: 'Bye Bye Ouchies!' Mikan was found guilty of murdering Ibuki and Hiyoko.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -14997,7 +15419,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "A mutual decision — both agreed to fight; Gundham won so the others could eat."
+            "notes": "A mutual decision — both agreed to fight; Gundham won so the others could eat.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Gundham Tanaka",
@@ -15012,7 +15436,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Execution: 'The Parade of Biting Beasts.' Gundham was found guilty of murdering Nekomaru."
+            "notes": "Execution: 'The Parade of Biting Beasts.' Gundham was found guilty of murdering Nekomaru.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -15076,7 +15502,9 @@
             "is_central_death": true,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Nagito's death was a suicide designed as a 'hope' gambit — the killer would be unknowingly chosen and executed, creating despair. Chiaki's hand was used to stab him."
+            "notes": "Nagito's death was a suicide designed as a 'hope' gambit — the killer would be unknowingly chosen and executed, creating despair. Chiaki's hand was used to stab him.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Chiaki Nanami",
@@ -15091,7 +15519,9 @@
             "is_central_death": true,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Execution: 'Please Insert Coin.' Chiaki was found guilty as the unwitting killer in Nagito's suicide trap. She was also revealed to be the Class 77 AI construct. Her death triggers Izuru Kamukura's true emotions."
+            "notes": "Execution: 'Please Insert Coin.' Chiaki was found guilty as the unwitting killer in Nagito's suicide trap. She was also revealed to be the Class 77 AI construct. Her death triggers Izuru Kamukura's true emotions.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -15142,7 +15572,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Monomi sacrificed herself to end the game's simulation."
+            "notes": "Monomi sacrificed herself to end the game's simulation.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       }
@@ -15491,7 +15923,9 @@
             "is_central_death": false,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Tsumugi was the true killer; Kaede was framed. Rantaro was a Survivor who knew the game's secret and was killed to prevent him from ending it."
+            "notes": "Tsumugi was the true killer; Kaede was framed. Rantaro was a Survivor who knew the game's secret and was killed to prevent him from ending it.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Kaede Akamatsu",
@@ -15506,7 +15940,9 @@
             "is_central_death": true,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Execution: 'Der Flohwalzer.' Kaede was the initial protagonist and was wrongfully executed."
+            "notes": "Execution: 'Der Flohwalzer.' Kaede was the initial protagonist and was wrongfully executed.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -15570,7 +16006,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Ryoma allowed himself to be killed since he had nothing to live for; Kirumi killed him to escape and serve her country as its de facto Prime Minister."
+            "notes": "Ryoma allowed himself to be killed since he had nothing to live for; Kirumi killed him to escape and serve her country as its de facto Prime Minister.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Kirumi Tojo",
@@ -15585,7 +16023,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Execution: 'Kirumi-chan's Rampage.' Kirumi was found guilty of murdering Ryoma."
+            "notes": "Execution: 'Kirumi-chan's Rampage.' Kirumi was found guilty of murdering Ryoma.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -15662,7 +16102,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Korekiyo killed Angie as a 'friend' to offer to his deceased sister's spirit."
+            "notes": "Korekiyo killed Angie as a 'friend' to offer to his deceased sister's spirit.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Tenko Chabashira",
@@ -15677,7 +16119,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Tenko's death was part of Korekiyo's plan to gather female friends for his sister. The seance was staged to hide the murder."
+            "notes": "Tenko's death was part of Korekiyo's plan to gather female friends for his sister. The seance was staged to hide the murder.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Korekiyo Shinguji",
@@ -15692,7 +16136,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Execution: 'Cultural Melting Pot.' Korekiyo was found guilty of murdering Angie and Tenko."
+            "notes": "Execution: 'Cultural Melting Pot.' Korekiyo was found guilty of murdering Angie and Tenko.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -15756,7 +16202,9 @@
             "is_central_death": false,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Miu planned to kill Kokichi first; Kokichi manipulated Gonta into strangling Miu instead. Death occurred in virtual world, affecting real body."
+            "notes": "Miu planned to kill Kokichi first; Kokichi manipulated Gonta into strangling Miu instead. Death occurred in virtual world, affecting real body.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Gonta Gokuhara",
@@ -15771,7 +16219,9 @@
             "is_central_death": false,
             "is_twist": false,
             "chapter_or_act": null,
-            "notes": "Execution: 'Gentle Giant's Last Stand.' Gonta was found guilty of murdering Miu. Tragically, Gonta had no memory of the act."
+            "notes": "Execution: 'Gentle Giant's Last Stand.' Gonta was found guilty of murdering Miu. Tragically, Gonta had no memory of the act.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -15835,7 +16285,9 @@
             "is_central_death": true,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Kokichi and Kaito conspired to create an unsolvable murder to end the killing game. Kokichi was poisoned by Maki first and then crushed by Kaito inside the Exisal."
+            "notes": "Kokichi and Kaito conspired to create an unsolvable murder to end the killing game. Kokichi was poisoned by Maki first and then crushed by Kaito inside the Exisal.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Kaito Momota",
@@ -15850,7 +16302,9 @@
             "is_central_death": true,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Execution: 'The Luminary of the Stars.' Kaito was found guilty of murdering Kokichi. He died as he wanted — going to space — having already been terminally ill."
+            "notes": "Execution: 'The Luminary of the Stars.' Kaito was found guilty of murdering Kokichi. He died as he wanted — going to space — having already been terminally ill.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       },
@@ -15914,7 +16368,9 @@
             "is_central_death": true,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Kiibo sacrificed himself to free the surviving students and end the killing game."
+            "notes": "Kiibo sacrificed himself to free the surviving students and end the killing game.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           },
           {
             "victim_name": "Tsumugi Shirogane",
@@ -15929,7 +16385,9 @@
             "is_central_death": true,
             "is_twist": true,
             "chapter_or_act": null,
-            "notes": "Tsumugi was revealed as the mastermind and was executed after the final trial. The students chose to survive in a ruined world rather than perpetuate the killing game."
+            "notes": "Tsumugi was revealed as the mastermind and was executed after the final trial. The students chose to survive in a ruined world rather than perpetuate the killing game.",
+            "killer_culpability": "needs_review",
+            "killer_circumstance": "needs_review"
           }
         ]
       }
@@ -16074,7 +16532,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -16217,7 +16677,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -16347,7 +16809,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -16477,7 +16941,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Dale Biederbeck could not have committed the murder himself due to his extreme obesity; he used his doctor as a proxy"
+        "notes": "Dale Biederbeck could not have committed the murder himself due to his extreme obesity; he used his doctor as a proxy",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -16607,7 +17073,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -16724,7 +17192,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -16854,7 +17324,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -16984,7 +17456,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -17101,7 +17575,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "McDowell used a microchip hidden on a video camera cart to create a false alibi during the marathon"
+        "notes": "McDowell used a microchip hidden on a video camera cart to create a false alibi during the marathon",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -17218,7 +17694,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -17348,7 +17826,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -17478,7 +17958,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -17595,7 +18077,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -17712,7 +18196,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -17829,7 +18315,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -17972,7 +18460,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -18089,7 +18579,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -18206,7 +18698,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -18336,7 +18830,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -18453,7 +18949,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -18570,7 +19068,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -18687,7 +19187,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -18817,7 +19319,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -18960,7 +19464,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -19077,7 +19583,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -19308,7 +19816,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -19438,7 +19948,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -19581,7 +20093,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -19698,7 +20212,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -19815,7 +20331,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -19932,7 +20450,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -20049,7 +20569,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -20179,7 +20701,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -20296,7 +20820,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -20413,7 +20939,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -20530,7 +21058,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -20647,7 +21177,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -20764,7 +21296,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -20881,7 +21415,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -20998,7 +21534,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -21115,7 +21653,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -21232,7 +21772,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -21349,7 +21891,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -21466,7 +22010,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -21583,7 +22129,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -21700,7 +22248,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -21830,7 +22380,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Julio Alvarez",
@@ -21845,7 +22397,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -21962,7 +22516,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -22079,7 +22635,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -22196,7 +22754,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -22313,7 +22873,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -22430,7 +22992,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -22547,7 +23111,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -22664,7 +23230,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -22781,7 +23349,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -22898,7 +23468,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -23015,7 +23587,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -23132,7 +23706,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -23249,7 +23825,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -23366,7 +23944,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": null
+        "notes": null,
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -23483,7 +24063,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Leverett shoved Cullman into the staircase when he discovered her hidden camera during a struggle."
+        "notes": "Leverett shoved Cullman into the staircase when he discovered her hidden camera during a struggle.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -23600,7 +24182,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Neely staged Cusack's death as a suicide to prevent him from exposing the pension fund theft."
+        "notes": "Neely staged Cusack's death as a suicide to prevent him from exposing the pension fund theft.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -23717,7 +24301,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Aaron sabotaged a hair dryer and flooded the locker room to electrocute Lynn before she could give a DNA sample that would link him to a cold-case murder."
+        "notes": "Aaron sabotaged a hair dryer and flooded the locker room to electrocute Lynn before she could give a DNA sample that would link him to a cold-case murder.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -23847,7 +24433,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Murdoch strangled Stefanie and set her house on fire on behalf of Peter Breen, who wanted rid of his mistress."
+        "notes": "Murdoch strangled Stefanie and set her house on fire on behalf of Peter Breen, who wanted rid of his mistress.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -23964,7 +24552,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Bennett struck Anna with a champagne bottle and drowned her in a locked metal box on his boat when she tried to leave him."
+        "notes": "Bennett struck Anna with a champagne bottle and drowned her in a locked metal box on his boat when she tried to leave him.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -24081,7 +24671,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Kyle shoved the nurse down the stairs to prevent her from interfering with his plan to murder his wife for the insurance payout."
+        "notes": "Kyle shoved the nurse down the stairs to prevent her from interfering with his plan to murder his wife for the insurance payout.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -24198,7 +24790,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Merrigan stabbed Teresa with a letter opener after she accidentally broke a figurine containing his stashed heroin."
+        "notes": "Merrigan stabbed Teresa with a letter opener after she accidentally broke a figurine containing his stashed heroin.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -24315,7 +24909,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Kedder impersonated Stork at an acupuncturist, then arranged a fake overdose to silence the roadie who discovered Kedder had stolen full credit for his song."
+        "notes": "Kedder impersonated Stork at an acupuncturist, then arranged a fake overdose to silence the roadie who discovered Kedder had stolen full credit for his song.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -24432,7 +25028,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Glazer let Kenneth's tie get caught in a running semi engine, then kicked his feet out to ensure death, preventing exposure of his financial fraud."
+        "notes": "Glazer let Kenneth's tie get caught in a running semi engine, then kicked his feet out to ensure death, preventing exposure of his financial fraud.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -24549,7 +25147,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Mandy killed her husband seven years before the episode and used a lookalike impersonator to maintain control of the estate before Derek could be declared legally dead."
+        "notes": "Mandy killed her husband seven years before the episode and used a lookalike impersonator to maintain control of the estate before Derek could be declared legally dead.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -24666,7 +25266,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Hal killed Gail when she discovered his antiquities smuggling operation; he befriended Monk to retrieve a photo of the two together that Gail had mailed to Monk."
+        "notes": "Hal killed Gail when she discovered his antiquities smuggling operation; he befriended Monk to retrieve a photo of the two together that Gail had mailed to Monk.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -24783,7 +25385,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Paul killed his parents' butler after the butler discovered and began blackmailing him over engineering his step-mother's death for the inheritance."
+        "notes": "Paul killed his parents' butler after the butler discovered and began blackmailing him over engineering his step-mother's death for the inheritance.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -24900,7 +25504,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Max trained a neighbor's dog to turn on the gas in the bedroom whenever the dog heard a specific phrase during Max's live radio broadcast, giving him a perfect on-air alibi."
+        "notes": "Max trained a neighbor's dog to turn on the gas in the bedroom whenever the dog heard a specific phrase during Max's live radio broadcast, giving him a perfect on-air alibi.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -25017,7 +25623,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Belmont staged Harvey's death as a self-inflicted rifle shot to prevent Harvey from turning him in for running illegal marijuana crops."
+        "notes": "Belmont staged Harvey's death as a self-inflicted rifle shot to prevent Harvey from turning him in for running illegal marijuana crops.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -25147,7 +25755,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Dr. Leven killed Jean and then staged Cyrus Canning's death as a bizarre six-way murder to distract police for 36 hours until stomach content evidence linking him to Jean would degrade."
+        "notes": "Dr. Leven killed Jean and then staged Cyrus Canning's death as a bizarre six-way murder to distract police for 36 hours until stomach content evidence linking him to Jean would degrade.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Cyrus Canning",
@@ -25162,7 +25772,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Random victim killed in six simultaneous ways to manufacture a false serial killer narrative as a distraction."
+        "notes": "Random victim killed in six simultaneous ways to manufacture a false serial killer narrative as a distraction.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -25279,7 +25891,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Scott smuggled his heart monitor into another patient's room via a supply closet to fake an alibi, then beat Dr. Whitcomb to death with an oxygen tank to prevent him testifying in a malpractice lawsuit."
+        "notes": "Scott smuggled his heart monitor into another patient's room via a supply closet to fake an alibi, then beat Dr. Whitcomb to death with an oxygen tank to prevent him testifying in a malpractice lawsuit.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -25396,7 +26010,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Ringel knocked his wife out with a brick then used garden shears fitted with a mold of his neighbor's dog's teeth to make the death look like a mauling; the dog had already died, ruining the frame-up."
+        "notes": "Ringel knocked his wife out with a brick then used garden shears fitted with a mold of his neighbor's dog's teeth to make the death look like a mauling; the dog had already died, ruining the frame-up.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -25513,7 +26129,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Hodges planted a car bomb targeting his business partner but forgot to account for Daylight Saving Time; the bomb killed rapper Xtra Large instead."
+        "notes": "Hodges planted a car bomb targeting his business partner but forgot to account for Daylight Saving Time; the bomb killed rapper Xtra Large instead.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -25630,7 +26248,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Arlene stabbed Vickie to prevent her from warning tycoon Peter Magneri about his aortic aneurysm; Arlene was short-selling his stock and needed him to die under stress."
+        "notes": "Arlene stabbed Vickie to prevent her from warning tycoon Peter Magneri about his aortic aneurysm; Arlene was short-selling his stock and needed him to die under stress.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -25747,7 +26367,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Linda shot her real estate partner at an open house and used a replica of her bedroom in a truck to create a false alibi on a webcam with Stottlemeyer."
+        "notes": "Linda shot her real estate partner at an open house and used a replica of her bedroom in a truck to create a false alibi on a webcam with Stottlemeyer.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -25877,7 +26499,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Sherman arranged a fake burglary with Dewey Jordan, then shot both Dewey and his wife when she came downstairs, framing the scenario as a home invasion."
+        "notes": "Sherman arranged a fake burglary with Dewey Jordan, then shot both Dewey and his wife when she came downstairs, framing the scenario as a home invasion.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -25994,7 +26618,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Happy Jack pistol-whipped his brother during the bank robbery to eliminate a witness to the crime and keep the full loot for himself."
+        "notes": "Happy Jack pistol-whipped his brother during the bank robbery to eliminate a witness to the crime and keep the full loot for himself.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -26111,7 +26737,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Joey burned Victor Granja's crash site to hide his identity, then drugged Harold Krenshaw and dressed him as the daredevil to die in a staged stunt and claim the inheritance."
+        "notes": "Joey burned Victor Granja's crash site to hide his identity, then drugged Harold Krenshaw and dressed him as the daredevil to die in a staged stunt and claim the inheritance.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -26254,7 +26882,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Max and Pauly Flores committed the Davis murders 14 years prior; DNA cleared Max but actually belonged to Pauly. After release, Max killed Pauly to prevent exposure."
+        "notes": "Max and Pauly Flores committed the Davis murders 14 years prior; DNA cleared Max but actually belonged to Pauly. After release, Max killed Pauly to prevent exposure.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -26371,7 +27001,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Lee faked his death as part of a con on coin dealer Posner; when Posner realized he'd been scammed, he tracked Lee down at a train station and shot him for real."
+        "notes": "Lee faked his death as part of a con on coin dealer Posner; when Posner realized he'd been scammed, he tracked Lee down at a train station and shot him for real.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -26488,7 +27120,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Kenworthy, dressed as Santa to create a traffic distraction for a diamond heist, chased down and beat Alice Dubois to death with his bell to silence her as a witness."
+        "notes": "Kenworthy, dressed as Santa to create a traffic distraction for a diamond heist, chased down and beat Alice Dubois to death with his bell to silence her as a witness.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -26605,7 +27239,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Donovan killed Amanda and pinned it on the Siblings of the Sun cult after a red-light camera photo captured the two of them together, knowing she had ties to the cult."
+        "notes": "Donovan killed Amanda and pinned it on the Siblings of the Sun cult after a red-light camera photo captured the two of them together, knowing she had ties to the cult.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -26722,7 +27358,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Peter Crawley was killed by his fellow conspirators after he bought an expensive car with stolen money, risking exposing their coordinated bank robbery."
+        "notes": "Peter Crawley was killed by his fellow conspirators after he bought an expensive car with stolen money, risking exposing their coordinated bank robbery.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -26852,7 +27490,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "George stabbed his wife after she confronted him about proof of his affair delivered to the wrong address."
+        "notes": "George stabbed his wife after she confronted him about proof of his affair delivered to the wrong address.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -26969,7 +27609,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Lovak killed junkyard owner Bennie Wentworth to acquire his stock of Treasury-grade canvas paper needed for counterfeiting money."
+        "notes": "Lovak killed junkyard owner Bennie Wentworth to acquire his stock of Treasury-grade canvas paper needed for counterfeiting money.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -27086,7 +27728,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Rollins shot Frank Nunn from hiding and switched gun barrels to frame Monk, preventing Nunn from revealing who hired him to kill Trudy Monk."
+        "notes": "Rollins shot Frank Nunn from hiding and switched gun barrels to frame Monk, preventing Nunn from revealing who hired him to kill Trudy Monk.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -27203,7 +27847,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Rollins planted a bomb in the governor's car at Dale the Whale's direction; Monk intercepted the trigger signal and saved the governor's life. Rollins was arrested and Monk's name was cleared."
+        "notes": "Rollins planted a bomb in the governor's car at Dale the Whale's direction; Monk intercepted the trigger signal and saved the governor's life. Rollins was arrested and Monk's name was cleared.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -27333,7 +27979,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Cassie Drake, Moody's private nurse, pushed him down the stairs to keep the hidden $4 million a secret."
+        "notes": "Cassie Drake, Moody's private nurse, pushed him down the stairs to keep the hidden $4 million a secret.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Cassie Drake",
@@ -27348,7 +27996,9 @@
         "is_central_death": false,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Jake stabbed his girlfriend/accomplice Cassie after Monk exposed her role and she became a liability."
+        "notes": "Jake stabbed his girlfriend/accomplice Cassie after Monk exposed her role and she became a liability.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -27465,7 +28115,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Patrick used oleander-derived poison to cause a fatal heart attack, killing Linda for her $10 million insurance policy."
+        "notes": "Patrick used oleander-derived poison to cause a fatal heart attack, killing Linda for her $10 million insurance policy.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -27582,7 +28234,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Billy stabbed lotto announcer Marissa with scissors to prevent her from exposing the rigged lottery machine."
+        "notes": "Billy stabbed lotto announcer Marissa with scissors to prevent her from exposing the rigged lottery machine.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -27699,7 +28353,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Hitman Charles Bach planted a bomb in Ray Regis's punching bag; vagrant Eddie accidentally triggered it."
+        "notes": "Hitman Charles Bach planted a bomb in Ray Regis's punching bag; vagrant Eddie accidentally triggered it.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -27816,7 +28472,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Whitaker forced Pierce to drink vodka at gunpoint then shot him and staged it as a suicide to prevent Pierce from revealing a cover-up of a submarine accident."
+        "notes": "Whitaker forced Pierce to drink vodka at gunpoint then shot him and staged it as a suicide to prevent Pierce from revealing a cover-up of a submarine accident.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -27933,7 +28591,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Leyla's mother stabbed war criminal Karsten Emerik (the Butcher of Zemenia) with a hat pin in the back of his taxi cab."
+        "notes": "Leyla's mother stabbed war criminal Karsten Emerik (the Butcher of Zemenia) with a hat pin in the back of his taxi cab.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -28076,7 +28736,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Serial killer Douglas Thurman strangled multiple young actresses; Cassandre Rank was one of his victims."
+        "notes": "Serial killer Douglas Thurman strangled multiple young actresses; Cassandre Rank was one of his victims.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Kate Kindel",
@@ -28091,7 +28753,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "TV journalist James Novak strangled his mistress Kate Kindel and mimicked Thurman's MO to frame the serial killer."
+        "notes": "TV journalist James Novak strangled his mistress Kate Kindel and mimicked Thurman's MO to frame the serial killer.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -28208,7 +28872,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Sally killed her real-estate mogul husband Aaron to collect his fortune before their divorce finalized, staging a fake kidnapping as a diversion."
+        "notes": "Sally killed her real-estate mogul husband Aaron to collect his fortune before their divorce finalized, staging a fake kidnapping as a diversion.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -28325,7 +28991,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Pharmacist Owen McCloskey suffocated homeless man Willie T., who had seen him painting fake miracle messages, then placed the body in a junkyard refrigerator."
+        "notes": "Pharmacist Owen McCloskey suffocated homeless man Willie T., who had seen him painting fake miracle messages, then placed the body in a junkyard refrigerator.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -28455,7 +29123,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Prison guard Daniel Reese murdered social worker Lindsey Bishop (his affair partner) and framed Jack Jr. for the killing to cover up the relationship."
+        "notes": "Prison guard Daniel Reese murdered social worker Lindsey Bishop (his affair partner) and framed Jack Jr. for the killing to cover up the relationship.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -28572,7 +29242,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Sarah Longson, Dr. Berry's assistant, shot bicycle thief Kuramoto in a cemetery after he drew too much police attention to her seed-theft scheme."
+        "notes": "Sarah Longson, Dr. Berry's assistant, shot bicycle thief Kuramoto in a cemetery after he drew too much police attention to her seed-theft scheme.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -28689,7 +29361,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "John Keyes killed Guinness museum security guard David Elliot during a robbery of an egg-eating robot exhibit."
+        "notes": "John Keyes killed Guinness museum security guard David Elliot during a robbery of an egg-eating robot exhibit.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -28806,7 +29480,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Limo driver Shawn Metzger bludgeoned quarterback David Gitelson with a tire iron when Gitelson threatened to report him for selling the team's playbook."
+        "notes": "Limo driver Shawn Metzger bludgeoned quarterback David Gitelson with a tire iron when Gitelson threatened to report him for selling the team's playbook.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -28923,7 +29599,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Patrice Gesner stabbed her partner Douglas Fendle with a steak knife to avoid sharing the proceeds of their scheme."
+        "notes": "Patrice Gesner stabbed her partner Douglas Fendle with a steak knife to avoid sharing the proceeds of their scheme.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -29040,7 +29718,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Magician Karl Torini strangled Kevin Dorfman with a piano wire after Kevin discovered that Torini's stage equipment was used to smuggle drugs."
+        "notes": "Magician Karl Torini strangled Kevin Dorfman with a piano wire after Kevin discovered that Torini's stage equipment was used to smuggle drugs.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -29157,7 +29837,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Paul Crawford strangled city councilwoman Eileen Hill with a custom necktie to prevent her from exposing their affair and threatening his wealthy marriage."
+        "notes": "Paul Crawford strangled city councilwoman Eileen Hill with a custom necktie to prevent her from exposing their affair and threatening his wealthy marriage.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -29274,7 +29956,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Actress Christine Rapp killed accountant Victor Timlinson after he tried to blackmail her over their conspiracy to rig a Silver Globe award."
+        "notes": "Actress Christine Rapp killed accountant Victor Timlinson after he tried to blackmail her over their conspiracy to rig a Silver Globe award.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -29417,7 +30101,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Drunk driver Kenneth Nichols struck and killed Ansara Waingaya in a hit-and-run while distracted on the phone."
+        "notes": "Drunk driver Kenneth Nichols struck and killed Ansara Waingaya in a hit-and-run while distracted on the phone.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Maria Fuentes",
@@ -29432,7 +30118,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Nichols beat housekeeper Maria Fuentes with a crowbar because she had heard him on the phone during the hit-and-run and could identify him."
+        "notes": "Nichols beat housekeeper Maria Fuentes with a crowbar because she had heard him on the phone during the hit-and-run and could identify him.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -29549,7 +30237,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Kyle Larkin killed his sister Marge to inherit the family fortune, dumping her body in the desert where it went undiscovered until he staged a UFO hoax to attract searchers."
+        "notes": "Kyle Larkin killed his sister Marge to inherit the family fortune, dumping her body in the desert where it went undiscovered until he staged a UFO hoax to attract searchers.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -29666,7 +30356,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Mob boss Jimmy Barlowe had Stanley Greenblatt killed to flush out Greenblatt's son Alvin, who had skimmed money from one of Jimmy's casinos."
+        "notes": "Mob boss Jimmy Barlowe had Stanley Greenblatt killed to flush out Greenblatt's son Alvin, who had skimmed money from one of Jimmy's casinos.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -29783,7 +30475,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Sculptor Evan Gildea bludgeoned his estranged wife Nancy with a marble sculpture; he used one that lacked his initials to avoid damaging his own work."
+        "notes": "Sculptor Evan Gildea bludgeoned his estranged wife Nancy with a marble sculpture; he used one that lacked his initials to avoid damaging his own work.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -29900,7 +30594,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Theater critic John Hannigan pushed waitress Callie Esterhaus over a hotel balcony to prevent her from exposing their affair and ruining his prestigious engagement."
+        "notes": "Theater critic John Hannigan pushed waitress Callie Esterhaus over a hotel balcony to prevent her from exposing their affair and ruining his prestigious engagement.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -30017,7 +30713,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Paramedic Angeline Dilworth poisoned her uncle Robert Boyd with an untraceable drug to mimic a heart attack and claim his cell phone company fortune."
+        "notes": "Paramedic Angeline Dilworth poisoned her uncle Robert Boyd with an untraceable drug to mimic a heart attack and claim his cell phone company fortune.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -30147,7 +30845,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Xavier Danko murdered exotic dancer Tiffany Bolt out of obsession, then began killing therapy group members who could place him near the scene."
+        "notes": "Xavier Danko murdered exotic dancer Tiffany Bolt out of obsession, then began killing therapy group members who could place him near the scene.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Barbara O'Keefe",
@@ -30162,7 +30862,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Xavier killed group therapy patient Barbara O'Keefe in her pool to prevent her from identifying him as Tiffany's killer."
+        "notes": "Xavier killed group therapy patient Barbara O'Keefe in her pool to prevent her from identifying him as Tiffany's killer.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -30292,7 +30994,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Patent attorney Meckler murdered janitor Bradley Foster, the real inventor of a self-cleaning vacuum, to steal credit for the invention."
+        "notes": "Patent attorney Meckler murdered janitor Bradley Foster, the real inventor of a self-cleaning vacuum, to steal credit for the invention.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Meckler",
@@ -30307,7 +31011,9 @@
         "is_central_death": false,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Pressman poisoned his partner Meckler with tainted ice cubes to avoid splitting the vacuum cleaner profits."
+        "notes": "Pressman poisoned his partner Meckler with tainted ice cubes to avoid splitting the vacuum cleaner profits.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -30437,7 +31143,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Golfer Perry Walsh lured Howie into a staged fall that turned into a real murder when Walsh pushed him to conceal their affair."
+        "notes": "Golfer Perry Walsh lured Howie into a staged fall that turned into a real murder when Walsh pushed him to conceal their affair.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -30554,7 +31262,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Steven DeWitt shoved his mistress Amanda Castle during an argument about hiding evidence of his marriage; her head struck the kitchen counter and she died."
+        "notes": "Steven DeWitt shoved his mistress Amanda Castle during an argument about hiding evidence of his marriage; her head struck the kitchen counter and she died.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -30684,7 +31394,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Brothers Del and Luke Johnston shot an armored car guard during a robbery; a stray bullet casing found by a camping boy tied the brothers to the crime."
+        "notes": "Brothers Del and Luke Johnston shot an armored car guard during a robbery; a stray bullet casing found by a camping boy tied the brothers to the crime.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -30801,7 +31513,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Former eco-terrorist Stephanie Briggs shot her ex-accomplice Martin Kettering when he tried to blackmail her about their shared past."
+        "notes": "Former eco-terrorist Stephanie Briggs shot her ex-accomplice Martin Kettering when he tried to blackmail her about their shared past.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -30918,7 +31632,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Window-washer Manny Alvarez killed Officer DiMarco to collect the full serial killer reward himself rather than splitting it as agreed."
+        "notes": "Window-washer Manny Alvarez killed Officer DiMarco to collect the full serial killer reward himself rather than splitting it as agreed.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -31048,7 +31764,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "Judge Ethan Rickover planted a car bomb that killed Trudy Monk twelve years before the series finale, to prevent her from connecting him to nurse Wendy Stroud's disappearance."
+        "notes": "Judge Ethan Rickover planted a car bomb that killed Trudy Monk twelve years before the series finale, to prevent her from connecting him to nurse Wendy Stroud's disappearance.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Wendy Stroud",
@@ -31063,7 +31781,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Rickover murdered the nurse who delivered his secret child with Trudy and buried her body in his front yard to keep the affair hidden."
+        "notes": "Rickover murdered the nurse who delivered his secret child with Trudy and buried her body in his front yard to keep the affair hidden.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -31180,7 +31900,9 @@
         "is_central_death": true,
         "is_twist": true,
         "chapter_or_act": null,
-        "notes": "The series finale resolves the twelve-year mystery of Trudy Monk's car bombing; Judge Rickover is confirmed as the killer before taking his own life."
+        "notes": "The series finale resolves the twelve-year mystery of Trudy Monk's car bombing; Judge Rickover is confirmed as the killer before taking his own life.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Judge Ethan Rickover",
@@ -31195,7 +31917,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Rickover grabbed Monk's gun and shot himself after his guilt was exposed and his career was ruined."
+        "notes": "Rickover grabbed Monk's gun and shot himself after his guilt was exposed and his career was ruined.",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ]
   },
@@ -31428,7 +32152,9 @@
         "is_central_death": false,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Occurred prior to the film's events; Griffin Briggs had obtained photographic evidence of Eden's presence at the scene"
+        "notes": "Occurred prior to the film's events; Griffin Briggs had obtained photographic evidence of Eden's presence at the scene",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       },
       {
         "victim_name": "Griffin Briggs",
@@ -31449,7 +32175,9 @@
         "is_central_death": true,
         "is_twist": false,
         "chapter_or_act": null,
-        "notes": "Initially ruled an accident; Monk deduced the tape measure sabotage by Kubrick on Eden's orders"
+        "notes": "Initially ruled an accident; Monk deduced the tape measure sabotage by Kubrick on Eden's orders",
+        "killer_culpability": "needs_review",
+        "killer_circumstance": "needs_review"
       }
     ],
     "episodes": [],

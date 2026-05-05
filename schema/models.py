@@ -36,6 +36,24 @@ Motive = Literal[
     "unknown", "other", "needs_review",
 ]
 
+KillerCulpability = Literal[
+    "purposely",    # killer desired the death
+    "knowingly",    # killer knew death was certain
+    "recklessly",   # killer consciously disregarded the risk of death
+    "negligently",  # killer should have known death would result
+    "accidentally", # no culpability; death was a pure accident
+    "unknown",      # media does not make culpability clear
+    "needs_review", # placeholder; not yet researched
+]
+
+KillerCircumstance = Literal[
+    "justified",    # war, self-defense, euthanasia
+    "mitigated",    # diminished capacity
+    "neutral",      # no special circumstance
+    "unknown",      # media does not make circumstance clear
+    "needs_review", # placeholder; not yet researched
+]
+
 MysteryTrope = Literal[
     "locked_room",         # death in a sealed space with no apparent entry/exit
     "impossible_crime",    # crime that appears physically impossible
@@ -96,6 +114,8 @@ class DeathModel(BaseModel):
     cause_detail: Optional[str] = None
     death_type: DeathType
     killer_name: Optional[str] = None
+    killer_culpability: KillerCulpability
+    killer_circumstance: KillerCircumstance
     motive: Optional[Motive] = None
     motive_detail: Optional[str] = None
     tropes: list[MysteryTrope] = []

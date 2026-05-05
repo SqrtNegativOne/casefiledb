@@ -117,6 +117,16 @@ class DeathModel(BaseModel):
             )
         return self
 
+    @model_validator(mode="after")
+    def _require_motive_for_suicide(self) -> "DeathModel":
+        """Require motive for suicide deaths; use 'unknown' if genuinely unclear."""
+        if self.death_type == "suicide" and self.motive is None:
+            raise ValueError(
+                "motive is required when death_type is 'suicide'. "
+                "Use 'unknown' if the reason is not stated in the narrative."
+            )
+        return self
+
 
 def _validate_death_refs(
     persons: list[PersonModel], deaths: list[DeathModel], context: str

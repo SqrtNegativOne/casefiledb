@@ -80,6 +80,7 @@ Every name used in a `death` event **must** be defined here first.
   `vigilante_justice`, `freedom`, `family_protection`, `pathological`, `mercy_killing`, `penance`,
   `unknown`, `other`.
   Key distinctions: `vigilante_justice` = self-appointed execution of those deemed guilty who escaped legal justice; `family_protection` = killing to shield family from ruin or scandal; `freedom` = escaping an unwanted relationship or controlling figure; `pathological` = compulsive or irrational psychological motive; `mercy_killing` = ending another's suffering; `penance` = atonement or confession-driven act. Reserve `other` only when none of the above fit.
+  **Required when `death_type` is `suicide`** — use `unknown` if the reason is not stated in the narrative.
 - `tropes`: (array of strings, optional) Mystery tropes that apply to this death. Choose from:
   - `locked_room` — death occurred in a sealed space with no apparent entry/exit
   - `impossible_crime` — the crime appears physically impossible

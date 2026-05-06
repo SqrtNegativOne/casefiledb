@@ -37,6 +37,15 @@ function closeMenu() {
         <span class="logo-mark">⬡</span>
         <span>Casefile Database</span>
       </RouterLink>
+      <nav :class="['site-nav', { 'nav-open': menuOpen }]">
+        <RouterLink
+          v-for="link in links"
+          :key="link.to"
+          :to="link.to"
+          :class="{ active: isActive(link.to) }"
+          @click="closeMenu"
+        >{{ link.label }}</RouterLink>
+      </nav>
       <div class="header-actions">
         <button
           class="theme-btn"
@@ -55,14 +64,5 @@ function closeMenu() {
         </button>
       </div>
     </div>
-    <nav :class="['site-nav', { 'nav-open': menuOpen }]">
-      <RouterLink
-        v-for="link in links"
-        :key="link.to"
-        :to="link.to"
-        :class="{ active: isActive(link.to) }"
-        @click="closeMenu"
-      >{{ link.label }}</RouterLink>
-    </nav>
   </div>
 </template>

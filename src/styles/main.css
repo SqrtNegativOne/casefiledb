@@ -66,11 +66,12 @@ body {
 .header-inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 1rem;
   padding: 0 1rem;
   height: 52px;
   max-width: 1200px;
   margin: 0 auto;
+  position: relative;
 }
 
 .site-logo {
@@ -144,14 +145,11 @@ body {
 
 /* Nav links */
 .site-nav {
-  background: var(--nav-bg);
-  border-bottom: 1px solid rgba(200,146,30,0.25);
   display: flex;
+  flex: 1;
   justify-content: center;
   flex-wrap: wrap;
   gap: 0.1rem;
-  padding: 0.25rem 1rem;
-  max-width: none;
 }
 
 .site-nav a {
@@ -174,10 +172,16 @@ body {
 
   .site-nav {
     display: none;
+    position: absolute;
+    top: 52px;
+    left: 0;
+    right: 0;
+    background: var(--nav-bg);
+    border-top: 1px solid rgba(200,146,30,0.2);
+    border-bottom: 1px solid rgba(200,146,30,0.25);
     flex-direction: column;
     gap: 0;
     padding: 0.5rem;
-    border-top: 1px solid rgba(200,146,30,0.2);
   }
 
   .site-nav.nav-open {
@@ -426,15 +430,18 @@ html[data-theme="dark"] .cause-ILLNESS    { border-color: #76b041; color: #a8d88
 /* ─── Sensitive / spoiler ───────────────────────────────────────── */
 .sensitive {
   color: transparent;
-  text-shadow: 0 0 10px var(--sensitive-mask);
-  transition: color 120ms ease, text-shadow 120ms ease;
+  text-shadow: 0 0 8px var(--sensitive-mask);
+  filter: blur(4px);
+  user-select: none;
+  transition: color 200ms ease, text-shadow 200ms ease, filter 200ms ease;
   cursor: pointer;
 }
 
-.sensitive:hover,
-.sensitive:focus-visible {
+.sensitive.revealed {
   color: var(--text);
   text-shadow: none;
+  filter: none;
+  user-select: auto;
 }
 
 /* Note hover popover */

@@ -74,13 +74,14 @@ Every name used in a `death` event **must** be defined here first.
   Use `VEHICULAR` for deaths caused by a vehicle (car, train, etc.). Use `UNKNOWN` when the cause is not specified in the narrative. Reserve `OTHER` only for methods that fit none of the above.
   **`means` is required for every `cause` except `OTHER`** — see below.
 - `death_type`: (required) One of:
-  `murder`, `attempted_murder`, `manslaughter`, `suicide`, `accident`, `natural_death`, `execution`, `unknown`.
+  `homicide`, `attempted_homicide`, `execution`, `accident`, `natural_death`, `unknown`.
+  Key rules: **suicide** is represented as `homicide` with the victim also listed in `killers` (killer == victim). **Manslaughter** is represented as `homicide` with the killer's `mens_rea` set to `recklessly` or `negligently`. **Accidents involving no human culprit** use `accident` with an empty `killers` list.
 - `motive`: One of:
   `greed_inheritance`, `greed_financial`, `blackmail`, `jealousy`, `revenge`, `ideology`, `self_defense`, `concealment`, `passion`,
   `vigilante_justice`, `freedom`, `family_protection`, `pathological`, `mercy`, `penance`,
   `unknown`, `other`, `needs_review`.
   Key distinctions: `vigilante_justice` = self-appointed execution of those deemed guilty who escaped legal justice; `family_protection` = killing to shield family from ruin or scandal; `freedom` = escaping an unwanted relationship or controlling figure; `pathological` = compulsive or irrational psychological motive; `mercy` = ending another's suffering; `penance` = atonement or confession-driven act. Reserve `other` only when none of the above fit. Use `unknown` when the narrative genuinely does not state a reason; use `needs_review` as a placeholder when you have not yet researched it.
-  **Required for all `death_type` values except `accident` and `natural_death`** — use `unknown` if the reason is not stated in the narrative, or `needs_review` if not yet researched.
+  **Required for all `death_type` values except `accident` and `natural_death`** — use `unknown` if the reason is not stated in the narrative, or `needs_review` if not yet researched. For `homicide` representing a suicide, use the victim's own motive (e.g. `penance`, `freedom`, `pathological`).
 - `killers`: (array, default `[]`) Each entry is an object with three fields describing one killer's role in the death. A death may have zero, one, or multiple killers (e.g. co-conspirators with different levels of involvement):
   - `name`: (string, required) Must match a name in `persons`.
   - `mens_rea`: **(required)** MPC mens rea — choose the highest that applies:
@@ -177,7 +178,7 @@ Only include fields you have data for. All fields are optional.
         "victim_name": "Alice",
         "cause": "POISONED",
         "means": "arsenic",
-        "death_type": "murder",
+        "death_type": "homicide",
         "killers": [
           { "name": "Bob", "mens_rea": "purposely", "circumstance": "neutral" }
         ],

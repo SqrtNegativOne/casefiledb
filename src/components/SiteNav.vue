@@ -1,11 +1,14 @@
 <script setup>
 import { ref } from 'vue'
 import { useRoute } from 'vue-router'
+import MarkCompletedModal from './MarkCompletedModal.vue'
+import { mnesia } from '../composables/useCompletion.js'
 
 defineProps(['theme'])
 defineEmits(['toggle-theme'])
 
 const menuOpen = ref(false)
+const completedModalOpen = ref(false)
 const route = useRoute()
 
 const links = [
@@ -34,6 +37,11 @@ function isActive(path) {
 function closeMenu() {
   menuOpen.value = false
 }
+
+function openCompletedModal() {
+  completedModalOpen.value = true
+  menuOpen.value = false
+}
 </script>
 
 <template>
@@ -54,6 +62,15 @@ function closeMenu() {
       </nav>
       <div class="header-actions">
         <button
+          class="completed-btn"
+          type="button"
+          @click="openCompletedModal"
+          :title="mnesia ? 'Mnesia mode is on — everything is visible' : 'Mark works as completed to reveal their spoilers'"
+        >
+          <span class="completed-btn-label">Mark as completed</span>
+          <span v-if="mnesia" class="completed-btn-mnesia" aria-label="Mnesia mode on">✦</span>
+        </button>
+        <button
           class="theme-btn"
           type="button"
           @click="$emit('toggle-theme')"
@@ -71,4 +88,5 @@ function closeMenu() {
       </div>
     </div>
   </div>
+  <MarkCompletedModal :open="completedModalOpen" @close="completedModalOpen = false" />
 </template>

@@ -827,3 +827,233 @@ svg .error-cap { stroke: var(--text); stroke-width: 1.5; opacity: 0.5; }
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--muted); }
+
+/* ─── Filter chips (People + Media) ─────────────────────────────── */
+.filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.85rem;
+}
+
+.chip {
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.85rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: background 100ms ease, border-color 100ms ease, color 100ms ease;
+}
+
+.chip:hover { border-color: var(--accent); }
+
+.chip-active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-text);
+}
+
+.chip-active .muted { color: var(--accent-text); opacity: 0.85; }
+
+/* ─── People page ───────────────────────────────────────────────── */
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 0.85rem;
+}
+
+.person-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+}
+
+.person-card:hover { border-color: var(--accent); }
+
+.person-name { margin: 0 0 0.25rem; font-weight: 600; font-size: 1rem; }
+
+.person-meta {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  font-size: 0.82rem;
+  align-items: baseline;
+}
+
+.role-badges {
+  display: flex;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+  margin: 0.4rem 0;
+}
+
+.role-victim    { border-color: #c0392b; color: #7b241c; background: #f9d6d2; }
+.role-killer    { border-color: #641e16; color: #4a1209; background: #f5b7b1; }
+.role-detective { border-color: #2471a3; color: #154360; background: #d6eaf8; }
+.role-solver    { border-color: #c8921e; color: #7d6608; background: #fef9c3; }
+
+html[data-theme="dark"] .role-victim    { color: #e8736a; background: #2d0e0a; }
+html[data-theme="dark"] .role-killer    { color: #d48080; background: #250a08; }
+html[data-theme="dark"] .role-detective { color: #7ab8df; background: #0a1a28; }
+html[data-theme="dark"] .role-solver    { color: #e8c840; background: #2a2208; }
+
+.person-archetype {
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin-top: 0.25rem;
+}
+
+.person-skills {
+  display: flex;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+  margin-top: 0.4rem;
+}
+
+.person-works {
+  margin-top: 0.5rem;
+  font-size: 0.82rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem;
+}
+
+/* ─── Statistics panel ──────────────────────────────────────────── */
+.stats-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem 1.25rem 1.25rem;
+  margin: 1.25rem 0;
+}
+
+.stats-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.stats-title {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+
+.stats-empty { padding: 0.5rem 0; }
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.stat-pill {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.6rem 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.stat-pill-num {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--accent);
+  line-height: 1.2;
+}
+
+.stat-pill-label {
+  font-size: 0.75rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.waffle-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.waffle-card {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.75rem 0.85rem;
+}
+
+.waffle-card h4 {
+  margin: 0 0 0.5rem;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+
+.waffle-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--waffle-cols, 10), 1fr);
+  gap: 2px;
+  max-width: 220px;
+}
+
+.waffle-cell {
+  aspect-ratio: 1 / 1;
+  border-radius: 2px;
+  width: 100%;
+}
+
+.waffle-legend {
+  list-style: none;
+  margin: 0.65rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.waffle-legend li {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+}
+
+.waffle-swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.waffle-label { flex: 1; }
+
+.waffle-count { font-size: 0.78rem; }
+
+.stats-lists {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.stats-lists h4 {
+  margin: 0 0 0.35rem;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}

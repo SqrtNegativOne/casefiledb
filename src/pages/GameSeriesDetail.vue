@@ -5,6 +5,7 @@ import { useData, deathCount } from '../composables/useData.js'
 import { findGameSeries, gamesInSeries } from '../composables/gameSeries.js'
 import { entriesFromMedia } from '../composables/useStatistics.js'
 import StatisticsPanel from '../components/StatisticsPanel.vue'
+import { canReveal } from '../composables/useCompletion.js'
 
 const { data, ensureLoaded, loaded } = useData()
 const route = useRoute()
@@ -57,7 +58,10 @@ const totalCases = computed(() => games.value.reduce((n, g) => n + (g.cases || [
             <td><RouterLink :to="`/media/${g.slug}`">{{ g.title }}</RouterLink></td>
             <td>{{ g.year || '—' }}</td>
             <td>{{ (g.cases || []).length }}</td>
-            <td>{{ deathCount(g) }}</td>
+            <td>
+              <span v-if="canReveal(g)">{{ deathCount(g) }}</span>
+              <span v-else class="muted" title="Mark this game as completed to reveal">—</span>
+            </td>
           </tr>
         </tbody>
       </table>

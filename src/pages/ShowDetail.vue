@@ -4,6 +4,7 @@ import { useRoute } from 'vue-router'
 import { useData } from '../composables/useData.js'
 import { entriesFromMedia } from '../composables/useStatistics.js'
 import StatisticsPanel from '../components/StatisticsPanel.vue'
+import { canReveal, showKey, completed } from '../composables/useCompletion.js'
 
 const { data, ensureLoaded, loaded } = useData()
 const route = useRoute()
@@ -51,6 +52,23 @@ function epLabel(ep) {
   return ''
 }
 
+// A show is "revealed" if it (or its author) is in the completed set or Mnesia is on.
+// We build a synthetic media-like object so canReveal() can do its checks.
+const showRevealed = computed(() => {
+  if (!showName.value) return false
+  // Mnesia handled inside canReveal; pass a synthetic object.
+  const synth = {
+    slug: `show:${showName.value}`,
+    media_type: 'tv_show',
+    title: showName.value,
+    creator: directShow.value?.creator,
+  }
+  // canReveal checks slug (won't match), then creator, then for tv_show it checks showKey(title).
+  // Also check the showKey directly since canReveal only does that for tv_show media_type.
+  return canReveal({ ...synth, slug: directShow.value?.slug || '' }) ||
+    completed.value.has(showKey(showName.value))
+})
+
 const detectives = computed(() => {
   const set = new Set()
   for (const ep of episodes.value) {
@@ -90,7 +108,7 @@ const detectives = computed(() => {
       <div class="table-wrap">
         <table>
           <thead>
-            <tr><th>S/E</th><th>Title</th><th>Year</th><th>Deaths</th></tr>
+            <tr><th>S/E</th><th>Title</th><th>Year</th><th v-if="showRevealed">Deaths</th></tr>
           </thead>
           <tbody>
             <tr v-for="(ep, i) in episodes" :key="ep.slug || i">
@@ -100,7 +118,7 @@ const detectives = computed(() => {
                 <span v-else>{{ ep.title }}</span>
               </td>
               <td>{{ ep.year || '—' }}</td>
-              <td>{{ (ep.deaths || []).length }}</td>
+              <td v-if="showRevealed">{{ (ep.deaths || []).length }}</td>
             </tr>
           </tbody>
         </table>

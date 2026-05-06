@@ -65,3 +65,9 @@ export function allPersons(media) {
 export function hasTwist(media) {
   return allDeaths(media).some((d) => d.is_twist)
 }
+
+/** Resolve a person ID to their display name within a scope's persons array. */
+export function resolveName(persons, id) {
+  if (!id) return null
+  return persons?.find((p) => p.id === id)?.name ?? id
+}

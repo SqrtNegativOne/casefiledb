@@ -1,6 +1,6 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
-import { useData, allItems, allDeaths } from '../composables/useData.js'
+import { useData, allItems, allDeaths, resolveName } from '../composables/useData.js'
 import NoteHover from '../components/NoteHover.vue'
 
 const { ensureLoaded } = useData()
@@ -15,12 +15,12 @@ function causeLabel(c) {
 const methods = computed(() => {
   const map = new Map()
   for (const item of allItems.value) {
-    const direct = (item.deaths || []).map((d) => ({ death: d, media: item, context: null }))
+    const direct = (item.deaths || []).map((d) => ({ death: d, media: item, context: null, persons: item.persons || [] }))
     const eps = (item.episodes || []).flatMap((e) =>
-      (e.deaths || []).map((d) => ({ death: d, media: item, context: e }))
+      (e.deaths || []).map((d) => ({ death: d, media: item, context: e, persons: e.persons || [] }))
     )
     const cs = (item.cases || []).flatMap((c) =>
-      (c.deaths || []).map((d) => ({ death: d, media: item, context: c }))
+      (c.deaths || []).map((d) => ({ death: d, media: item, context: c, persons: c.persons || [] }))
     )
     for (const entry of [...direct, ...eps, ...cs]) {
       const cause = entry.death.cause || 'UNKNOWN'
@@ -44,9 +44,10 @@ function toggleExpand(cause) {
 
 function byMedia(entries) {
   const map = new Map()
-  for (const { death, media, context } of entries) {
-    if (!map.has(media.slug)) map.set(media.slug, { media, context, deaths: [] })
-    map.get(media.slug).deaths.push(death)
+  for (const { death, media, context, persons } of entries) {
+    const key = `${media.slug}::${context?.title ?? ''}`
+    if (!map.has(key)) map.set(key, { media, context, persons, deaths: [] })
+    map.get(key).deaths.push(death)
   }
   return [...map.values()].sort((a, b) => String(a.media.title).localeCompare(String(b.media.title)))
 }
@@ -78,7 +79,7 @@ function byMedia(entries) {
               </td>
             </tr>
             <template v-if="expanded.has(m.cause)">
-              <tr v-for="({ media, context, deaths }) in byMedia(m.entries)" :key="media.slug" class="details-row">
+              <tr v-for="({ media, context, persons, deaths }) in byMedia(m.entries)" :key="`${media.slug}::${context?.title ?? ''}`" class="details-row">
                 <td colspan="4">
                   <strong>
                     <RouterLink :to="`/media/${media.slug}`">{{ media.title }}</RouterLink>
@@ -88,8 +89,8 @@ function byMedia(entries) {
                     <thead><tr><th>Victim</th><th>Killer</th><th>Cause detail</th></tr></thead>
                     <tbody>
                       <tr v-for="(d, i) in deaths" :key="i">
-                        <td class="sensitive">{{ d.victim_name || 'Unknown' }}</td>
-                        <td class="sensitive">{{ d.killers?.map(k => k.name).join(', ') || 'Unknown' }}</td>
+                        <td class="sensitive">{{ resolveName(persons, d.victim_id) || 'Unknown' }}</td>
+                        <td class="sensitive">{{ d.killers?.map(k => resolveName(persons, k.person_id)).join(', ') || 'Unknown' }}</td>
                         <td>
                           {{ d.cause }}
                           <span v-if="d.means" class="muted">({{ d.means }})</span>

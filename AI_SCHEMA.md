@@ -54,6 +54,7 @@ The file must be a **JSON array** of objects. Each object is one media item.
 
 Every name used in a `death` event **must** be defined here first.
 
+- `id`: (string, optional) Stable slug identifier for this person within this scope (e.g. `"emily-inglethorp"`). The ingest tool auto-generates it from the name if omitted — you only need to supply it when you want a specific value (e.g. to avoid a collision or match a pre-existing ID).
 - `name`: (string, required)
 - `role_in_story`: One of: `protagonist`, `antagonist`, `victim`, `detective`, `bystander`, `unknown`.
 - `is_solver`: (boolean, optional) `true` if this person actively cracks the central mystery. Use this to distinguish the detective who *nominally* investigates from whoever *actually* solves it. In Sherlock Holmes, Holmes gets `is_solver: true`; in Knives Out, Marta gets `is_solver: true` (not Blanc). Leave null if ambiguous or irrelevant.
@@ -67,8 +68,8 @@ Every name used in a `death` event **must** be defined here first.
 
 ## Deaths (Events)
 
-- `victim_name`: Must match a name in `persons`.
-- `killer_name`: Must match a name in `persons`.
+- `victim_id`: ID of the victim — must match an `id` in `persons`. You may instead supply `victim_name` (the person's display name) and the ingest tool will resolve it to the ID automatically.
+- (killers) `person_id`: ID of the killer — must match an `id` in `persons`. You may instead supply `name` (the person's display name) and the ingest tool will resolve it.
 - `cause`: (required) One of:
   `POISONED`, `SHOT`, `STABBED`, `CLUBBED`, `STRANGLED`, `DROWNED`, `BURNED`, `HANGED`, `FELL`, `CRUSHED`, `SUFFOCATED`, `EXPLODED`, `ELECTROCUTED`, `FROZEN`, `ILLNESS`, `EATEN`, `TORN_APART`, `VEHICULAR`, `UNKNOWN`, `OTHER`.
   Use `VEHICULAR` for deaths caused by a vehicle (car, train, etc.). Use `UNKNOWN` when the cause is not specified in the narrative. Reserve `OTHER` only for methods that fit none of the above.
@@ -82,8 +83,8 @@ Every name used in a `death` event **must** be defined here first.
   `unknown`, `other`, `needs_review`.
   Key distinctions: `vigilante_justice` = self-appointed execution of those deemed guilty who escaped legal justice; `family_protection` = killing to shield family from ruin or scandal; `freedom` = escaping an unwanted relationship or controlling figure; `pathological` = compulsive or irrational psychological motive; `mercy` = ending another's suffering; `penance` = atonement or confession-driven act. Reserve `other` only when none of the above fit. Use `unknown` when the narrative genuinely does not state a reason; use `needs_review` as a placeholder when you have not yet researched it.
   **Required for all `death_type` values except `accident` and `natural_death`** — use `unknown` if the reason is not stated in the narrative, or `needs_review` if not yet researched. For `homicide` representing a suicide, use the victim's own motive (e.g. `penance`, `freedom`, `pathological`).
-- `killers`: (array, default `[]`) Each entry is an object with three fields describing one killer's role in the death. A death may have zero, one, or multiple killers (e.g. co-conspirators with different levels of involvement):
-  - `name`: (string, required) Must match a name in `persons`.
+- `killers`: (array, default `[]`) Each entry is an object describing one killer's role in the death. A death may have zero, one, or multiple killers (e.g. co-conspirators with different levels of involvement):
+  - `person_id`: (string) Must match an `id` in `persons`. Alternatively, supply `name` (the person's display name) and ingest resolves it. One of the two is required.
   - `mens_rea`: **(required)** MPC mens rea — choose the highest that applies:
     - `purposely` — desired the death (classic premeditation)
     - `knowingly` — didn't desire death per se but knew it was certain
@@ -173,12 +174,12 @@ Only include fields you have data for. All fields are optional.
     ],
     "deaths": [
       {
-        "victim_name": "Alice",
+        "victim_id": "alice",
         "cause": "POISONED",
         "means": "arsenic",
         "death_type": "homicide",
         "killers": [
-          { "name": "Bob", "mens_rea": "purposely", "circumstance": "neutral" }
+          { "person_id": "bob", "mens_rea": "purposely", "circumstance": "neutral" }
         ],
         "motive": "revenge",
         "tropes": ["whodunit", "closed_circle"],

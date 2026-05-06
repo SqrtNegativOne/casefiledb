@@ -1,6 +1,6 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
-import { useData } from '../composables/useData.js'
+import { useData, resolveName } from '../composables/useData.js'
 import { useCoverImage } from '../composables/useCoverImage.js'
 import NoteHover from '../components/NoteHover.vue'
 import CauseBadge from '../components/CauseBadge.vue'
@@ -150,9 +150,9 @@ const GameDetail = defineComponent({
             <thead><tr><th>Victim</th><th>Cause</th><th>Killer</th><th>Motive</th><th>Type</th><th>Notes</th></tr></thead>
             <tbody>
               <tr v-for="(d, di) in c.deaths" :key="di">
-                <td class="sensitive">{{ d.victim_name || 'Unknown' }}</td>
+                <td class="sensitive">{{ resolveName(c.persons, d.victim_id) || 'Unknown' }}</td>
                 <td><CauseBadge :cause="d.cause" :means="d.means" /></td>
-                <td class="sensitive">{{ d.killers?.map(k => k.name).join(', ') || 'Unknown' }}</td>
+                <td class="sensitive">{{ d.killers?.map(k => resolveName(c.persons, k.person_id)).join(', ') || 'Unknown' }}</td>
                 <td>{{ d.motive ? d.motive.charAt(0).toUpperCase() + d.motive.slice(1).replace(/_/g, ' ') : '—' }}</td>
                 <td>{{ d.death_type || '—' }}</td>
                 <td><NoteHover :text="d.notes || d.cause_detail" /></td>

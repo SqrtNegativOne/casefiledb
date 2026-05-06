@@ -15,3 +15,7 @@ anyhow = "1"
 [[bin]]
 name = "check"
 path = "src/check.rs"
+
+[[bin]]
+name = "migrate"
+path = "src/migrate.rs"

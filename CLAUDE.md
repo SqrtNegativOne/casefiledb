@@ -34,6 +34,11 @@ To validate `public/site_data.json` without modifying it:
    cargo run --bin check --manifest-path validator/Cargo.toml
    ```
 
+To assign person IDs to all existing records (one-shot migration, idempotent):
+   ```
+   cargo run --bin migrate --manifest-path validator/Cargo.toml
+   ```
+
 ## Schema
 
 See `AI_SCHEMA.md` for the full field reference and an example. Key rules:

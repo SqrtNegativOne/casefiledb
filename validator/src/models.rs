@@ -192,6 +192,8 @@ pub enum DeathType {
 #[derive(Debug, Deserialize, Serialize)]
 pub struct DeathWire {
     #[serde(skip_serializing_if = "Option::is_none")]
+    pub victim_id: Option<String>,
+    #[serde(skip_serializing, default)]
     pub victim_name: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub ordinal: Option<u32>,
@@ -261,15 +263,54 @@ fn default_true() -> bool {
     true
 }
 
+pub(crate) fn slugify(s: &str) -> String {
+    s.to_lowercase()
+        .chars()
+        .map(|c| if c.is_alphanumeric() { c } else { '-' })
+        .collect::<String>()
+        .split('-')
+        .filter(|seg| !seg.is_empty())
+        .collect::<Vec<_>>()
+        .join("-")
+}
+
+pub(crate) fn assign_person_ids(persons: &mut [Person]) {
+    let mut used: HashSet<String> = persons.iter().filter_map(|p| p.id.clone()).collect();
+    for p in persons.iter_mut() {
+        if p.id.is_none() {
+            let base = slugify(&p.name);
+            let id = if !used.contains(&base) {
+                base.clone()
+            } else {
+                let mut n = 2u32;
+                loop {
+                    let candidate = format!("{base}-{n}");
+                    if !used.contains(&candidate) {
+                        break candidate;
+                    }
+                    n += 1;
+                }
+            };
+            used.insert(id.clone());
+            p.id = Some(id);
+        }
+    }
+}
+
 #[derive(Debug, Clone, Deserialize, Serialize)]
 pub struct Killer {
-    pub name: String,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub person_id: Option<String>,
+    #[serde(skip_serializing, default)]
+    pub name: Option<String>,
     pub mens_rea: MensRea,
     pub circumstance: KillerCircumstance,
 }
 
 #[derive(Debug, Clone, Deserialize, Serialize)]
 pub struct Person {
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub id: Option<String>,
     pub name: String,
     #[serde(default = "default_true")]
     pub is_fictional: bool,
@@ -386,9 +427,12 @@ pub struct GameCase {
 
 /// Fully validated death event. `cause` and `death_type` enforce their
 /// required fields at the type level — no runtime checks needed for those.
+/// `victim_name` is a carry-through from the wire format for name→ID resolution
+/// in `MediaItem::try_from`; it is never serialised.
 #[derive(Debug, Clone, Deserialize, Serialize)]
 #[serde(try_from = "DeathWire", into = "DeathWire")]
 pub struct Death {
+    pub victim_id: Option<String>,
     pub victim_name: Option<String>,
     pub ordinal: Option<u32>,
     pub cause: Cause,
@@ -459,6 +503,7 @@ impl TryFrom<DeathWire> for Death {
         };
 
         Ok(Death {
+            victim_id: w.victim_id,
             victim_name: w.victim_name,
             ordinal: w.ordinal,
             cause,
@@ -517,7 +562,8 @@ impl From<Death> for DeathWire {
         };
 
         DeathWire {
-            victim_name: d.victim_name,
+            victim_id: d.victim_id,
+            victim_name: None,
             ordinal: d.ordinal,
             cause,
             means,
@@ -537,29 +583,64 @@ impl From<Death> for DeathWire {
 
 // ── MediaItem (wire ↔ domain) ─────────────────────────────────────────────────
 
+/// Resolves any `victim_name`/`killer.name` carry-throughs to person IDs.
+/// Must run after `assign_person_ids` so every person already has an ID.
+pub(crate) fn resolve_death_refs(
+    persons: &[Person],
+    deaths: &mut [Death],
+    context: &str,
+) -> anyhow::Result<()> {
+    let name_to_id: std::collections::HashMap<&str, &str> = persons
+        .iter()
+        .filter_map(|p| p.id.as_deref().map(|id| (p.name.as_str(), id)))
+        .collect();
+
+    for death in deaths.iter_mut() {
+        if death.victim_id.is_none() {
+            if let Some(name) = death.victim_name.take() {
+                let id = name_to_id.get(name.as_str()).ok_or_else(|| {
+                    anyhow!("victim_name '{}' not in persons for '{}'", name, context)
+                })?;
+                death.victim_id = Some(id.to_string());
+            }
+        }
+        for killer in death.killers.iter_mut() {
+            if killer.person_id.is_none() {
+                if let Some(name) = killer.name.take() {
+                    let id = name_to_id.get(name.as_str()).ok_or_else(|| {
+                        anyhow!("killer '{}' not in persons for '{}'", name, context)
+                    })?;
+                    killer.person_id = Some(id.to_string());
+                } else {
+                    anyhow::bail!("killer missing both person_id and name in '{}'", context);
+                }
+            }
+        }
+    }
+    Ok(())
+}
+
 pub(crate) fn validate_death_refs(
     persons: &[Person],
     deaths: &[Death],
     context: &str,
 ) -> anyhow::Result<()> {
-    let known: HashSet<&str> = persons.iter().map(|p| p.name.as_str()).collect();
+    let known: HashSet<&str> = persons.iter().filter_map(|p| p.id.as_deref()).collect();
     for death in deaths {
-        if let Some(victim) = &death.victim_name {
-            if !known.contains(victim.as_str()) {
-                anyhow::bail!(
-                    "victim_name '{}' not in persons for '{}'",
-                    victim,
-                    context
-                );
+        if let Some(vid) = &death.victim_id {
+            if !known.contains(vid.as_str()) {
+                anyhow::bail!("victim_id '{}' not in persons for '{}'", vid, context);
             }
         }
         for killer in &death.killers {
-            if !known.contains(killer.name.as_str()) {
-                anyhow::bail!(
-                    "killer '{}' not in persons for '{}'",
-                    killer.name,
+            match &killer.person_id {
+                Some(pid) if known.contains(pid.as_str()) => {}
+                Some(pid) => anyhow::bail!(
+                    "killer person_id '{}' not in persons for '{}'",
+                    pid,
                     context
-                );
+                ),
+                None => anyhow::bail!("killer has no person_id in '{}'", context),
             }
         }
     }
@@ -601,6 +682,22 @@ impl TryFrom<MediaItemWire> for MediaItem {
             .take()
             .or_else(|| w.wikidata_id.clone())
             .ok_or_else(|| anyhow!("either `slug` or `wikidata_id` must be provided"))?;
+
+        assign_person_ids(&mut w.persons);
+        for ep in &mut w.episodes {
+            assign_person_ids(&mut ep.persons);
+        }
+        for case in &mut w.cases {
+            assign_person_ids(&mut case.persons);
+        }
+
+        resolve_death_refs(&w.persons, &mut w.deaths, &w.title)?;
+        for ep in &mut w.episodes {
+            resolve_death_refs(&ep.persons, &mut ep.deaths, &ep.title)?;
+        }
+        for case in &mut w.cases {
+            resolve_death_refs(&case.persons, &mut case.deaths, &case.title)?;
+        }
 
         validate_death_refs(&w.persons, &w.deaths, &w.title)?;
         for ep in &w.episodes {

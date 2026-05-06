@@ -1,6 +1,6 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
-import { useData, allItems } from '../composables/useData.js'
+import { useData, allItems, resolveName } from '../composables/useData.js'
 import CauseBadge from '../components/CauseBadge.vue'
 
 const { ensureLoaded } = useData()
@@ -18,16 +18,16 @@ const allDeathRows = computed(() => {
   const out = []
   for (const item of allItems.value) {
     for (const d of (item.deaths || [])) {
-      out.push({ death: d, media: item, scope: null })
+      out.push({ death: d, media: item, scope: null, persons: item.persons || [] })
     }
     for (const ep of (item.episodes || [])) {
       for (const d of (ep.deaths || [])) {
-        out.push({ death: d, media: item, scope: ep.title })
+        out.push({ death: d, media: item, scope: ep.title, persons: ep.persons || [] })
       }
     }
     for (const c of (item.cases || [])) {
       for (const d of (c.deaths || [])) {
-        out.push({ death: d, media: item, scope: c.title })
+        out.push({ death: d, media: item, scope: c.title, persons: c.persons || [] })
       }
     }
   }
@@ -50,9 +50,9 @@ function motiveLabel(m) {
 
 function sortValue(row, field) {
   const { death, media } = row
-  if (field === 'victim') return (death.victim_name || '').toLowerCase()
+  if (field === 'victim') return (resolveName(row.persons, death.victim_id) || '').toLowerCase()
   if (field === 'cause') return death.cause || ''
-  if (field === 'killer') return (death.killers?.[0]?.name || '').toLowerCase()
+  if (field === 'killer') return (resolveName(row.persons, death.killers?.[0]?.person_id) || '').toLowerCase()
   if (field === 'motive') return death.motive || ''
   if (field === 'death_type') return death.death_type || ''
   if (field === 'year') return media.year || 0
@@ -76,8 +76,8 @@ const rows = computed(() => {
       if (twist && !death.is_twist) return false
       if (q) {
         const hay = [
-          death.victim_name,
-          ...(death.killers || []).map(k => k.name),
+          resolveName(row.persons, death.victim_id),
+          ...(death.killers || []).map(k => resolveName(row.persons, k.person_id)),
           media.title,
           death.motive,
         ].filter(Boolean).join(' ').toLowerCase()
@@ -164,9 +164,9 @@ function sortState(field) {
         <tbody>
           <tr v-if="!rows.length"><td colspan="8" class="muted">No matches.</td></tr>
           <tr v-for="(row, i) in rows" :key="i">
-            <td class="sensitive">{{ row.death.victim_name || '—' }}</td>
+            <td class="sensitive">{{ resolveName(row.persons, row.death.victim_id) || '—' }}</td>
             <td><CauseBadge :cause="row.death.cause" :means="row.death.means" /></td>
-            <td class="sensitive">{{ row.death.killers?.map(k => k.name).join(', ') || '—' }}</td>
+            <td class="sensitive">{{ row.death.killers?.map(k => resolveName(row.persons, k.person_id)).join(', ') || '—' }}</td>
             <td>{{ motiveLabel(row.death.motive) }}</td>
             <td>{{ row.death.death_type || '—' }}</td>
             <td>{{ row.death.is_twist ? '✓' : '' }}</td>

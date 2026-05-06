@@ -341,6 +341,12 @@ const SubItemSection = defineComponent({
   name: 'SubItemSection',
   components: { NoteHover, CauseBadge },
   props: { item: Object },
+  methods: {
+    resolveName(persons, id) {
+      if (!id) return null
+      return persons?.find((p) => p.id === id)?.name ?? id
+    },
+  },
   template: `
     <template v-if="item.persons?.length">
       <h3>Persons</h3>
@@ -377,9 +383,9 @@ const SubItemSection = defineComponent({
           <tbody>
             <tr v-for="(d, i) in item.deaths" :key="i">
               <td>{{ d.ordinal || '—' }}</td>
-              <td class="sensitive">{{ d.victim_name || 'Unknown' }}</td>
+              <td class="sensitive">{{ resolveName(item.persons, d.victim_id) || 'Unknown' }}</td>
               <td><CauseBadge :cause="d.cause" :means="d.means" /></td>
-              <td class="sensitive">{{ d.killers?.map(k => k.name).join(', ') || 'Unknown' }}</td>
+              <td class="sensitive">{{ d.killers?.map(k => resolveName(item.persons, k.person_id)).join(', ') || 'Unknown' }}</td>
               <td>{{ d.motive ? d.motive.charAt(0).toUpperCase() + d.motive.slice(1).replace(/_/g, ' ') : '—' }}</td>
               <td>{{ d.death_type || '—' }}</td>
               <td>{{ d.is_twist ? 'Yes' : 'No' }}</td>

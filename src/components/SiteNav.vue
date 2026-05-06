@@ -9,19 +9,25 @@ const menuOpen = ref(false)
 const route = useRoute()
 
 const links = [
-  { to: '/', label: 'Media' },
-  { to: '/authors', label: 'Authors' },
-  { to: '/episodes', label: 'Episodes' },
+  { to: '/', label: 'Deaths' },
   { to: '/methods', label: 'Methods' },
-  { to: '/detectives', label: 'Detectives' },
-  { to: '/games', label: 'Games' },
-  { to: '/books', label: 'Books' },
-  { to: '/compare', label: 'Compare' },
-  { to: '/viz', label: 'Viz' },
+  { to: '/people', label: 'People' },
+  { to: '/media', label: 'Media' },
 ]
 
 function isActive(path) {
   if (path === '/') return route.path === '/'
+  // /media should also light up for /media/:slug, /author/:name, /show/:name, /game-series/:slug.
+  if (path === '/media') {
+    return (
+      route.path === '/media' ||
+      route.path.startsWith('/media/') ||
+      route.path.startsWith('/author/') ||
+      route.path.startsWith('/show/') ||
+      route.path.startsWith('/game-series/')
+    )
+  }
+  if (path === '/people') return route.path.startsWith('/people')
   return route.path.startsWith(path)
 }
 

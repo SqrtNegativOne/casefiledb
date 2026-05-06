@@ -5,6 +5,8 @@ import { useData, allItems, deathCount } from '../composables/useData.js'
 import { useCoverImage } from '../composables/useCoverImage.js'
 import NoteHover from '../components/NoteHover.vue'
 import CauseBadge from '../components/CauseBadge.vue'
+import StatisticsPanel from '../components/StatisticsPanel.vue'
+import { entriesFromMedia, STATS_THRESHOLD } from '../composables/useStatistics.js'
 
 const { loaded, ensureLoaded } = useData()
 const route = useRoute()
@@ -43,6 +45,14 @@ watch(() => allItems.value.length, () => {
 
 const coverMediaRef = computed(() => displayItem.value?.parent || media.value)
 const coverUrl = useCoverImage(coverMediaRef)
+
+const statsEntries = computed(() => {
+  // Only top-level items get an aggregate stats panel — sub-items (single
+  // episode / single case) almost never clear the threshold.
+  if (!displayItem.value || displayItem.value.kind || !displayItem.value.item) return []
+  return entriesFromMedia([displayItem.value.item])
+})
+const showsStats = computed(() => statsEntries.value.length >= STATS_THRESHOLD)
 
 // ── Series navigation ────────────────────────────────────────────
 const seriesMates = computed(() => {
@@ -218,7 +228,7 @@ function caseDetectives(c) {
           <div class="media-meta">
             <RouterLink
               v-if="displayItem.item.creator"
-              :to="{ path: '/', query: { creator: displayItem.item.creator } }"
+              :to="{ path: `/author/${encodeURIComponent(displayItem.item.creator)}` }"
               style="color:var(--muted)"
             >{{ displayItem.item.creator }}</RouterLink>
             <span v-if="displayItem.item.year">{{ displayItem.item.year }}</span>
@@ -327,6 +337,12 @@ function caseDetectives(c) {
         </div>
       </template>
 
+      <StatisticsPanel
+        v-if="showsStats"
+        :entries="statsEntries"
+        :title="`${displayItem.item.title} — death statistics`"
+      />
+
       <SubItemSection :item="displayItem.item" />
     </template>
   </template>
@@ -360,7 +376,7 @@ const SubItemSection = defineComponent({
           <tbody>
             <tr v-for="p in item.persons" :key="p.name">
               <td class="sensitive">
-                <RouterLink v-if="p.role_in_story === 'detective'" :to="{ path: '/detectives', query: { q: p.name } }">{{ p.name }}</RouterLink>
+                <RouterLink v-if="p.role_in_story === 'detective'" :to="{ path: '/people', query: { filter: 'detective', q: p.name } }">{{ p.name }}</RouterLink>
                 <template v-else>{{ p.name }}</template>
               </td>
               <td>{{ p.role_in_story || '—' }}</td>

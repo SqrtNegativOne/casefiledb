@@ -34,5 +34,5 @@ Lowercase, hyphenated title. Disambiguate by year or author if the title is gene
 
 ## Notes for extractor
 
-- Cover image: include an Open Library or Wikidata P18 reference if `temp/raw/<slug>.json` infobox has one; otherwise leave the image field null and let the frontend's lazy fetch handle it.
 - Multiple deaths in one book: each gets its own entry in `deaths`, all sharing the book's top-level `persons` list.
+- Cover images are fetched lazily by the frontend from Wikidata P18 / Open Library — the schema has no image field, so do not invent one.

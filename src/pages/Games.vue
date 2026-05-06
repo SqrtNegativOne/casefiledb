@@ -138,13 +138,24 @@ const GameDetail = defineComponent({
         <div v-for="(c, idx) in game.cases" :key="idx" style="margin-bottom:1rem">
           <strong>Case {{ c.case_number ?? idx + 1 }}: {{ c.title }}</strong>
           <span class="muted" style="margin-left:0.5rem;font-size:0.85rem">{{ (c.deaths || []).length }} death{{ (c.deaths||[]).length===1?'':'s' }}</span>
+          <table v-if="c.persons?.length" class="mini-table" style="margin-top:0.4rem">
+            <thead><tr><th>Name</th><th>Role</th><th>Archetype</th></tr></thead>
+            <tbody>
+              <tr v-for="p in c.persons" :key="p.name">
+                <td class="sensitive">{{ p.name }}</td>
+                <td>{{ p.role_in_story || '—' }}</td>
+                <td>{{ p.archetype || '—' }}</td>
+              </tr>
+            </tbody>
+          </table>
           <table v-if="c.deaths?.length" class="mini-table" style="margin-top:0.4rem">
-            <thead><tr><th>Victim</th><th>Cause</th><th>Killer</th><th>Type</th><th>Notes</th></tr></thead>
+            <thead><tr><th>Victim</th><th>Cause</th><th>Killer</th><th>Motive</th><th>Type</th><th>Notes</th></tr></thead>
             <tbody>
               <tr v-for="(d, di) in c.deaths" :key="di">
                 <td class="sensitive">{{ d.victim_name || 'Unknown' }}</td>
                 <td><CauseBadge :cause="d.cause" :means="d.means" /></td>
                 <td class="sensitive">{{ d.killers?.map(k => k.name).join(', ') || 'Unknown' }}</td>
+                <td>{{ d.motive ? d.motive.charAt(0).toUpperCase() + d.motive.slice(1).replace(/_/g, ' ') : '—' }}</td>
                 <td>{{ d.death_type || '—' }}</td>
                 <td><NoteHover :text="d.notes || d.cause_detail" /></td>
               </tr>

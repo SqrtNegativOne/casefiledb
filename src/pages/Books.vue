@@ -104,7 +104,7 @@ function toggleExpand(slug) {
                 <div class="mono">{{ b.slug }}</div>
               </td>
               <td>
-                <RouterLink :to="{ path: '/authors' }" style="color:var(--muted)">{{ b.creator || '—' }}</RouterLink>
+                <RouterLink :to="{ path: '/', query: { creator: b.creator } }" style="color:var(--muted)">{{ b.creator || '—' }}</RouterLink>
               </td>
               <td>{{ b.year || '—' }}</td>
               <td>

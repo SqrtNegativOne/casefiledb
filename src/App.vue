@@ -18,6 +18,11 @@ onMounted(() => {
   const saved = localStorage.getItem('casefile-theme')
   const preferred = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
   setTheme(saved === 'light' || saved === 'dark' ? saved : preferred)
+
+  document.addEventListener('click', (e) => {
+    const el = e.target.closest('.sensitive')
+    if (el) el.classList.toggle('revealed')
+  })
 })
 </script>
 

@@ -14,13 +14,16 @@ const sortDir = ref('asc')
 
 const episodes = computed(() => {
   const out = []
+
+  // Nested episodes inside tv_show items
   for (const item of data.value) {
     if (item.media_type !== 'tv_show' || !item.episodes?.length) continue
     for (let i = 0; i < item.episodes.length; i++) {
       const ep = item.episodes[i]
       out.push({
         show: item.title,
-        showSlug: item.slug,
+        showLink: `/media/${item.slug}`,
+        isTopLevel: false,
         title: ep.title,
         season: ep.season,
         episode_number: ep.episode_number,
@@ -28,9 +31,35 @@ const episodes = computed(() => {
         deaths: (ep.deaths || []).length,
         slug: item.slug,
         epIndex: i,
+        detectives: (ep.persons || []).filter(p => p.role_in_story === 'detective').map(p => p.name),
       })
     }
   }
+
+  // Standalone tv_episode items (e.g. Monk episodes stored individually)
+  for (const item of data.value) {
+    if (item.media_type !== 'tv_episode') continue
+    let season = null, episode_number = null
+    if (item.series_number != null) {
+      const snInt = Math.round(item.series_number * 100)
+      season = Math.floor(snInt / 100)
+      episode_number = snInt % 100
+    }
+    out.push({
+      show: item.series_name || item.title,
+      showLink: null,
+      isTopLevel: true,
+      title: item.title,
+      season,
+      episode_number,
+      year: item.year,
+      deaths: (item.deaths || []).length,
+      slug: item.slug,
+      epIndex: null,
+      detectives: (item.persons || []).filter(p => p.role_in_story === 'detective').map(p => p.name),
+    })
+  }
+
   return out
 })
 
@@ -113,19 +142,25 @@ function sortState(f) { return sortField.value === f ? sortDir.value : null }
             <th :data-sort-state="sortState('title')" class="sortable" @click="setSort('title')">Title</th>
             <th :data-sort-state="sortState('year')" class="sortable" @click="setSort('year')">Year</th>
             <th :data-sort-state="sortState('deaths')" class="sortable" @click="setSort('deaths')">Deaths</th>
+            <th>Detectives</th>
           </tr>
         </thead>
         <tbody>
-          <tr v-if="!rows.length"><td colspan="6" class="muted">No matches.</td></tr>
-          <tr v-for="ep in rows" :key="`${ep.slug}-${ep.epIndex}`">
-            <td><RouterLink :to="`/media/${ep.showSlug}`">{{ ep.show }}</RouterLink></td>
+          <tr v-if="!rows.length"><td colspan="7" class="muted">No matches.</td></tr>
+          <tr v-for="ep in rows" :key="`${ep.slug}-${ep.epIndex ?? 'top'}`">
+            <td>
+              <RouterLink v-if="ep.showLink" :to="ep.showLink">{{ ep.show }}</RouterLink>
+              <RouterLink v-else :to="{ path: '/episodes', query: { show: ep.show } }">{{ ep.show }}</RouterLink>
+            </td>
             <td>{{ ep.season ?? '—' }}</td>
             <td>{{ ep.episode_number ?? '—' }}</td>
             <td>
-              <RouterLink :to="{ path: `/media/${ep.slug}`, query: { ep: ep.epIndex } }">{{ ep.title }}</RouterLink>
+              <RouterLink v-if="ep.isTopLevel" :to="`/media/${ep.slug}`">{{ ep.title }}</RouterLink>
+              <RouterLink v-else :to="{ path: `/media/${ep.slug}`, query: { ep: ep.epIndex } }">{{ ep.title }}</RouterLink>
             </td>
             <td>{{ ep.year ?? '—' }}</td>
             <td>{{ ep.deaths }}</td>
+            <td class="sensitive">{{ ep.detectives.join(', ') || '—' }}</td>
           </tr>
         </tbody>
       </table>

@@ -1,11 +1,17 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
-import { useData } from '../composables/useData.js'
+import { useRoute } from 'vue-router'
+import { useData, deathCount } from '../composables/useData.js'
 
 const { data, ensureLoaded } = useData()
+const route = useRoute()
 onMounted(ensureLoaded)
 
 const search = ref('')
+
+onMounted(() => {
+  if (route.query.q) search.value = route.query.q
+})
 
 /**
  * Aggregate all persons with role_in_story === 'detective' across every scope.
@@ -39,14 +45,18 @@ const detectives = computed(() => {
         else if (p.is_solver === false) entry.nonSolverCount++
         // Keep richest person record (most fields filled)
         const cur = entry.sample
-        const score = (x) => (x.profession ? 1 : 0) + (x.skills?.length || 0) + (x.archetype ? 1 : 0) + (x.notes ? 1 : 0)
+        const score = (x) => (x.profession ? 1 : 0) + (x.skills?.length || 0) + (x.archetype ? 1 : 0) + (x.notes ? 1 : 0) + (x.nationality ? 1 : 0)
         if (score(p) > score(cur)) entry.sample = p
       }
     }
   }
 
   return [...map.values()]
-    .map((e) => ({ ...e, workList: [...e.works.values()] }))
+    .map((e) => ({
+      ...e,
+      workList: [...e.works.values()],
+      totalDeaths: [...e.works.values()].reduce((n, w) => n + deathCount(w), 0),
+    }))
     .sort((a, b) => b.workList.length - a.workList.length)
 })
 
@@ -86,9 +96,13 @@ function skillTags(p) {
           <p class="detective-name sensitive">{{ d.name }}</p>
           <div class="detective-meta">
             <span>{{ d.workList.length }} work{{ d.workList.length === 1 ? '' : 's' }}</span>
+            <span class="muted">· {{ d.totalDeaths }} death{{ d.totalDeaths === 1 ? '' : 's' }}</span>
             <span v-if="d.sample.profession" class="muted">· {{ d.sample.profession }}</span>
-            <span v-if="d.sample.archetype" class="muted">· {{ d.sample.archetype }}</span>
+            <span v-if="d.sample.nationality" class="muted">· {{ d.sample.nationality }}</span>
             <span v-if="solverLabel(d)" class="solver-badge">{{ solverLabel(d) }}</span>
+          </div>
+          <div v-if="d.sample.archetype" style="margin-top:0.25rem;font-size:0.82rem;color:var(--muted)">
+            {{ d.sample.archetype }}
           </div>
           <div v-if="skillTags(d.sample).length" style="margin-top:0.4rem;display:flex;gap:0.3rem;flex-wrap:wrap">
             <span v-for="sk in skillTags(d.sample)" :key="sk" class="badge">{{ sk }}</span>

@@ -48,8 +48,7 @@ function openCompletedModal() {
   <div class="site-header">
     <div class="header-inner">
       <RouterLink to="/" class="site-logo" @click="closeMenu">
-        <span class="logo-mark">⬡</span>
-        <span>Casefile Database</span>
+        <img src="/icon.png" alt="Casefile Database" class="logo-icon" />
       </RouterLink>
       <nav :class="['site-nav', { 'nav-open': menuOpen }]">
         <RouterLink

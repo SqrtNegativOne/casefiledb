@@ -86,10 +86,10 @@ body {
   white-space: nowrap;
 }
 
-.logo-mark {
-  color: var(--accent);
-  font-size: 1.3rem;
-  line-height: 1;
+.logo-icon {
+  height: 2rem;
+  width: auto;
+  display: block;
 }
 
 .header-actions {

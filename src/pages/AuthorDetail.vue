@@ -4,6 +4,7 @@ import { useRoute } from 'vue-router'
 import { useData, allItems, deathCount } from '../composables/useData.js'
 import { entriesFromMedia } from '../composables/useStatistics.js'
 import StatisticsPanel from '../components/StatisticsPanel.vue'
+import { canReveal } from '../composables/useCompletion.js'
 
 const { ensureLoaded, loaded } = useData()
 const route = useRoute()
@@ -77,7 +78,10 @@ const yearRange = computed(() => {
                 </span>
                 <span v-else class="muted">—</span>
               </td>
-              <td>{{ deathCount(w) }}</td>
+              <td>
+                <span v-if="canReveal(w)">{{ deathCount(w) }}</span>
+                <span v-else class="muted" title="Mark this work as completed to reveal">—</span>
+              </td>
             </tr>
           </tbody>
         </table>

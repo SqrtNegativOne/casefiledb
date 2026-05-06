@@ -1,10 +1,13 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 import { useData, allItems, resolveName } from '../composables/useData.js'
+import { canReveal, mnesia, completed } from '../composables/useCompletion.js'
 import CauseBadge from '../components/CauseBadge.vue'
 
 const { ensureLoaded } = useData()
 onMounted(ensureLoaded)
+
+const revealedItems = computed(() => allItems.value.filter(canReveal))
 
 const search = ref('')
 const causeFilter = ref('')
@@ -16,7 +19,7 @@ const sortDir = ref('asc')
 
 const allDeathRows = computed(() => {
   const out = []
-  for (const item of allItems.value) {
+  for (const item of revealedItems.value) {
     for (const d of (item.deaths || [])) {
       out.push({ death: d, media: item, scope: null, persons: item.persons || [] })
     }
@@ -145,9 +148,20 @@ function sortState(field) {
       </select>
     </div>
 
-    <div class="meta-row">{{ rows.length }} death{{ rows.length === 1 ? '' : 's' }}</div>
+    <div v-if="!revealedItems.length" class="empty-spoiler-notice">
+      <p><strong>Deaths are hidden until you mark works as completed.</strong></p>
+      <p class="muted">
+        Casefile Database catalogues mystery plots by their solutions. Browsing them by victim and killer would spoil
+        every twist for new readers/viewers. Use <em>Mark as completed</em> in the top bar to reveal works you've
+        already finished — or enable <em>Mnesia mode</em> if you don't mind spoilers.
+      </p>
+    </div>
+    <div v-else class="meta-row">
+      {{ rows.length }} death{{ rows.length === 1 ? '' : 's' }}
+      <span v-if="!mnesia" class="muted"> · across {{ revealedItems.length }} completed work{{ revealedItems.length === 1 ? '' : 's' }}</span>
+    </div>
 
-    <div class="table-wrap">
+    <div v-if="revealedItems.length" class="table-wrap">
       <table aria-label="Deaths table">
         <thead>
           <tr>

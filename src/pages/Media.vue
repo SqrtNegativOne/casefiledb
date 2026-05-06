@@ -3,6 +3,7 @@ import { ref, computed, onMounted } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useData, allItems, deathCount } from '../composables/useData.js'
 import { GAME_SERIES, gamesInSeries } from '../composables/gameSeries.js'
+import { canReveal } from '../composables/useCompletion.js'
 
 const { data, ensureLoaded } = useData()
 const route = useRoute()
@@ -54,9 +55,14 @@ const showRows = computed(() => {
 })
 
 function sortValue(m, f) {
-  if (f === 'deaths') return deathCount(m)
+  // Per-work death counts are spoilers; only sort by them when revealed.
+  if (f === 'deaths') return canReveal(m) ? deathCount(m) : -1
   if (f === 'year') return Number(m.year || 0)
   return String(m[f] || '').toLowerCase()
+}
+
+function deathCellLabel(m) {
+  return canReveal(m) ? deathCount(m) : '—'
 }
 
 const rows = computed(() => {
@@ -161,7 +167,10 @@ function authorRoute(name) {
               </span>
               <span v-else class="muted">—</span>
             </td>
-            <td>{{ deathCount(m) }}</td>
+            <td>
+              <span v-if="canReveal(m)">{{ deathCount(m) }}</span>
+              <span v-else class="muted" title="Mark this work as completed to reveal its death count">—</span>
+            </td>
           </tr>
         </tbody>
       </table>

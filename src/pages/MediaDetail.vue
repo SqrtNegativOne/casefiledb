@@ -7,6 +7,7 @@ import NoteHover from '../components/NoteHover.vue'
 import CauseBadge from '../components/CauseBadge.vue'
 import StatisticsPanel from '../components/StatisticsPanel.vue'
 import { entriesFromMedia, STATS_THRESHOLD } from '../composables/useStatistics.js'
+import { canReveal, completed, mediaKey, addKey, removeKey } from '../composables/useCompletion.js'
 
 const { loaded, ensureLoaded } = useData()
 const route = useRoute()
@@ -52,7 +53,23 @@ const statsEntries = computed(() => {
   if (!displayItem.value || displayItem.value.kind || !displayItem.value.item) return []
   return entriesFromMedia([displayItem.value.item])
 })
-const showsStats = computed(() => statsEntries.value.length >= STATS_THRESHOLD)
+// Per-work statistics are themselves a spoiler (cause/motive distribution
+// reveals plot shape), so only show them once the user has marked the work
+// as completed (or enabled Mnesia mode).
+const showsStats = computed(() =>
+  statsEntries.value.length >= STATS_THRESHOLD && canReveal(media.value)
+)
+
+const isMediaRevealed = computed(() => canReveal(media.value))
+const isMarkedDirectly = computed(() =>
+  media.value ? completed.value.has(mediaKey(media.value.slug)) : false
+)
+function toggleSelfCompletion() {
+  if (!media.value) return
+  const k = mediaKey(media.value.slug)
+  if (completed.value.has(k)) removeKey(k)
+  else addKey(k)
+}
 
 // ── Series navigation ────────────────────────────────────────────
 const seriesMates = computed(() => {
@@ -214,7 +231,7 @@ function caseDetectives(c) {
         </div>
         <div v-if="displayItem.item.notes" class="media-notes">{{ displayItem.item.notes }}</div>
       </div>
-      <SubItemSection :item="displayItem.item" />
+      <SubItemSection :item="displayItem.item" :revealed="isMediaRevealed" />
     </template>
 
     <!-- Top-level media item -->
@@ -251,6 +268,21 @@ function caseDetectives(c) {
             <a v-for="l in extLinks(displayItem.item)" :key="l.url" :href="l.url" target="_blank" rel="noopener noreferrer" class="ext-link">{{ l.label }}</a>
           </div>
           <p v-if="displayItem.item.notes" class="media-notes">{{ displayItem.item.notes }}</p>
+          <div class="completion-row">
+            <button
+              type="button"
+              :class="['btn', isMarkedDirectly ? '' : 'btn-primary']"
+              @click="toggleSelfCompletion"
+            >
+              {{ isMarkedDirectly ? '✓ Marked as completed' : 'Mark as completed' }}
+            </button>
+            <span v-if="isMediaRevealed && !isMarkedDirectly" class="muted" style="font-size:0.82rem">
+              (revealed via author / show / Mnesia mode)
+            </span>
+            <span v-else-if="!isMediaRevealed" class="muted" style="font-size:0.82rem">
+              Spoilers stay hidden until marked.
+            </span>
+          </div>
         </div>
         <div v-if="coverUrl" style="flex-shrink:0;width:140px">
           <img :src="coverUrl" :alt="displayItem.item.title + ' cover'" style="width:100%;border-radius:6px;border:1px solid var(--border)" loading="lazy" @error="$event.target.style.display='none'" />
@@ -304,14 +336,14 @@ function caseDetectives(c) {
         <h3>Episodes</h3>
         <div class="table-wrap">
           <table>
-            <thead><tr><th>S</th><th>Ep</th><th>Title</th><th>Year</th><th>Deaths</th><th>Detectives</th></tr></thead>
+            <thead><tr><th>S</th><th>Ep</th><th>Title</th><th>Year</th><th v-if="isMediaRevealed">Deaths</th><th>Detectives</th></tr></thead>
             <tbody>
               <tr v-for="(ep, idx) in displayItem.item.episodes" :key="idx">
                 <td>{{ ep.season ?? '—' }}</td>
                 <td>{{ ep.episode_number ?? '—' }}</td>
                 <td><RouterLink :to="{ path: `/media/${displayItem.item.slug}`, query: { ep: idx } }">{{ ep.title }}</RouterLink></td>
                 <td>{{ ep.year ?? '—' }}</td>
-                <td>{{ (ep.deaths || []).length }}</td>
+                <td v-if="isMediaRevealed">{{ (ep.deaths || []).length }}</td>
                 <td class="sensitive">{{ episodeDetectives(ep).join(', ') || '—' }}</td>
               </tr>
             </tbody>
@@ -324,12 +356,12 @@ function caseDetectives(c) {
         <h3>Cases</h3>
         <div class="table-wrap">
           <table>
-            <thead><tr><th>#</th><th>Title</th><th>Deaths</th><th>Detectives</th></tr></thead>
+            <thead><tr><th>#</th><th>Title</th><th v-if="isMediaRevealed">Deaths</th><th>Detectives</th></tr></thead>
             <tbody>
               <tr v-for="(c, idx) in displayItem.item.cases" :key="idx">
                 <td>{{ c.case_number ?? idx + 1 }}</td>
                 <td><RouterLink :to="{ path: `/media/${displayItem.item.slug}`, query: { case: idx } }">{{ c.title }}</RouterLink></td>
-                <td>{{ (c.deaths || []).length }}</td>
+                <td v-if="isMediaRevealed">{{ (c.deaths || []).length }}</td>
                 <td class="sensitive">{{ caseDetectives(c).join(', ') || '—' }}</td>
               </tr>
             </tbody>
@@ -343,7 +375,7 @@ function caseDetectives(c) {
         :title="`${displayItem.item.title} — death statistics`"
       />
 
-      <SubItemSection :item="displayItem.item" />
+      <SubItemSection :item="displayItem.item" :revealed="isMediaRevealed" />
     </template>
   </template>
 </template>
@@ -356,7 +388,11 @@ import CauseBadge from '../components/CauseBadge.vue'
 const SubItemSection = defineComponent({
   name: 'SubItemSection',
   components: { NoteHover, CauseBadge },
-  props: { item: Object },
+  props: { item: Object, revealed: { type: Boolean, default: false } },
+  computed: {
+    hasDeaths() { return (this.item?.deaths?.length || 0) > 0 },
+    hasPersons() { return (this.item?.persons?.length || 0) > 0 },
+  },
   methods: {
     resolveName(persons, id) {
       if (!id) return null
@@ -364,7 +400,16 @@ const SubItemSection = defineComponent({
     },
   },
   template: `
-    <template v-if="item.persons?.length">
+    <template v-if="!revealed && (hasDeaths || hasPersons)">
+      <div class="hidden-spoiler-card">
+        <h3 style="margin-top:0">Cast &amp; deaths hidden</h3>
+        <p class="muted" style="margin:0">
+          Mark this work (or its show / author) as completed to reveal its cast,
+          victims, killers, and the rest of the case file.
+        </p>
+      </div>
+    </template>
+    <template v-if="revealed && hasPersons">
       <h3>Persons</h3>
       <div class="table-wrap">
         <table>
@@ -375,7 +420,7 @@ const SubItemSection = defineComponent({
           </thead>
           <tbody>
             <tr v-for="p in item.persons" :key="p.name">
-              <td class="sensitive">
+              <td>
                 <RouterLink v-if="p.role_in_story === 'detective'" :to="{ path: '/people', query: { filter: 'detective', q: p.name } }">{{ p.name }}</RouterLink>
                 <template v-else>{{ p.name }}</template>
               </td>
@@ -389,7 +434,7 @@ const SubItemSection = defineComponent({
         </table>
       </div>
     </template>
-    <template v-if="item.deaths?.length">
+    <template v-if="revealed && hasDeaths">
       <h3>Deaths</h3>
       <div class="table-wrap">
         <table>
@@ -399,9 +444,9 @@ const SubItemSection = defineComponent({
           <tbody>
             <tr v-for="(d, i) in item.deaths" :key="i">
               <td>{{ d.ordinal || '—' }}</td>
-              <td class="sensitive">{{ resolveName(item.persons, d.victim_id) || 'Unknown' }}</td>
+              <td>{{ resolveName(item.persons, d.victim_id) || 'Unknown' }}</td>
               <td><CauseBadge :cause="d.cause" :means="d.means" /></td>
-              <td class="sensitive">{{ d.killers?.map(k => resolveName(item.persons, k.person_id)).join(', ') || 'Unknown' }}</td>
+              <td>{{ d.killers?.map(k => resolveName(item.persons, k.person_id)).join(', ') || 'Unknown' }}</td>
               <td>{{ d.motive ? d.motive.charAt(0).toUpperCase() + d.motive.slice(1).replace(/_/g, ' ') : '—' }}</td>
               <td>{{ d.death_type || '—' }}</td>
               <td>{{ d.is_twist ? 'Yes' : 'No' }}</td>

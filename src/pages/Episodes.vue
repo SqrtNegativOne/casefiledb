@@ -16,8 +16,8 @@ const episodes = computed(() => {
   const out = []
 
   // Nested episodes inside tv_show items
-  for (const item of data.value) {
-    if (item.media_type !== 'tv_show' || !item.episodes?.length) continue
+  for (const item of (data.value.tv_shows || [])) {
+    if (!item.episodes?.length) continue
     for (let i = 0; i < item.episodes.length; i++) {
       const ep = item.episodes[i]
       out.push({
@@ -36,9 +36,8 @@ const episodes = computed(() => {
     }
   }
 
-  // Standalone tv_episode items (e.g. Monk episodes stored individually)
-  for (const item of data.value) {
-    if (item.media_type !== 'tv_episode') continue
+  // Standalone tv_episode items
+  for (const item of (data.value.tv_episodes || [])) {
     let season = null, episode_number = null
     if (item.series_number != null) {
       const snInt = Math.round(item.series_number * 100)

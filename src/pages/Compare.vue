@@ -1,9 +1,9 @@
 <script setup>
 import { ref, computed, onMounted, watch } from 'vue'
 import { useRoute } from 'vue-router'
-import { useData, allDeaths } from '../composables/useData.js'
+import { useData, allItems, allDeaths } from '../composables/useData.js'
 
-const { data, ensureLoaded } = useData()
+const { ensureLoaded } = useData()
 const route = useRoute()
 onMounted(ensureLoaded)
 
@@ -48,7 +48,7 @@ const selB = ref('')
 
 const authors = computed(() => {
   const map = new Map()
-  for (const item of data.value) {
+  for (const item of allItems.value) {
     const c = item.creator || 'Unknown'
     if (!map.has(c)) map.set(c, { name: c, works: [] })
     map.get(c).works.push(item)
@@ -73,7 +73,7 @@ function optionsFor(mode) {
       ...byCategory('city'),
     ]
   }
-  return [...data.value]
+  return [...allItems.value]
     .sort((a, b) => String(a.title).localeCompare(String(b.title)))
     .map((m) => ({ value: `media:${m.slug}`, label: `${m.title} (${m.year || '?'})` }))
 }
@@ -115,7 +115,7 @@ function resolve(value) {
     const a = authors.value.find((x) => x.name === key)
     return a ? { name: a.name, type: 'fiction', stats: statsFor(a.works) } : null
   }
-  const item = data.value.find((m) => m.slug === key)
+  const item = allItems.value.find((m) => m.slug === key)
   return item ? { name: `${item.title} (${item.creator || '?'}, ${item.year || '?'})`, type: 'fiction', stats: statsFor([item]) } : null
 }
 
@@ -123,7 +123,7 @@ const panelA = computed(() => resolve(selA.value))
 const panelB = computed(() => resolve(selB.value))
 
 // Deep-link
-watch(() => data.value.length, () => {
+watch(() => allItems.value.length, () => {
   if (!route.query.a && !route.query.b) return
   if (route.query.a) {
     const [t] = route.query.a.split(':')

@@ -13,9 +13,7 @@ const sortField = ref('title')
 const sortDir = ref('asc')
 const expanded = ref(new Set())
 
-const games = computed(() =>
-  data.value.filter((m) => m.media_type === 'game')
-)
+const games = computed(() => data.value.games || [])
 
 function totalDeaths(g) {
   return (g.cases || []).reduce((n, c) => n + (c.deaths || []).length, 0) + (g.deaths || []).length

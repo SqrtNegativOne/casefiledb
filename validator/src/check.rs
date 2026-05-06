@@ -3,27 +3,20 @@
 use anyhow::{Context, Result};
 
 mod models;
-use models::MediaItem;
+use models::{MediaItem, SiteData};
 
 fn run() -> Result<()> {
     let path = "public/site_data.json";
     let content = std::fs::read_to_string(path).context("reading site_data.json")?;
-    let raw: Vec<serde_json::Value> =
-        serde_json::from_str(&content).context("parsing site_data.json")?;
+    let data: SiteData = serde_json::from_str(&content).context("parsing site_data.json")?;
 
     let mut errors: Vec<String> = Vec::new();
     let mut ok = 0usize;
 
-    for item in &raw {
-        let title = item
-            .get("title")
-            .and_then(|v| v.as_str())
-            .unwrap_or("<unknown>")
-            .to_string();
-
-        match serde_json::from_value::<MediaItem>(item.clone()) {
+    for item in data.all_items() {
+        match MediaItem::try_from(item.clone()) {
             Ok(_) => ok += 1,
-            Err(e) => errors.push(format!("  {title}: {e}")),
+            Err(e) => errors.push(format!("  {}: {e}", item.title)),
         }
     }
 

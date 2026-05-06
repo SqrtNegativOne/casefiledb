@@ -109,9 +109,7 @@ Every name used in a `death` event **must** be defined here first.
   - `alibi_trick` — the killer's alibi is constructed or faked
   - `closed_circle` — suspects are isolated together (snowbound house, island, train, etc.)
   - `needle_in_haystack` — the killer is hidden among many plausible suspects
-  - `multiple_murderers` — more than one person committed killings
   - `least_likely_suspect` — the killer is the character the reader would least expect
-  - `serial_killer` — multiple connected murders by the same perpetrator
   - `frame_up` — an innocent person is deliberately framed
   - `mistaken_identity` — the crime stems from a case of mistaken identity
 - `means`: (string) **Required** for every `cause` except `OTHER`. Specify the exact substance, weapon, or mechanism (e.g. `"arsenic"`, `"revolver"`, `"kitchen knife"`, `"cliff edge"`, `"car"`). When `cause` is `UNKNOWN`, set `means` to `"unknown"` as well. Three additional reserved values: `"unmentioned"` if the narrative never names the specific item; `"unknown"` if the protagonist genuinely does not know what was used (an open in-story mystery); `"needs_review"` if you have not yet looked it up.

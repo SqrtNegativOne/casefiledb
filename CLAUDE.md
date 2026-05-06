@@ -121,3 +121,7 @@ AI_SCHEMA.md        — LLM-facing instructions for generating valid JSON
 ## Shell environment
 
 - The Bash tool runs `/usr/bin/bash` (POSIX). Use the PowerShell tool for Windows commands (`New-Item`, `Write-Host`, etc.).
+
+## In conversations (very important)
+
+Do not refer to any specific deaths or cases or plot twists or plot points of any pieces of media, to avoid giving anyone working on this project spoilers.

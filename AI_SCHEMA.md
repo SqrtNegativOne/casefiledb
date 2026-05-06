@@ -56,7 +56,7 @@ Every name used in a `death` event **must** be defined here first.
 
 - `id`: (string, optional) Stable slug identifier for this person within this scope (e.g. `"emily-inglethorp"`). The ingest tool auto-generates it from the name if omitted — you only need to supply it when you want a specific value (e.g. to avoid a collision or match a pre-existing ID).
 - `name`: (string, required)
-- `role_in_story`: One of: `protagonist`, `antagonist`, `victim`, `detective`, `bystander`, `unknown`.
+- `role_in_story`: (optional) One of: `protagonist`, `antagonist`, `victim`, `detective`, `bystander`, `unknown`.
 - `is_solver`: (boolean, optional) `true` if this person actively cracks the central mystery. Use this to distinguish the detective who *nominally* investigates from whoever *actually* solves it. In Sherlock Holmes, Holmes gets `is_solver: true`; in Knives Out, Marta gets `is_solver: true` (not Blanc). Leave null if ambiguous or irrelevant.
 - `is_fictional`: (boolean, default `true`)
 - `nationality`, `ethnicity`, `gender`, `approximate_age`, `profession`: (string, optional)
@@ -116,8 +116,8 @@ Every name used in a `death` event **must** be defined here first.
 - `means`: (string) **Required** for every `cause` except `OTHER`. Specify the exact substance, weapon, or mechanism (e.g. `"arsenic"`, `"revolver"`, `"kitchen knife"`, `"cliff edge"`, `"car"`). When `cause` is `UNKNOWN`, set `means` to `"unknown"` as well. Three additional reserved values: `"unmentioned"` if the narrative never names the specific item; `"unknown"` if the protagonist genuinely does not know what was used (an open in-story mystery); `"needs_review"` if you have not yet looked it up.
 - `cause_detail`, `motive_detail`: (string, optional) Extra narrative detail.
 - `ordinal`: (integer, optional) Order of death within the work.
-- `is_central_death`: (boolean) `true` if this is the primary mystery.
-- `is_twist`: (boolean) `true` if the death involves a major plot twist.
+- `is_central_death`: (boolean, optional, default `false`) `true` if this is the primary mystery.
+- `is_twist`: (boolean, optional, default `false`) `true` if the death involves a major plot twist.
 - `chapter_or_act`: (string, optional)
 - `notes`: (string, optional)
 
@@ -165,8 +165,8 @@ Only include fields you have data for. All fields are optional.
     "year": 2024,
     "tags": ["golden-age"],
     "external_links": {
-      "goodreads_url": "https://www.goodreads.com/book/show/12345",
-      "tvtropes_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/ExampleMystery"
+      "goodreads_id": "12345",
+      "tvtropes_slug": "Literature/ExampleMystery"
     },
     "persons": [
       { "name": "Alice", "role_in_story": "victim" },

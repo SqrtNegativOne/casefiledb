@@ -103,9 +103,7 @@ pub enum MysteryTrope {
     AlibiTrick,
     ClosedCircle,
     NeedleInHaystack,
-    MultipleMurderers,
     LeastLikelySuspect,
-    SerialKiller,
     FrameUp,
     MistakenIdentity,
 }

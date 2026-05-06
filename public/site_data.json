@@ -17412,8 +17412,7 @@
           "motive": "greed_financial",
           "motive_detail": "Eden killed his business partner to gain sole ownership and control of Eden Express",
           "tropes": [
-            "howcatchem",
-            "serial_killer"
+            "howcatchem"
           ],
           "is_central_death": false,
           "is_twist": false,
@@ -17439,7 +17438,6 @@
           "tropes": [
             "howcatchem",
             "howdunit",
-            "serial_killer",
             "least_likely_suspect"
           ],
           "is_central_death": true,

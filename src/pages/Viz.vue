@@ -1,8 +1,8 @@
 <script setup>
 import { ref, onMounted, watch } from 'vue'
-import { useData, allDeaths } from '../composables/useData.js'
+import { useData, allItems, allDeaths } from '../composables/useData.js'
 
-const { data, loaded, ensureLoaded } = useData()
+const { loaded, ensureLoaded } = useData()
 const vizWrap = ref(null)
 
 onMounted(async () => {
@@ -26,7 +26,7 @@ function txt(content, attrs = {}) {
 
 function buildYearChart() {
   const yearCounts = {}
-  for (const item of data.value) {
+  for (const item of allItems.value) {
     const deaths = allDeaths(item)
     if (!deaths.length || !item.year) continue
     yearCounts[item.year] = (yearCounts[item.year] || 0) + deaths.length
@@ -79,7 +79,7 @@ function buildYearChart() {
 
 function buildCausesChart() {
   const counts = {}
-  for (const item of data.value) {
+  for (const item of allItems.value) {
     for (const d of allDeaths(item)) {
       if (d.cause) counts[d.cause] = (counts[d.cause] || 0) + 1
     }
@@ -104,7 +104,7 @@ function buildCausesChart() {
 
 function buildTypeChart() {
   const counts = {}, workCounts = {}
-  for (const item of data.value) {
+  for (const item of allItems.value) {
     const t = item.media_type || 'unknown'
     workCounts[t] = (workCounts[t] || 0) + 1
     counts[t] = (counts[t] || 0) + allDeaths(item).length
@@ -138,7 +138,7 @@ function card(title, subtitle, svgEl, legendHtml = '') {
 }
 
 function render() {
-  if (!vizWrap.value || !data.value.length) return
+  if (!vizWrap.value || !allItems.value.length) return
   vizWrap.value.innerHTML = ''
   const yearSvg = buildYearChart()
   if (yearSvg) {

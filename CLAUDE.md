@@ -17,7 +17,7 @@ npm run dev          # dev server at localhost:5173
 npm run build        # build to docs/ (commits this for GitHub Pages)
 ```
 
-Pages: `/` Media · `/authors` · `/episodes` · `/methods` · `/detectives` · `/games` · `/books` · `/compare` · `/viz` · `/media/:slug`
+Pages: `/` Deaths · `/authors` · `/episodes` · `/methods` · `/detectives` · `/games` · `/books` · `/compare` · `/viz` · `/media/:slug`
 
 ## How to add new media
 
@@ -45,6 +45,25 @@ See `AI_SCHEMA.md` for the full field reference and an example. Key rules:
 - `means` is required on every death except when `cause` is `OTHER`. When `cause` is `UNKNOWN`, set `means: "unknown"`.
 - `motive` is required on every death except when `death_type` is `accident` or `natural_death`.
 
+## Data format
+
+`public/site_data.json` is a **typed-collections object**, not a flat array:
+
+```json
+{
+  "books":        [ … ],
+  "games":        [ … ],
+  "movies":       [ … ],
+  "tv_episodes":  [ … ],
+  "tv_shows":     [ … ],
+  "short_stories":[ … ],
+  "plays":        [ … ],
+  "podcasts":     [ … ]
+}
+```
+
+Each array holds only items of that `media_type`. The ingest binary automatically routes new items to the correct array. The frontend exposes `allItems` (a module-level Vue computed in `useData.js`) that merges all arrays for cross-type pages.
+
 ## File structure
 
 ```
@@ -61,7 +80,7 @@ src/
     NoteHover.vue   — spoiler hover popover
     CauseBadge.vue  — colour-coded cause-of-death badge
   pages/
-    Home.vue        — media list (/)
+    Home.vue        — deaths table (/)
     Authors.vue     — /authors
     Episodes.vue    — /episodes
     Methods.vue     — /methods

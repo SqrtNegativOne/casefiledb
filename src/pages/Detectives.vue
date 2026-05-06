@@ -1,9 +1,9 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
-import { useData, deathCount } from '../composables/useData.js'
+import { useData, allItems, deathCount } from '../composables/useData.js'
 
-const { data, ensureLoaded } = useData()
+const { ensureLoaded } = useData()
 const route = useRoute()
 onMounted(ensureLoaded)
 
@@ -20,7 +20,7 @@ onMounted(() => {
 const detectives = computed(() => {
   const map = new Map()
 
-  for (const media of data.value) {
+  for (const media of allItems.value) {
     const scopes = [
       { persons: media.persons || [], context: media },
       ...(media.episodes || []).map((e) => ({ persons: e.persons || [], context: media })),

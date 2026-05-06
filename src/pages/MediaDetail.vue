@@ -1,18 +1,18 @@
 <script setup>
 import { ref, computed, onMounted, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import { useData, deathCount } from '../composables/useData.js'
+import { useData, allItems, deathCount } from '../composables/useData.js'
 import { useCoverImage } from '../composables/useCoverImage.js'
 import NoteHover from '../components/NoteHover.vue'
 import CauseBadge from '../components/CauseBadge.vue'
 
-const { data, ensureLoaded } = useData()
+const { loaded, ensureLoaded } = useData()
 const route = useRoute()
 const router = useRouter()
 
 onMounted(ensureLoaded)
 
-const media = computed(() => data.value.find((m) => m.slug === route.params.slug) || null)
+const media = computed(() => allItems.value.find((m) => m.slug === route.params.slug) || null)
 const epIndex = computed(() => route.query.ep != null ? parseInt(route.query.ep, 10) : null)
 const caseIndex = computed(() => route.query.case != null ? parseInt(route.query.case, 10) : null)
 
@@ -28,10 +28,10 @@ const displayItem = computed(() => {
 })
 
 // Redirect if slug is actually a nested episode wikidata_id
-watch(() => data.value.length, () => {
+watch(() => allItems.value.length, () => {
   if (media.value) return
   const slug = route.params.slug
-  for (const item of data.value) {
+  for (const item of allItems.value) {
     if (!item.episodes) continue
     const idx = item.episodes.findIndex((e) => e.wikidata_id === slug)
     if (idx !== -1) {
@@ -47,7 +47,7 @@ const coverUrl = useCoverImage(coverMediaRef)
 // ── Series navigation ────────────────────────────────────────────
 const seriesMates = computed(() => {
   if (!media.value?.series_name) return []
-  return data.value
+  return allItems.value
     .filter(m => m.series_name === media.value.series_name)
     .sort((a, b) => (a.series_number ?? 0) - (b.series_number ?? 0))
 })
@@ -82,7 +82,7 @@ const seriesContextSlice = computed(() => {
 const otherByCreator = computed(() => {
   if (!media.value?.creator) return []
   const currentSeries = media.value.series_name
-  return data.value
+  return allItems.value
     .filter(m =>
       m.creator === media.value.creator &&
       m.slug !== media.value.slug &&
@@ -162,7 +162,7 @@ function caseDetectives(c) {
 </script>
 
 <template>
-  <div v-if="!data.length" class="muted">Loading…</div>
+  <div v-if="!loaded" class="muted">Loading…</div>
   <div v-else-if="!media">
     <p class="muted">Media not found: <code>{{ route.params.slug }}</code></p>
     <RouterLink to="/">← Back to index</RouterLink>

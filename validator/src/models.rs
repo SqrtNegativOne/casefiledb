@@ -59,7 +59,7 @@ pub enum Motive {
     Freedom,
     FamilyProtection,
     Pathological,
-    MercyKilling,
+    Mercy,
     Penance,
     Unknown,
     Other,
@@ -123,7 +123,7 @@ pub enum RoleInStory {
     Unknown,
 }
 
-#[derive(Debug, Clone, Serialize, Deserialize)]
+#[derive(Debug, Clone, Copy, Serialize, Deserialize)]
 #[serde(rename_all = "snake_case")]
 pub enum MediaType {
     Book,
@@ -224,7 +224,7 @@ pub struct DeathWire {
     pub notes: Option<String>,
 }
 
-#[derive(Debug, Deserialize, Serialize)]
+#[derive(Debug, Clone, Deserialize, Serialize)]
 pub struct MediaItemWire {
     pub slug: Option<String>,
     pub wikidata_id: Option<String>,
@@ -677,6 +677,59 @@ impl From<MediaItem> for MediaItemWire {
             deaths: m.deaths,
             episodes: m.episodes,
             cases: m.cases,
+        }
+    }
+}
+
+// ── SiteData (top-level typed collections) ────────────────────────────────────
+
+/// Top-level container for `public/site_data.json`.
+/// Each field holds only items of the matching `media_type`, which makes the
+/// schema self-documenting and eliminates conditional field validation.
+#[derive(Debug, Default, Serialize, Deserialize)]
+pub struct SiteData {
+    #[serde(default)]
+    pub books: Vec<MediaItemWire>,
+    #[serde(default)]
+    pub games: Vec<MediaItemWire>,
+    #[serde(default)]
+    pub movies: Vec<MediaItemWire>,
+    #[serde(default)]
+    pub tv_episodes: Vec<MediaItemWire>,
+    #[serde(default)]
+    pub tv_shows: Vec<MediaItemWire>,
+    #[serde(default)]
+    pub short_stories: Vec<MediaItemWire>,
+    #[serde(default)]
+    pub plays: Vec<MediaItemWire>,
+    #[serde(default)]
+    pub podcasts: Vec<MediaItemWire>,
+}
+
+impl SiteData {
+    pub fn all_items(&self) -> Vec<&MediaItemWire> {
+        self.books.iter()
+            .chain(self.games.iter())
+            .chain(self.movies.iter())
+            .chain(self.tv_episodes.iter())
+            .chain(self.tv_shows.iter())
+            .chain(self.short_stories.iter())
+            .chain(self.plays.iter())
+            .chain(self.podcasts.iter())
+            .collect()
+    }
+
+    #[allow(dead_code)]
+    pub fn push(&mut self, item: MediaItemWire) {
+        match item.media_type {
+            MediaType::Book => self.books.push(item),
+            MediaType::Game => self.games.push(item),
+            MediaType::Movie => self.movies.push(item),
+            MediaType::TvEpisode => self.tv_episodes.push(item),
+            MediaType::TvShow => self.tv_shows.push(item),
+            MediaType::ShortStory => self.short_stories.push(item),
+            MediaType::Play => self.plays.push(item),
+            MediaType::Podcast => self.podcasts.push(item),
         }
     }
 }

@@ -3,7 +3,7 @@
 To add a new book, movie, game, or episode to the Casefile Database:
 
 1. Write a JSON file to `temp/` (e.g. `temp/my_new_data.json`).
-2. Run `uv run python scripts/ingest.py`.
+2. Run `cargo run --bin ingest --manifest-path validator/Cargo.toml`.
 
 The script will validate, append to the website data, and delete your temp file. If validation fails, it will print errors and leave your file in `temp/` so you can fix it.
 
@@ -77,9 +77,9 @@ Every name used in a `death` event **must** be defined here first.
   `murder`, `attempted_murder`, `manslaughter`, `suicide`, `accident`, `natural_death`, `execution`, `unknown`.
 - `motive`: One of:
   `greed_inheritance`, `greed_financial`, `blackmail`, `jealousy`, `revenge`, `ideology`, `self_defense`, `concealment`, `passion`,
-  `vigilante_justice`, `freedom`, `family_protection`, `pathological`, `mercy_killing`, `penance`,
+  `vigilante_justice`, `freedom`, `family_protection`, `pathological`, `mercy`, `penance`,
   `unknown`, `other`, `needs_review`.
-  Key distinctions: `vigilante_justice` = self-appointed execution of those deemed guilty who escaped legal justice; `family_protection` = killing to shield family from ruin or scandal; `freedom` = escaping an unwanted relationship or controlling figure; `pathological` = compulsive or irrational psychological motive; `mercy_killing` = ending another's suffering; `penance` = atonement or confession-driven act. Reserve `other` only when none of the above fit. Use `unknown` when the narrative genuinely does not state a reason; use `needs_review` as a placeholder when you have not yet researched it.
+  Key distinctions: `vigilante_justice` = self-appointed execution of those deemed guilty who escaped legal justice; `family_protection` = killing to shield family from ruin or scandal; `freedom` = escaping an unwanted relationship or controlling figure; `pathological` = compulsive or irrational psychological motive; `mercy` = ending another's suffering; `penance` = atonement or confession-driven act. Reserve `other` only when none of the above fit. Use `unknown` when the narrative genuinely does not state a reason; use `needs_review` as a placeholder when you have not yet researched it.
   **Required for all `death_type` values except `accident` and `natural_death`** — use `unknown` if the reason is not stated in the narrative, or `needs_review` if not yet researched.
 - `killers`: (array, default `[]`) Each entry is an object with three fields describing one killer's role in the death. A death may have zero, one, or multiple killers (e.g. co-conspirators with different levels of involvement):
   - `name`: (string, required) Must match a name in `persons`.

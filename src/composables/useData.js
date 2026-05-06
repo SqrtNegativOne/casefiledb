@@ -1,8 +1,24 @@
-import { shallowRef, ref } from 'vue'
+import { shallowRef, ref, computed } from 'vue'
 
-const _data = shallowRef([])
+const EMPTY = {
+  books: [], games: [], movies: [], tv_episodes: [], tv_shows: [],
+  short_stories: [], plays: [], podcasts: [],
+}
+
+const _data = shallowRef(EMPTY)
 const _loaded = ref(false)
 const _loading = ref(false)
+
+export const allItems = computed(() => [
+  ...(_data.value.books || []),
+  ...(_data.value.games || []),
+  ...(_data.value.movies || []),
+  ...(_data.value.tv_episodes || []),
+  ...(_data.value.tv_shows || []),
+  ...(_data.value.short_stories || []),
+  ...(_data.value.plays || []),
+  ...(_data.value.podcasts || []),
+])
 
 export function useData() {
   async function ensureLoaded() {
@@ -16,7 +32,7 @@ export function useData() {
     }
   }
 
-  return { data: _data, loaded: _loaded, loading: _loading, ensureLoaded }
+  return { data: _data, allItems, loaded: _loaded, loading: _loading, ensureLoaded }
 }
 
 /** Sum deaths across all scopes of a media item. */

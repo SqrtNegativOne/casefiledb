@@ -1,8 +1,8 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
-import { useData, deathCount } from '../composables/useData.js'
+import { useData, allItems, deathCount } from '../composables/useData.js'
 
-const { data, ensureLoaded } = useData()
+const { ensureLoaded } = useData()
 onMounted(ensureLoaded)
 
 const search = ref('')
@@ -11,7 +11,7 @@ const sortDir = ref('asc')
 
 const authors = computed(() => {
   const map = new Map()
-  for (const item of data.value) {
+  for (const item of allItems.value) {
     const creator = item.creator || 'Unknown'
     if (!map.has(creator)) {
       map.set(creator, { name: creator, works: [], totalDeaths: 0, types: new Set() })

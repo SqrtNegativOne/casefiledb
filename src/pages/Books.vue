@@ -14,9 +14,7 @@ const sortField = ref('title')
 const sortDir = ref('asc')
 const expanded = ref(new Set())
 
-const books = computed(() =>
-  data.value.filter((m) => m.media_type === 'book')
-)
+const books = computed(() => data.value.books || [])
 
 const series = computed(() =>
   [...new Set(books.value.map((b) => b.series_name).filter(Boolean))].sort()

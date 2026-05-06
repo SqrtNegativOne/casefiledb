@@ -33,13 +33,11 @@ pub enum RawCause {
 #[derive(Debug, Clone, Serialize, Deserialize)]
 #[serde(rename_all = "snake_case")]
 pub enum RawDeathType {
-    Murder,
-    AttemptedMurder,
-    Manslaughter,
-    Suicide,
+    Homicide,
+    AttemptedHomicide,
+    Execution,
     Accident,
     NaturalDeath,
-    Execution,
     Unknown,
 }
 
@@ -179,13 +177,12 @@ pub enum Cause {
 }
 
 /// Death classification. `Accident` and `NaturalDeath` carry no motive;
-/// all other variants require one.
+/// all other variants require one. Suicide is represented as `Homicide`
+/// with the victim also listed as a killer.
 #[derive(Debug, Clone)]
 pub enum DeathType {
-    Murder { motive: Motive, motive_detail: Option<String> },
-    AttemptedMurder { motive: Motive, motive_detail: Option<String> },
-    Manslaughter { motive: Motive, motive_detail: Option<String> },
-    Suicide { motive: Motive, motive_detail: Option<String> },
+    Homicide { motive: Motive, motive_detail: Option<String> },
+    AttemptedHomicide { motive: Motive, motive_detail: Option<String> },
     Execution { motive: Motive, motive_detail: Option<String> },
     Unknown { motive: Motive, motive_detail: Option<String> },
     Accident,
@@ -443,20 +440,12 @@ impl TryFrom<DeathWire> for Death {
         };
 
         let death_type = match w.death_type {
-            RawDeathType::Murder => DeathType::Murder {
-                motive: needs_motive(w.motive, "murder")?,
+            RawDeathType::Homicide => DeathType::Homicide {
+                motive: needs_motive(w.motive, "homicide")?,
                 motive_detail: w.motive_detail,
             },
-            RawDeathType::AttemptedMurder => DeathType::AttemptedMurder {
-                motive: needs_motive(w.motive, "attempted_murder")?,
-                motive_detail: w.motive_detail,
-            },
-            RawDeathType::Manslaughter => DeathType::Manslaughter {
-                motive: needs_motive(w.motive, "manslaughter")?,
-                motive_detail: w.motive_detail,
-            },
-            RawDeathType::Suicide => DeathType::Suicide {
-                motive: needs_motive(w.motive, "suicide")?,
+            RawDeathType::AttemptedHomicide => DeathType::AttemptedHomicide {
+                motive: needs_motive(w.motive, "attempted_homicide")?,
                 motive_detail: w.motive_detail,
             },
             RawDeathType::Execution => DeathType::Execution {
@@ -513,17 +502,11 @@ impl From<Death> for DeathWire {
         };
 
         let (death_type, motive, motive_detail) = match d.death_type {
-            DeathType::Murder { motive, motive_detail } => {
-                (RawDeathType::Murder, Some(motive), motive_detail)
+            DeathType::Homicide { motive, motive_detail } => {
+                (RawDeathType::Homicide, Some(motive), motive_detail)
             }
-            DeathType::AttemptedMurder { motive, motive_detail } => {
-                (RawDeathType::AttemptedMurder, Some(motive), motive_detail)
-            }
-            DeathType::Manslaughter { motive, motive_detail } => {
-                (RawDeathType::Manslaughter, Some(motive), motive_detail)
-            }
-            DeathType::Suicide { motive, motive_detail } => {
-                (RawDeathType::Suicide, Some(motive), motive_detail)
+            DeathType::AttemptedHomicide { motive, motive_detail } => {
+                (RawDeathType::AttemptedHomicide, Some(motive), motive_detail)
             }
             DeathType::Execution { motive, motive_detail } => {
                 (RawDeathType::Execution, Some(motive), motive_detail)

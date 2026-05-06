@@ -6,7 +6,6 @@ use serde::{Deserialize, Serialize};
 // ── Controlled-vocabulary enums ───────────────────────────────────────────────
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
-#[serde(rename_all = "SCREAMING_SNAKE_CASE")]
 pub enum RawCause {
     Poisoned,
     Shot,
@@ -31,7 +30,6 @@ pub enum RawCause {
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
-#[serde(rename_all = "snake_case")]
 pub enum RawDeathType {
     Homicide,
     AttemptedHomicide,
@@ -42,7 +40,6 @@ pub enum RawDeathType {
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
-#[serde(rename_all = "snake_case")]
 pub enum Motive {
     GreedInheritance,
     GreedFinancial,
@@ -65,7 +62,6 @@ pub enum Motive {
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
-#[serde(rename_all = "snake_case")]
 pub enum MensRea {
     Purposely,
     Knowingly,
@@ -77,7 +73,6 @@ pub enum MensRea {
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
-#[serde(rename_all = "snake_case")]
 pub enum KillerCircumstance {
     Justified,
     Mitigated,
@@ -87,17 +82,12 @@ pub enum KillerCircumstance {
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
-#[serde(rename_all = "snake_case")]
 pub enum MysteryTrope {
     LockedRoom,
     ImpossibleCrime,
-    #[serde(rename = "howcatchem")]
     HowCatchem,
-    #[serde(rename = "whodunit")]
     Whodunit,
-    #[serde(rename = "whydunit")]
     Whydunit,
-    #[serde(rename = "howdunit")]
     Howdunit,
     DyingClue,
     AlibiTrick,
@@ -109,7 +99,6 @@ pub enum MysteryTrope {
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
-#[serde(rename_all = "snake_case")]
 pub enum RoleInStory {
     Protagonist,
     Antagonist,
@@ -120,7 +109,6 @@ pub enum RoleInStory {
 }
 
 #[derive(Debug, Clone, Copy, Serialize, Deserialize)]
-#[serde(rename_all = "snake_case")]
 pub enum MediaType {
     Book,
     Movie,
@@ -133,7 +121,6 @@ pub enum MediaType {
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize, PartialEq)]
-#[serde(rename_all = "snake_case")]
 pub enum ExternalPageStatus {
     Exists,
     None,

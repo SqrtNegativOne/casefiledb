@@ -12,14 +12,14 @@ const completedModalOpen = ref(false)
 const route = useRoute()
 
 const links = [
-  { to: '/', label: 'Deaths' },
+  { to: '/deaths', label: 'Deaths' },
   { to: '/methods', label: 'Methods' },
   { to: '/people', label: 'People' },
   { to: '/media', label: 'Media' },
 ]
 
 function isActive(path) {
-  if (path === '/') return route.path === '/'
+  if (path === '/deaths') return route.path === '/deaths'
   // /media should also light up for /media/:slug, /author/:name, /show/:name, /game-series/:slug.
   if (path === '/media') {
     return (

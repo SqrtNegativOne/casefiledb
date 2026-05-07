@@ -30,10 +30,7 @@ Unit of work: one **episode** -> one worklist entry with `media_type: "tv_episod
 
 ## Extraction notes
 
-When extracting death information from scraped episode text:
-- Do NOT use regex patterns to parse character names, causes, or motives
-- Instead, manually review each episode and fill in the JSON directly, or ask the user to provide specifics
-- Regex-based parsing is fragile, generates false positives, and is not worth the debugging cost
+Do not use regex patterns to extract death data from scraped text—manually review episodes or ask the user instead.
 
 ## Slug convention
 

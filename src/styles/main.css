@@ -177,6 +177,7 @@ body {
     top: 52px;
     left: 0;
     right: 0;
+    transform: none;
     background: var(--nav-bg);
     border-top: 1px solid rgba(200,146,30,0.2);
     border-bottom: 1px solid rgba(200,146,30,0.25);

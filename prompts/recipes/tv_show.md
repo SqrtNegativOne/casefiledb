@@ -23,6 +23,10 @@ Unit of work: one **episode** -> one worklist entry with `media_type: "tv_episod
    ```
 4. Save and exit. Do not scrape episode bodies during planning.
 
+## Extraction phase (dispatcher)
+
+When the dispatcher scrapes each episode, carefully read the extracted plot summary and character information to write down deaths, killers, and motives. Do not rely on brittle shortcuts such as regex patterns—manual review is more reliable.
+
 ## Scrape hints (used by dispatcher)
 
 - If `url` is set: `scrape_media.py fetch <slug> --url <url>`.

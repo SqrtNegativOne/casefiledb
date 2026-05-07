@@ -10876,13 +10876,7 @@
               "means": "terminal illness",
               "cause_detail": "The Storyteller faded and died as the illusory world of Labyrinthia collapsed around him",
               "death_type": "NaturalDeath",
-              "killers": [
-                {
-                  "person_id": "eldoon-cantabella",
-                  "mens_rea": "Unknown",
-                  "circumstance": "Unknown"
-                }
-              ],
+              "killers": [],
               "tropes": [],
               "is_central_death": false,
               "is_twist": true,
@@ -18662,18 +18656,19 @@
           "ordinal": 1,
           "cause": "Stabbed",
           "means": "bill spike",
-          "death_type": "Accident",
+          "death_type": "Homicide",
           "killers": [
             {
               "person_id": "bollinger",
-              "mens_rea": "Purposely",
+              "mens_rea": "Recklessly",
               "circumstance": "Neutral"
             }
           ],
           "tropes": [],
           "is_central_death": true,
           "is_twist": false,
-          "notes": "[Former motive: concealment — Ellinghouse died in a struggle with the fake Trudy, falling onto a bill spike; Bollinger orchestrated the Trudy impersonation scheme]"
+          "notes": "[Former motive: concealment — Ellinghouse died in a struggle with the fake Trudy, falling onto a bill spike; Bollinger orchestrated the Trudy impersonation scheme]",
+          "motive": "Concealment"
         }
       ]
     },
@@ -25129,17 +25124,32 @@
           "id": "beth-chadwick",
           "name": "Beth Chadwick",
           "is_fictional": true,
-          "role_in_story": "Victim"
+          "role_in_story": "Antagonist",
+          "notes": "Shot her controlling brother Bryce to gain her freedom. Claimed it was an accident (mistook him for a burglar) but Columbo proves it was premeditated."
+        },
+        {
+          "id": "bryce-chadwick",
+          "name": "Bryce Chadwick",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "gender": "male",
+          "notes": "Beth's domineering older brother whose controlling nature cost him his life."
         }
       ],
       "deaths": [
         {
-          "victim_id": "beth-chadwick",
+          "victim_id": "bryce-chadwick",
           "cause": "Shot",
           "means": "gun",
           "death_type": "Homicide",
-          "motive": "Unknown",
-          "killers": [],
+          "motive": "Freedom",
+          "killers": [
+            {
+              "person_id": "beth-chadwick",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
           "tropes": [
             "HowCatchem"
           ],
@@ -25217,17 +25227,34 @@
           "id": "elliot-markham",
           "name": "Elliot Markham",
           "is_fictional": true,
-          "role_in_story": "Victim"
+          "role_in_story": "Antagonist",
+          "profession": "Architect",
+          "gender": "male",
+          "notes": "Architect who murders his wealthy client and hides the body in a building's concrete foundation."
+        },
+        {
+          "id": "beau-williamson",
+          "name": "Beau Williamson",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "gender": "male",
+          "notes": "Wealthy client whose body was concealed in concrete at a construction site."
         }
       ],
       "deaths": [
         {
-          "victim_id": "elliot-markham",
+          "victim_id": "beau-williamson",
           "cause": "Unknown",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
-          "killers": [],
+          "killers": [
+            {
+              "person_id": "elliot-markham",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
           "tropes": [
             "HowCatchem"
           ],
@@ -25306,6 +25333,15 @@
           "name": "Tony Goodland",
           "is_fictional": true,
           "role_in_story": "Victim"
+        },
+        {
+          "id": "jarvis-goodland",
+          "name": "Jarvis Goodland",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "gender": "male",
+          "profession": "Horticulturist",
+          "notes": "Tony's uncle who orchestrated a fake kidnapping scheme to access trust fund money, then murdered Tony to eliminate him."
         }
       ],
       "deaths": [
@@ -25314,8 +25350,14 @@
           "cause": "Shot",
           "means": "gun",
           "death_type": "Homicide",
-          "motive": "GreedFinancial",
-          "killers": [],
+          "motive": "GreedInheritance",
+          "killers": [
+            {
+              "person_id": "jarvis-goodland",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
           "tropes": [
             "HowCatchem"
           ],
@@ -25419,17 +25461,56 @@
           "id": "tanner",
           "name": "Tanner",
           "is_fictional": true,
-          "role_in_story": "Victim"
+          "role_in_story": "Bystander",
+          "notes": "Character identity uncertain; originally entered as victim in error."
+        },
+        {
+          "id": "sir-roger-haversham",
+          "name": "Sir Roger Haversham",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "gender": "male",
+          "profession": "theatrical producer",
+          "notes": "Wealthy English theatrical producer whose death the killers attempt to conceal."
+        },
+        {
+          "id": "nicholas-frame",
+          "name": "Nicholas Frame",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "gender": "male",
+          "profession": "actor",
+          "notes": "Veteran Shakespearean stage actor; husband of Lillian Stanhope. Conspires with his wife to conceal the death of their producer."
+        },
+        {
+          "id": "lillian-stanhope",
+          "name": "Lillian Stanhope",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "gender": "female",
+          "profession": "actor",
+          "notes": "Veteran Shakespearean stage actress; wife of Nicholas Frame. Conspires with her husband to conceal the death of their producer."
         }
       ],
       "deaths": [
         {
-          "victim_id": "tanner",
+          "victim_id": "sir-roger-haversham",
           "cause": "Unknown",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
-          "killers": [],
+          "killers": [
+            {
+              "person_id": "nicholas-frame",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            },
+            {
+              "person_id": "lillian-stanhope",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
           "tropes": [
             "HowCatchem"
           ],

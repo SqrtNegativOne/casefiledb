@@ -8696,15 +8696,15 @@
               "victim_id": "shadi-smith",
               "ordinal": 1,
               "cause": "Shot",
-              "means": "needs_review",
+              "means": "pistol",
               "death_type": "Homicide",
               "motive": "Revenge",
               "motive_detail": "Kristoph Gavin killed Shadi Smith (Zak Gramarye) after losing a poker game; Zak had chosen Phoenix Wright over Kristoph as his attorney seven years prior",
               "killers": [
                 {
                   "person_id": "kristoph-gavin",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -8740,15 +8740,15 @@
               "victim_id": "pal-meraktis",
               "ordinal": 2,
               "cause": "Clubbed",
-              "means": "needs_review",
+              "means": "flower pot",
               "death_type": "Homicide",
               "motive": "Concealment",
               "motive_detail": "Alita killed Meraktis to prevent him from revealing that Wocky Kitaki still had a bullet near his heart, which would expose her plan to inherit the Kitaki fortune",
               "killers": [
                 {
                   "person_id": "alita-tiala",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -8791,15 +8791,15 @@
               "victim_id": "romein-letouse",
               "ordinal": 3,
               "cause": "Shot",
-              "means": "needs_review",
+              "means": "pistol",
               "death_type": "Homicide",
               "motive": "Concealment",
               "motive_detail": "Daryan killed Interpol agent LeTouse to conceal his involvement in Borginian cocoon smuggling",
               "killers": [
                 {
                   "person_id": "daryan-crescend",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -8812,7 +8812,7 @@
               "victim_id": "machi-tobaye",
               "ordinal": 4,
               "cause": "Fell",
-              "means": "needs_review",
+              "means": "fall from stage catwalk",
               "death_type": "Accident",
               "killers": [],
               "tropes": [],
@@ -8862,9 +8862,9 @@
               "victim_id": "magnifi-gramarye",
               "ordinal": 5,
               "cause": "Shot",
-              "means": "needs_review",
+              "means": "pistol",
               "death_type": "Homicide",
-              "motive": "NeedsReview",
+              "motive": "Pathological",
               "motive_detail": "Magnifi shot himself after leaving instructions to his apprentices to shoot him; he was terminally ill and used his death as one final test",
               "killers": [
                 {
@@ -8883,15 +8883,15 @@
               "victim_id": "drew-misham",
               "ordinal": 6,
               "cause": "Poisoned",
-              "means": "needs_review",
+              "means": "atroquinine-laced stamp",
               "death_type": "Homicide",
               "motive": "Concealment",
               "motive_detail": "Kristoph poisoned the stamp with atroquinine to silence Drew Misham, who had forged evidence for him seven years earlier",
               "killers": [
                 {
                   "person_id": "kristoph-gavin",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -8904,15 +8904,15 @@
               "victim_id": "vera-misham",
               "ordinal": 7,
               "cause": "Poisoned",
-              "means": "needs_review",
+              "means": "atroquinine-laced nail polish",
               "death_type": "AttemptedHomicide",
               "motive": "Concealment",
               "motive_detail": "Kristoph poisoned both the stamp and a bottle of nail polish with atroquinine to eliminate all witnesses to his forgery",
               "killers": [
                 {
                   "person_id": "kristoph-gavin",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -9075,15 +9075,15 @@
               "victim_id": "clay-terran",
               "ordinal": 1,
               "cause": "Exploded",
-              "means": "needs_review",
+              "means": "bomb",
               "death_type": "Homicide",
               "motive": "Concealment",
               "motive_detail": "Ted Tonate set off the HH-3000 bomb to destroy evidence of his theft; Clay Terran was killed in the explosion",
               "killers": [
                 {
                   "person_id": "ted-tonate",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -9126,8 +9126,8 @@
               "killers": [
                 {
                   "person_id": "the-phantom",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -9163,15 +9163,15 @@
               "victim_id": "rex-kyubi",
               "ordinal": 3,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "spear",
               "death_type": "Homicide",
               "motive": "GreedFinancial",
               "motive_detail": "Florent L'Belle killed Kyubi to gain access to the Hidden Shrine and secure gold mining rights for his company",
               "killers": [
                 {
                   "person_id": "florent-l-belle",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -9207,15 +9207,15 @@
               "victim_id": "constance-courte",
               "ordinal": 4,
               "cause": "Clubbed",
-              "means": "needs_review",
+              "means": "flagpole",
               "death_type": "Homicide",
               "motive": "Concealment",
               "motive_detail": "Professor Means killed Courte because she discovered his scheme to have students forge evidence in mock trials, and threatened to expose him",
               "killers": [
                 {
                   "person_id": "aristotle-means",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -9251,15 +9251,15 @@
               "victim_id": "clay-terran",
               "ordinal": 5,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "knife",
               "death_type": "Homicide",
               "motive": "Concealment",
               "motive_detail": "The Phantom stabbed Clay Terran aboard the HAT-2 rocket to prevent him from reporting what he had witnessed during the mission",
               "killers": [
                 {
                   "person_id": "the-phantom",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -9295,15 +9295,15 @@
               "victim_id": "jack-shipley",
               "ordinal": 6,
               "cause": "Drowned",
-              "means": "needs_review",
+              "means": "drowning in aquarium pool",
               "death_type": "Homicide",
               "motive": "Revenge",
               "motive_detail": "Marlon Rimes blamed Shipley for the death of Ora Shipley (a killer whale) and killed him in retaliation",
               "killers": [
                 {
                   "person_id": "marlon-rimes",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -9508,15 +9508,15 @@
               "victim_id": "rheel-neh-mu",
               "ordinal": 1,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "dagger",
               "death_type": "Homicide",
               "motive": "Concealment",
               "motive_detail": "Andistan'dhin killed Neh'mu to silence him and protect his own secrets",
               "killers": [
                 {
                   "person_id": "pees-lubn-andistan-dhin",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -9562,7 +9562,7 @@
               "means": "ritual dagger",
               "cause_detail": "Tahrust stabbed himself with a ritual dagger in the Inner Sanctum to frame his own murder and protect Nayna",
               "death_type": "Homicide",
-              "motive": "NeedsReview",
+              "motive": "FamilyProtection",
               "motive_detail": "Tahrust took his own life to create a false murder scene that would exonerate his wife Nayna from rebel activities",
               "killers": [
                 {
@@ -9581,15 +9581,15 @@
               "victim_id": "zeh-lot",
               "ordinal": 3,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "dagger",
               "death_type": "Homicide",
               "motive": "Concealment",
               "motive_detail": "Andistan'dhin killed Zeh'lot as part of his effort to suppress rebel activity and protect himself",
               "killers": [
                 {
                   "person_id": "pees-lubn-andistan-dhin",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -9625,15 +9625,15 @@
               "victim_id": "manov-mistree",
               "ordinal": 4,
               "cause": "Fell",
-              "means": "needs_review",
+              "means": "rigged trapdoor",
               "death_type": "Homicide",
               "motive": "Revenge",
               "motive_detail": "Retinz rigged a magic trick prop to cause Mistree to fall fatally; he framed Trucy Wright as revenge for the Gramarye family expelling him",
               "killers": [
                 {
                   "person_id": "roger-retinz",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -9669,15 +9669,15 @@
               "victim_id": "archie-buff",
               "ordinal": 5,
               "cause": "Clubbed",
-              "means": "needs_review",
+              "means": "stone bust",
               "death_type": "Homicide",
               "motive": "GreedFinancial",
               "motive_detail": "Bonny and Betty de Famme killed Buff to steal the Founder's Orb at the behest of Paul Atishon",
               "killers": [
                 {
                   "person_id": "bonny-de-famme",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -9727,15 +9727,15 @@
               "victim_id": "dhurke-sahdmadhi",
               "ordinal": 6,
               "cause": "Shot",
-              "means": "needs_review",
+              "means": "pistol",
               "death_type": "Homicide",
               "motive": "Ideology",
               "motive_detail": "Inga shot Dhurke to crush the Defiant Dragons rebellion and preserve the power structure he and Ga'ran had built",
               "killers": [
                 {
                   "person_id": "inga-karkhuul-khura-in",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -9748,15 +9748,15 @@
               "victim_id": "inga-karkhuul-khura-in",
               "ordinal": 7,
               "cause": "Poisoned",
-              "means": "needs_review",
+              "means": "poison",
               "death_type": "Homicide",
               "motive": "Concealment",
               "motive_detail": "Ga'ran poisoned Inga once he became a liability; Inga had leverage over her but she struck first to protect her secrets",
               "killers": [
                 {
                   "person_id": "ga-ran-sigatar-khura-in",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -9769,15 +9769,15 @@
               "victim_id": "amara-sigatar-khura-in",
               "ordinal": 8,
               "cause": "Poisoned",
-              "means": "needs_review",
+              "means": "poison",
               "death_type": "AttemptedHomicide",
               "motive": "GreedFinancial",
               "motive_detail": "Ga'ran attempted to kill Queen Amara years before the game's events to seize the throne of Khura'in",
               "killers": [
                 {
                   "person_id": "ga-ran-sigatar-khura-in",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -9954,14 +9954,14 @@
               "victim_id": "buddy-faith",
               "ordinal": 1,
               "cause": "Shot",
-              "means": "needs_review",
+              "means": "pistol",
               "death_type": "Homicide",
               "motive": "Concealment",
               "killers": [
                 {
                   "person_id": "jacques-portsman",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -10010,14 +10010,14 @@
               "victim_id": "mack-rell",
               "ordinal": 2,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "knife",
               "death_type": "Homicide",
               "motive": "Concealment",
               "killers": [
                 {
                   "person_id": "jacques-portsman",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -10029,14 +10029,14 @@
               "victim_id": "akbey-hicks",
               "ordinal": 3,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "knife",
               "death_type": "Homicide",
               "motive": "Concealment",
               "killers": [
                 {
                   "person_id": "cammy-meele",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -10071,14 +10071,14 @@
               "victim_id": "colin-devorae",
               "ordinal": 4,
               "cause": "Shot",
-              "means": "needs_review",
+              "means": "pistol",
               "death_type": "Homicide",
               "motive": "Concealment",
               "killers": [
                 {
                   "person_id": "lance-amano",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -10113,14 +10113,14 @@
               "victim_id": "byrne-faraday",
               "ordinal": 5,
               "cause": "Shot",
-              "means": "needs_review",
+              "means": "pistol",
               "death_type": "Homicide",
               "motive": "Concealment",
               "killers": [
                 {
                   "person_id": "calisto-yew",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -10162,14 +10162,14 @@
               "victim_id": "manny-coachen",
               "ordinal": 6,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "knife",
               "death_type": "Homicide",
               "motive": "Concealment",
               "killers": [
                 {
                   "person_id": "quercus-alba",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -10181,14 +10181,14 @@
               "victim_id": "ka-shi-nou",
               "ordinal": 7,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "knife",
               "death_type": "Homicide",
               "motive": "Concealment",
               "killers": [
                 {
                   "person_id": "quercus-alba",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -10385,14 +10385,14 @@
               "victim_id": "jill-crane",
               "ordinal": 1,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "knife",
               "death_type": "Homicide",
               "motive": "Concealment",
               "killers": [
                 {
                   "person_id": "blaise-debeste",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -10448,14 +10448,14 @@
               "victim_id": "horace-knightley-victim",
               "ordinal": 2,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "cane-sword",
               "death_type": "Homicide",
               "motive": "Unknown",
               "killers": [
                 {
                   "person_id": "horace-knightley",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -10473,8 +10473,8 @@
               "killers": [
                 {
                   "person_id": "patricia-roland",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -10486,14 +10486,14 @@
               "victim_id": "patricia-roland",
               "ordinal": 4,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "cane-sword",
               "death_type": "Homicide",
               "motive": "Revenge",
               "killers": [
                 {
                   "person_id": "sirhan-dogen",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -10542,14 +10542,14 @@
               "victim_id": "pierre-hoquet",
               "ordinal": 5,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "cane-sword",
               "death_type": "Homicide",
               "motive": "Concealment",
               "killers": [
                 {
                   "person_id": "marī-miwa",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -10561,14 +10561,14 @@
               "victim_id": "zenitaro-tomitaro",
               "ordinal": 6,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "cane-sword",
               "death_type": "Homicide",
               "motive": "Concealment",
               "killers": [
                 {
                   "person_id": "marī-miwa",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -10623,8 +10623,8 @@
               "killers": [
                 {
                   "person_id": "dane-gustavia",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -10636,14 +10636,14 @@
               "victim_id": "horace-knightley",
               "ordinal": 8,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "knife",
               "death_type": "Homicide",
               "motive": "Revenge",
               "killers": [
                 {
                   "person_id": "sōta-sarushiro",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -10825,8 +10825,8 @@
               "killers": [
                 {
                   "person_id": "kira",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -10838,14 +10838,14 @@
               "victim_id": "hilda-labrume",
               "ordinal": 2,
               "cause": "Burned",
-              "means": "needs_review",
+              "means": "fire",
               "death_type": "Execution",
               "motive": "Ideology",
               "killers": [
                 {
                   "person_id": "shades",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -10873,14 +10873,14 @@
               "victim_id": "eldoon-cantabella",
               "ordinal": 3,
               "cause": "Illness",
-              "means": "needs_review",
+              "means": "terminal illness",
               "cause_detail": "The Storyteller faded and died as the illusory world of Labyrinthia collapsed around him",
               "death_type": "NaturalDeath",
               "killers": [
                 {
                   "person_id": "eldoon-cantabella",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Unknown",
+                  "circumstance": "Unknown"
                 }
               ],
               "tropes": [],
@@ -11063,14 +11063,14 @@
               "victim_id": "cindy-stone",
               "ordinal": 1,
               "cause": "Clubbed",
-              "means": "needs_review",
+              "means": "clock",
               "death_type": "Homicide",
               "motive": "Concealment",
               "killers": [
                 {
                   "person_id": "frank-sahwit",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Recklessly",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -11105,14 +11105,14 @@
               "victim_id": "mia-fey",
               "ordinal": 2,
               "cause": "Clubbed",
-              "means": "needs_review",
+              "means": "glass clock trophy",
               "death_type": "Homicide",
               "motive": "Concealment",
               "killers": [
                 {
                   "person_id": "redd-white",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -11147,14 +11147,14 @@
               "victim_id": "jack-hammer",
               "ordinal": 3,
               "cause": "Fell",
-              "means": "needs_review",
+              "means": "fence spike",
               "death_type": "Homicide",
               "motive": "SelfDefense",
               "killers": [
                 {
                   "person_id": "dee-vasquez",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Justified"
                 }
               ],
               "tropes": [],
@@ -11203,14 +11203,14 @@
               "victim_id": "robert-hammond",
               "ordinal": 4,
               "cause": "Shot",
-              "means": "needs_review",
+              "means": "pistol",
               "death_type": "Homicide",
               "motive": "Revenge",
               "killers": [
                 {
                   "person_id": "yogi-yanni-yogi",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -11222,14 +11222,14 @@
               "victim_id": "gregory-edgeworth",
               "ordinal": 5,
               "cause": "Shot",
-              "means": "needs_review",
+              "means": "pistol",
               "death_type": "Homicide",
               "motive": "Revenge",
               "killers": [
                 {
                   "person_id": "manfred-von-karma",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -11278,13 +11278,13 @@
               "victim_id": "neil-marshall",
               "ordinal": 6,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "knife",
               "death_type": "Accident",
               "killers": [
                 {
                   "person_id": "joe-darke",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Accidentally",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -11296,14 +11296,14 @@
               "victim_id": "neil-marshall",
               "ordinal": 7,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "knife",
               "death_type": "Homicide",
               "motive": "Concealment",
               "killers": [
                 {
                   "person_id": "damon-gant",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -11315,14 +11315,14 @@
               "victim_id": "bruce-goodman",
               "ordinal": 8,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "knife",
               "death_type": "Homicide",
               "motive": "Concealment",
               "killers": [
                 {
                   "person_id": "damon-gant",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -11491,14 +11491,14 @@
               "victim_id": "turner-grey",
               "ordinal": 1,
               "cause": "Shot",
-              "means": "needs_review",
+              "means": "pistol",
               "death_type": "Homicide",
               "motive": "Concealment",
               "killers": [
                 {
                   "person_id": "mimi-miney",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -11547,13 +11547,13 @@
               "victim_id": "bat-billy-bite",
               "ordinal": 2,
               "cause": "Illness",
-              "means": "needs_review",
+              "means": "lion mauling",
               "death_type": "Accident",
               "killers": [
                 {
                   "person_id": "regina-berry",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Negligently",
+                  "circumstance": "Mitigated"
                 }
               ],
               "tropes": [],
@@ -11565,14 +11565,14 @@
               "victim_id": "russell-berry",
               "ordinal": 3,
               "cause": "Clubbed",
-              "means": "needs_review",
+              "means": "bust",
               "death_type": "Homicide",
               "motive": "Revenge",
               "killers": [
                 {
                   "person_id": "acro-ken-dingling",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -11621,15 +11621,15 @@
               "victim_id": "juan-corrida",
               "ordinal": 4,
               "cause": "Strangled",
-              "means": "needs_review",
+              "means": "wire garrote",
               "death_type": "Homicide",
               "motive": "GreedFinancial",
               "motive_detail": "Shelly de Killer was a paid assassin hired by Matt Engarde",
               "killers": [
                 {
                   "person_id": "shelly-de-killer",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -11648,8 +11648,8 @@
               "killers": [
                 {
                   "person_id": "shelly-de-killer",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -11832,14 +11832,14 @@
               "victim_id": "doug-swallow",
               "ordinal": 1,
               "cause": "Electrocuted",
-              "means": "needs_review",
+              "means": "electrical pole",
               "death_type": "Homicide",
               "motive": "Concealment",
               "killers": [
                 {
                   "person_id": "dahlia-hawthorne",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -11880,8 +11880,8 @@
               "killers": [
                 {
                   "person_id": "luke-atmey",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -11916,14 +11916,14 @@
               "victim_id": "glen-elg",
               "ordinal": 3,
               "cause": "Poisoned",
-              "means": "needs_review",
+              "means": "experimental poison compound",
               "death_type": "Homicide",
               "motive": "Concealment",
               "killers": [
                 {
                   "person_id": "furio-tigre",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -11965,14 +11965,14 @@
               "victim_id": "valerie-hawthorne",
               "ordinal": 4,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "knife",
               "death_type": "Homicide",
               "motive": "Concealment",
               "killers": [
                 {
                   "person_id": "dahlia-hawthorne",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -11984,14 +11984,14 @@
               "victim_id": "terry-fawles",
               "ordinal": 5,
               "cause": "Poisoned",
-              "means": "needs_review",
+              "means": "poison capsule",
               "death_type": "Homicide",
               "motive": "Concealment",
               "killers": [
                 {
                   "person_id": "dahlia-hawthorne",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -12026,15 +12026,15 @@
               "victim_id": "misty-fey",
               "ordinal": 6,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "knife",
               "death_type": "Homicide",
               "motive": "FamilyProtection",
               "motive_detail": "Godot killed Misty (channelling Dahlia) to prevent Dahlia from killing Maya",
               "killers": [
                 {
                   "person_id": "godot-diego-armando",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Mitigated"
                 }
               ],
               "tropes": [],
@@ -12217,15 +12217,15 @@
               "victim_id": "sayaka-maizono",
               "ordinal": 1,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "knife",
               "cause_detail": "Stabbed with a kitchen knife during a struggle after Sayaka attempted to frame Makoto for her planned murder of Leon.",
               "death_type": "Homicide",
               "motive": "SelfDefense",
               "killers": [
                 {
                   "person_id": "leon-kuwata",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Recklessly",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -12237,15 +12237,15 @@
               "victim_id": "leon-kuwata",
               "ordinal": 2,
               "cause": "Clubbed",
-              "means": "needs_review",
+              "means": "baseballs",
               "cause_detail": "Executed by Monokuma via pitching machine firing hundreds of baseballs",
               "death_type": "Execution",
               "motive": "Ideology",
               "killers": [
                 {
                   "person_id": "monokuma",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -12287,15 +12287,15 @@
               "victim_id": "chihiro-fujisaki",
               "ordinal": 3,
               "cause": "Clubbed",
-              "means": "needs_review",
+              "means": "dumbbell",
               "cause_detail": "Struck with a dumbbell in the gym.",
               "death_type": "Homicide",
               "motive": "Jealousy",
               "killers": [
                 {
                   "person_id": "mondo-owada",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Recklessly",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -12313,8 +12313,8 @@
               "killers": [
                 {
                   "person_id": "monokuma",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -12370,15 +12370,15 @@
               "victim_id": "mukuro-ikusaba",
               "ordinal": 5,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "spear",
               "cause_detail": "Impaled by a volley of spears launched by Monokuma.",
               "death_type": "Execution",
               "motive": "Pathological",
               "killers": [
                 {
                   "person_id": "monokuma",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -12390,15 +12390,15 @@
               "victim_id": "kiyotaka-ishimaru",
               "ordinal": 6,
               "cause": "Clubbed",
-              "means": "needs_review",
+              "means": "hammer",
               "cause_detail": "Struck on the head with a hammer.",
               "death_type": "Homicide",
               "motive": "GreedFinancial",
               "killers": [
                 {
                   "person_id": "celestia-ludenberg",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Mitigated"
                 }
               ],
               "tropes": [],
@@ -12410,15 +12410,15 @@
               "victim_id": "hifumi-yamada",
               "ordinal": 7,
               "cause": "Clubbed",
-              "means": "needs_review",
+              "means": "hammer",
               "cause_detail": "Struck on the head with a hammer after being used as an accomplice.",
               "death_type": "Homicide",
               "motive": "GreedFinancial",
               "killers": [
                 {
                   "person_id": "celestia-ludenberg",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Mitigated"
                 }
               ],
               "tropes": [],
@@ -12430,15 +12430,15 @@
               "victim_id": "celestia-ludenberg",
               "ordinal": 8,
               "cause": "Burned",
-              "means": "needs_review",
+              "means": "fire",
               "cause_detail": "Burned at the stake like a witch, then hit by a fire truck.",
               "death_type": "Execution",
               "motive": "Ideology",
               "killers": [
                 {
                   "person_id": "monokuma",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -12466,7 +12466,7 @@
               "victim_id": "sakura-ogami",
               "ordinal": 9,
               "cause": "Poisoned",
-              "means": "needs_review",
+              "means": "self-administered poison",
               "cause_detail": "Drank a bottle of poison and then self-inflicted a blow to her head to make it look like a murder.",
               "death_type": "Homicide",
               "motive": "Penance",
@@ -12474,8 +12474,8 @@
               "killers": [
                 {
                   "person_id": "sakura-ogami",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -12510,7 +12510,7 @@
               "victim_id": "junko-enoshima",
               "ordinal": 10,
               "cause": "Crushed",
-              "means": "needs_review",
+              "means": "combined execution mechanisms",
               "cause_detail": "Executed by every execution method from the game simultaneously, then crushed by a giant Monokuma statue.",
               "death_type": "Execution",
               "motive": "Pathological",
@@ -12518,8 +12518,8 @@
               "killers": [
                 {
                   "person_id": "monokuma",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -12723,15 +12723,15 @@
               "victim_id": "imposter",
               "ordinal": 1,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "kitchen skewer",
               "cause_detail": "Stabbed through the floorboards with a skewer while Teruteru was hiding under the floor.",
               "death_type": "Homicide",
               "motive": "Ideology",
               "killers": [
                 {
                   "person_id": "teruteru-hanamura",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Knowingly",
+                  "circumstance": "Mitigated"
                 }
               ],
               "tropes": [],
@@ -12743,15 +12743,15 @@
               "victim_id": "teruteru-hanamura",
               "ordinal": 2,
               "cause": "Burned",
-              "means": "needs_review",
+              "means": "deep fryer",
               "cause_detail": "Blasted into a volcanic eruption and burned alive.",
               "death_type": "Execution",
               "motive": "Ideology",
               "killers": [
                 {
                   "person_id": "monokuma",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -12793,15 +12793,15 @@
               "victim_id": "mahiru-koizumi",
               "ordinal": 3,
               "cause": "Clubbed",
-              "means": "needs_review",
+              "means": "tripod",
               "cause_detail": "Beaten to death with a bat.",
               "death_type": "Homicide",
               "motive": "Revenge",
               "killers": [
                 {
                   "person_id": "peko-pekoyama",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Mitigated"
                 }
               ],
               "tropes": [],
@@ -12813,15 +12813,15 @@
               "victim_id": "peko-pekoyama",
               "ordinal": 4,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "katana",
               "cause_detail": "Cut down by a swarm of wooden swords and blades wielded by puppet versions of herself.",
               "death_type": "Execution",
               "motive": "Ideology",
               "killers": [
                 {
                   "person_id": "monokuma",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -12870,7 +12870,7 @@
               "victim_id": "ibuki-mioda",
               "ordinal": 5,
               "cause": "Strangled",
-              "means": "needs_review",
+              "means": "guitar string",
               "cause_detail": "Strangled to death while in a comatose state from the Despair Disease.",
               "death_type": "Homicide",
               "motive": "Pathological",
@@ -12878,8 +12878,8 @@
               "killers": [
                 {
                   "person_id": "mikan-tsumiki",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Mitigated"
                 }
               ],
               "tropes": [],
@@ -12891,15 +12891,15 @@
               "victim_id": "hiyoko-saionji",
               "ordinal": 6,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "scissors",
               "cause_detail": "Throat slashed with a scalpel.",
               "death_type": "Homicide",
               "motive": "Concealment",
               "killers": [
                 {
                   "person_id": "mikan-tsumiki",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Mitigated"
                 }
               ],
               "tropes": [],
@@ -12918,8 +12918,8 @@
               "killers": [
                 {
                   "person_id": "monokuma",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -12961,15 +12961,15 @@
               "victim_id": "nekomaru-nidai",
               "ordinal": 8,
               "cause": "Clubbed",
-              "means": "needs_review",
+              "means": "fists",
               "cause_detail": "Beaten to death in an agreed one-on-one duel; Gundham won so the others could eat",
               "death_type": "Homicide",
               "motive": "SelfDefense",
               "killers": [
                 {
                   "person_id": "gundham-tanaka",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Knowingly",
+                  "circumstance": "Mitigated"
                 }
               ],
               "tropes": [],
@@ -12981,15 +12981,15 @@
               "victim_id": "gundham-tanaka",
               "ordinal": 9,
               "cause": "Eaten",
-              "means": "needs_review",
+              "means": "animal stampede",
               "cause_detail": "Trampled and devoured by a herd of stampeding animals in a coliseum.",
               "death_type": "Execution",
               "motive": "Ideology",
               "killers": [
                 {
                   "person_id": "monokuma",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -13031,15 +13031,15 @@
               "victim_id": "nagito-komaeda-victim",
               "ordinal": 10,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "knife",
               "cause_detail": "Nagito set up an elaborate suicide trap: he was poisoned by Junko's left hand, then impaled himself with a spear to prevent the poison from killing him, then used Chiaki's hand (while she was unconscious) to stab him, ensuring she would be the 'killer' via Whodunit rules.",
               "death_type": "Homicide",
               "motive": "Ideology",
               "killers": [
                 {
                   "person_id": "chiaki-nanami",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Accidentally",
+                  "circumstance": "Mitigated"
                 }
               ],
               "tropes": [],
@@ -13051,15 +13051,15 @@
               "victim_id": "chiaki-nanami",
               "ordinal": 11,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "spear",
               "cause_detail": "Impaled repeatedly by spears and spikes while navigating a trap-filled corridor.",
               "death_type": "Execution",
               "motive": "Ideology",
               "killers": [
                 {
                   "person_id": "monokuma",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -13094,7 +13094,7 @@
               "victim_id": "monomi",
               "ordinal": 12,
               "cause": "Exploded",
-              "means": "needs_review",
+              "means": "self-detonation",
               "cause_detail": "Blown up by Monokuma at the end of the game.",
               "death_type": "Execution",
               "motive": "Penance",
@@ -13102,8 +13102,8 @@
               "killers": [
                 {
                   "person_id": "monokuma",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -13307,15 +13307,15 @@
               "victim_id": "rantaro-amami",
               "ordinal": 1,
               "cause": "Clubbed",
-              "means": "needs_review",
+              "means": "shot put ball",
               "cause_detail": "Struck on the back of the head with a heavy shot put ball rolled via a library ramp mechanism.",
               "death_type": "Homicide",
               "motive": "Concealment",
               "killers": [
                 {
                   "person_id": "tsumugi-shirogane",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -13327,15 +13327,15 @@
               "victim_id": "kaede-akamatsu",
               "ordinal": 2,
               "cause": "Hanged",
-              "means": "needs_review",
+              "means": "noose",
               "cause_detail": "Executed by hanging after being falsely found guilty of Rantaro's murder.",
               "death_type": "Execution",
               "motive": "Ideology",
               "killers": [
                 {
                   "person_id": "monokuma",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -13377,15 +13377,15 @@
               "victim_id": "ryoma-hoshi",
               "ordinal": 3,
               "cause": "Drowned",
-              "means": "needs_review",
+              "means": "drowning in pool",
               "cause_detail": "Drowned in a tank; body was then stripped of flesh by piranhas leaving only a skeleton.",
               "death_type": "Homicide",
               "motive": "GreedFinancial",
               "killers": [
                 {
                   "person_id": "kirumi-tojo",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -13397,15 +13397,15 @@
               "victim_id": "kirumi-tojo",
               "ordinal": 4,
               "cause": "TornApart",
-              "means": "needs_review",
+              "means": "factory machinery",
               "cause_detail": "Tried to escape across a thorn-covered rope; shredded by a giant food processor at the end.",
               "death_type": "Execution",
               "motive": "Ideology",
               "killers": [
                 {
                   "person_id": "monokuma",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -13454,7 +13454,7 @@
               "victim_id": "angie-yonaga",
               "ordinal": 5,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "katana",
               "cause_detail": "Stabbed with a katana from behind through the back of the neck.",
               "death_type": "Homicide",
               "motive": "Pathological",
@@ -13462,8 +13462,8 @@
               "killers": [
                 {
                   "person_id": "korekiyo-shinguji",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -13475,7 +13475,7 @@
               "victim_id": "tenko-chabashira",
               "ordinal": 6,
               "cause": "Stabbed",
-              "means": "needs_review",
+              "means": "katana",
               "cause_detail": "Stabbed through the floor of a seance cage by a hidden katana mechanism.",
               "death_type": "Homicide",
               "motive": "Pathological",
@@ -13483,8 +13483,8 @@
               "killers": [
                 {
                   "person_id": "korekiyo-shinguji",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -13496,15 +13496,15 @@
               "victim_id": "korekiyo-shinguji",
               "ordinal": 7,
               "cause": "Burned",
-              "means": "needs_review",
+              "means": "fire",
               "cause_detail": "Boiled alive in a cauldron; spirit subsequently sealed by a spirit medium exorcism",
               "death_type": "Execution",
               "motive": "Ideology",
               "killers": [
                 {
                   "person_id": "monokuma",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -13546,7 +13546,7 @@
               "victim_id": "miu-iruma",
               "ordinal": 8,
               "cause": "Strangled",
-              "means": "needs_review",
+              "means": "strangulation",
               "cause_detail": "Strangled to death inside the virtual reality world using a virtual avatar.",
               "death_type": "Homicide",
               "motive": "SelfDefense",
@@ -13554,8 +13554,8 @@
               "killers": [
                 {
                   "person_id": "gonta-gokuhara",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Knowingly",
+                  "circumstance": "Mitigated"
                 }
               ],
               "tropes": [],
@@ -13567,15 +13567,15 @@
               "victim_id": "gonta-gokuhara",
               "ordinal": 9,
               "cause": "TornApart",
-              "means": "needs_review",
+              "means": "robotic insects",
               "cause_detail": "Impaled and torn apart by giant mechanical insect arms",
               "death_type": "Execution",
               "motive": "Ideology",
               "killers": [
                 {
                   "person_id": "monokuma",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -13617,7 +13617,7 @@
               "victim_id": "kokichi-oma",
               "ordinal": 10,
               "cause": "Crushed",
-              "means": "needs_review",
+              "means": "Exisal crushing mechanism",
               "cause_detail": "Crushed to death inside a hydraulic press/crushing machine called the 'Exisal'.",
               "death_type": "Homicide",
               "motive": "Freedom",
@@ -13625,8 +13625,8 @@
               "killers": [
                 {
                   "person_id": "kaito-momota",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Knowingly",
+                  "circumstance": "Mitigated"
                 }
               ],
               "tropes": [],
@@ -13638,15 +13638,15 @@
               "victim_id": "kaito-momota",
               "ordinal": 11,
               "cause": "Illness",
-              "means": "needs_review",
+              "means": "terminal illness",
               "cause_detail": "Launched into space in a rocket; he was already dying of a terminal illness and died as he wanted — reaching space",
               "death_type": "Execution",
               "motive": "Ideology",
               "killers": [
                 {
                   "person_id": "monokuma",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -13688,7 +13688,7 @@
               "victim_id": "kiibo",
               "ordinal": 12,
               "cause": "Exploded",
-              "means": "needs_review",
+              "means": "self-detonation",
               "cause_detail": "Self-destructed, channeling the hope of the audience to destroy the walls of Ultimate Academy.",
               "death_type": "Execution",
               "motive": "Freedom",
@@ -13696,8 +13696,8 @@
               "killers": [
                 {
                   "person_id": "monokuma",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -13709,15 +13709,15 @@
               "victim_id": "tsumugi-shirogane",
               "ordinal": 13,
               "cause": "Crushed",
-              "means": "needs_review",
+              "means": "falling debris",
               "cause_detail": "Crushed by a giant Monokuma statue after the students voted to end the killing game",
               "death_type": "Execution",
               "motive": "Ideology",
               "killers": [
                 {
                   "person_id": "monokuma",
-                  "mens_rea": "NeedsReview",
-                  "circumstance": "NeedsReview"
+                  "mens_rea": "Purposely",
+                  "circumstance": "Neutral"
                 }
               ],
               "tropes": [],
@@ -13824,7 +13824,7 @@
           "means": "medical lancet",
           "cause_detail": "Self-inflicted throat wound with a medical lancet after falsely believing he had fatally overdosed Marta with morphine; Ransom had swapped the medication vials to frame Marta, but Marta administered the correct drug",
           "death_type": "Homicide",
-          "motive": "NeedsReview",
+          "motive": "FamilyProtection",
           "motive_detail": "Harlan sacrificed himself to protect Marta from prosecution",
           "killers": [
             {
@@ -14177,7 +14177,7 @@
           "means": "pentobarbital",
           "cause_detail": "Martha deliberately ingested pentobarbital after confessing her role in the conspiracy, seeking forgiveness",
           "death_type": "Homicide",
-          "motive": "NeedsReview",
+          "motive": "Unknown",
           "killers": [
             {
               "person_id": "martha-delacroix",
@@ -24756,7 +24756,7 @@
           "cause": "Shot",
           "means": "gun",
           "death_type": "Homicide",
-          "motive": "NeedsReview",
+          "motive": "Penance",
           "killers": [
             {
               "person_id": "judge-ethan-rickover",
@@ -24840,8 +24840,8 @@
           "killers": [
             {
               "person_id": "leonard-vole",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],

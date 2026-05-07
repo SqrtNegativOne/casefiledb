@@ -96,8 +96,8 @@
           "killers": [
             {
               "person_id": "alfred-inglethorp",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -201,8 +201,8 @@
           "killers": [
             {
               "person_id": "madame-daubreuil",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -317,7 +317,7 @@
           "means": "veronal (barbiturate)",
           "cause_detail": "Took a fatal overdose of veronal the night before the main action; had been poisoned — or driven to suicide — having confessed to murdering her own husband and been blackmailed by Dr. Sheppard",
           "death_type": "Homicide",
-          "motive": "NeedsReview",
+          "motive": "Blackmail",
           "motive_detail": "Could no longer bear the blackmail; had confessed to Ackroyd in a letter",
           "killers": [
             {
@@ -343,8 +343,8 @@
           "killers": [
             {
               "person_id": "dr-james-sheppard",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -455,8 +455,8 @@
           "killers": [
             {
               "person_id": "hercule-poirot",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Knowingly",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -476,8 +476,8 @@
           "killers": [
             {
               "person_id": "hercule-poirot",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Knowingly",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -581,8 +581,8 @@
           "killers": [
             {
               "person_id": "ada-mason",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -686,8 +686,8 @@
           "killers": [
             {
               "person_id": "nick-buckley",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -798,8 +798,8 @@
           "killers": [
             {
               "person_id": "jane-wilkinson",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -818,8 +818,8 @@
           "killers": [
             {
               "person_id": "jane-wilkinson",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -944,8 +944,8 @@
           "killers": [
             {
               "person_id": "samuel-ratchett",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -965,8 +965,8 @@
           "killers": [
             {
               "person_id": "multiple",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -1077,8 +1077,8 @@
           "killers": [
             {
               "person_id": "sir-charles-cartwright",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -1098,8 +1098,8 @@
           "killers": [
             {
               "person_id": "sir-charles-cartwright",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -1196,8 +1196,8 @@
           "killers": [
             {
               "person_id": "norman-gale",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -1310,8 +1310,8 @@
           "killers": [
             {
               "person_id": "franklin-clarke",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -1330,8 +1330,8 @@
           "killers": [
             {
               "person_id": "franklin-clarke",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -1350,8 +1350,8 @@
           "killers": [
             {
               "person_id": "franklin-clarke",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -1371,8 +1371,8 @@
           "killers": [
             {
               "person_id": "franklin-clarke",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -1468,8 +1468,8 @@
           "killers": [
             {
               "person_id": "dr-eric-leidner",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -1578,8 +1578,8 @@
           "killers": [
             {
               "person_id": "dr-roberts",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -1598,8 +1598,8 @@
           "killers": [
             {
               "person_id": "dr-roberts",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -1705,8 +1705,8 @@
           "killers": [
             {
               "person_id": "simon-doyle",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -1726,8 +1726,8 @@
           "killers": [
             {
               "person_id": "simon-doyle",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -1746,8 +1746,8 @@
           "killers": [
             {
               "person_id": "jacqueline-de-bellefort",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -1761,7 +1761,7 @@
           "means": "pistol",
           "cause_detail": "Shot herself immediately after killing Simon Doyle",
           "death_type": "Homicide",
-          "motive": "NeedsReview",
+          "motive": "Passion",
           "killers": [
             {
               "person_id": "jacqueline-de-bellefort",
@@ -1857,8 +1857,8 @@
           "killers": [
             {
               "person_id": "minnie-lawson",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -1954,8 +1954,8 @@
           "killers": [
             {
               "person_id": "lady-westholme",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -2062,8 +2062,8 @@
           "killers": [
             {
               "person_id": "superintendent-sugden",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -2159,8 +2159,8 @@
           "killers": [
             {
               "person_id": "nurse-hopkins",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -2257,8 +2257,8 @@
           "killers": [
             {
               "person_id": "henry-morley",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -2278,8 +2278,8 @@
           "killers": [
             {
               "person_id": "alistair-blunt",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -2388,8 +2388,8 @@
           "killers": [
             {
               "person_id": "patrick-redfern",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -2499,8 +2499,8 @@
           "killers": [
             {
               "person_id": "angela-warren",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Recklessly",
+              "circumstance": "Mitigated"
             }
           ],
           "tropes": [],
@@ -2512,7 +2512,7 @@
           "victim_id": "caroline-crale",
           "ordinal": 2,
           "cause": "Illness",
-          "means": "needs_review",
+          "means": "unmentioned",
           "cause_detail": "Died in prison of natural causes while serving a sentence for the murder of her husband",
           "death_type": "NaturalDeath",
           "killers": [],
@@ -2626,8 +2626,8 @@
           "killers": [
             {
               "person_id": "gerda-christow",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -2642,7 +2642,7 @@
           "means": "sleeping tablets",
           "cause_detail": "Took a fatal overdose of sleeping tablets after realising Poirot had identified her as the killer",
           "death_type": "Homicide",
-          "motive": "NeedsReview",
+          "motive": "Penance",
           "killers": [
             {
               "person_id": "gerda-christow",
@@ -2774,8 +2774,8 @@
           "killers": [
             {
               "person_id": "rowley-cloade",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -2794,8 +2794,8 @@
           "killers": [
             {
               "person_id": "david-hunter",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -2886,8 +2886,8 @@
           "killers": [
             {
               "person_id": "evelyn-hope",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -2981,8 +2981,8 @@
           "killers": [
             {
               "person_id": "miss-gilchrist",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -3002,8 +3002,8 @@
           "killers": [
             {
               "person_id": "miss-gilchrist",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -3094,8 +3094,8 @@
           "killers": [
             {
               "person_id": "nigel-chapman",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -3114,8 +3114,8 @@
           "killers": [
             {
               "person_id": "nigel-chapman",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -3222,8 +3222,8 @@
           "killers": [
             {
               "person_id": "sir-george-stubbs",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -3243,8 +3243,8 @@
           "killers": [
             {
               "person_id": "sir-george-stubbs",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -3343,8 +3343,8 @@
           "killers": [
             {
               "person_id": "ann-shapland",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -3453,8 +3453,8 @@
           "killers": [
             {
               "person_id": "josefina-bland",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -3547,8 +3547,8 @@
           "killers": [
             {
               "person_id": "mary-restarick",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -3648,8 +3648,8 @@
           "killers": [
             {
               "person_id": "rowena-drake",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -3668,8 +3668,8 @@
           "killers": [
             {
               "person_id": "rowena-drake",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -3764,8 +3764,8 @@
           "killers": [
             {
               "person_id": "lady-ravenscroft",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Justified"
             }
           ],
           "tropes": [],
@@ -3779,7 +3779,7 @@
           "means": "pistol",
           "cause_detail": "Shot herself after killing her husband",
           "death_type": "Homicide",
-          "motive": "NeedsReview",
+          "motive": "Mercy",
           "killers": [
             {
               "person_id": "lady-ravenscroft",
@@ -3890,8 +3890,8 @@
           "killers": [
             {
               "person_id": "dr-franklin",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Mitigated"
             }
           ],
           "tropes": [],
@@ -3910,8 +3910,8 @@
           "killers": [
             {
               "person_id": "hercule-poirot",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -3926,7 +3926,7 @@
           "means": "heart failure",
           "cause_detail": "Died of heart failure after deliberately discontinuing his heart medication following Norton's execution; chose to die rather than live as an invalid who had committed murder",
           "death_type": "Homicide",
-          "motive": "NeedsReview",
+          "motive": "Penance",
           "killers": [
             {
               "person_id": "hercule-poirot",
@@ -4041,8 +4041,8 @@
           "killers": [
             {
               "person_id": "anne-protheroe",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -4153,8 +4153,8 @@
           "killers": [
             {
               "person_id": "mark-gaskell",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -4173,8 +4173,8 @@
           "killers": [
             {
               "person_id": "mark-gaskell",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -4285,8 +4285,8 @@
           "killers": [
             {
               "person_id": "mr-symmington",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -4306,8 +4306,8 @@
           "killers": [
             {
               "person_id": "mr-symmington",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -4415,8 +4415,8 @@
           "killers": [
             {
               "person_id": "letitia-blacklock",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -4435,8 +4435,8 @@
           "killers": [
             {
               "person_id": "letitia-blacklock",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -4528,8 +4528,8 @@
           "killers": [
             {
               "person_id": "lewis-serrocold",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -4640,8 +4640,8 @@
           "killers": [
             {
               "person_id": "percival-fortescue",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -4661,8 +4661,8 @@
           "killers": [
             {
               "person_id": "percival-fortescue",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -4681,8 +4681,8 @@
           "killers": [
             {
               "person_id": "percival-fortescue",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -4789,8 +4789,8 @@
           "killers": [
             {
               "person_id": "alfred-crackenthorpe",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -4809,8 +4809,8 @@
           "killers": [
             {
               "person_id": "alfred-crackenthorpe",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -4907,8 +4907,8 @@
           "killers": [
             {
               "person_id": "marina-gregg",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Recklessly",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -4923,7 +4923,7 @@
           "means": "drug overdose",
           "cause_detail": "Died of a drug overdose; by the end of the novel she has been identified as the killer",
           "death_type": "Homicide",
-          "motive": "NeedsReview",
+          "motive": "Penance",
           "killers": [
             {
               "person_id": "marina-gregg",
@@ -5042,8 +5042,8 @@
           "killers": [
             {
               "person_id": "lucky-dyson",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -5062,8 +5062,8 @@
           "killers": [
             {
               "person_id": "lucky-dyson",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -5158,8 +5158,8 @@
           "killers": [
             {
               "person_id": "bess-sedgwick",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -5259,8 +5259,8 @@
           "killers": [
             {
               "person_id": "clothilde-bradbury-scott",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -5280,8 +5280,8 @@
           "killers": [
             {
               "person_id": "clothilde-bradbury-scott",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -5377,8 +5377,8 @@
           "killers": [
             {
               "person_id": "dr-james-kennedy",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -5482,8 +5482,8 @@
           "killers": [
             {
               "person_id": "mr-brown",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -5588,8 +5588,8 @@
           "killers": [
             {
               "person_id": "mrs-sprot",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -5702,8 +5702,8 @@
           "killers": [
             {
               "person_id": "emma-boscowan",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -5722,8 +5722,8 @@
           "killers": [
             {
               "person_id": "emma-boscowan",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -5815,8 +5815,8 @@
           "killers": [
             {
               "person_id": "kk",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -5966,8 +5966,8 @@
           "killers": [
             {
               "person_id": "justice-wargrave",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -5986,8 +5986,8 @@
           "killers": [
             {
               "person_id": "justice-wargrave",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -6006,8 +6006,8 @@
           "killers": [
             {
               "person_id": "justice-wargrave",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -6026,8 +6026,8 @@
           "killers": [
             {
               "person_id": "justice-wargrave",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -6046,8 +6046,8 @@
           "killers": [
             {
               "person_id": "justice-wargrave",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -6061,7 +6061,7 @@
           "means": "revolver",
           "cause_detail": "Appeared to be shot dead in his chair; the wound was theatrical — he faked his death using a special squib and a red herring",
           "death_type": "Unknown",
-          "motive": "NeedsReview",
+          "motive": "Concealment",
           "killers": [],
           "tropes": [],
           "is_central_death": false,
@@ -6080,8 +6080,8 @@
           "killers": [
             {
               "person_id": "justice-wargrave",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -6100,8 +6100,8 @@
           "killers": [
             {
               "person_id": "justice-wargrave",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -6120,8 +6120,8 @@
           "killers": [
             {
               "person_id": "vera-claythorne",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Justified"
             }
           ],
           "tropes": [],
@@ -6136,7 +6136,7 @@
           "means": "noose",
           "cause_detail": "Hanged herself by the noose that Wargrave had arranged in her room; the sight of it triggered a compulsion — she walked into it almost without will",
           "death_type": "Homicide",
-          "motive": "NeedsReview",
+          "motive": "Penance",
           "killers": [
             {
               "person_id": "vera-claythorne",
@@ -6156,7 +6156,7 @@
           "means": "revolver",
           "cause_detail": "Shot himself in the head after writing a confession in a manuscript thrown into the sea in a bottle; died as the last and final victim of his own game",
           "death_type": "Homicide",
-          "motive": "NeedsReview",
+          "motive": "Penance",
           "killers": [
             {
               "person_id": "justice-wargrave",
@@ -6258,8 +6258,8 @@
           "killers": [
             {
               "person_id": "unknown",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Unknown",
+              "circumstance": "Unknown"
             }
           ],
           "tropes": [],
@@ -6279,8 +6279,8 @@
           "killers": [
             {
               "person_id": "the-colonel",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -6390,8 +6390,8 @@
           "killers": [
             {
               "person_id": "honoria-waynflete",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -6411,8 +6411,8 @@
           "killers": [
             {
               "person_id": "honoria-waynflete",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -6432,8 +6432,8 @@
           "killers": [
             {
               "person_id": "honoria-waynflete",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -6554,8 +6554,8 @@
           "killers": [
             {
               "person_id": "yahmose",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -6575,8 +6575,8 @@
           "killers": [
             {
               "person_id": "yahmose",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -6595,8 +6595,8 @@
           "killers": [
             {
               "person_id": "yahmose",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -6691,8 +6691,8 @@
           "killers": [
             {
               "person_id": "nevile-strange",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -6809,8 +6809,8 @@
           "killers": [
             {
               "person_id": "josephine-leonides",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Mitigated"
             }
           ],
           "tropes": [],
@@ -6830,8 +6830,8 @@
           "killers": [
             {
               "person_id": "josephine-leonides",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Mitigated"
             }
           ],
           "tropes": [],
@@ -6842,7 +6842,7 @@
           "victim_id": "josephine-leonides",
           "ordinal": 3,
           "cause": "Vehicular",
-          "means": "needs_review",
+          "means": "car",
           "cause_detail": "Died in a car accident when her grandmother Edith de Haviland drove her off the road; Edith chose this end to prevent Josephine from standing trial",
           "death_type": "Execution",
           "motive": "FamilyProtection",
@@ -6850,8 +6850,8 @@
           "killers": [
             {
               "person_id": "edith-de-haviland",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -6944,8 +6944,8 @@
           "killers": [
             {
               "person_id": "hester-argyle",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -6957,10 +6957,10 @@
           "victim_id": "jacko-argyle",
           "ordinal": 2,
           "cause": "Illness",
-          "means": "needs_review",
+          "means": "unmentioned",
           "cause_detail": "Died in prison while serving his sentence for a murder he did not commit",
           "death_type": "Unknown",
-          "motive": "NeedsReview",
+          "motive": "Unknown",
           "killers": [],
           "tropes": [],
           "is_central_death": false,
@@ -7069,8 +7069,8 @@
           "killers": [
             {
               "person_id": "zachariah-osborne",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -7089,8 +7089,8 @@
           "killers": [
             {
               "person_id": "zachariah-osborne",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -7167,8 +7167,8 @@
           "killers": [
             {
               "person_id": "greta-andersen",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -7180,7 +7180,7 @@
           "victim_id": "greta-andersen",
           "ordinal": 2,
           "cause": "Poisoned",
-          "means": "needs_review",
+          "means": "poison",
           "cause_detail": "Killed by Michael after she began to become a liability",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -7188,8 +7188,8 @@
           "killers": [
             {
               "person_id": "michael-rogers",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -7224,14 +7224,14 @@
         {
           "victim_id": "prof-logic",
           "cause": "Poisoned",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "Revenge",
           "killers": [
             {
               "person_id": "mr-error",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Unknown",
+              "circumstance": "Unknown"
             }
           ],
           "tropes": [],
@@ -7241,14 +7241,14 @@
         {
           "victim_id": "prof-logic",
           "cause": "Poisoned",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "Revenge",
           "killers": [
             {
               "person_id": "mr-error",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Unknown",
+              "circumstance": "Unknown"
             }
           ],
           "tropes": [],
@@ -7405,7 +7405,7 @@
           "victim_id": "prince-michael",
           "ordinal": 1,
           "cause": "Shot",
-          "means": "needs_review",
+          "means": "revolver",
           "cause_detail": "Shot by Miss Brun during a confrontation; she recognised him and shot him to prevent him claiming the throne and exposing her identity",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -7413,8 +7413,8 @@
           "killers": [
             {
               "person_id": "miss-brun",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -7577,8 +7577,8 @@
           "killers": [
             {
               "person_id": "jimmy-thesiger",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -7590,7 +7590,7 @@
           "victim_id": "ronny-devereux",
           "ordinal": 2,
           "cause": "Shot",
-          "means": "needs_review",
+          "means": "gun",
           "cause_detail": "Shot while investigating the Seven Dials case; jumped in front of Bundle's car before dying, implicating Jimmy Thesiger",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -7598,8 +7598,8 @@
           "killers": [
             {
               "person_id": "jimmy-thesiger",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -7744,8 +7744,8 @@
           "killers": [
             {
               "person_id": "major-burnaby",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -7888,8 +7888,8 @@
           "killers": [
             {
               "person_id": "roger-bassington-ffrench",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -7909,8 +7909,8 @@
           "killers": [
             {
               "person_id": "moira-nicholson",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -8074,8 +8074,8 @@
           "killers": [
             {
               "person_id": "ruth-lessing",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -8095,8 +8095,8 @@
           "killers": [
             {
               "person_id": "ruth-lessing",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -8227,7 +8227,7 @@
           "victim_id": "henry-carmichael",
           "ordinal": 1,
           "cause": "Stabbed",
-          "means": "needs_review",
+          "means": "knife",
           "cause_detail": "Stabbed and found dying in Victoria's hotel room in Baghdad; his last words 'Lucifer...Basrah...Lefarge' become crucial clues",
           "death_type": "Homicide",
           "motive": "Ideology",
@@ -8235,8 +8235,8 @@
           "killers": [
             {
               "person_id": "edward",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -8389,8 +8389,8 @@
           "killers": [
             {
               "person_id": "thomas-betterton",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -8539,7 +8539,7 @@
           "victim_id": "lord-altamount",
           "ordinal": 1,
           "cause": "Shot",
-          "means": "needs_review",
+          "means": "gun",
           "cause_detail": "Shot by Milly Jean Cortman (Juanita) when Kleek's attempt to poison him is blocked; Milly Jean shoots Lord Altamount herself",
           "death_type": "Homicide",
           "motive": "Ideology",
@@ -8547,8 +8547,8 @@
           "killers": [
             {
               "person_id": "milly-jean-cortman",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -13850,8 +13850,8 @@
           "killers": [
             {
               "person_id": "ransom-drysdale",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -13958,8 +13958,8 @@
           "killers": [
             {
               "person_id": "miles-bron",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -13979,8 +13979,8 @@
           "killers": [
             {
               "person_id": "miles-bron",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -13999,8 +13999,8 @@
           "killers": [
             {
               "person_id": "miles-bron",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -14122,8 +14122,8 @@
           "killers": [
             {
               "person_id": "nat-sharp",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -14142,8 +14142,8 @@
           "killers": [
             {
               "person_id": "nat-sharp",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -14162,8 +14162,8 @@
           "killers": [
             {
               "person_id": "martha-delacroix",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -14338,7 +14338,7 @@
           "victim_id": "harlan-truesmith",
           "ordinal": 1,
           "cause": "Drowned",
-          "means": "needs_review",
+          "means": "water",
           "cause_detail": "Eden pulled out Truesmith's scuba mouthpiece during a dive in Barbados, staging it as an accident",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
@@ -14346,8 +14346,8 @@
           "killers": [
             {
               "person_id": "rick-eden",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [
@@ -14361,7 +14361,7 @@
           "victim_id": "griffin-briggs",
           "ordinal": 2,
           "cause": "Fell",
-          "means": "needs_review",
+          "means": "tape measure",
           "cause_detail": "Eden had Kubrick replace Griffin's tape measure with a rigged one, causing Griffin to cut his bungee cord six feet too long; Griffin fell to his death during a pre-wedding bungee jump",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -14369,8 +14369,8 @@
           "killers": [
             {
               "person_id": "rick-eden",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [
@@ -14463,15 +14463,15 @@
         {
           "victim_id": "nicole-vasques",
           "cause": "Stabbed",
-          "means": "needs_review",
+          "means": "knife",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
           "motive_detail": "Hired hit by Gavin Lloyd to cover up political secrets",
           "killers": [
             {
               "person_id": "ian-sykes",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -14564,8 +14564,8 @@
           "killers": [
             {
               "person_id": "ian-sykes",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -14644,7 +14644,7 @@
         {
           "victim_id": "katherine-ashcombe",
           "cause": "Vehicular",
-          "means": "needs_review",
+          "means": "car",
           "cause_detail": "Staged car accident; ramps placed on road caused car to go airborne off a hillside",
           "death_type": "Homicide",
           "motive": "Freedom",
@@ -14652,8 +14652,8 @@
           "killers": [
             {
               "person_id": "harry-ashcombe",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -14740,8 +14740,8 @@
           "killers": [
             {
               "person_id": "dr-christiaan-vezza",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -14821,7 +14821,7 @@
         {
           "victim_id": "john-gitomer",
           "cause": "Stabbed",
-          "means": "needs_review",
+          "means": "knife",
           "cause_detail": "Stabbed in the aorta with a switchblade on a Ferris wheel",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
@@ -14829,8 +14829,8 @@
           "killers": [
             {
               "person_id": "kitty-malone",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -14902,7 +14902,7 @@
         {
           "victim_id": "dr-conrad-gould",
           "cause": "Shot",
-          "means": "needs_review",
+          "means": "gun",
           "cause_detail": "Shot three times in the chest in the medical supply room",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
@@ -14910,8 +14910,8 @@
           "killers": [
             {
               "person_id": "dr-lancaster",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -14990,7 +14990,7 @@
         {
           "victim_id": "sidney-teal",
           "cause": "Shot",
-          "means": "needs_review",
+          "means": "gun",
           "cause_detail": "Shot with a revolver during a staged fake mugging",
           "death_type": "Homicide",
           "motive": "Passion",
@@ -14998,8 +14998,8 @@
           "killers": [
             {
               "person_id": "archie-modine",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -15078,7 +15078,7 @@
         {
           "victim_id": "lou-pratt",
           "cause": "Stabbed",
-          "means": "needs_review",
+          "means": "knife",
           "cause_detail": "Stabbed and also strangled with his telephone cord",
           "death_type": "Homicide",
           "motive": "GreedInheritance",
@@ -15086,8 +15086,8 @@
           "killers": [
             {
               "person_id": "tod-katterskill",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -15159,7 +15159,7 @@
         {
           "victim_id": "gwen-zaleski",
           "cause": "Fell",
-          "means": "needs_review",
+          "means": "unmentioned",
           "cause_detail": "Strangled then thrown off the balcony of her 21st floor apartment",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -15167,8 +15167,8 @@
           "killers": [
             {
               "person_id": "trevor-mcdowell",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -15249,8 +15249,8 @@
           "killers": [
             {
               "person_id": "vickie",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -15329,7 +15329,7 @@
         {
           "victim_id": "henry-rutherford",
           "cause": "Clubbed",
-          "means": "needs_review",
+          "means": "unmentioned",
           "cause_detail": "Bludgeoned with a marble statue; display case toppled onto body to simulate earthquake death",
           "death_type": "Homicide",
           "motive": "Passion",
@@ -15337,8 +15337,8 @@
           "killers": [
             {
               "person_id": "christine-rutherford",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -15417,7 +15417,7 @@
         {
           "victim_id": "sonny-cross",
           "cause": "Shot",
-          "means": "needs_review",
+          "means": "gun",
           "cause_detail": "Shot twice with a Webley revolver — once in the collarbone and once in the back",
           "death_type": "Homicide",
           "motive": "Revenge",
@@ -15425,8 +15425,8 @@
           "killers": [
             {
               "person_id": "ms-mass",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -15506,8 +15506,8 @@
           "killers": [
             {
               "person_id": "stefan-chabrol",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -15579,7 +15579,7 @@
         {
           "victim_id": "beth-landow",
           "cause": "Fell",
-          "means": "needs_review",
+          "means": "unmentioned",
           "cause_detail": "Struck with a wooden plank then placed on the clock tower's minute hand to fall at 8:20 AM; staged as suicide",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -15587,8 +15587,8 @@
           "killers": [
             {
               "person_id": "derek-philby",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -15660,7 +15660,7 @@
         {
           "victim_id": "chip-rosatti",
           "cause": "Drowned",
-          "means": "needs_review",
+          "means": "unmentioned",
           "cause_detail": "Parachute cord cut so he fell to his death; lungs filled with water post-mortem to create impossible drowning scenario",
           "death_type": "Homicide",
           "motive": "Revenge",
@@ -15668,8 +15668,8 @@
           "killers": [
             {
               "person_id": "dr-madero",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -15755,7 +15755,7 @@
         {
           "victim_id": "erin-hammond",
           "cause": "Shot",
-          "means": "needs_review",
+          "means": "gun",
           "cause_detail": "Ambushed and shot by a masked gunman at a deserted industrial park",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
@@ -15763,8 +15763,8 @@
           "killers": [
             {
               "person_id": "walker-browning",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -15836,7 +15836,7 @@
         {
           "victim_id": "sergei-cluvarias",
           "cause": "Shot",
-          "means": "needs_review",
+          "means": "gun",
           "cause_detail": "Shot with a .454 Ruger Casull; Natasha had her own leg crushed by an elephant to fake an alibi",
           "death_type": "Homicide",
           "motive": "Jealousy",
@@ -15844,8 +15844,8 @@
           "killers": [
             {
               "person_id": "natasha-lovara",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -15917,7 +15917,7 @@
         {
           "victim_id": "miles-holling",
           "cause": "Suffocated",
-          "means": "needs_review",
+          "means": "unmentioned",
           "cause_detail": "Smothered with a pillow in his nursing home room after Gammill impersonated a security guard",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -15925,8 +15925,8 @@
           "killers": [
             {
               "person_id": "dennis-gammill",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -16005,7 +16005,7 @@
         {
           "victim_id": "hal-duncan",
           "cause": "Stabbed",
-          "means": "needs_review",
+          "means": "knife",
           "cause_detail": "Jenna spiked the prop apple with peanut oil causing anaphylaxis; her father then fatally stabbed Duncan on stage while posing as a doctor",
           "death_type": "Homicide",
           "motive": "Jealousy",
@@ -16013,8 +16013,8 @@
           "killers": [
             {
               "person_id": "jenna-ryan",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -16086,7 +16086,7 @@
         {
           "victim_id": "amanda-babbage",
           "cause": "Exploded",
-          "means": "needs_review",
+          "means": "bomb",
           "cause_detail": "Killed by a package bomb rigged to explode when opened; bomb glued inside a mailbox in advance",
           "death_type": "Homicide",
           "motive": "GreedInheritance",
@@ -16094,8 +16094,8 @@
           "killers": [
             {
               "person_id": "brian-babbage",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -16167,7 +16167,7 @@
         {
           "victim_id": "elliot-d-souza",
           "cause": "Crushed",
-          "means": "needs_review",
+          "means": "unmentioned",
           "cause_detail": "Barbell dropped on his throat using a powerful magnet operated remotely; room locked from the inside",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
@@ -16175,8 +16175,8 @@
           "killers": [
             {
               "person_id": "dexter-larsen",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -16248,7 +16248,7 @@
         {
           "victim_id": "frank-pulaski",
           "cause": "Vehicular",
-          "means": "needs_review",
+          "means": "car",
           "cause_detail": "Handcuffed to a rope attached to Babcock's speeding car and dragged to death",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -16256,8 +16256,8 @@
           "killers": [
             {
               "person_id": "ian-agnew-babcock",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -16336,7 +16336,7 @@
         {
           "victim_id": "nestor",
           "cause": "Fell",
-          "means": "needs_review",
+          "means": "unmentioned",
           "cause_detail": "Pushed to his death while trying to stop the newspaper thief",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
@@ -16344,8 +16344,8 @@
           "killers": [
             {
               "person_id": "vickie",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -16431,7 +16431,7 @@
         {
           "victim_id": "gladys-dohan",
           "cause": "Clubbed",
-          "means": "needs_review",
+          "means": "unmentioned",
           "cause_detail": "Bludgeoned against her steering wheel after she used pepper spray on Van Ranken who wanted her pie",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -16439,8 +16439,8 @@
           "killers": [
             {
               "person_id": "pat-van-ranken",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -16512,7 +16512,7 @@
         {
           "victim_id": "susan-malloy",
           "cause": "Stabbed",
-          "means": "needs_review",
+          "means": "knife",
           "cause_detail": "Stabbed at her home; Brad broke a window to fake a break-in and used a dubbed yoga tape to mask the noise",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
@@ -16520,8 +16520,8 @@
           "killers": [
             {
               "person_id": "brad-terry",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -16662,7 +16662,7 @@
         {
           "victim_id": "tow-truck-driver",
           "cause": "Shot",
-          "means": "needs_review",
+          "means": "gun",
           "cause_detail": "Sniper shot in the neck; driverless truck caused accident injuring Karen Stottlemeyer",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -16670,8 +16670,8 @@
           "killers": [
             {
               "person_id": "evan-coker",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -16750,7 +16750,7 @@
         {
           "victim_id": "raymond-toliver",
           "cause": "Clubbed",
-          "means": "needs_review",
+          "means": "unmentioned",
           "cause_detail": "Bludgeoned to death with a sewing machine",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
@@ -16758,8 +16758,8 @@
           "killers": [
             {
               "person_id": "dalton-padron",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -16845,7 +16845,7 @@
         {
           "victim_id": "ray-kaspo",
           "cause": "Poisoned",
-          "means": "needs_review",
+          "means": "unmentioned",
           "cause_detail": "Poisoned through his last meal to destroy his organs and spoil a kidney transplant",
           "death_type": "Homicide",
           "motive": "Revenge",
@@ -16853,8 +16853,8 @@
           "killers": [
             {
               "person_id": "mrs-fairbourn",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -16927,15 +16927,15 @@
           "victim_id": "dimitry-kreslov",
           "ordinal": 1,
           "cause": "Shot",
-          "means": "needs_review",
+          "means": "gun",
           "death_type": "Homicide",
           "motive": "Concealment",
           "motive_detail": "Silenced the ambassador to recover coat that contained evidence of his wife's murder",
           "killers": [
             {
               "person_id": "steven-leight",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -17008,15 +17008,15 @@
           "victim_id": "ian-blackburn",
           "ordinal": 1,
           "cause": "Shot",
-          "means": "needs_review",
+          "means": "gun",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
           "motive_detail": "Killed to prevent exposure of a financial crime",
           "killers": [
             {
               "person_id": "kurt-wolff",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -17089,15 +17089,15 @@
           "victim_id": "alby-drake",
           "ordinal": 1,
           "cause": "Crushed",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "Concealment",
           "motive_detail": "Brenner used a bulldozer to knock a tree onto Drake after Drake threatened to expose him",
           "killers": [
             {
               "person_id": "winston-brenner",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -17170,15 +17170,15 @@
           "victim_id": "larysa-zeryeva",
           "ordinal": 1,
           "cause": "Clubbed",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "Concealment",
           "motive_detail": "Harley bludgeoned his mistress with a tire iron to silence her",
           "killers": [
             {
               "person_id": "paul-harley",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -17258,15 +17258,15 @@
           "victim_id": "moshe-the-barber",
           "ordinal": 1,
           "cause": "Shot",
-          "means": "needs_review",
+          "means": "gun",
           "death_type": "Homicide",
           "motive": "Concealment",
           "motive_detail": "Bedard opened fire to prevent witnesses from reporting him stealing rare misprinted pennies hidden in the barbershop",
           "killers": [
             {
               "person_id": "phil-bedard",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -17339,15 +17339,15 @@
           "victim_id": "stuart-preminger",
           "ordinal": 1,
           "cause": "Poisoned",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "Passion",
           "motive_detail": "Meredith poisoned her husband with teckolic acid in tomato soup while having an affair",
           "killers": [
             {
               "person_id": "meredith-preminger",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -17420,15 +17420,15 @@
           "victim_id": "edna-caruthers",
           "ordinal": 1,
           "cause": "Crushed",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
           "motive_detail": "Jennie killed Edna to claim the employee-of-the-month parking spot above a sewer tunnel she needed for a bank robbery",
           "killers": [
             {
               "person_id": "jennie",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -17508,8 +17508,8 @@
           "killers": [
             {
               "person_id": "roddy-lankman",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -17589,8 +17589,8 @@
           "killers": [
             {
               "person_id": "lester-highsmith",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -17663,15 +17663,15 @@
           "victim_id": "first-intruder",
           "ordinal": 1,
           "cause": "Stabbed",
-          "means": "needs_review",
+          "means": "knife",
           "death_type": "Homicide",
           "motive": "SelfDefense",
           "motive_detail": "Natalie fatally stabbed the intruder with scissors while defending herself and Julie during the break-in",
           "killers": [
             {
               "person_id": "natalie-teeger",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Justified"
             }
           ],
           "tropes": [],
@@ -17744,15 +17744,15 @@
           "victim_id": "john-ricca",
           "ordinal": 1,
           "cause": "Clubbed",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "Concealment",
           "motive_detail": "Downey killed Ricca with nunchakus while disguised as a ninja, framing the dead Sonny Chow to get the coffin exhumed and recover hidden jewels",
           "killers": [
             {
               "person_id": "chris-downey",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -17825,15 +17825,15 @@
           "victim_id": "martin-willowby",
           "ordinal": 1,
           "cause": "Electrocuted",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "Unknown",
           "motive_detail": "Kathy dropped a radio into Martin's bathtub to electrocute him, then staged the body to look like a lightning-strike accident",
           "killers": [
             {
               "person_id": "kathy-willowby",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -17906,15 +17906,15 @@
           "victim_id": "steve-marriot",
           "ordinal": 1,
           "cause": "Clubbed",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
           "motive_detail": "Galardi killed Marriot with a lead pipe to stop a lawsuit blocking his strip mall construction",
           "killers": [
             {
               "person_id": "ray-galardi",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -17987,15 +17987,15 @@
           "victim_id": "sheryl-thorn",
           "ordinal": 1,
           "cause": "Strangled",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
           "motive_detail": "Daniel strangled his wife Sheryl with her scarf to inherit her assets, using a girlfriend as a decoy to establish an alibi",
           "killers": [
             {
               "person_id": "daniel-thorn",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -18068,15 +18068,15 @@
           "victim_id": "security-guard",
           "ordinal": 1,
           "cause": "Shot",
-          "means": "needs_review",
+          "means": "gun",
           "death_type": "Homicide",
           "motive": "Unknown",
           "motive_detail": "Accidental victim; Whitman was a hired sniper targeting Natalie's campaign and killed the guard who surprised him",
           "killers": [
             {
               "person_id": "jack-whitman",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -18156,8 +18156,8 @@
           "killers": [
             {
               "person_id": "janet-novak",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -18230,15 +18230,15 @@
           "victim_id": "harold-gumbal",
           "ordinal": 1,
           "cause": "Shot",
-          "means": "needs_review",
+          "means": "gun",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
           "motive_detail": "Blanchard killed the jewelry store owner during a robbery after the guard unexpectedly arrived",
           "killers": [
             {
               "person_id": "victor-blanchard",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -18311,15 +18311,15 @@
           "victim_id": "mrs-gilstrap",
           "ordinal": 1,
           "cause": "Poisoned",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "GreedInheritance",
           "motive_detail": "Gilstrap poisoned Halloween candy to make his wife's murder appear a random poisoning; an armored car driver also died accidentally",
           "killers": [
             {
               "person_id": "paul-gilstrap",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -18399,15 +18399,15 @@
           "victim_id": "judge-garr",
           "ordinal": 1,
           "cause": "Clubbed",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "Passion",
           "motive_detail": "Dennison killed Judge Garr during a fight stemming from their affair",
           "killers": [
             {
               "person_id": "reggie-dennison",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -18418,15 +18418,15 @@
           "victim_id": "julio-alvarez",
           "ordinal": 2,
           "cause": "Clubbed",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "Concealment",
           "motive_detail": "Dennison killed the pizza delivery man who witnessed the judge's murder and then impersonated him",
           "killers": [
             {
               "person_id": "reggie-dennison",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -18499,15 +18499,15 @@
           "victim_id": "ronnie-shelton",
           "ordinal": 1,
           "cause": "Shot",
-          "means": "needs_review",
+          "means": "gun",
           "death_type": "Homicide",
           "motive": "Concealment",
           "motive_detail": "The lip reader killed the parking garage attendant who confronted him while he was conducting his insider-trading surveillance scheme",
           "killers": [
             {
               "person_id": "the-lip-reader",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -18587,8 +18587,8 @@
           "killers": [
             {
               "person_id": "al-nicoletto",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -18661,13 +18661,13 @@
           "victim_id": "zach-ellinghouse",
           "ordinal": 1,
           "cause": "Stabbed",
-          "means": "needs_review",
+          "means": "bill spike",
           "death_type": "Accident",
           "killers": [
             {
               "person_id": "bollinger",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -18748,8 +18748,8 @@
           "killers": [
             {
               "person_id": "darlene-coolidge",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -18822,15 +18822,15 @@
           "victim_id": "gladys-aquino",
           "ordinal": 1,
           "cause": "Clubbed",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
           "motive_detail": "Norfleet hired burglars who killed the housekeeper when she discovered them; motive was to stop paying alimony to his ex-wife by getting her remarried",
           "killers": [
             {
               "person_id": "michael-norfleet",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -18903,15 +18903,15 @@
           "victim_id": "detective-chasen",
           "ordinal": 1,
           "cause": "Poisoned",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "Revenge",
           "motive_detail": "Alice Westergren poisoned a bottle of port intended for Captain Stottlemeyer; Detective Chasen accidentally drank it instead",
           "killers": [
             {
               "person_id": "alice-westergren",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -18991,8 +18991,8 @@
           "killers": [
             {
               "person_id": "julian-hodge",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -19072,8 +19072,8 @@
           "killers": [
             {
               "person_id": "roger-zisk",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -19153,8 +19153,8 @@
           "killers": [
             {
               "person_id": "ryan-sharkey-jr",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -19227,15 +19227,15 @@
           "victim_id": "danny-chasen",
           "ordinal": 1,
           "cause": "Poisoned",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
           "motive_detail": "Jennie Mandeville poisoned her accomplice Danny Chasen with ammonia in his tea to keep the stolen diamond for herself",
           "killers": [
             {
               "person_id": "jennie-mandeville",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -19315,8 +19315,8 @@
           "killers": [
             {
               "person_id": "steve-wagner",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -19389,15 +19389,15 @@
           "victim_id": "armored-car-guard",
           "ordinal": 1,
           "cause": "Shot",
-          "means": "needs_review",
+          "means": "gun",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
           "motive_detail": "Jardeen and his crew shot a guard during the armored car robbery",
           "killers": [
             {
               "person_id": "denny-jardeen",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -19477,8 +19477,8 @@
           "killers": [
             {
               "person_id": "pat",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -19551,14 +19551,14 @@
         {
           "victim_id": "michelle-cullman",
           "cause": "Fell",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "Blackmail",
           "killers": [
             {
               "person_id": "jack-leverett",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -19638,8 +19638,8 @@
           "killers": [
             {
               "person_id": "ron-neely",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -19713,14 +19713,14 @@
         {
           "victim_id": "lynn-hayden",
           "cause": "Electrocuted",
-          "means": "needs_review",
+          "means": "hair dryer",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
               "person_id": "aaron-hayden",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -19801,14 +19801,14 @@
         {
           "victim_id": "stefanie-preston",
           "cause": "Strangled",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
           "killers": [
             {
               "person_id": "eddie-murdoch",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -19882,14 +19882,14 @@
         {
           "victim_id": "anna-pollard",
           "cause": "Clubbed",
-          "means": "needs_review",
+          "means": "champagne bottle",
           "death_type": "Homicide",
           "motive": "Passion",
           "killers": [
             {
               "person_id": "dr-jay-bennett",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -19963,14 +19963,14 @@
         {
           "victim_id": "katherine-rutherford",
           "cause": "Fell",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
           "killers": [
             {
               "person_id": "kyle",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -20044,14 +20044,14 @@
         {
           "victim_id": "teresa",
           "cause": "Stabbed",
-          "means": "needs_review",
+          "means": "letter opener",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
               "person_id": "merrigan",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -20125,14 +20125,14 @@
         {
           "victim_id": "stork",
           "cause": "Poisoned",
-          "means": "needs_review",
+          "means": "drug overdose",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
           "killers": [
             {
               "person_id": "kris-kedder",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -20206,15 +20206,15 @@
         {
           "victim_id": "kenneth-woods",
           "cause": "Vehicular",
-          "means": "needs_review",
+          "means": "semi truck engine",
           "cause_detail": "Tie caught in running semi-truck engine; killer kicked feet out to ensure death",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
               "person_id": "ben-glazer",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -20294,8 +20294,8 @@
           "killers": [
             {
               "person_id": "mandy-bronson",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -20375,8 +20375,8 @@
           "killers": [
             {
               "person_id": "hal-tucker",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -20456,8 +20456,8 @@
           "killers": [
             {
               "person_id": "paul-buchanan",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -20531,14 +20531,14 @@
         {
           "victim_id": "jeanette-hudson",
           "cause": "Suffocated",
-          "means": "needs_review",
+          "means": "gas",
           "death_type": "Homicide",
           "motive": "Unknown",
           "killers": [
             {
               "person_id": "max-hudson",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -20612,14 +20612,14 @@
         {
           "victim_id": "harvey-disher",
           "cause": "Shot",
-          "means": "needs_review",
+          "means": "gun",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
               "person_id": "jimmy-belmont",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -20700,14 +20700,14 @@
         {
           "victim_id": "jean-garnett",
           "cause": "Poisoned",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
               "person_id": "dr-leven",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -20723,8 +20723,8 @@
           "killers": [
             {
               "person_id": "dr-leven",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -20798,14 +20798,14 @@
         {
           "victim_id": "dr-graydon-whitcomb",
           "cause": "Clubbed",
-          "means": "needs_review",
+          "means": "oxygen tank",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
               "person_id": "dr-davis-scott",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -20879,14 +20879,14 @@
         {
           "victim_id": "debbie-ringel",
           "cause": "Clubbed",
-          "means": "needs_review",
+          "means": "brick",
           "death_type": "Homicide",
           "motive": "Unknown",
           "killers": [
             {
               "person_id": "john-ringel",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -20960,14 +20960,14 @@
         {
           "victim_id": "xtra-large",
           "cause": "Exploded",
-          "means": "needs_review",
+          "means": "car bomb",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
           "killers": [
             {
               "person_id": "denny-hodges",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -21041,14 +21041,14 @@
         {
           "victim_id": "vickie-deline",
           "cause": "Stabbed",
-          "means": "needs_review",
+          "means": "knife",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
           "killers": [
             {
               "person_id": "arlene-boras",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -21122,14 +21122,14 @@
         {
           "victim_id": "sean-corcoran",
           "cause": "Shot",
-          "means": "needs_review",
+          "means": "gun",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
           "killers": [
             {
               "person_id": "linda-fusco",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -21210,14 +21210,14 @@
         {
           "victim_id": "mrs-sherman",
           "cause": "Shot",
-          "means": "needs_review",
+          "means": "gun",
           "death_type": "Homicide",
           "motive": "Unknown",
           "killers": [
             {
               "person_id": "robert-sherman",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -21291,14 +21291,14 @@
         {
           "victim_id": "jack-connolly-s-brother",
           "cause": "Clubbed",
-          "means": "needs_review",
+          "means": "gun",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
           "killers": [
             {
               "person_id": "happy-jack-connolly",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -21372,14 +21372,14 @@
         {
           "victim_id": "victor-granja",
           "cause": "Burned",
-          "means": "needs_review",
+          "means": "fire",
           "death_type": "Homicide",
           "motive": "GreedInheritance",
           "killers": [
             {
               "person_id": "joey",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -21473,8 +21473,8 @@
           "killers": [
             {
               "person_id": "max-barton",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -21548,14 +21548,14 @@
         {
           "victim_id": "lee",
           "cause": "Shot",
-          "means": "needs_review",
+          "means": "gun",
           "death_type": "Homicide",
           "motive": "Revenge",
           "killers": [
             {
               "person_id": "jacob-posner",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -21629,14 +21629,14 @@
         {
           "victim_id": "alice-dubois",
           "cause": "Clubbed",
-          "means": "needs_review",
+          "means": "bell",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
               "person_id": "michael-kenworthy",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -21716,8 +21716,8 @@
           "killers": [
             {
               "person_id": "tom-donovan",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -21797,8 +21797,8 @@
           "killers": [
             {
               "person_id": "madge",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -21879,14 +21879,14 @@
         {
           "victim_id": "julie-teeger-disher-s-wife",
           "cause": "Stabbed",
-          "means": "needs_review",
+          "means": "knife",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
               "person_id": "george-teeger",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -21960,14 +21960,14 @@
         {
           "victim_id": "bennie-wentworth",
           "cause": "Stabbed",
-          "means": "needs_review",
+          "means": "knife",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
           "killers": [
             {
               "person_id": "petya-lovak",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -22041,14 +22041,14 @@
         {
           "victim_id": "frank-nunn",
           "cause": "Shot",
-          "means": "needs_review",
+          "means": "gun",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
               "person_id": "sheriff-john-rollins",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -22122,14 +22122,14 @@
         {
           "victim_id": "the-governor",
           "cause": "Exploded",
-          "means": "needs_review",
+          "means": "car bomb",
           "death_type": "AttemptedHomicide",
           "motive": "Ideology",
           "killers": [
             {
               "person_id": "sheriff-john-rollins",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -22204,14 +22204,14 @@
           "victim_id": "joseph-moody",
           "ordinal": 1,
           "cause": "Fell",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
           "killers": [
             {
               "person_id": "cassie-drake",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -22223,14 +22223,14 @@
           "victim_id": "cassie-drake",
           "ordinal": 2,
           "cause": "Stabbed",
-          "means": "needs_review",
+          "means": "knife",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
               "person_id": "honest-jake-phillips",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -22299,14 +22299,14 @@
           "victim_id": "linda-kloster",
           "ordinal": 1,
           "cause": "Poisoned",
-          "means": "needs_review",
+          "means": "oleander",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
           "killers": [
             {
               "person_id": "patrick-kloster",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -22375,14 +22375,14 @@
           "victim_id": "marissa-kessler",
           "ordinal": 1,
           "cause": "Stabbed",
-          "means": "needs_review",
+          "means": "scissors",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
               "person_id": "billy-logan",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -22451,14 +22451,14 @@
           "victim_id": "eddie",
           "ordinal": 1,
           "cause": "Exploded",
-          "means": "needs_review",
+          "means": "bomb",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
           "killers": [
             {
               "person_id": "charles-bach",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -22527,14 +22527,14 @@
           "victim_id": "jason-pierce",
           "ordinal": 1,
           "cause": "Shot",
-          "means": "needs_review",
+          "means": "gun",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
               "person_id": "commander-nathan-whitaker",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -22603,14 +22603,14 @@
           "victim_id": "karsten-emerik",
           "ordinal": 1,
           "cause": "Stabbed",
-          "means": "needs_review",
+          "means": "hat pin",
           "death_type": "Homicide",
           "motive": "Revenge",
           "killers": [
             {
               "person_id": "mrs-zlatavich",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Mitigated"
             }
           ],
           "tropes": [],
@@ -22691,15 +22691,15 @@
           "victim_id": "cassandre-rank",
           "ordinal": 1,
           "cause": "Strangled",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "Pathological",
           "motive_detail": "Serial killer Douglas Thurman strangled multiple young actresses",
           "killers": [
             {
               "person_id": "douglas-thurman",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -22711,14 +22711,14 @@
           "victim_id": "kate-kindel",
           "ordinal": 2,
           "cause": "Strangled",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
               "person_id": "james-novak",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -22793,8 +22793,8 @@
           "killers": [
             {
               "person_id": "sally-larkin",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -22863,14 +22863,14 @@
           "victim_id": "willie-t",
           "ordinal": 1,
           "cause": "Suffocated",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
               "person_id": "owen-mccloskey",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -22951,8 +22951,8 @@
           "killers": [
             {
               "person_id": "daniel-reese",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -23021,14 +23021,14 @@
           "victim_id": "john-kuramoto",
           "ordinal": 1,
           "cause": "Shot",
-          "means": "needs_review",
+          "means": "gun",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
               "person_id": "sarah-longson",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -23097,14 +23097,14 @@
           "victim_id": "david-elliot",
           "ordinal": 1,
           "cause": "Clubbed",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
           "killers": [
             {
               "person_id": "john-keyes",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -23173,14 +23173,14 @@
           "victim_id": "david-gitelson",
           "ordinal": 1,
           "cause": "Clubbed",
-          "means": "needs_review",
+          "means": "tire iron",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
           "killers": [
             {
               "person_id": "shawn-metzger",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -23249,14 +23249,14 @@
           "victim_id": "douglas-fendle",
           "ordinal": 1,
           "cause": "Stabbed",
-          "means": "needs_review",
+          "means": "steak knife",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
           "killers": [
             {
               "person_id": "patrice-gesner",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -23325,14 +23325,14 @@
           "victim_id": "kevin-dorfman",
           "ordinal": 1,
           "cause": "Strangled",
-          "means": "needs_review",
+          "means": "piano wire",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
               "person_id": "karl-torini",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -23401,14 +23401,14 @@
           "victim_id": "eileen-hill",
           "ordinal": 1,
           "cause": "Strangled",
-          "means": "needs_review",
+          "means": "necktie",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
               "person_id": "paul-crawford",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -23483,8 +23483,8 @@
           "killers": [
             {
               "person_id": "christine-rapp",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -23565,14 +23565,14 @@
           "victim_id": "ansara-waingaya",
           "ordinal": 1,
           "cause": "Vehicular",
-          "means": "needs_review",
+          "means": "car",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
               "person_id": "kenneth-nichols",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Recklessly",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -23584,14 +23584,14 @@
           "victim_id": "maria-fuentes",
           "ordinal": 2,
           "cause": "Clubbed",
-          "means": "needs_review",
+          "means": "crowbar",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
               "person_id": "kenneth-nichols",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -23666,8 +23666,8 @@
           "killers": [
             {
               "person_id": "kyle-larkin",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -23742,8 +23742,8 @@
           "killers": [
             {
               "person_id": "jimmy-barlowe",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -23812,14 +23812,14 @@
           "victim_id": "nancy-gildea",
           "ordinal": 1,
           "cause": "Clubbed",
-          "means": "needs_review",
+          "means": "marble sculpture",
           "death_type": "Homicide",
           "motive": "Passion",
           "killers": [
             {
               "person_id": "evan-gildea",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -23888,14 +23888,14 @@
           "victim_id": "callie-esterhaus",
           "ordinal": 1,
           "cause": "Fell",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
               "person_id": "john-hannigan",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -23964,14 +23964,14 @@
           "victim_id": "robert-boyd",
           "ordinal": 1,
           "cause": "Poisoned",
-          "means": "needs_review",
+          "means": "drug",
           "death_type": "Homicide",
           "motive": "GreedInheritance",
           "killers": [
             {
               "person_id": "angeline-dilworth",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -24052,8 +24052,8 @@
           "killers": [
             {
               "person_id": "xavier-danko",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -24065,14 +24065,14 @@
           "victim_id": "barbara-o-keefe",
           "ordinal": 2,
           "cause": "Drowned",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
               "person_id": "xavier-danko",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -24153,8 +24153,8 @@
           "killers": [
             {
               "person_id": "meckler",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -24166,14 +24166,14 @@
           "victim_id": "meckler",
           "ordinal": 2,
           "cause": "Poisoned",
-          "means": "needs_review",
+          "means": "poison",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
           "killers": [
             {
               "person_id": "pressman",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -24248,14 +24248,14 @@
           "victim_id": "howie-fleming",
           "ordinal": 1,
           "cause": "Fell",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
               "person_id": "perry-walsh",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -24324,14 +24324,14 @@
           "victim_id": "amanda-castle",
           "ordinal": 1,
           "cause": "Fell",
-          "means": "needs_review",
+          "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
               "person_id": "steven-dewitt",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Recklessly",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -24406,14 +24406,14 @@
           "victim_id": "armored-car-guard",
           "ordinal": 1,
           "cause": "Shot",
-          "means": "needs_review",
+          "means": "gun",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
           "killers": [
             {
               "person_id": "del-johnston",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -24482,14 +24482,14 @@
           "victim_id": "martin-kettering",
           "ordinal": 1,
           "cause": "Shot",
-          "means": "needs_review",
+          "means": "gun",
           "death_type": "Homicide",
           "motive": "Blackmail",
           "killers": [
             {
               "person_id": "stephanie-briggs",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -24564,8 +24564,8 @@
           "killers": [
             {
               "person_id": "manny-alvarez",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -24640,14 +24640,14 @@
           "victim_id": "trudy-monk",
           "ordinal": 1,
           "cause": "Exploded",
-          "means": "needs_review",
+          "means": "car bomb",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
               "person_id": "judge-ethan-rickover",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -24665,8 +24665,8 @@
           "killers": [
             {
               "person_id": "judge-ethan-rickover",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -24735,14 +24735,14 @@
           "victim_id": "trudy-monk",
           "ordinal": 1,
           "cause": "Exploded",
-          "means": "needs_review",
+          "means": "car bomb",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
               "person_id": "judge-ethan-rickover",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
             }
           ],
           "tropes": [],
@@ -24754,14 +24754,14 @@
           "victim_id": "judge-ethan-rickover",
           "ordinal": 2,
           "cause": "Shot",
-          "means": "needs_review",
+          "means": "gun",
           "death_type": "Homicide",
           "motive": "NeedsReview",
           "killers": [
             {
               "person_id": "judge-ethan-rickover",
-              "mens_rea": "NeedsReview",
-              "circumstance": "NeedsReview"
+              "mens_rea": "Purposely",
+              "circumstance": "Mitigated"
             }
           ],
           "tropes": [],

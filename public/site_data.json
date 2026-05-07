@@ -24770,6 +24770,2649 @@
           "notes": "Rickover grabbed Monk's gun and shot himself after his guilt was exposed and his career was ruined."
         }
       ]
+    },
+    {
+      "slug": "columbo-s00e01",
+      "wikidata_id": null,
+      "title": "Prescription: Murder",
+      "media_type": "TvEpisode",
+      "year": 1968,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Prescription%3A_Murder",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "carol-fleming",
+          "name": "Carol Fleming",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "ray-fleming",
+          "name": "Ray Fleming",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "joan-hudson",
+          "name": "Joan Hudson",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "carol-fleming",
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Unknown",
+          "killers": [
+            {
+              "person_id": "ray-fleming",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "HowCatchem"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "columbo-s00e02",
+      "wikidata_id": null,
+      "title": "Ransom for a Dead Man",
+      "media_type": "TvEpisode",
+      "year": 1971,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Ransom_for_a_Dead_Man",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s01e01",
+      "wikidata_id": null,
+      "title": "Murder by the Book",
+      "media_type": "TvEpisode",
+      "year": 1971,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Murder_by_the_Book",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "jim-ferris",
+          "name": "Jim Ferris",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "ken-franklin",
+          "name": "Ken Franklin",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "jim-ferris",
+          "cause": "Shot",
+          "means": "gun",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "ken-franklin",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "HowCatchem"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "columbo-s01e02",
+      "wikidata_id": null,
+      "title": "Death Lends a Hand",
+      "media_type": "TvEpisode",
+      "year": 1971,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Death_Lends_a_Hand",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "lenore-kennicut",
+          "name": "Lenore Kennicut",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "carl-brimmer",
+          "name": "Carl Brimmer",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "lenore-kennicut",
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "carl-brimmer",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "HowCatchem"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "columbo-s01e03",
+      "wikidata_id": null,
+      "title": "Dead Weight",
+      "media_type": "TvEpisode",
+      "year": 1971,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Dead_Weight",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "helen-stewart",
+          "name": "Helen Stewart",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s01e04",
+      "wikidata_id": null,
+      "title": "Suitable for Framing",
+      "media_type": "TvEpisode",
+      "year": 1971,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Suitable_for_Framing",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "edna-matthews",
+          "name": "Edna Matthews",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "dale-kingston",
+          "name": "Dale Kingston",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "edna-matthews",
+          "cause": "Shot",
+          "means": "gun",
+          "death_type": "Homicide",
+          "motive": "GreedInheritance",
+          "killers": [
+            {
+              "person_id": "dale-kingston",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "HowCatchem"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "columbo-s01e05",
+      "wikidata_id": null,
+      "title": "Lady in Waiting",
+      "media_type": "TvEpisode",
+      "year": 1971,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Lady_in_Waiting",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "beth-chadwick",
+          "name": "Beth Chadwick",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "beth-chadwick",
+          "cause": "Shot",
+          "means": "gun",
+          "death_type": "Homicide",
+          "motive": "Unknown",
+          "killers": [],
+          "tropes": [
+            "HowCatchem"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "columbo-s01e06",
+      "wikidata_id": null,
+      "title": "Short Fuse",
+      "media_type": "TvEpisode",
+      "year": 1972,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Short_Fuse",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "roger-stanford",
+          "name": "Roger Stanford",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s01e07",
+      "wikidata_id": null,
+      "title": "Blueprint for Murder",
+      "media_type": "TvEpisode",
+      "year": 1972,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Blueprint_for_Murder",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "elliot-markham",
+          "name": "Elliot Markham",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "elliot-markham",
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "GreedFinancial",
+          "killers": [],
+          "tropes": [
+            "HowCatchem"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "columbo-s02e01",
+      "wikidata_id": null,
+      "title": "Étude in Black",
+      "media_type": "TvEpisode",
+      "year": 1972,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/%C3%89tude_in_Black",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "alex-benedict",
+          "name": "Alex Benedict",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s02e02",
+      "wikidata_id": null,
+      "title": "The Greenhouse Jungle",
+      "media_type": "TvEpisode",
+      "year": 1972,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/The_Greenhouse_Jungle",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "tony-goodland",
+          "name": "Tony Goodland",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "tony-goodland",
+          "cause": "Shot",
+          "means": "gun",
+          "death_type": "Homicide",
+          "motive": "GreedFinancial",
+          "killers": [],
+          "tropes": [
+            "HowCatchem"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "columbo-s02e03",
+      "wikidata_id": null,
+      "title": "The Most Crucial Game",
+      "media_type": "TvEpisode",
+      "year": 1972,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/The_Most_Crucial_Game",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "eric-wagner",
+          "name": "Eric Wagner",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "paul-hanlon",
+          "name": "Paul Hanlon",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "eric-wagner",
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "paul-hanlon",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "HowCatchem"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "columbo-s02e04",
+      "wikidata_id": null,
+      "title": "Dagger of the Mind",
+      "media_type": "TvEpisode",
+      "year": 1972,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Dagger_of_the_Mind",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "tanner",
+          "name": "Tanner",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "tanner",
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [],
+          "tropes": [
+            "HowCatchem"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "columbo-s02e05",
+      "wikidata_id": null,
+      "title": "Requiem for a Falling Star",
+      "media_type": "TvEpisode",
+      "year": 1973,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Requiem_for_a_Falling_Star",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s02e06",
+      "wikidata_id": null,
+      "title": "A Stitch in Crime",
+      "media_type": "TvEpisode",
+      "year": 1973,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/A_Stitch_in_Crime",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "dr",
+          "name": "Dr",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s02e07",
+      "wikidata_id": null,
+      "title": "The Most Dangerous Match",
+      "media_type": "TvEpisode",
+      "year": 1973,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/The_Most_Dangerous_Match",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "emmet-clayton",
+          "name": "Emmet Clayton",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s02e08",
+      "wikidata_id": null,
+      "title": "Double Shock",
+      "media_type": "TvEpisode",
+      "year": 1973,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Double_Shock",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "clifford-paris",
+          "name": "Clifford Paris",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "sergeant-murray",
+          "name": "Sergeant Murray",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "clifford-paris",
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "GreedInheritance",
+          "killers": [
+            {
+              "person_id": "sergeant-murray",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "HowCatchem"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "columbo-s03e01",
+      "wikidata_id": null,
+      "title": "Lovely But Lethal",
+      "media_type": "TvEpisode",
+      "year": 1973,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Lovely_But_Lethal",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "viveca-scott",
+          "name": "Viveca Scott",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s03e02",
+      "wikidata_id": null,
+      "title": "Any Old Port in a Storm",
+      "media_type": "TvEpisode",
+      "year": 1973,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Any_Old_Port_in_a_Storm",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "adrian-carsini",
+          "name": "Adrian Carsini",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s03e03",
+      "wikidata_id": null,
+      "title": "Candidate for Crime",
+      "media_type": "TvEpisode",
+      "year": 1973,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Candidate_for_Crime",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "nelson-hayward",
+          "name": "Nelson Hayward",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s03e04",
+      "wikidata_id": null,
+      "title": "Double Exposure",
+      "media_type": "TvEpisode",
+      "year": 1973,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Double_Exposure",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "vic-norris",
+          "name": "Vic Norris",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s03e05",
+      "wikidata_id": null,
+      "title": "Publish or Perish",
+      "media_type": "TvEpisode",
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Publish_or_Perish",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "alan-mallory",
+          "name": "Alan Mallory",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "publisher-riley-greenleaf",
+          "name": "Publisher Riley Greenleaf",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "alan-mallory",
+          "cause": "Shot",
+          "means": "gun",
+          "death_type": "Homicide",
+          "motive": "Revenge",
+          "killers": [
+            {
+              "person_id": "publisher-riley-greenleaf",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "HowCatchem"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "columbo-s03e06",
+      "wikidata_id": null,
+      "title": "Mind Over Mayhem",
+      "media_type": "TvEpisode",
+      "year": 1974,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Mind_Over_Mayhem",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "dr",
+          "name": "Dr",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s03e07",
+      "wikidata_id": null,
+      "title": "Swan Song",
+      "media_type": "TvEpisode",
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Swan_Song",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s03e08",
+      "wikidata_id": null,
+      "title": "A Friend in Deed",
+      "media_type": "TvEpisode",
+      "year": 1974,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/A_Friend_in_Deed",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "deputy-police-commissioner-mark-halperin",
+          "name": "Deputy Police Commissioner Mark Halperin",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s04e01",
+      "wikidata_id": null,
+      "title": "An Exercise in Fatality",
+      "media_type": "TvEpisode",
+      "year": 1974,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/An_Exercise_in_Fatality",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s04e02",
+      "wikidata_id": null,
+      "title": "Negative Reaction",
+      "media_type": "TvEpisode",
+      "year": 1974,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Negative_Reaction",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s04e03",
+      "wikidata_id": null,
+      "title": "By Dawn's Early Light",
+      "media_type": "TvEpisode",
+      "year": 1974,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/By_Dawn%27s_Early_Light",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s04e04",
+      "wikidata_id": null,
+      "title": "Troubled Waters",
+      "media_type": "TvEpisode",
+      "year": 1975,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Troubled_Waters",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s04e05",
+      "wikidata_id": null,
+      "title": "Playback",
+      "media_type": "TvEpisode",
+      "year": 1975,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Playback",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "harold-van-wick",
+          "name": "Harold Van Wick",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "margaret-midas",
+          "name": "Margaret Midas",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "harold-van-wick",
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Unknown",
+          "killers": [
+            {
+              "person_id": "margaret-midas",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "HowCatchem"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "columbo-s04e06",
+      "wikidata_id": null,
+      "title": "A Deadly State of Mind",
+      "media_type": "TvEpisode",
+      "year": 1975,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/A_Deadly_State_of_Mind",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s05e01",
+      "wikidata_id": null,
+      "title": "Forgotten Lady",
+      "media_type": "TvEpisode",
+      "year": 1975,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Forgotten_Lady",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "henry-willis",
+          "name": "Henry Willis",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s05e02",
+      "wikidata_id": null,
+      "title": "A Case of Immunity",
+      "media_type": "TvEpisode",
+      "year": 1975,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/A_Case_of_Immunity",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "middle-eastern",
+          "name": "Middle Eastern",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s05e03",
+      "wikidata_id": null,
+      "title": "Identity Crisis",
+      "media_type": "TvEpisode",
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Identity_Crisis",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s05e04",
+      "wikidata_id": null,
+      "title": "A Matter of Honor",
+      "media_type": "TvEpisode",
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/A_Matter_of_Honor",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s05e05",
+      "wikidata_id": null,
+      "title": "Now You See Him",
+      "media_type": "TvEpisode",
+      "year": 1976,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Now_You_See_Him",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s05e06",
+      "wikidata_id": null,
+      "title": "Last Salute to the Commodore",
+      "media_type": "TvEpisode",
+      "year": 1976,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Last_Salute_to_the_Commodore",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s06e01",
+      "wikidata_id": null,
+      "title": "Fade In to Murder",
+      "media_type": "TvEpisode",
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Fade_In_to_Murder",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s06e02",
+      "wikidata_id": null,
+      "title": "Old Fashioned Murder",
+      "media_type": "TvEpisode",
+      "year": 1976,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Old_Fashioned_Murder",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "darryl",
+          "name": "Darryl",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "janie-brandt",
+          "name": "Janie Brandt",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "darryl",
+          "cause": "Shot",
+          "means": "gun",
+          "death_type": "Homicide",
+          "motive": "Unknown",
+          "killers": [
+            {
+              "person_id": "janie-brandt",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "HowCatchem"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "columbo-s06e03",
+      "wikidata_id": null,
+      "title": "The Bye-Bye Sky High I.Q. Murder Case",
+      "media_type": "TvEpisode",
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/The_Bye-Bye_Sky_High_I.Q._Murder_Case",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s07e01",
+      "wikidata_id": null,
+      "title": "Try and Catch Me",
+      "media_type": "TvEpisode",
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Try_and_Catch_Me",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s07e02",
+      "wikidata_id": null,
+      "title": "Murder Under Glass",
+      "media_type": "TvEpisode",
+      "year": 1978,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Murder_Under_Glass",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s07e03",
+      "wikidata_id": null,
+      "title": "Make Me a Perfect Murder",
+      "media_type": "TvEpisode",
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Make_Me_a_Perfect_Murder",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "kay-freestone",
+          "name": "Kay Freestone",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s07e04",
+      "wikidata_id": null,
+      "title": "How to Dial a Murder",
+      "media_type": "TvEpisode",
+      "year": 1978,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/How_to_Dial_a_Murder",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s07e05",
+      "wikidata_id": null,
+      "title": "The Conspirators",
+      "media_type": "TvEpisode",
+      "year": 1978,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/The_Conspirators",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "vincent-pauley",
+          "name": "Vincent Pauley",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s08e01",
+      "wikidata_id": null,
+      "title": "Columbo Goes to the Guillotine",
+      "media_type": "TvEpisode",
+      "year": 1989,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Columbo_Goes_to_the_Guillotine",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s08e02",
+      "wikidata_id": null,
+      "title": "Murder, Smoke and Shadows",
+      "media_type": "TvEpisode",
+      "year": 1989,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Murder%2C_Smoke_and_Shadows",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s08e03",
+      "wikidata_id": null,
+      "title": "Sex and the Married Detective",
+      "media_type": "TvEpisode",
+      "year": 1989,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Sex_and_the_Married_Detective",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s08e04",
+      "wikidata_id": null,
+      "title": "Grand Deceptions",
+      "media_type": "TvEpisode",
+      "year": 1989,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Grand_Deceptions",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s09e01",
+      "wikidata_id": null,
+      "title": "Murder, A Self Portrait",
+      "media_type": "TvEpisode",
+      "year": 1989,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Murder%2C_A_Self_Portrait",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s09e02",
+      "wikidata_id": null,
+      "title": "Columbo Cries Wolf",
+      "media_type": "TvEpisode",
+      "year": 1990,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Columbo_Cries_Wolf",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s09e03",
+      "wikidata_id": null,
+      "title": "Agenda for Murder",
+      "media_type": "TvEpisode",
+      "year": 1990,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Agenda_for_Murder",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s09e04",
+      "wikidata_id": null,
+      "title": "Rest in Peace, Mrs. Columbo",
+      "media_type": "TvEpisode",
+      "year": 1990,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Rest_in_Peace%2C_Mrs._Columbo",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s09e05",
+      "wikidata_id": null,
+      "title": "Uneasy Lies the Crown",
+      "media_type": "TvEpisode",
+      "year": 1990,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Uneasy_Lies_the_Crown",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s09e06",
+      "wikidata_id": null,
+      "title": "Murder in Malibu",
+      "media_type": "TvEpisode",
+      "year": 1990,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Murder_in_Malibu",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s10e01",
+      "wikidata_id": null,
+      "title": "Columbo Goes to College",
+      "media_type": "TvEpisode",
+      "year": 1990,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Columbo_Goes_to_College",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s10e02",
+      "wikidata_id": null,
+      "title": "Caution: Murder Can Be Hazardous to Your Health",
+      "media_type": "TvEpisode",
+      "year": 1991,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Caution%3A_Murder_Can_Be_Hazardous_to_Your_Health",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s10e03",
+      "wikidata_id": null,
+      "title": "Columbo and the Murder of a Rock Star",
+      "media_type": "TvEpisode",
+      "year": 1991,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Columbo_and_the_Murder_of_a_Rock_Star",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s10e04",
+      "wikidata_id": null,
+      "title": "Death Hits the Jackpot",
+      "media_type": "TvEpisode",
+      "year": 1991,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Death_Hits_the_Jackpot",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s10e05",
+      "wikidata_id": null,
+      "title": "No Time to Die",
+      "media_type": "TvEpisode",
+      "year": 1992,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/No_Time_to_Die",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "bill-bailey",
+          "name": "Bill Bailey",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s10e06",
+      "wikidata_id": null,
+      "title": "A Bird in the Hand...",
+      "media_type": "TvEpisode",
+      "year": 1992,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/A_Bird_in_the_Hand...",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "harold-mccain",
+          "name": "Harold McCain",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s10e07",
+      "wikidata_id": null,
+      "title": "It's All in the Game",
+      "media_type": "TvEpisode",
+      "year": 1993,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/It%27s_All_in_the_Game",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "nick-franco",
+          "name": "Nick Franco",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "lauren-staton",
+          "name": "Lauren Staton",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "nick-franco",
+          "cause": "Shot",
+          "means": "gun",
+          "death_type": "Homicide",
+          "motive": "Unknown",
+          "killers": [
+            {
+              "person_id": "lauren-staton",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "HowCatchem"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "columbo-s10e08",
+      "wikidata_id": null,
+      "title": "Butterfly in Shades of Grey",
+      "media_type": "TvEpisode",
+      "year": 1994,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Butterfly_in_Shades_of_Grey",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s10e09",
+      "wikidata_id": null,
+      "title": "Undercover",
+      "media_type": "TvEpisode",
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Undercover",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s10e10",
+      "wikidata_id": null,
+      "title": "Strange Bedfellows",
+      "media_type": "TvEpisode",
+      "year": 1995,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Strange_Bedfellows",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        },
+        {
+          "id": "graham-mcveigh",
+          "name": "Graham McVeigh",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s10e11",
+      "wikidata_id": null,
+      "title": "A Trace of Murder",
+      "media_type": "TvEpisode",
+      "year": 1997,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/A_Trace_of_Murder",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s10e12",
+      "wikidata_id": null,
+      "title": "Ashes to Ashes",
+      "media_type": "TvEpisode",
+      "year": 1998,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Ashes_to_Ashes",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s10e13",
+      "wikidata_id": null,
+      "title": "Murder with Too Many Notes",
+      "media_type": "TvEpisode",
+      "year": 2001,
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Murder_with_Too_Many_Notes",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "columbo-s10e14",
+      "wikidata_id": null,
+      "title": "Columbo Likes the Nightlife",
+      "media_type": "TvEpisode",
+      "creator": "Richard Levinson, William Link",
+      "series_name": "Columbo",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "columbo/Columbo_Likes_the_Nightlife",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lieutenant-columbo",
+          "name": "Lieutenant Columbo",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "homicide detective"
+        }
+      ],
+      "deaths": []
     }
   ],
   "tv_shows": [],

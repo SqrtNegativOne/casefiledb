@@ -28,6 +28,13 @@ Unit of work: one **episode** -> one worklist entry with `media_type: "tv_episod
 - If `url` is set: `scrape_media.py fetch <slug> --url <url>`.
 - Else: `scrape_media.py find "<title>" --subdomain <sub>` (will fall back to Wikipedia, then TVTropes).
 
+## Extraction notes
+
+When extracting death information from scraped episode text:
+- Do NOT use regex patterns to parse character names, causes, or motives
+- Instead, manually review each episode and fill in the JSON directly, or ask the user to provide specifics
+- Regex-based parsing is fragile, generates false positives, and is not worth the debugging cost
+
 ## Slug convention
 
 `<show-slug>-s01e01`, e.g. `monk-s01e01`. Lowercase, hyphenated.

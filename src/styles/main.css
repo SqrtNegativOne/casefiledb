@@ -143,8 +143,10 @@ body {
 
 /* Nav links */
 .site-nav {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
-  flex: 1;
   justify-content: center;
   flex-wrap: wrap;
   gap: 0.1rem;

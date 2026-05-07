@@ -202,6 +202,11 @@ body {
   margin: 0 auto;
 }
 
+.page-fullscreen {
+  height: calc(100vh - 52px);
+  overflow: hidden;
+}
+
 /* ─── Controls bar ──────────────────────────────────────────────── */
 .controls-bar {
   display: flex;

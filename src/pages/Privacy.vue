@@ -1,3 +1,7 @@
+<script setup>
+import PageFooter from '../components/PageFooter.vue'
+</script>
+
 <template>
   <div class="prose-page">
     <h1>Privacy Policy</h1>
@@ -21,9 +25,7 @@
     </p>
     <h2>Data collected by this site</h2>
     <p>None.</p>
-    <div class="prose-back">
-      <RouterLink to="/">← Home</RouterLink>
-    </div>
+    <PageFooter />
   </div>
 </template>
 
@@ -63,10 +65,5 @@ code {
   border: 1px solid var(--border);
   border-radius: 3px;
   padding: 0.1em 0.35em;
-}
-
-.prose-back {
-  margin-top: 2rem;
-  font-size: 0.85rem;
 }
 </style>

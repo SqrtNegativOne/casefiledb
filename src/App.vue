@@ -32,7 +32,7 @@ onMounted(() => {
 
 <template>
   <SiteNav :theme="theme" @toggle-theme="toggleTheme" />
-  <div :class="isFullscreen ? null : 'page-body'">
+  <div :class="isFullscreen ? 'page-fullscreen' : 'page-body'">
     <RouterView />
   </div>
 </template>

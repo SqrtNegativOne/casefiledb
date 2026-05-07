@@ -1,3 +1,7 @@
+<script setup>
+import PageFooter from '../components/PageFooter.vue'
+</script>
+
 <template>
   <div class="prose-page">
     <h1>About</h1>
@@ -22,9 +26,7 @@
       The source data is maintained as JSON and the full schema is documented in the repository.
       Corrections and additions are welcome via the project's issue tracker.
     </p>
-    <div class="prose-back">
-      <RouterLink to="/">← Home</RouterLink>
-    </div>
+    <PageFooter />
   </div>
 </template>
 
@@ -55,10 +57,5 @@ p {
   line-height: 1.7;
   color: var(--text);
   margin: 0 0 0.75rem;
-}
-
-.prose-back {
-  margin-top: 2rem;
-  font-size: 0.85rem;
 }
 </style>

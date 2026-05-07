@@ -1,3 +1,7 @@
+<script setup>
+import PageFooter from '../components/PageFooter.vue'
+</script>
+
 <template>
   <div class="prose-page">
     <h1>Colophon</h1>
@@ -30,9 +34,7 @@
       <a href="https://www.wikidata.org/" target="_blank" rel="noopener">Wikidata</a> entries,
       and cover images are fetched lazily from the Open Library and Wikidata APIs.
     </p>
-    <div class="prose-back">
-      <RouterLink to="/">← Home</RouterLink>
-    </div>
+    <PageFooter />
   </div>
 </template>
 
@@ -63,10 +65,5 @@ p {
   line-height: 1.7;
   color: var(--text);
   margin: 0 0 0.75rem;
-}
-
-.prose-back {
-  margin-top: 2rem;
-  font-size: 0.85rem;
 }
 </style>

@@ -25,6 +25,7 @@ States: `pending` -> `scraped` -> `extracted` -> `ingested`, or `failed` (termin
 
 ## Loop
 
+0. Create `temp/worklist.json` if it doesn't exist, using the list given in `prompts/ADD.md`.
 1. Read `temp/worklist.json`. If missing or empty, ask the user what to add and run the matching recipe in `prompts/recipes/*.md` to populate it. Stop after planning — do not extract in the same turn.
 2. Otherwise, process entries in this order, one at a time:
    - `pending` -> run `scripts/scrape_media.py` (use `fetch` if `url` is set, else `find` with the recipe's hints). On success set `state: scraped`. On failure increment `attempts`; if `attempts >= 2` set `state: failed` with the error.

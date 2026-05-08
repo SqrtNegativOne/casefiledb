@@ -35,7 +35,7 @@ from urllib.parse import quote, urlparse
 import requests
 from bs4 import BeautifulSoup, Tag
 
-UA = "casefiledb-scraper/0.1 (https://github.com/SqrtNegativOne/casefiledb)"
+UA = "casefiledb-scraper/0.1 (https://github.com/SqrtNegativOne/casefiledb; bot; contact via GitHub issues)"
 OUT_DIR = Path("temp/raw")
 TIMEOUT = 30
 
@@ -158,11 +158,28 @@ def fetch_fandom(subdomain: str, title: str) -> Page:
 
 
 def list_fandom_episodes(subdomain: str, season: int | None) -> list[str]:
-    """Return episode page titles found on <subdomain>.fandom.com episode-list pages."""
+    """Return episode page titles from <subdomain>.fandom.com via the Episodes category."""
+    api = f"https://{subdomain}.fandom.com/api.php"
+
+    # Try category members first (most reliable)
+    cat = f"Season {season}" if season is not None else "Episodes"
+    try:
+        r = _get(api, {"action": "query", "list": "categorymembers", "cmtitle": f"Category:{cat}",
+                       "cmlimit": "500", "cmnamespace": "0", "format": "json"})
+        data = r.json()
+        members = [m["title"] for m in data.get("query", {}).get("categorymembers", [])]
+        # Drop meta-pages: transcripts, list pages, galleries, specials
+        skip = re.compile(r"(^List |^Portal:|/|^Category:|^Template:)", re.I)
+        members = [t for t in members if not skip.search(t)]
+        if members:
+            return members
+    except (requests.HTTPError, KeyError):
+        pass
+
+    # Fallback: parse links from known episode-list pages
     candidates = ["List_of_episodes", "Episodes", "Episode_Guide"]
     if season is not None:
         candidates = [f"Season_{season}"] + candidates
-    api = f"https://{subdomain}.fandom.com/api.php"
     for cand in candidates:
         try:
             r = _get(api, {"action": "parse", "page": cand, "prop": "links", "format": "json", "redirects": "1"})

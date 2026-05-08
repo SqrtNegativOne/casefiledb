@@ -4,12 +4,14 @@ Unit of work: one **book** -> one worklist entry with `media_type: "book"`.
 
 ## Planning steps
 
-1. Ask the user for: title, author, and series (if any).
-2. Resolve a URL in this order:
+1. Determine the title(s) to add.
+   - If called from the dispatcher via ADD.md with a single title: use that directly.
+   - If the ADD.md entry specifies an author, series, or "all books by X": first discover the full list. Use WebSearch (`<author> complete bibliography novels list`) and WebFetch on the best result (bookseriesinorder.com and similar sites work well; see note on Wikipedia below). Collect all titles before creating entries.
+2. For each title, resolve a source URL in this order:
    - Series-specific fandom wiki (e.g. `agathachristie.fandom.com`).
-   - English Wikipedia.
-   - TVTropes Literature namespace.
-3. Append one worklist entry:
+   - TVTropes Literature namespace (`https://tvtropes.org/pmwiki/pmwiki.php/Literature/<PascalCaseTitle>`).
+   - English Wikipedia — **note: Wikipedia returns 403 from this host and cannot be scraped by `scrape_media.py`.** Only use Wikipedia URLs as a last resort; prefer fandom or TVTropes.
+3. Append one worklist entry per title:
    ```json
    {
      "slug": "<book-slug>",
@@ -26,7 +28,7 @@ Unit of work: one **book** -> one worklist entry with `media_type: "book"`.
 ## Scrape hints
 
 - If `url` is set: `scrape_media.py fetch <slug> --url <url>`.
-- Else: `scrape_media.py find "<title>" [--subdomain <sub>]`.
+- Else: `scrape_media.py find "<title>" [--subdomain <sub>]` (tries fandom if subdomain given, then TVTropes).
 
 ## Slug convention
 

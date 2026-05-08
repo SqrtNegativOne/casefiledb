@@ -4,17 +4,19 @@ Unit of work: one **episode** -> one worklist entry with `media_type: "tv_episod
 
 ## Planning steps
 
-1. Ask the user for: show name, fandom subdomain (or "none"), and which seasons to ingest (default: all).
+1. Determine the show name, fandom subdomain, and which seasons to ingest (default: all).
+   - If called from the dispatcher via ADD.md, the show name is already known — skip asking the user.
+   - If the fandom subdomain is not given, discover it: WebSearch `<show name> fandom wiki` and read the subdomain from the result URL (e.g. `thementalist` from `thementalist.fandom.com`). Do not guess — the subdomain is often not simply the show name.
 2. Discover episodes:
-   - If subdomain given: `uv run scripts/scrape_media.py list-episodes <subdomain> [--season N]`.
-   - Else: fall back to Wikipedia's "List of <show> episodes" page — fetch it and extract episode titles from the wikitable rows.
+   - If subdomain known: `uv run scripts/scrape_media.py list-episodes <subdomain> [--season N]`.
+   - If that returns nothing or subdomain is unknown: use WebFetch on a reliable episode-list site such as `https://epguides.com/<ShowName>/` — it reliably returns S##E## numbers and titles. Do **not** use Wikipedia (it returns 403 from this host).
 3. For each episode, append a worklist entry:
    ```json
    {
      "slug": "<show-slug>-s<NN>e<NN>",
      "media_type": "tv_episode",
      "title": "<episode title>",
-     "url": "<fandom or wikipedia URL if known, else null>",
+     "url": "<fandom episode URL if known, else null>",
      "recipe": "tv_show",
      "state": "pending",
      "attempts": 0,
@@ -23,18 +25,14 @@ Unit of work: one **episode** -> one worklist entry with `media_type: "tv_episod
    ```
 4. Save and exit. Do not scrape episode bodies during planning.
 
-## Extraction phase (dispatcher)
-
-When the dispatcher scrapes each episode, carefully read the extracted plot summary and character information to write down deaths, killers, and motives. Do not rely on brittle shortcuts such as regex patterns—manual review is more reliable.
-
 ## Scrape hints (used by dispatcher)
 
 - If `url` is set: `scrape_media.py fetch <slug> --url <url>`.
-- Else: `scrape_media.py find "<title>" --subdomain <sub>` (will fall back to Wikipedia, then TVTropes).
+- Else: `scrape_media.py find "<title>" --subdomain <sub>` (will fall back to TVTropes).
 
 ## Extraction notes
 
-Do not use regex patterns to extract death data from scraped text—manually review episodes or ask the user instead.
+Do not use regex patterns to extract death data from scraped text — manually review episodes or ask the user instead.
 
 ## Slug convention
 

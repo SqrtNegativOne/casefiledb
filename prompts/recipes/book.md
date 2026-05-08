@@ -5,12 +5,12 @@ Unit of work: one **book** -> one worklist entry with `media_type: "book"`.
 ## Planning steps
 
 1. Determine the title(s) to add.
-   - If called from the dispatcher via ADD.md with a single title: use that directly.
-   - If the ADD.md entry specifies an author, series, or "all books by X": first discover the full list. Use WebSearch (`<author> complete bibliography novels list`) and WebFetch on the best result (bookseriesinorder.com and similar sites work well; see note on Wikipedia below). Collect all titles before creating entries.
+   - Single title: use it directly.
+   - Author, series, or "all books by X": discover the full list first. WebSearch `<author> complete bibliography novels list` and WebFetch the best result (bookseriesinorder.com works well). Collect all titles before creating entries.
 2. For each title, resolve a source URL in this order:
    - Series-specific fandom wiki (e.g. `agathachristie.fandom.com`).
    - TVTropes Literature namespace (`https://tvtropes.org/pmwiki/pmwiki.php/Literature/<PascalCaseTitle>`).
-   - English Wikipedia — **note: Wikipedia returns 403 from this host and cannot be scraped by `scrape_media.py`.** Only use Wikipedia URLs as a last resort; prefer fandom or TVTropes.
+   - If neither can be found, set `url: null` — the scraper will use `find` with a TVTropes fallback.
 3. Append one worklist entry per title:
    ```json
    {

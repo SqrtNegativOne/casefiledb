@@ -25,13 +25,12 @@ States: `pending` -> `scraped` -> `extracted` -> `ingested`, or `failed` (termin
 
 ## Loop
 
-0. Create `temp/worklist.json` if it doesn't exist, using the list given in `prompts/ADD.md`.
-1. Read `temp/worklist.json`. If missing or empty, ask the user what to add and run the matching recipe in `prompts/recipes/*.md` to populate it. Stop after planning — do not extract in the same turn.
-2. Otherwise, process entries in this order, one at a time:
+0. If `temp/worklist.json` is absent or empty: read `prompts/ADD.md` and expand each line into individual worklist entries by running the matching recipe's planning steps autonomously (episode discovery, book list discovery, etc.) — do not ask the user for anything already named in ADD.md. If ADD.md is also empty, stop and ask the user what to add. Write all discovered entries with `state: pending` and stop — do not begin processing in the same turn.
+1. Read `temp/worklist.json`. Process entries in this order, one at a time:
    - `pending` -> run `scripts/scrape_media.py` (use `fetch` if `url` is set, else `find` with the recipe's hints). On success set `state: scraped`. On failure increment `attempts`; if `attempts >= 2` set `state: failed` with the error.
    - `scraped` -> spawn one subagent with `prompts/extract.md`. Pass it the slug. On success (subagent wrote `temp/<slug>.json`) set `state: extracted`. On failure same retry rule.
    - `extracted` -> run `cargo run --bin ingest --manifest-path validator/Cargo.toml`. If it succeeds for this slug, set `state: ingested`. If validation fails, capture stderr into `error` and set `state: failed`.
-3. Stop when no `pending`/`scraped`/`extracted` entries remain. Print a one-line summary: `N ingested, M failed`.
+2. Stop when no `pending`/`scraped`/`extracted` entries remain. Print a one-line summary: `N ingested, M failed`.
 
 ## Rules
 

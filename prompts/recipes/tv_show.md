@@ -4,17 +4,19 @@ Unit of work: one **episode** -> one worklist entry with `media_type: "tv_episod
 
 ## Planning steps
 
-1. Ask the user for: show name, fandom subdomain (or "none"), and which seasons to ingest (default: all).
-2. Discover episodes:
-   - If subdomain given: `uv run scripts/scrape_media.py list-episodes <subdomain> [--season N]`.
-   - Else: fall back to Wikipedia's "List of <show> episodes" page — fetch it and extract episode titles from the wikitable rows.
+1. Determine the show name and fandom subdomain.
+   - If ADD.md includes a subdomain hint (e.g. `fandom subdomain: thementalist`), use it.
+   - Otherwise, discover it: WebSearch `<show name> fandom wiki` and extract the subdomain from the result URL. Do not guess — the subdomain is often not simply the show name (e.g. `thementalist`, not `mentalist`).
+2. Discover all episodes:
+   - Run `uv run scripts/scrape_media.py list-episodes <subdomain> [--season N]`.
+   - If that returns nothing, use WebFetch on `https://epguides.com/<ShowName>/` — it reliably returns S##E## numbers and titles for cross-referencing.
 3. For each episode, append a worklist entry:
    ```json
    {
      "slug": "<show-slug>-s<NN>e<NN>",
      "media_type": "tv_episode",
      "title": "<episode title>",
-     "url": "<fandom or wikipedia URL if known, else null>",
+     "url": "<fandom episode URL if known, else null>",
      "recipe": "tv_show",
      "state": "pending",
      "attempts": 0,
@@ -23,18 +25,14 @@ Unit of work: one **episode** -> one worklist entry with `media_type: "tv_episod
    ```
 4. Save and exit. Do not scrape episode bodies during planning.
 
-## Extraction phase (dispatcher)
-
-When the dispatcher scrapes each episode, carefully read the extracted plot summary and character information to write down deaths, killers, and motives. Do not rely on brittle shortcuts such as regex patterns—manual review is more reliable.
-
 ## Scrape hints (used by dispatcher)
 
 - If `url` is set: `scrape_media.py fetch <slug> --url <url>`.
-- Else: `scrape_media.py find "<title>" --subdomain <sub>` (will fall back to Wikipedia, then TVTropes).
+- Else: `scrape_media.py find "<title>" --subdomain <sub>` (falls back to TVTropes).
 
 ## Extraction notes
 
-Do not use regex patterns to extract death data from scraped text—manually review episodes or ask the user instead.
+Do not use regex patterns to extract death data from scraped text — manually review episodes or ask the user instead.
 
 ## Slug convention
 

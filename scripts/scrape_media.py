@@ -3,7 +3,7 @@
 # requires-python = ">=3.11"
 # dependencies = ["requests>=2.31", "beautifulsoup4>=4.12"]
 # ///
-"""Scrape a media page (Fandom -> Wikipedia -> TVTropes fallback) into temp/raw/.
+"""Scrape a media page (Fandom -> TVTropes fallback) into temp/raw/.
 
 Outputs two files per page:
     temp/raw/<slug>.txt   - plaintext with section headers
@@ -13,13 +13,13 @@ Subcommands:
     fetch <slug> --url <URL>
         Scrape a known URL. Source is inferred from the hostname.
 
-    find <title> [--subdomain SUB] [--source fandom|wikipedia|tvtropes]
+    find <title> [--subdomain SUB] [--source fandom|tvtropes]
         Try sources in order until one returns a usable page, then scrape it.
-        Default order: fandom (if --subdomain) -> wikipedia -> tvtropes.
+        Default order: fandom (if --subdomain) -> tvtropes.
 
     list-episodes <subdomain> [--season N]
-        For a Fandom show, return episode page titles found in the
-        season/episode list page. Prints one title per line on stdout.
+        For a Fandom show, return episode page titles found via the Episodes
+        category. Prints one title per line on stdout.
 """
 from __future__ import annotations
 
@@ -35,7 +35,7 @@ from urllib.parse import quote, urlparse
 import requests
 from bs4 import BeautifulSoup, Tag
 
-UA = "casefiledb-scraper/0.1 (https://github.com/SqrtNegativOne/casefiledb)"
+UA = "casefiledb-scraper/0.1 (https://github.com/SqrtNegativOne/casefiledb; bot; contact via GitHub issues)"
 OUT_DIR = Path("temp/raw")
 TIMEOUT = 30
 
@@ -158,11 +158,28 @@ def fetch_fandom(subdomain: str, title: str) -> Page:
 
 
 def list_fandom_episodes(subdomain: str, season: int | None) -> list[str]:
-    """Return episode page titles found on <subdomain>.fandom.com episode-list pages."""
+    """Return episode page titles from <subdomain>.fandom.com via the Episodes category."""
+    api = f"https://{subdomain}.fandom.com/api.php"
+
+    # Try category members first (most reliable)
+    cat = f"Season {season}" if season is not None else "Episodes"
+    try:
+        r = _get(api, {"action": "query", "list": "categorymembers", "cmtitle": f"Category:{cat}",
+                       "cmlimit": "500", "cmnamespace": "0", "format": "json"})
+        data = r.json()
+        members = [m["title"] for m in data.get("query", {}).get("categorymembers", [])]
+        # Drop meta-pages: transcripts, list pages, galleries, specials
+        skip = re.compile(r"(^List |^Portal:|/|^Category:|^Template:)", re.I)
+        members = [t for t in members if not skip.search(t)]
+        if members:
+            return members
+    except (requests.HTTPError, KeyError):
+        pass
+
+    # Fallback: parse links from known episode-list pages
     candidates = ["List_of_episodes", "Episodes", "Episode_Guide"]
     if season is not None:
         candidates = [f"Season_{season}"] + candidates
-    api = f"https://{subdomain}.fandom.com/api.php"
     for cand in candidates:
         try:
             r = _get(api, {"action": "parse", "page": cand, "prop": "links", "format": "json", "redirects": "1"})
@@ -178,35 +195,6 @@ def list_fandom_episodes(subdomain: str, season: int | None) -> list[str]:
         if links:
             return links
     return []
-
-
-# ---------- Wikipedia ----------
-
-def fetch_wikipedia(title: str) -> Page:
-    """Fetch a page from en.wikipedia.org via the MediaWiki parse API."""
-    api = "https://en.wikipedia.org/w/api.php"
-    r = _get(api, {"action": "parse", "page": title, "prop": "text", "format": "json", "redirects": "1"})
-    data = r.json()
-    if "error" in data:
-        raise LookupError(f"wikipedia: {data['error'].get('info', 'unknown error')}")
-    parse = data["parse"]
-    html = parse["text"]["*"]
-    real_title = parse["title"]
-    soup = BeautifulSoup(html, "html.parser")
-
-    infobox: dict[str, str] = {}
-    box = soup.find("table", class_=re.compile(r"infobox"))
-    if isinstance(box, Tag):
-        for tr in box.find_all("tr"):
-            th, td = tr.find("th"), tr.find("td")
-            if isinstance(th, Tag) and isinstance(td, Tag):
-                infobox[_clean_text(th)] = _clean_text(td)
-        box.decompose()
-
-    tables = [_parse_table(t) for t in soup.find_all("table", class_=re.compile(r"wikitable"))]
-    sections = _split_sections(soup)
-    url = f"https://en.wikipedia.org/wiki/{quote(real_title.replace(' ', '_'))}"
-    return Page("wikipedia", url, real_title, infobox, tables, sections)
 
 
 # ---------- TVTropes ----------
@@ -237,11 +225,6 @@ def fetch_url(url: str) -> Page:
         if not m:
             raise ValueError(f"cannot parse fandom title from {url}")
         return fetch_fandom(sub, m.group(1).replace("_", " "))
-    if host.endswith("wikipedia.org"):
-        m = re.search(r"/wiki/(.+)$", path)
-        if not m:
-            raise ValueError(f"cannot parse wikipedia title from {url}")
-        return fetch_wikipedia(m.group(1).replace("_", " "))
     if host.endswith("tvtropes.org"):
         m = re.match(r"/pmwiki/pmwiki\.php/([^/]+)/([^/?#]+)", path)
         if not m:
@@ -256,7 +239,7 @@ def find_page(title: str, subdomain: str | None, source: str | None) -> Page:
     if not order:
         if subdomain:
             order.append("fandom")
-        order.extend(["wikipedia", "tvtropes"])
+        order.append("tvtropes")
 
     errors: list[str] = []
     for src in order:
@@ -265,8 +248,6 @@ def find_page(title: str, subdomain: str | None, source: str | None) -> Page:
                 if not subdomain:
                     raise ValueError("fandom requires --subdomain")
                 return fetch_fandom(subdomain, title)
-            if src == "wikipedia":
-                return fetch_wikipedia(title)
             if src == "tvtropes":
                 pascal = re.sub(r"[^A-Za-z0-9]", "", title.title())
                 return fetch_tvtropes(pascal)
@@ -299,7 +280,7 @@ def main() -> int:
     pfd.add_argument("title")
     pfd.add_argument("--slug", help="Output slug (default: derived from title)")
     pfd.add_argument("--subdomain", help="Fandom subdomain, e.g. 'monk' for monk.fandom.com")
-    pfd.add_argument("--source", choices=["fandom", "wikipedia", "tvtropes"], help="Force a specific source")
+    pfd.add_argument("--source", choices=["fandom", "tvtropes"], help="Force a specific source")
 
     pl = sub.add_parser("list-episodes", help="List episode page titles for a Fandom show")
     pl.add_argument("subdomain")

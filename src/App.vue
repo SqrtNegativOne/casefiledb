@@ -1,8 +1,12 @@
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, computed } from 'vue'
+import { useRoute } from 'vue-router'
 import SiteNav from './components/SiteNav.vue'
 
 const theme = ref('light')
+const route = useRoute()
+
+const isFullscreen = computed(() => route.meta?.fullscreen)
 
 function setTheme(t) {
   theme.value = t
@@ -28,7 +32,7 @@ onMounted(() => {
 
 <template>
   <SiteNav :theme="theme" @toggle-theme="toggleTheme" />
-  <div class="page-body">
+  <div :class="isFullscreen ? 'page-fullscreen' : 'page-body'">
     <RouterView />
   </div>
 </template>

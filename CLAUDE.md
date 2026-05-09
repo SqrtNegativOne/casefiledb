@@ -106,7 +106,7 @@ validator/
     check.rs        — validate-only binary
 scripts/
   validate_wikidata.py — check real Wikidata IDs against live Wikidata API
-temp/               — drop new JSON files here before ingesting
+temp/               — drop new JSON files here before ingesting; also the home for one-time-use scripts (migrations, fixups, extractions) — never put these in scripts/
 AI_SCHEMA.md        — LLM-facing instructions for generating valid JSON
 ```
 

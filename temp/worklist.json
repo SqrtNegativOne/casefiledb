@@ -1056,7 +1056,7 @@
       "title": "Little Red Corvette",
       "url": "https://thementalist.fandom.com/wiki/Little_Red_Corvette",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1066,7 +1066,7 @@
       "title": "The Red Barn",
       "url": "https://thementalist.fandom.com/wiki/The_Red_Barn",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1076,7 +1076,7 @@
       "title": "Red in Tooth and Claw",
       "url": "https://thementalist.fandom.com/wiki/Red_in_Tooth_and_Claw",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1086,7 +1086,7 @@
       "title": "Red Lacquer Nail Polish",
       "url": "https://thementalist.fandom.com/wiki/Red_Lacquer_Nail_Polish",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1096,7 +1096,7 @@
       "title": "There Will Be Blood",
       "url": "https://thementalist.fandom.com/wiki/There_Will_Be_Blood",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1106,7 +1106,7 @@
       "title": "Red, White and Blue",
       "url": "https://thementalist.fandom.com/wiki/Red%2C_White_and_Blue",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 1,
       "error": null
     },
@@ -1116,7 +1116,7 @@
       "title": "Behind the Red Curtain",
       "url": "https://thementalist.fandom.com/wiki/Behind_the_Red_Curtain",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1126,7 +1126,7 @@
       "title": "Red Letter Day",
       "url": "https://thementalist.fandom.com/wiki/Red_Letter_Day",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1136,7 +1136,7 @@
       "title": "Red Velvet Cupcakes",
       "url": "https://thementalist.fandom.com/wiki/Red_Velvet_Cupcakes",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1146,7 +1146,7 @@
       "title": "Red and Itchy",
       "url": "https://thementalist.fandom.com/wiki/Red_and_Itchy",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },

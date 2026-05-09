@@ -37990,6 +37990,952 @@
           "is_twist": false
         }
       ]
+    },
+    {
+      "slug": "mentalist-s05e12",
+      "wikidata_id": null,
+      "title": "Little Red Corvette",
+      "media_type": "TvEpisode",
+      "year": 2013,
+      "creator": "Ken Woodruff",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Little_Red_Corvette",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "horatio-jones",
+          "name": "Horatio Jones",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "charles-milk",
+          "name": "Charles Milk",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "tommy-volker",
+          "name": "Tommy Volker",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "donald-clyde",
+          "name": "Donald Clyde",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "marvin-pettigrew",
+          "name": "Marvin Pettigrew",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "horatio-jones",
+          "ordinal": 1,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Jones was a geologist about to testify against Tommy Volker; he was killed to prevent his testimony.",
+          "killers": [
+            {
+              "person_id": "charles-milk",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            },
+            {
+              "person_id": "tommy-volker",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Death occurred two months before the episode's main timeline (shown in flashback). Volker ordered the killing; Milk carried it out."
+        },
+        {
+          "victim_id": "donald-clyde",
+          "ordinal": 2,
+          "cause": "Vehicular",
+          "means": "bus",
+          "death_type": "Homicide",
+          "motive": "Penance",
+          "motive_detail": "Clyde stepped in front of a bus after Volker threatened his life, knowing he was a dead man either way.",
+          "killers": [
+            {
+              "person_id": "donald-clyde",
+              "mens_rea": "Purposely",
+              "circumstance": "Mitigated"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Suicide: Clyde killed himself by stepping in front of a speeding bus after receiving a death threat from Volker."
+        },
+        {
+          "victim_id": "marvin-pettigrew",
+          "ordinal": 3,
+          "cause": "Shot",
+          "means": "handgun",
+          "death_type": "AttemptedHomicide",
+          "motive": "Concealment",
+          "motive_detail": "Volker attempted to kill Marvin to eliminate him as a witness to the Horatio Jones murder. Lisbon shot Volker before he could fire.",
+          "killers": [
+            {
+              "person_id": "tommy-volker",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Attempted murder thwarted by Lisbon shooting Volker in the shoulder at the zoo."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s05e13",
+      "wikidata_id": null,
+      "title": "The Red Barn",
+      "media_type": "TvEpisode",
+      "year": 2013,
+      "creator": "Tom Szentgyorgi",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/The_Red_Barn",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": false
+        },
+        {
+          "id": "lester-bradovich",
+          "name": "Lester Bradovich",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "holly-preston",
+          "name": "Holly Preston",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "charney",
+          "name": "Charney",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "talbot",
+          "name": "Talbot",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "lester-bradovich",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "shotgun",
+          "death_type": "Homicide",
+          "motive": "SelfDefense",
+          "killers": [
+            {
+              "person_id": "holly-preston",
+              "mens_rea": "Recklessly",
+              "circumstance": "Justified"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "HowCatchem"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Cold case from circa 1988. Holly shot Bradovich with a shotgun to defend her mother, Dr. Ellen Preston, after he attacked her."
+        },
+        {
+          "victim_id": "charney",
+          "ordinal": 2,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Unknown",
+          "killers": [],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Cold case from circa 1988. Body found in the barn basement alongside Bradovich and Talbot. Killer unknown; Holly denied involvement. Possibly connected to Red John or Ray Haffner."
+        },
+        {
+          "victim_id": "talbot",
+          "ordinal": 3,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Unknown",
+          "killers": [],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Cold case from circa 1988. Body found in the barn basement alongside Bradovich and Charney. Killer unknown; Holly denied involvement. Possibly connected to Red John or Ray Haffner."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s05e14",
+      "wikidata_id": null,
+      "title": "Red In Tooth And Claw",
+      "media_type": "TvEpisode",
+      "year": 2013,
+      "creator": "Jordan Harper",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Red_In_Tooth_And_Claw",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "linda-parfey",
+          "name": "Linda Parfey",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "paul-friedman",
+          "name": "Paul Friedman",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "linda-parfey",
+          "ordinal": 1,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Professor Friedman killed Linda to claim her discovery of the California jade moth as his own, concealing her academic contribution.",
+          "killers": [
+            {
+              "person_id": "paul-friedman",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "NeedleInHaystack"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Linda's body was found as a skeleton inside a tank of flesh-eating insects used for specimen preparation. A scientific instrument found in the tank was identified as a possible murder weapon, but the exact cause of death was not confirmed in the narrative."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s05e15",
+      "wikidata_id": null,
+      "title": "Red Lacquer Nail Polish",
+      "media_type": "TvEpisode",
+      "year": 2013,
+      "creator": "Eoghan Mahony",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Red_Lacquer_Nail_Polish",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lissie-calhoun",
+          "name": "Lissie Calhoun",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "elise-vogelsong",
+          "name": "Elise Vogelsong",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "curtis-wiley",
+          "name": "Curtis Wiley",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        },
+        {
+          "id": "cayce-robbins",
+          "name": "Cayce Robbins",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        },
+        {
+          "id": "lance-reinhardt",
+          "name": "Lance Reinhardt",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        },
+        {
+          "id": "johnny-griffin",
+          "name": "Johnny Griffin",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "lissie-calhoun",
+          "ordinal": 1,
+          "cause": "Burned",
+          "means": "fire",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Elise killed Lissie to use her body as a stand-in for her own, faking her death to escape legal and financial troubles.",
+          "killers": [
+            {
+              "person_id": "elise-vogelsong",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "MistakenIdentity"
+          ],
+          "is_central_death": true,
+          "is_twist": true
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s05e16",
+      "wikidata_id": null,
+      "title": "There Will Be Blood",
+      "media_type": "TvEpisode",
+      "year": 2013,
+      "creator": "Ken Woodruff & David Appelbaum",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/There_Will_Be_Blood",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "julia-howard",
+          "name": "Julia Howard",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "lorelei-martins",
+          "name": "Lorelei Martins",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "jason-lennon",
+          "name": "Jason Lennon",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "red-john",
+          "name": "Red John",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "security-guard",
+          "name": "Security Guard",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "julia-howard",
+          "ordinal": 1,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Revenge",
+          "killers": [
+            {
+              "person_id": "lorelei-martins",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Lorelei tortured and killed Julia Howard, believing she was involved in her sister Miranda's death."
+        },
+        {
+          "victim_id": "security-guard",
+          "ordinal": 2,
+          "cause": "Shot",
+          "means": "gun",
+          "death_type": "AttemptedHomicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "lorelei-martins",
+              "mens_rea": "Recklessly",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Lorelei shot a security guard who confronted her during her attempt to abduct one of the shelter trustees."
+        },
+        {
+          "victim_id": "jason-lennon",
+          "ordinal": 3,
+          "cause": "Shot",
+          "means": "gun",
+          "death_type": "AttemptedHomicide",
+          "motive": "Revenge",
+          "killers": [
+            {
+              "person_id": "lorelei-martins",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Lorelei shot Lennon after he confessed to facilitating her sister Miranda's death. He survived and was taken by ambulance; Kirkland's Homeland Security team then took custody of him."
+        },
+        {
+          "victim_id": "lorelei-martins",
+          "ordinal": 4,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "red-john",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Lorelei was found dead two weeks after the main events, bearing Red John's trademark smiley face in blood. Red John killed her to silence her before she could reveal his identity to Jane."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s05e17",
+      "wikidata_id": null,
+      "title": "Red, White and Blue",
+      "media_type": "TvEpisode",
+      "year": 2013,
+      "creator": "Tony Astrino",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Red,_White_and_Blue",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lucy-greene",
+          "name": "Lucy Greene",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "gender": "female",
+          "profession": "Army nurse/medic"
+        },
+        {
+          "id": "dr-wilson-bowman",
+          "name": "Dr. Wilson Bowman",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "profession": "Doctor"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "kimball-cho",
+          "name": "Kimball Cho",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "wayne-rigsby",
+          "name": "Wayne Rigsby",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "lucy-greene",
+          "ordinal": 1,
+          "cause": "Stabbed",
+          "means": "knife",
+          "cause_detail": "Throat slit",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Lucy had discovered discrepancies in the drug logs and wanted to mount a full investigation; the doctor killed her to conceal his prescription fraud scheme",
+          "killers": [
+            {
+              "person_id": "dr-wilson-bowman",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "NeedleInHaystack"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s05e18",
+      "wikidata_id": null,
+      "title": "Behind The Red Curtain",
+      "media_type": "TvEpisode",
+      "year": 2013,
+      "creator": "Erika Green Swafford & Eoghan Mahony",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Behind_The_Red_Curtain",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "sharon",
+          "name": "Sharon",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "warren-dodge",
+          "name": "Warren Dodge",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "jason-lennon",
+          "name": "Jason Lennon",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "robert-kirkland",
+          "name": "Robert Kirkland",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "sharon",
+          "ordinal": 1,
+          "cause": "Fell",
+          "means": "9th floor drop onto car",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Sharon discovered Dodge disguised as the fictitious investor Burt Hanover; he killed her to keep the fraud secret.",
+          "killers": [
+            {
+              "person_id": "warren-dodge",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "AlibiTrick"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        },
+        {
+          "victim_id": "jason-lennon",
+          "ordinal": 2,
+          "cause": "Other",
+          "cause_detail": "Air embolus caused by syringe of air injected into IV line.",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Kirkland injected air into Lennon's IV while he was coming out of a coma, creating a fatal air embolus, to prevent Lennon from revealing information connected to Red John.",
+          "killers": [
+            {
+              "person_id": "robert-kirkland",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": true
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s05e19",
+      "wikidata_id": null,
+      "title": "Red Letter Day",
+      "media_type": "TvEpisode",
+      "year": 2013,
+      "creator": "Michael Weiss",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Red_Letter_Day",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "hollis-percy",
+          "name": "Hollis Percy",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "ian-percy",
+          "name": "Ian Percy",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "hollis-percy",
+          "ordinal": 1,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Ian killed Hollis during an argument after Hollis revealed that Lily was his daughter — Ian was having an affair with Lily and sought to prevent the revelation from becoming public.",
+          "killers": [
+            {
+              "person_id": "ian-percy",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "LeastLikelySuspect"
+          ],
+          "is_central_death": true,
+          "is_twist": true
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s05e20",
+      "wikidata_id": null,
+      "title": "Red Velvet Cupcakes",
+      "media_type": "TvEpisode",
+      "year": 2013,
+      "creator": "Rebecca Perry Cutter",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Red_Velvet_Cupcakes",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "missy-roberts",
+          "name": "Missy Roberts",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "elizabeth-hennings",
+          "name": "Elizabeth Hennings",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "missy-roberts",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "gun",
+          "death_type": "Homicide",
+          "motive": "Passion",
+          "motive_detail": "Elizabeth went to Missy's house to scare her; when Missy called Buddy a creep, Elizabeth shot her in a fit of rage.",
+          "killers": [
+            {
+              "person_id": "elizabeth-hennings",
+              "mens_rea": "Recklessly",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s05e21",
+      "wikidata_id": null,
+      "title": "Red and Itchy",
+      "media_type": "TvEpisode",
+      "year": 2013,
+      "creator": "Daniel Cerone",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Red_and_Itchy",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "profession": "CBI consultant"
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": false,
+          "profession": "CBI agent"
+        },
+        {
+          "id": "j-j-laroche",
+          "name": "J.J. LaRoche",
+          "is_fictional": true,
+          "role_in_story": "Bystander",
+          "profession": "CBI supervisor"
+        },
+        {
+          "id": "parsons",
+          "name": "Parsons",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "locksmith"
+        },
+        {
+          "id": "laroche-s-mother",
+          "name": "LaRoche's mother",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "parsons",
+          "ordinal": 1,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Unknown",
+          "killers": [],
+          "tropes": [],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Locksmith found dead at LaRoche's house during a break-in to steal a tupperware container. Cause of death not explicitly stated."
+        },
+        {
+          "victim_id": "laroche-s-mother",
+          "ordinal": 2,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Unknown",
+          "killers": [
+            {
+              "person_id": "laroche-s-mother",
+              "mens_rea": "Purposely",
+              "circumstance": "Mitigated"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Backstory death: LaRoche's mother committed suicide three months after being sexually assaulted. Her death is the emotional core of the episode's mystery surrounding the tupperware container."
+        }
+      ]
     }
   ],
   "tv_shows": [],

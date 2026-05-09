@@ -1256,7 +1256,7 @@
       "title": "Green Thumb",
       "url": "https://thementalist.fandom.com/wiki/Green_Thumb",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1266,7 +1266,7 @@
       "title": "White Lines",
       "url": "https://thementalist.fandom.com/wiki/White_Lines",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1276,7 +1276,7 @@
       "title": "The Golden Hammer",
       "url": "https://thementalist.fandom.com/wiki/The_Golden_Hammer",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1286,7 +1286,7 @@
       "title": "Black Helicopters",
       "url": "https://thementalist.fandom.com/wiki/Black_Helicopters",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1296,7 +1296,7 @@
       "title": "Grey Water",
       "url": "https://thementalist.fandom.com/wiki/Grey_Water",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1316,7 +1316,7 @@
       "title": "Violets",
       "url": "https://thementalist.fandom.com/wiki/Violets",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1326,7 +1326,7 @@
       "title": "Silver Wings of Time",
       "url": "https://thementalist.fandom.com/wiki/Silver_Wings_of_Time",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1336,7 +1336,7 @@
       "title": "Forest Green",
       "url": "https://thementalist.fandom.com/wiki/Forest_Green",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1346,7 +1346,7 @@
       "title": "Brown Eyed Girls",
       "url": "https://thementalist.fandom.com/wiki/Brown_Eyed_Girls",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1356,7 +1356,7 @@
       "title": "Il Tavolo Bianco",
       "url": "https://thementalist.fandom.com/wiki/Il_Tavolo_Bianco",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },

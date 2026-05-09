@@ -39821,6 +39821,1180 @@
       },
       "persons": [],
       "deaths": []
+    },
+    {
+      "slug": "mentalist-s06e10",
+      "wikidata_id": null,
+      "title": "Green Thumb",
+      "media_type": "TvEpisode",
+      "year": 2013,
+      "creator": "Daniel Cerone",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Green_Thumb",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "abel-schneiderman",
+          "name": "Abel Schneiderman",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "profession": "Computer programmer"
+        },
+        {
+          "id": "defiance-s-psychic",
+          "name": "Defiance's Psychic",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "notes": "Cuban conman posing as a psychic for Defiance Schneiderman; name not given in episode"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "defiance-s-psychic",
+          "ordinal": 1,
+          "cause": "Clubbed",
+          "means": "unmentioned",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Abel caught the psychic snooping in his bedroom; a fight broke out and the psychic hit his head and died. Abel then concealed the body by cutting it up and burying it in his rooftop garden.",
+          "killers": [
+            {
+              "person_id": "abel-schneiderman",
+              "mens_rea": "Recklessly",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Abel claimed the death was accidental during a fight, but his subsequent concealment of the body (dismemberment and burial in rooftop garden) indicates at least reckless culpability."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s06e11",
+      "wikidata_id": null,
+      "title": "White Lines",
+      "media_type": "TvEpisode",
+      "year": 2014,
+      "creator": "Ken Woodruff",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/White_Lines",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "krystal-markham",
+          "name": "Krystal Markham",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "dea-agent-1",
+          "name": "DEA Agent 1",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "dea-agent-2",
+          "name": "DEA Agent 2",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "dea-agent-3",
+          "name": "DEA Agent 3",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "dea-agent-4",
+          "name": "DEA Agent 4",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "dea-agent-5",
+          "name": "DEA Agent 5",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "warehouse-victim-1",
+          "name": "Warehouse Victim 1",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "warehouse-victim-2",
+          "name": "Warehouse Victim 2",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "warehouse-victim-3",
+          "name": "Warehouse Victim 3",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "francisco-paco-perez",
+          "name": "Francisco 'Paco' Perez",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "dea-agent-1",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "gun",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "krystal-markham",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        },
+        {
+          "victim_id": "dea-agent-2",
+          "ordinal": 2,
+          "cause": "Shot",
+          "means": "gun",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "krystal-markham",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false
+        },
+        {
+          "victim_id": "dea-agent-3",
+          "ordinal": 3,
+          "cause": "Shot",
+          "means": "gun",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "krystal-markham",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false
+        },
+        {
+          "victim_id": "dea-agent-4",
+          "ordinal": 4,
+          "cause": "Shot",
+          "means": "gun",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "krystal-markham",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false
+        },
+        {
+          "victim_id": "dea-agent-5",
+          "ordinal": 5,
+          "cause": "Shot",
+          "means": "gun",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "krystal-markham",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false
+        },
+        {
+          "victim_id": "warehouse-victim-1",
+          "ordinal": 6,
+          "cause": "Stabbed",
+          "means": "knife",
+          "cause_detail": "Throat cut and shot in the head",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "krystal-markham",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false
+        },
+        {
+          "victim_id": "warehouse-victim-2",
+          "ordinal": 7,
+          "cause": "Stabbed",
+          "means": "knife",
+          "cause_detail": "Throat cut and shot in the head",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "krystal-markham",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false
+        },
+        {
+          "victim_id": "warehouse-victim-3",
+          "ordinal": 8,
+          "cause": "Stabbed",
+          "means": "knife",
+          "cause_detail": "Throat cut and shot in the head",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "krystal-markham",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false
+        },
+        {
+          "victim_id": "francisco-paco-perez",
+          "ordinal": 9,
+          "cause": "Shot",
+          "means": "gun",
+          "cause_detail": "Shot by Krystal Markham; death staged to appear as if Perez was killed in a police gunfight",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "krystal-markham",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "FrameUp"
+          ],
+          "is_central_death": false,
+          "is_twist": true
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s06e12",
+      "wikidata_id": null,
+      "title": "Golden Hammer",
+      "media_type": "TvEpisode",
+      "year": 2014,
+      "creator": "Michael Weiss",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Golden_Hammer",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "charles-whitaker",
+          "name": "Charles Whitaker",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "avery-schultz",
+          "name": "Avery Schultz",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "osvaldo-ardiles",
+          "name": "Osvaldo Ardiles",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "avery-schultz-s-father",
+          "name": "Avery Schultz's Father",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "charles-whitaker",
+          "ordinal": 1,
+          "cause": "Poisoned",
+          "means": "injected drugs (prescription and illegal)",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Avery killed Charles to prevent him from exposing her espionage activities at Cartesian Studios.",
+          "killers": [
+            {
+              "person_id": "avery-schultz",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "NeedleInHaystack"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        },
+        {
+          "victim_id": "avery-schultz-s-father",
+          "ordinal": 2,
+          "cause": "Unknown",
+          "means": "unknown",
+          "cause_detail": "Avery's father killed himself after the family lost everything financially. Method not stated.",
+          "death_type": "Homicide",
+          "motive": "Penance",
+          "killers": [
+            {
+              "person_id": "avery-schultz-s-father",
+              "mens_rea": "Purposely",
+              "circumstance": "Mitigated"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false
+        },
+        {
+          "victim_id": "osvaldo-ardiles",
+          "ordinal": 3,
+          "cause": "Unknown",
+          "means": "unknown",
+          "cause_detail": "Found tied to a chair and covered in blood; exact cause not established in this episode.",
+          "death_type": "Homicide",
+          "motive": "Unknown",
+          "killers": [],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": true
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s06e13",
+      "wikidata_id": null,
+      "title": "Black Helicopters",
+      "media_type": "TvEpisode",
+      "year": 2014,
+      "creator": "Erika Green Swafford",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Black_Helicopters",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "edith-firlock",
+          "name": "Edith Firlock",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "U.S. attorney"
+        },
+        {
+          "id": "rachel",
+          "name": "Rachel",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "notes": "Real name Rachel; went by Marcia at the commune. Fugitive who had been on the run for 27 years after involvement in a bombing."
+        },
+        {
+          "id": "j-j-laroche",
+          "name": "J.J. LaRoche",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "edith-firlock",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "firearm",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Rachel killed Edith to prevent her from turning Rachel in to authorities after Edith found her via a travel blog.",
+          "killers": [
+            {
+              "person_id": "rachel",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        },
+        {
+          "victim_id": "j-j-laroche",
+          "ordinal": 2,
+          "cause": "Shot",
+          "means": "booby trap",
+          "death_type": "Homicide",
+          "motive": "Unknown",
+          "motive_detail": "LaRoche was investigating who was stalking former CBI members and triggered a booby trap left by an unknown party.",
+          "killers": [],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s06e14",
+      "wikidata_id": null,
+      "title": "Grey Water",
+      "media_type": "TvEpisode",
+      "year": 2014,
+      "creator": "David Appelbaum",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Grey_Water",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "dan-becker",
+          "name": "Dan Becker",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "bryce-kendrick",
+          "name": "Bryce Kendrick",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "wayne-rigsby",
+          "name": "Wayne Rigsby",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "grace-van-pelt",
+          "name": "Grace Van Pelt",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "unknown-intruder",
+          "name": "Unknown Intruder",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "dan-becker",
+          "ordinal": 1,
+          "cause": "Clubbed",
+          "means": "rock",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Bryce hit Dan with a rock during a fight after Dan discovered Bryce had stolen bribe money from the Millman Oil safe.",
+          "killers": [
+            {
+              "person_id": "bryce-kendrick",
+              "mens_rea": "Recklessly",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        },
+        {
+          "victim_id": "wayne-rigsby",
+          "ordinal": 2,
+          "cause": "Shot",
+          "means": "firearm",
+          "death_type": "AttemptedHomicide",
+          "motive": "Unknown",
+          "killers": [
+            {
+              "person_id": "unknown-intruder",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "An unknown masked intruder broke into the Rigsby home and shot Wayne Rigsby. Linked to the string of attacks on former CBI team members."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s06e16",
+      "wikidata_id": null,
+      "title": "Violets",
+      "media_type": "TvEpisode",
+      "year": 2014,
+      "creator": "Jordan Harper",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Violets",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "john-hennigan",
+          "name": "John Hennigan",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "edwin-mackaye",
+          "name": "Edwin MacKaye",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "aaron-pulaski",
+          "name": "Aaron Pulaski",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "dennis-abbott",
+          "name": "Dennis Abbott",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "marcus-pike",
+          "name": "Marcus Pike",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        },
+        {
+          "id": "sylvia-hennigan",
+          "name": "Sylvia Hennigan",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "john-hennigan",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "unmentioned",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "edwin-mackaye",
+              "mens_rea": "Knowingly",
+              "circumstance": "Neutral"
+            },
+            {
+              "person_id": "aaron-pulaski",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Gallery owner shot dead during an art robbery when he refused to surrender a painting. MacKaye (the gang boss) is later charged with the murder."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s06e17",
+      "wikidata_id": null,
+      "title": "Silver Wings of Time",
+      "media_type": "TvEpisode",
+      "year": 2014,
+      "creator": "Tom Szentgyorgyi & Rebecca Perry Cutter",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Silver_Wings_of_Time",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "david-ronaldo",
+          "name": "David Ronaldo",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "pete-koch",
+          "name": "Pete Koch",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "sarah-feinberg",
+          "name": "Sarah Feinberg",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "mae-feinberg",
+          "name": "Mae Feinberg",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "dennis-abbott",
+          "name": "Dennis Abbott",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "edward-feinberg",
+          "name": "Edward Feinberg",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        },
+        {
+          "id": "luis-cruz",
+          "name": "Luis Cruz",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "david-ronaldo",
+          "ordinal": 1,
+          "cause": "Exploded",
+          "means": "briefcase bomb",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Ronaldo was working on an appeal for death-row inmate Luis Cruz and was close to finding the murder weapon; Mae Feinberg hired Pete Koch to bomb him to prevent the truth from coming out.",
+          "killers": [
+            {
+              "person_id": "mae-feinberg",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        },
+        {
+          "victim_id": "pete-koch",
+          "ordinal": 2,
+          "cause": "Shot",
+          "means": "gunshot",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Pete Koch, the private investigator hired to bomb Ronaldo, was killed to eliminate him as a witness and retrieve the briefcase.",
+          "killers": [
+            {
+              "person_id": "mae-feinberg",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": false,
+          "is_twist": false
+        },
+        {
+          "victim_id": "sarah-feinberg",
+          "ordinal": 3,
+          "cause": "Shot",
+          "means": "gun",
+          "death_type": "Homicide",
+          "motive": "Passion",
+          "motive_detail": "Mae Feinberg shot Sarah Feinberg 14 years prior so that she and Edward Feinberg could be together; an innocent man (Luis Cruz) was convicted for the crime.",
+          "killers": [
+            {
+              "person_id": "mae-feinberg",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "FrameUp"
+          ],
+          "is_central_death": true,
+          "is_twist": true,
+          "notes": "This murder occurred 14 years before the episode's present day. An innocent man, Luis Cruz, was convicted and nearly executed for it."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s06e18",
+      "wikidata_id": null,
+      "title": "Forest Green",
+      "media_type": "TvEpisode",
+      "year": 2014,
+      "creator": "Jeffrey Hatcher",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Forest_Green",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "madison-price",
+          "name": "Madison Price",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "Escort / problem-solver for wealthy clients"
+        },
+        {
+          "id": "peter-kilgallen",
+          "name": "Peter Kilgallen",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "Concierge / majordomo of the Foragers Club"
+        },
+        {
+          "id": "gregory-dyer",
+          "name": "Gregory Dyer",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "profession": "Lawyer"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "grant-kimura",
+          "name": "Grant Kimura",
+          "is_fictional": true,
+          "role_in_story": "Bystander",
+          "profession": "Professional golfer"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "madison-price",
+          "ordinal": 1,
+          "cause": "Clubbed",
+          "means": "unmentioned",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Dyer was planting a camera to blackmail Kimura when Madison caught him; he chased and beat her to death to prevent exposure of his blackmail scheme.",
+          "killers": [
+            {
+              "person_id": "gregory-dyer",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "NeedleInHaystack"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        },
+        {
+          "victim_id": "peter-kilgallen",
+          "ordinal": 2,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Kilgallen was killed because he figured out that Dyer had murdered Madison Price.",
+          "killers": [
+            {
+              "person_id": "gregory-dyer",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": false,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s06e19",
+      "wikidata_id": null,
+      "title": "Brown Eyed Girls",
+      "media_type": "TvEpisode",
+      "year": 2014,
+      "creator": "Eoghan Mahony & Michael Weiss",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Brown_Eyed_Girls",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "leanne-cole",
+          "name": "Leanne Cole",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "ramon",
+          "name": "Ramon",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "jesse-o-connor",
+          "name": "Jesse O'Connor",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "anthony-tremel",
+          "name": "Anthony Tremel",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "michael-ridley",
+          "name": "Michael Ridley",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "leanne-cole",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "firearm",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "ramon",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Shot by trafficker Ramon after escaping the human smuggling operation."
+        },
+        {
+          "victim_id": "ramon",
+          "ordinal": 2,
+          "cause": "Shot",
+          "means": "firearm",
+          "death_type": "Homicide",
+          "motive": "Unknown",
+          "killers": [],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Killed by FBI agents after he opened fire on them during pursuit near the border."
+        },
+        {
+          "victim_id": "jesse-o-connor",
+          "ordinal": 3,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "anthony-tremel",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Murdered on orders of Mr. Ridley to eliminate a witness; body found by San Diego police."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s06e20",
+      "wikidata_id": null,
+      "title": "Il Tavolo Bianco",
+      "media_type": "TvEpisode",
+      "year": 2014,
+      "creator": "Daniel Cerone & Erika Green Swafford",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Il_Tavolo_Bianco",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "elijah-macey",
+          "name": "Elijah Macey",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "john-acardo",
+          "name": "John Acardo",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "trafficking-victim",
+          "name": "Trafficking Victim",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "unknown-traffickers",
+          "name": "Unknown Traffickers",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "elijah-macey",
+          "cause": "Shot",
+          "means": "unmentioned",
+          "death_type": "Homicide",
+          "motive": "Unknown",
+          "killers": [
+            {
+              "person_id": "john-acardo",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "NeedleInHaystack"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Elijah Macey was killed on orders from John Acardo; the trigger man delivered the hit via a coat-concealed contract system. Acardo was initially not indicted due to jury tampering by the prosecutor Lydia Faulk."
+        },
+        {
+          "victim_id": "trafficking-victim",
+          "cause": "Other",
+          "death_type": "Homicide",
+          "motive": "GreedFinancial",
+          "killers": [
+            {
+              "person_id": "unknown-traffickers",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": true,
+          "notes": "Multiple corpses found in a freezer in what appears to be an organ harvesting operation; the bodies had been cut open and their hearts removed. These are victims from the human trafficking ring investigated by Cho and Abbott."
+        }
+      ]
     }
   ],
   "tv_shows": [],

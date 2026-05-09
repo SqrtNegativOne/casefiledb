@@ -38936,6 +38936,891 @@
           "notes": "Backstory death: LaRoche's mother committed suicide three months after being sexually assaulted. Her death is the emotional core of the episode's mystery surrounding the tupperware container."
         }
       ]
+    },
+    {
+      "slug": "mentalist-s05e22",
+      "wikidata_id": null,
+      "title": "Red John's Rules",
+      "media_type": "TvEpisode",
+      "year": 2013,
+      "creator": "Bruno Heller",
+      "series_name": "The Mentalist",
+      "series_number": 5.0,
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Red_John%27s_Rules",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "eileen-barlow-turner",
+          "name": "Eileen Barlow Turner",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "gender": "female"
+        },
+        {
+          "id": "lorelei-martins",
+          "name": "Lorelei Martins",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "gender": "female"
+        },
+        {
+          "id": "red-john",
+          "name": "Red John",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "eileen-barlow-turner",
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Unknown",
+          "killers": [
+            {
+              "person_id": "red-john",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Found dead in a motel room; Red John's trademark smiley face left at the scene. Specific cause of death not stated in the source."
+        },
+        {
+          "victim_id": "lorelei-martins",
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "red-john",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": true,
+          "notes": "Killed by Red John for revealing that Jane shook Red John's hand; revealed via DVD recording found in an envelope delivered by Miriam Gottlieb."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s06e01",
+      "wikidata_id": null,
+      "title": "The Desert Rose",
+      "media_type": "TvEpisode",
+      "year": 2013,
+      "creator": "Bruno Heller",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/The_Desert_Rose",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": false
+        },
+        {
+          "id": "cody-benbow",
+          "name": "Cody Benbow",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "murder-victim",
+          "name": "Murder Victim",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "gavin-yardley",
+          "name": "Gavin Yardley",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "mac-the-cook",
+          "name": "Mac the Cook",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "arek-green",
+          "name": "Arek Green",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "hector",
+          "name": "Hector",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "brett-partridge",
+          "name": "Brett Partridge",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "red-john",
+          "name": "Red John",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "murder-victim",
+          "ordinal": 1,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Unknown",
+          "killers": [
+            {
+              "person_id": "cody-benbow",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Woman found dead at the opening crime scene; her fiancé Cody Benbow is quickly deduced by Jane to be the killer."
+        },
+        {
+          "victim_id": "gavin-yardley",
+          "ordinal": 2,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "GreedFinancial",
+          "killers": [
+            {
+              "person_id": "mac-the-cook",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            },
+            {
+              "person_id": "arek-green",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            },
+            {
+              "person_id": "hector",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Man found buried in the desert at Salton Sea, missing for two years; three diner employees killed him for money."
+        },
+        {
+          "victim_id": "brett-partridge",
+          "ordinal": 3,
+          "cause": "Stabbed",
+          "means": "linoleum knife",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "red-john",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "HowCatchem"
+          ],
+          "is_central_death": false,
+          "is_twist": true,
+          "notes": "Forensics tech found near death in a condemned house; whispers 'Tyger, Tyger' to Lisbon before dying. Killed by Red John, narrowing the suspect list to six."
+        },
+        {
+          "victim_id": "teresa-lisbon",
+          "ordinal": 4,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "AttemptedHomicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "red-john",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "HowCatchem"
+          ],
+          "is_central_death": false,
+          "is_twist": true,
+          "notes": "Lisbon is attacked by Red John in the condemned house after finding Brett Partridge; left with status unknown at episode end, a Red John smiley drawn in blood on her face."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s06e02",
+      "wikidata_id": null,
+      "title": "Black-Winged Redbird",
+      "media_type": "TvEpisode",
+      "year": 2013,
+      "creator": "Tom Szentgyorgyi",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Black-Winged_Redbird",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "titus-stone",
+          "name": "Titus Stone",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "software engineer"
+        },
+        {
+          "id": "sophie-miller",
+          "name": "Sophie Miller",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "therapist"
+        },
+        {
+          "id": "red-john",
+          "name": "Red John",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "kris-makkena",
+          "name": "Kris Makkena",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "profession": "Vice President"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "titus-stone",
+          "ordinal": 1,
+          "cause": "Exploded",
+          "means": "drone strike on car",
+          "death_type": "Homicide",
+          "motive": "Penance",
+          "motive_detail": "Stone staged his own death via drone strike to escape the consequences of deceiving the Pentagon about the Redbird drone project.",
+          "killers": [
+            {
+              "person_id": "titus-stone",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "HowCatchem"
+          ],
+          "is_central_death": true,
+          "is_twist": true
+        },
+        {
+          "victim_id": "sophie-miller",
+          "ordinal": 2,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Red John killed Sophie Miller because she could identify him from their therapy sessions.",
+          "killers": [
+            {
+              "person_id": "red-john",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": false,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s06e03",
+      "wikidata_id": null,
+      "title": "Wedding in Red",
+      "media_type": "TvEpisode",
+      "year": 2013,
+      "creator": "Bruno Heller and Daniel Cerone",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Wedding_in_Red",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "larry-kincaid",
+          "name": "Larry Kincaid",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "charlie",
+          "name": "Charlie",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "thomas-mcallister",
+          "name": "Thomas McAllister",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "larry-kincaid",
+          "ordinal": 1,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "GreedFinancial",
+          "killers": [
+            {
+              "person_id": "charlie",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Larry Kincaid, a pizza delivery man, was found dead in a duck pond in Napa Valley. He was in town for his niece's wedding."
+        },
+        {
+          "victim_id": "charlie",
+          "ordinal": 2,
+          "cause": "Shot",
+          "means": "firearm",
+          "death_type": "Homicide",
+          "motive": "Unknown",
+          "killers": [
+            {
+              "person_id": "thomas-mcallister",
+              "mens_rea": "Knowingly",
+              "circumstance": "Justified"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Charlie took Patrick Jane hostage on a church roof while attempting to steal a valuable Bible. Sheriff McAllister shot Charlie to rescue Jane."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s06e04",
+      "wikidata_id": null,
+      "title": "Red Listed",
+      "media_type": "TvEpisode",
+      "year": 2013,
+      "creator": "Rebecca Perry Cutter",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Red_Listed",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "benjamin-marx",
+          "name": "Benjamin Marx",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "robert-kirkland",
+          "name": "Robert Kirkland",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "reede-smith",
+          "name": "Reede Smith",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "madeleine-hightower",
+          "name": "Madeleine Hightower",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "benjamin-marx",
+          "ordinal": 1,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [],
+          "tropes": [],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Marx was on Jane's fake list of Red John suspects. His body is discovered at the start of the episode; he was killed by Kirkland's associates who stole the list."
+        },
+        {
+          "victim_id": "robert-kirkland",
+          "ordinal": 2,
+          "cause": "Shot",
+          "means": "handgun",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "reede-smith",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": true,
+          "notes": "Kirkland is shot by Reede Smith during a staged prison transport escape. Smith staged it to look like the driver shot Kirkland while he was fleeing."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s06e05",
+      "wikidata_id": null,
+      "title": "The Red Tattoo",
+      "media_type": "TvEpisode",
+      "year": 2013,
+      "creator": "Eoghan Mahony",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/The_Red_Tattoo",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "chad-parkman",
+          "name": "Chad Parkman",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "gymnastics coach"
+        },
+        {
+          "id": "devin-frost",
+          "name": "Devin Frost",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "former gym employee"
+        },
+        {
+          "id": "kira-tinsley",
+          "name": "Kira Tinsley",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "private investigator"
+        },
+        {
+          "id": "red-john",
+          "name": "Red John",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "devin-frost",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "handgun with homemade silencer",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Parkman shot Frost to prevent him from exposing their past relationship and the fact that it began when Frost was a minor.",
+          "killers": [
+            {
+              "person_id": "chad-parkman",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "HowCatchem"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        },
+        {
+          "victim_id": "chad-parkman",
+          "ordinal": 2,
+          "cause": "Stabbed",
+          "means": "knife",
+          "death_type": "Homicide",
+          "motive": "SelfDefense",
+          "motive_detail": "Frost stabbed Parkman during the confrontation in which Parkman was shooting him. The stab nicked Parkman's aorta; the wound proved fatal when Parkman later strained to launch the gun out of his hotel window with an exercise band.",
+          "killers": [
+            {
+              "person_id": "devin-frost",
+              "mens_rea": "Recklessly",
+              "circumstance": "Mitigated"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "Howdunit"
+          ],
+          "is_central_death": true,
+          "is_twist": true
+        },
+        {
+          "victim_id": "kira-tinsley",
+          "ordinal": 3,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Tinsley was attacked (fatally wounded) by Red John or Red John's agent, apparently because she had learned something about Red John's identity.",
+          "killers": [
+            {
+              "person_id": "red-john",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s06e06",
+      "wikidata_id": null,
+      "title": "Fire and Brimstone",
+      "media_type": "TvEpisode",
+      "year": 2013,
+      "creator": "Ken Woodruff",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Fire_and_Brimstone",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "unnamed-hanging-victim",
+          "name": "Unnamed Hanging Victim",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "unnamed-hanging-victim",
+          "cause": "Hanged",
+          "means": "noose",
+          "death_type": "Unknown",
+          "motive": "Unknown",
+          "killers": [],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "A man found hanging from a noose over the edge in a parking garage; discovered by Reede Smith and an FBI agent. Identity and circumstances not established in this episode."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s06e07",
+      "wikidata_id": null,
+      "title": "The Great Red Dragon",
+      "media_type": "TvEpisode",
+      "year": 2013,
+      "creator": "Jordan Harper",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/The_Great_Red_Dragon",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "gale-bertram",
+          "name": "Gale Bertram",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "bartender",
+          "name": "Bartender",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "bartender",
+          "ordinal": 1,
+          "cause": "Stabbed",
+          "means": "broken scotch bottle",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "gale-bertram",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Bertram first bashed the bartender over the head with a scotch bottle, then stabbed him repeatedly with the broken bottle after the bartender recognised him from a TV news report identifying him as a serial killer."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s06e08",
+      "wikidata_id": null,
+      "title": "Red John",
+      "media_type": "TvEpisode",
+      "year": 2013,
+      "creator": "Bruno Heller",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Red_John_(episode)",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "thomas-mcallister",
+          "name": "Thomas McAllister",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "notes": "Sheriff of Napa County; true identity of serial killer Red John."
+        },
+        {
+          "id": "gale-bertram",
+          "name": "Gale Bertram",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "notes": "CBI director; member of the Blake Association, used as a scapegoat by Red John."
+        },
+        {
+          "id": "oscar-cordero",
+          "name": "Oscar Cordero",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "notes": "Henchman of the Blake Association acting on McAllister's orders."
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "gale-bertram",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "handgun",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "oscar-cordero",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": true,
+          "notes": "Bertram, a Blake Association member, arranged to meet Jane at an Alexandria Cemetery church claiming he would reveal Red John's identity. McAllister (the real Red John) then appeared and ordered Oscar Cordero to shoot Bertram, framing the scenario so Bertram would be found dead alongside Jane and believed to be Red John."
+        },
+        {
+          "victim_id": "thomas-mcallister",
+          "ordinal": 2,
+          "cause": "Strangled",
+          "means": "bare hands",
+          "death_type": "Homicide",
+          "motive": "Revenge",
+          "killers": [
+            {
+              "person_id": "patrick-jane",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "HowCatchem",
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": true,
+          "notes": "After a foot chase ending near a creek, Jane caught the wounded McAllister and strangled him to death, fulfilling his years-long quest for revenge for the murder of his wife and daughter. McAllister is the true identity of the serial killer Red John."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s06e09",
+      "wikidata_id": null,
+      "title": "My Blue Heaven",
+      "media_type": "TvEpisode",
+      "year": 2013,
+      "creator": "Tom Szentgyorgyi",
+      "series_name": "The Mentalist",
+      "notes": "First episode of The Mentalist without any human murder or suspected murder. A dog named Hugo is killed by antagonist Danny Otero, but no human deaths occur.",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/My_Blue_Heaven",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [],
+      "deaths": []
     }
   ],
   "tv_shows": [],

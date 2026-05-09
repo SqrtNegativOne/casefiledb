@@ -1156,7 +1156,7 @@
       "title": "Red John's Rules",
       "url": "https://thementalist.fandom.com/wiki/Red_John%27s_Rules",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 1,
       "error": null
     },
@@ -1166,7 +1166,7 @@
       "title": "The Desert Rose",
       "url": "https://thementalist.fandom.com/wiki/The_Desert_Rose",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1176,7 +1176,7 @@
       "title": "Black-Winged Redbird",
       "url": "https://thementalist.fandom.com/wiki/Black-Winged_Redbird",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1186,7 +1186,7 @@
       "title": "Wedding in Red",
       "url": "https://thementalist.fandom.com/wiki/Wedding_in_Red",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1196,7 +1196,7 @@
       "title": "Red Listed",
       "url": "https://thementalist.fandom.com/wiki/Red_Listed",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1206,7 +1206,7 @@
       "title": "The Red Tattoo",
       "url": "https://thementalist.fandom.com/wiki/The_Red_Tattoo",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1216,7 +1216,7 @@
       "title": "Fire and Brimstone",
       "url": "https://thementalist.fandom.com/wiki/Fire_and_Brimstone",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1226,7 +1226,7 @@
       "title": "The Great Red Dragon",
       "url": "https://thementalist.fandom.com/wiki/The_Great_Red_Dragon",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1236,7 +1236,7 @@
       "title": "Red John",
       "url": "https://thementalist.fandom.com/wiki/Red_John",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1246,7 +1246,7 @@
       "title": "My Blue Heaven",
       "url": "https://thementalist.fandom.com/wiki/My_Blue_Heaven",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },

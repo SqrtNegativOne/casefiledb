@@ -1466,7 +1466,7 @@
       "title": "Copper Bullet",
       "url": "https://thementalist.fandom.com/wiki/Copper_Bullet",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1476,7 +1476,7 @@
       "title": "Nothing Gold Can Stay",
       "url": "https://thementalist.fandom.com/wiki/Nothing_Gold_Can_Stay",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1486,7 +1486,7 @@
       "title": "Byzantium",
       "url": "https://thementalist.fandom.com/wiki/Byzantium",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1496,7 +1496,7 @@
       "title": "Brown Shag Carpet",
       "url": "https://thementalist.fandom.com/wiki/Brown_Shag_Carpet",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1506,7 +1506,7 @@
       "title": "White Orchids",
       "url": "https://thementalist.fandom.com/wiki/White_Orchids",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1516,7 +1516,7 @@
       "title": "Pilot",
       "url": "https://psychusa.fandom.com/wiki/Pilot",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1526,7 +1526,7 @@
       "title": "Spellingg Bee",
       "url": "https://psychusa.fandom.com/wiki/Spellingg_Bee",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1536,7 +1536,7 @@
       "title": "Speak Now or Forever Hold Your Piece",
       "url": "https://psychusa.fandom.com/wiki/Speak_Now_or_Forever_Hold_Your_Piece",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1546,7 +1546,7 @@
       "title": "Woman Seeking Dead Husband: Smokers Okay, No Pets",
       "url": "https://psychusa.fandom.com/wiki/Woman_Seeking_Dead_Husband%3A_Smokers_Okay%2C_No_Pets",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 1,
       "error": null
     },
@@ -1556,7 +1556,7 @@
       "title": "9 Lives",
       "url": "https://psychusa.fandom.com/wiki/9_Lives",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },

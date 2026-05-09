@@ -42141,6 +42141,989 @@
           "notes": "Assassin Lydon shot by Agent Cho during the sting operation at the hotel."
         }
       ]
+    },
+    {
+      "slug": "mentalist-s07e09",
+      "wikidata_id": null,
+      "title": "Copper Bullet",
+      "media_type": "TvEpisode",
+      "year": 2015,
+      "creator": "Tom Donaghy",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Copper_Bullet",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "unnamed-drug-dealer",
+          "name": "Unnamed Drug Dealer",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "dennis-abbott",
+          "name": "Dennis Abbott",
+          "is_fictional": true,
+          "role_in_story": "Protagonist"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "unnamed-drug-dealer",
+          "cause": "Shot",
+          "means": "unmentioned",
+          "death_type": "Homicide",
+          "motive": "Unknown",
+          "killers": [
+            {
+              "person_id": "dennis-abbott",
+              "mens_rea": "Purposely",
+              "circumstance": "Justified"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "A past killing referenced throughout the episode. Abbott shot a man (described as a drug dealer and mass murderer) some time before the episode; the body is exhumed in Mexico to retrieve the bullet as evidence against Abbott. The killing itself is not depicted on screen."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s07e10",
+      "wikidata_id": null,
+      "title": "Nothing Gold Can Stay",
+      "media_type": "TvEpisode",
+      "year": 2015,
+      "creator": "Alex Berger",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Nothing_Gold_Can_Stay",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "michelle-vega",
+          "name": "Michelle Vega",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "FBI Agent"
+        },
+        {
+          "id": "steve-sellers",
+          "name": "Steve Sellers",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "aaron-brunell",
+          "name": "Aaron Brunell",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "tommy-brunell",
+          "name": "Tommy Brunell",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "kimball-cho",
+          "name": "Kimball Cho",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "profession": "FBI Agent"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "michelle-vega",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "firearm",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Sellers shot Vega to escape capture during a confrontation at the diner.",
+          "killers": [
+            {
+              "person_id": "steve-sellers",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        },
+        {
+          "victim_id": "tommy-brunell",
+          "ordinal": 2,
+          "cause": "Shot",
+          "means": "firearm",
+          "death_type": "AttemptedHomicide",
+          "motive": "SelfDefense",
+          "motive_detail": "Cho shot Tommy Brunell at the diner after Tommy reached for his gun again following being cornered.",
+          "killers": [
+            {
+              "person_id": "kimball-cho",
+              "mens_rea": "Purposely",
+              "circumstance": "Justified"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false
+        },
+        {
+          "victim_id": "aaron-brunell",
+          "ordinal": 3,
+          "cause": "Shot",
+          "means": "firearm",
+          "death_type": "Homicide",
+          "motive": "GreedFinancial",
+          "motive_detail": "Sellers shot Ace during an argument over the money split.",
+          "killers": [
+            {
+              "person_id": "steve-sellers",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false
+        },
+        {
+          "victim_id": "steve-sellers",
+          "ordinal": 4,
+          "cause": "Shot",
+          "means": "firearm",
+          "death_type": "Homicide",
+          "motive": "SelfDefense",
+          "motive_detail": "Cho shot and killed Sellers immediately after Sellers shot Ace, to neutralise the active threat.",
+          "killers": [
+            {
+              "person_id": "kimball-cho",
+              "mens_rea": "Purposely",
+              "circumstance": "Justified"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s07e11",
+      "wikidata_id": null,
+      "title": "Byzantium",
+      "media_type": "TvEpisode",
+      "year": 2015,
+      "creator": "Jordan Harper & Marisa Wegrzyn",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Byzantium",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "megan-brooks",
+          "name": "Megan Brooks",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "donnie-putnam",
+          "name": "Donnie Putnam",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "ree-osbourne",
+          "name": "Ree Osbourne",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "kimball-cho",
+          "name": "Kimball Cho",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "dennis-abbott",
+          "name": "Dennis Abbott",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "jason-wylie",
+          "name": "Jason Wylie",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "gabriel-osbourne",
+          "name": "Gabriel Osbourne",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        },
+        {
+          "id": "unknown-killer",
+          "name": "Unknown Killer",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "notes": "Unidentified serial killer whose identity is not revealed in this episode."
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "megan-brooks",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "9mm firearm",
+          "death_type": "Homicide",
+          "motive": "Unknown",
+          "killers": [
+            {
+              "person_id": "unknown-killer",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Shot through the car window and then again in the chest after the car crashed down a hillside. The killer also took one of her fingernails as a trophy."
+        },
+        {
+          "victim_id": "donnie-putnam",
+          "ordinal": 2,
+          "cause": "Vehicular",
+          "means": "car crash",
+          "death_type": "Homicide",
+          "motive": "Unknown",
+          "killers": [
+            {
+              "person_id": "unknown-killer",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Killed when the car tumbled down a hillside after the serial killer opened fire. One fingernail was also taken as a trophy."
+        },
+        {
+          "victim_id": "ree-osbourne",
+          "ordinal": 3,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "unknown-killer",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Gabriel Osbourne's sister, found dead on the floor of her home. Cause of death not specified; likely killed by the serial killer to silence witnesses or eliminate connections to Gabriel."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s07e12",
+      "wikidata_id": null,
+      "title": "Brown Shag Carpet",
+      "media_type": "TvEpisode",
+      "year": 2015,
+      "creator": "Tom Szentgyorgyi",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Brown_Shag_Carpet",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "susan",
+          "name": "Susan",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "joseph-keller",
+          "name": "Joseph Keller",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "notes": "Known as 'Lazarus'; serial killer who collected blood from victims for occult rituals; son of Keller Sr"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "keller-sr",
+          "name": "Keller Sr",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "notes": "Father of Joseph Keller; suspected perpetrator of killings 15 years prior; body found preserved in basement"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "susan",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "unmentioned",
+          "death_type": "Homicide",
+          "motive": "Pathological",
+          "motive_detail": "Lazarus killed victims as part of blood-harvesting rituals tied to his obsession with contacting spirits; driven by compulsive inner voice he believed was his dead father",
+          "killers": [
+            {
+              "person_id": "joseph-keller",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "NeedleInHaystack"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Susan was shot in the chest and her body was dumped; blood was extracted via IV line and one fingernail was taken as a trophy"
+        },
+        {
+          "victim_id": "joseph-keller",
+          "ordinal": 2,
+          "cause": "Exploded",
+          "means": "gas explosion",
+          "death_type": "Homicide",
+          "motive": "SelfDefense",
+          "motive_detail": "Jane engineered a gas explosion by disabling the pilot light and attaching gum to a light bulb as a delayed ignition device, trapping Lazarus in the gas-filled room while he escaped",
+          "killers": [
+            {
+              "person_id": "patrick-jane",
+              "mens_rea": "Purposely",
+              "circumstance": "Justified"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Jane was being held captive and shackled; he lured Lazarus into the booby-trapped room to escape"
+        },
+        {
+          "victim_id": "keller-sr",
+          "ordinal": 3,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Unknown",
+          "motive": "Unknown",
+          "killers": [],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Dehydrated body found in the basement of Lazarus's hideout; had been there a long time; a box of collected fingernails from victims was found nearby; Keller Sr was a suspected killer from 15 years earlier who later fell off the grid"
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s07e13",
+      "wikidata_id": null,
+      "title": "White Orchids",
+      "media_type": "TvEpisode",
+      "year": 2015,
+      "creator": "Bruno Heller",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/White_Orchids",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "dan-glover",
+          "name": "Dan Glover",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "Television news anchor"
+        },
+        {
+          "id": "joseph-keller",
+          "name": "Joseph Keller",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "notes": "Also known as Lazarus; serial killer seeking revenge against Patrick Jane"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "dan-glover",
+          "ordinal": 1,
+          "cause": "Stabbed",
+          "means": "knife",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Keller killed Dan Glover to steal his identity and phone to gather intelligence on Jane's whereabouts, concealing his own survival and planned attack.",
+          "killers": [
+            {
+              "person_id": "joseph-keller",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Keller lured Glover to a remote road under false pretenses, then stabbed him repeatedly after taking his phone and wallet, using his identity to call the FBI and learn Jane was getting married."
+        }
+      ]
+    },
+    {
+      "slug": "psych-s01e01",
+      "wikidata_id": null,
+      "title": "Pilot",
+      "media_type": "TvEpisode",
+      "year": 2006,
+      "creator": "Steve Franks",
+      "series_name": "Psych",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "psychusa/Pilot",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "shawn-spencer",
+          "name": "Shawn Spencer",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "profession": "Psychic detective"
+        },
+        {
+          "id": "burton-guster",
+          "name": "Burton Guster",
+          "is_fictional": true,
+          "role_in_story": "Protagonist",
+          "profession": "Pharmaceutical salesman"
+        },
+        {
+          "id": "camden-mccallum-jr",
+          "name": "Camden McCallum Jr.",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "malcolm-orso",
+          "name": "Malcolm Orso",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "mr-mccallum",
+          "name": "Mr. McCallum",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "camden-mccallum-jr",
+          "ordinal": 1,
+          "cause": "Fell",
+          "means": "table edge",
+          "cause_detail": "Fell and slammed his head on a table during a heated argument with Mr. McCallum; killed on impact",
+          "death_type": "Accident",
+          "killers": [],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": true,
+          "notes": "Initially staged to look like a murder-suicide with Malcolm Orso"
+        },
+        {
+          "victim_id": "malcolm-orso",
+          "ordinal": 2,
+          "cause": "Shot",
+          "means": "unmentioned",
+          "cause_detail": "Shot by Mr. McCallum after Malcolm witnessed Camden's body",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "mr-mccallum",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": false,
+          "is_twist": true,
+          "notes": "McCallum staged the scene to look like a murder-suicide"
+        }
+      ]
+    },
+    {
+      "slug": "psych-s01e02",
+      "wikidata_id": null,
+      "title": "Spellingg Bee",
+      "media_type": "TvEpisode",
+      "year": 2006,
+      "creator": "Steve Franks",
+      "series_name": "Psych",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "psychusa/Spellingg_Bee",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "elvin-cavanaugh",
+          "name": "Elvin Cavanaugh",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "miklos-prochazka",
+          "name": "Miklos Prochazka",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "brendan-vu",
+          "name": "Brendan Vu",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "shawn-spencer",
+          "name": "Shawn Spencer",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "burton-guster",
+          "name": "Burton Guster",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "jiri-prochazka",
+          "name": "Jiri Prochazka",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "elvin-cavanaugh",
+          "ordinal": 1,
+          "cause": "Poisoned",
+          "means": "poisoned Chinese noodles",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Cavanaugh was about to expose Miklos and Jiri's cheating scheme at the spelling bee and planned to disqualify Jiri.",
+          "killers": [
+            {
+              "person_id": "miklos-prochazka",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        },
+        {
+          "victim_id": "brendan-vu",
+          "ordinal": 2,
+          "cause": "Suffocated",
+          "means": "tampered asthma inhaler",
+          "death_type": "AttemptedHomicide",
+          "motive": "Concealment",
+          "motive_detail": "Brendan accidentally grabbed the inhaler Miklos had rigged as a cheating device; it failed to deliver his asthma medication, causing him to collapse. Miklos was not targeting Brendan but recklessly created the dangerous situation.",
+          "killers": [
+            {
+              "person_id": "miklos-prochazka",
+              "mens_rea": "Recklessly",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false
+        },
+        {
+          "victim_id": "shawn-spencer",
+          "ordinal": 3,
+          "cause": "Vehicular",
+          "means": "van",
+          "death_type": "AttemptedHomicide",
+          "motive": "Concealment",
+          "motive_detail": "Miklos ran Shawn off the road with a van to stop him from investigating the poisoning of Cavanaugh.",
+          "killers": [
+            {
+              "person_id": "miklos-prochazka",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "psych-s01e03",
+      "wikidata_id": null,
+      "title": "Speak Now or Forever Hold Your Piece",
+      "media_type": "TvEpisode",
+      "year": 2006,
+      "creator": "Steve Franks",
+      "series_name": "Psych",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "psychusa/Speak_Now_or_Forever_Hold_Your_Piece",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "shawn-spencer",
+          "name": "Shawn Spencer",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "burton-guster",
+          "name": "Burton Guster",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": false
+        },
+        {
+          "id": "carlton-lassiter",
+          "name": "Carlton Lassiter",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": false
+        },
+        {
+          "id": "dietrich-mannheim",
+          "name": "Dietrich Mannheim",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "notes": "Facilities manager at the hotel; discovered Lacey's theft and threatened to blackmail her"
+        },
+        {
+          "id": "lacey-maxwell",
+          "name": "Lacey Maxwell",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "notes": "Dylan's sister; stole the family engagement ring, which she expected as her inheritance"
+        },
+        {
+          "id": "dylan-maxwell",
+          "name": "Dylan Maxwell",
+          "is_fictional": true,
+          "role_in_story": "Bystander",
+          "notes": "Son of Attorney General Maxwell; the groom"
+        },
+        {
+          "id": "bethany-cadman",
+          "name": "Bethany Cadman",
+          "is_fictional": true,
+          "role_in_story": "Bystander",
+          "notes": "Dylan's fiancée; the bride"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "dietrich-mannheim",
+          "ordinal": 1,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Mannheim discovered Lacey had stolen the ring and threatened to blackmail her; she killed him to silence him",
+          "killers": [
+            {
+              "person_id": "lacey-maxwell",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Mannheim's body was hidden in a dumb waiter; the exact means of death is not specified in the narrative"
+        }
+      ]
+    },
+    {
+      "slug": "psych-s01e04",
+      "wikidata_id": null,
+      "title": "Woman Seeking Dead Husband: Smokers Okay, No Pets",
+      "media_type": "TvEpisode",
+      "year": 2006,
+      "creator": "Steve Franks",
+      "series_name": "Psych",
+      "notes": "David Wilcroft faked his own death by staging a car accident to escape his wife and partners; no actual deaths occur in this episode.",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "psychusa/Woman_Seeking_Dead_Husband:_Smokers_Okay,_No_Pets",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "shawn-spencer",
+          "name": "Shawn Spencer",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "burton-guster",
+          "name": "Burton Guster",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": false
+        },
+        {
+          "id": "raylene-wilcroft",
+          "name": "Raylene Wilcroft",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "david-wilcroft",
+          "name": "David Wilcroft",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        }
+      ],
+      "deaths": []
+    },
+    {
+      "slug": "psych-s01e05",
+      "wikidata_id": null,
+      "title": "9 Lives",
+      "media_type": "TvEpisode",
+      "year": 2006,
+      "creator": "Andy Berman",
+      "series_name": "Psych",
+      "series_number": 5.0,
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "psychusa/9_Lives",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "bill-hiltonbock",
+          "name": "Bill Hiltonbock",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "mortimer-tilden",
+          "name": "Mortimer Tilden",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "gloria-starks",
+          "name": "Gloria Starks",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "wes-hiltonbock",
+          "name": "Wes Hiltonbock",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "shawn-spencer",
+          "name": "Shawn Spencer",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "burton-guster",
+          "name": "Burton Guster",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "bill-hiltonbock",
+          "ordinal": 1,
+          "cause": "Fell",
+          "means": "roof",
+          "death_type": "Homicide",
+          "motive": "Unknown",
+          "killers": [
+            {
+              "person_id": "bill-hiltonbock",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Bill threw himself off the roof; his brother Wes watched. Bill had called a stress line before his death. His death preceded and motivated the serial killings."
+        },
+        {
+          "victim_id": "mortimer-tilden",
+          "ordinal": 2,
+          "cause": "Poisoned",
+          "means": "pills",
+          "death_type": "Homicide",
+          "motive": "Pathological",
+          "killers": [
+            {
+              "person_id": "wes-hiltonbock",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "AlibiTrick"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Staged as a suicide by overdose. Wes targeted stress-line callers he viewed as weak."
+        },
+        {
+          "victim_id": "gloria-starks",
+          "ordinal": 3,
+          "cause": "Suffocated",
+          "means": "carbon monoxide",
+          "death_type": "Homicide",
+          "motive": "Pathological",
+          "killers": [
+            {
+              "person_id": "wes-hiltonbock",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "AlibiTrick"
+          ],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Staged as a suicide; locked in her garage with the car running. A fake suicide note was written in black eyeliner on the windshield. Gloria had just received her big acting break before being killed."
+        }
+      ]
     }
   ],
   "tv_shows": [],

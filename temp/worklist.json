@@ -736,7 +736,7 @@
       "title": "Ring Around the Rosie",
       "url": "https://thementalist.fandom.com/wiki/Ring_Around_the_Rosie",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -746,7 +746,7 @@
       "title": "Blood and Sand",
       "url": "https://thementalist.fandom.com/wiki/Blood_and_Sand",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -756,7 +756,7 @@
       "title": "Where in the World is Carmine O'Brien?",
       "url": "https://thementalist.fandom.com/wiki/Where_in_the_World_is_Carmine_O%27Brien%3F",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 1,
       "error": null
     },
@@ -766,7 +766,7 @@
       "title": "Blinking Red Light",
       "url": "https://thementalist.fandom.com/wiki/Blinking_Red_Light",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -776,7 +776,7 @@
       "title": "Pink Tops",
       "url": "https://thementalist.fandom.com/wiki/Pink_Tops",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -786,7 +786,7 @@
       "title": "The Redshirt",
       "url": "https://thementalist.fandom.com/wiki/The_Redshirt",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -796,7 +796,7 @@
       "title": "Fugue in Red",
       "url": "https://thementalist.fandom.com/wiki/Fugue_in_Red",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -806,7 +806,7 @@
       "title": "Always Bet on Red",
       "url": "https://thementalist.fandom.com/wiki/Always_Bet_on_Red",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -816,7 +816,7 @@
       "title": "My Bloody Valentine",
       "url": "https://thementalist.fandom.com/wiki/My_Bloody_Valentine",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -836,7 +836,7 @@
       "title": "At First Blush",
       "url": "https://thementalist.fandom.com/wiki/At_First_Blush",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },

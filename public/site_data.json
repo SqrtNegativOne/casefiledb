@@ -935,7 +935,7 @@
         {
           "victim_id": "daisy-armstrong",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "cause_detail": "Three-year-old kidnapped and murdered by Cassetti for ransom; death occurred years before the main action",
           "death_type": "Homicide",
@@ -5713,7 +5713,7 @@
         {
           "victim_id": "child-victims",
           "ordinal": 2,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "cause_detail": "Multiple children were killed by Emma Boscowan and their bodies hidden near her cottage; discovered during the investigation",
           "death_type": "Homicide",
@@ -6060,7 +6060,7 @@
           "cause": "Shot",
           "means": "revolver",
           "cause_detail": "Appeared to be shot dead in his chair; the wound was theatrical — he faked his death using a special squib and a red herring",
-          "death_type": "Unknown",
+          "death_type": "Unstated",
           "motive": "Concealment",
           "killers": [],
           "tropes": [],
@@ -6242,7 +6242,7 @@
           "id": "unknown",
           "name": "unknown",
           "is_fictional": true,
-          "role_in_story": "Unknown",
+          "role_in_story": "Unstated",
           "notes": "Killer identity unknown at the time of the tube station death."
         }
       ],
@@ -6253,13 +6253,13 @@
           "cause": "Fell",
           "means": "tube platform",
           "cause_detail": "Fell or was pushed onto the London Underground track at Hyde Park Corner station; Anne Beddingfeld finds a cipher in his coat pocket",
-          "death_type": "Unknown",
-          "motive": "Unknown",
+          "death_type": "Unstated",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "unknown",
-              "mens_rea": "Unknown",
-              "circumstance": "Unknown"
+              "mens_rea": "Unstated",
+              "circumstance": "Unstated"
             }
           ],
           "tropes": [],
@@ -6959,8 +6959,8 @@
           "cause": "Illness",
           "means": "unmentioned",
           "cause_detail": "Died in prison while serving his sentence for a murder he did not commit",
-          "death_type": "Unknown",
-          "motive": "Unknown",
+          "death_type": "Unstated",
+          "motive": "Unstated",
           "killers": [],
           "tropes": [],
           "is_central_death": false,
@@ -7230,8 +7230,8 @@
           "killers": [
             {
               "person_id": "mr-error",
-              "mens_rea": "Unknown",
-              "circumstance": "Unknown"
+              "mens_rea": "Unstated",
+              "circumstance": "Unstated"
             }
           ],
           "tropes": [],
@@ -7247,8 +7247,8 @@
           "killers": [
             {
               "person_id": "mr-error",
-              "mens_rea": "Unknown",
-              "circumstance": "Unknown"
+              "mens_rea": "Unstated",
+              "circumstance": "Unstated"
             }
           ],
           "tropes": [],
@@ -8380,7 +8380,7 @@
         {
           "victim_id": "elsa-betterton",
           "ordinal": 2,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "cause_detail": "Murdered by Thomas Betterton who then stole credit for her groundbreaking scientific work; backstory murder revealed during investigation",
           "death_type": "Homicide",
@@ -9118,7 +9118,7 @@
             {
               "victim_id": "bobby-fulbright",
               "ordinal": 2,
-              "cause": "Unknown",
+              "cause": "Unstated",
               "means": "unknown",
               "death_type": "Homicide",
               "motive": "Concealment",
@@ -10450,7 +10450,7 @@
               "cause": "Stabbed",
               "means": "cane-sword",
               "death_type": "Homicide",
-              "motive": "Unknown",
+              "motive": "Unstated",
               "killers": [
                 {
                   "person_id": "horace-knightley",
@@ -10466,7 +10466,7 @@
             {
               "victim_id": "ryouken-housekeeper",
               "ordinal": 3,
-              "cause": "Unknown",
+              "cause": "Unstated",
               "means": "unknown",
               "death_type": "Homicide",
               "motive": "Concealment",
@@ -10616,7 +10616,7 @@
             {
               "victim_id": "bansai-ichiyanagi",
               "ordinal": 7,
-              "cause": "Unknown",
+              "cause": "Unstated",
               "means": "unknown",
               "death_type": "Homicide",
               "motive": "Revenge",
@@ -10818,7 +10818,7 @@
             {
               "victim_id": "newton-belduke",
               "ordinal": 1,
-              "cause": "Unknown",
+              "cause": "Unstated",
               "means": "unknown",
               "death_type": "Homicide",
               "motive": "Concealment",
@@ -11634,7 +11634,7 @@
             {
               "victim_id": "maya-fey",
               "ordinal": 5,
-              "cause": "Unknown",
+              "cause": "Unstated",
               "means": "unknown",
               "death_type": "AttemptedHomicide",
               "motive": "GreedFinancial",
@@ -11867,7 +11867,7 @@
             {
               "victim_id": "kane-bullard",
               "ordinal": 2,
-              "cause": "Unknown",
+              "cause": "Unstated",
               "means": "unknown",
               "death_type": "Homicide",
               "motive": "Concealment",
@@ -14127,7 +14127,7 @@
         {
           "victim_id": "samson-holt",
           "ordinal": 2,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "cause_detail": "Killed by Nat Sharp to prevent him from keeping the Eve's Apple diamond he had retrieved",
           "death_type": "Homicide",
@@ -14171,7 +14171,7 @@
           "means": "pentobarbital",
           "cause_detail": "Martha deliberately ingested pentobarbital after confessing her role in the conspiracy, seeking forgiveness",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "martha-delacroix",
@@ -14550,7 +14550,7 @@
       "deaths": [
         {
           "victim_id": "jake",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "cause_detail": "Killed before body was placed in a car which was then pushed into a ditch to stage a car accident; actual method not specified",
           "death_type": "Homicide",
@@ -14725,7 +14725,7 @@
       "deaths": [
         {
           "victim_id": "judge-catherine-lavinio",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "cause_detail": "Murdered by proxy on Dale Biederbeck's orders",
           "death_type": "Homicide",
@@ -15234,7 +15234,7 @@
       "deaths": [
         {
           "victim_id": "lupe",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "cause_detail": "Killed by fellow chambermaids and body hidden with lime",
           "death_type": "Homicide",
@@ -15491,7 +15491,7 @@
       "deaths": [
         {
           "victim_id": "barbara-chabrol",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "cause_detail": "Murdered at the airport; body hidden at a construction site",
           "death_type": "Homicide",
@@ -17494,7 +17494,7 @@
         {
           "victim_id": "lizzie-talvo",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -17575,7 +17575,7 @@
         {
           "victim_id": "marlene-highsmith",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
@@ -17821,7 +17821,7 @@
           "cause": "Electrocuted",
           "means": "unmentioned",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "motive_detail": "Kathy dropped a radio into Martin's bathtub to electrocute him, then staged the body to look like a lightning-strike accident",
           "killers": [
             {
@@ -18064,7 +18064,7 @@
           "cause": "Shot",
           "means": "gun",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "motive_detail": "Accidental victim; Whitman was a hired sniper targeting Natalie's campaign and killed the guard who surprised him",
           "killers": [
             {
@@ -18142,7 +18142,7 @@
         {
           "victim_id": "daniel-carlyle",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "AttemptedHomicide",
           "motive": "GreedFinancial",
@@ -18573,7 +18573,7 @@
         {
           "victim_id": "ben-gruber",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
@@ -18735,7 +18735,7 @@
         {
           "victim_id": "frank-ruttle",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -18978,10 +18978,10 @@
         {
           "victim_id": "clea-vance",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "motive_detail": "Fashion designer Julian Hodge killed model Clea Vance and bribed a detective to frame Pablo Ortiz for the crime",
           "killers": [
             {
@@ -19059,7 +19059,7 @@
         {
           "victim_id": "debbie-barnett",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -19140,7 +19140,7 @@
         {
           "victim_id": "jimmy-botsdale",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -19302,7 +19302,7 @@
         {
           "victim_id": "joanne-raphelson",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -19464,7 +19464,7 @@
         {
           "victim_id": "juror-victim",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -19626,7 +19626,7 @@
       "deaths": [
         {
           "victim_id": "jimmy-cusack",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -20282,7 +20282,7 @@
       "deaths": [
         {
           "victim_id": "derek-bronson",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "GreedInheritance",
@@ -20363,7 +20363,7 @@
       "deaths": [
         {
           "victim_id": "gail-segalis",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -20444,7 +20444,7 @@
       "deaths": [
         {
           "victim_id": "edward-stilson",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Blackmail",
@@ -20528,7 +20528,7 @@
           "cause": "Suffocated",
           "means": "gas",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "max-hudson",
@@ -20876,7 +20876,7 @@
           "cause": "Clubbed",
           "means": "brick",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "john-ringel",
@@ -21207,7 +21207,7 @@
           "cause": "Shot",
           "means": "gun",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "robert-sherman",
@@ -21461,7 +21461,7 @@
       "deaths": [
         {
           "victim_id": "john-davis",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
@@ -21704,7 +21704,7 @@
       "deaths": [
         {
           "victim_id": "amanda-clark",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -21785,7 +21785,7 @@
       "deaths": [
         {
           "victim_id": "peter-crawley",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -22781,7 +22781,7 @@
         {
           "victim_id": "aaron-larkin",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "GreedInheritance",
@@ -22939,7 +22939,7 @@
         {
           "victim_id": "lindsey-bishop",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -23471,7 +23471,7 @@
         {
           "victim_id": "victor-timlinson",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Blackmail",
@@ -23654,7 +23654,7 @@
         {
           "victim_id": "marge-larkin",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "GreedInheritance",
@@ -23730,7 +23730,7 @@
         {
           "victim_id": "stanley-greenblatt",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
@@ -24040,7 +24040,7 @@
         {
           "victim_id": "tiffany-bolt",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Passion",
@@ -24141,7 +24141,7 @@
         {
           "victim_id": "bradley-foster",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
@@ -24552,7 +24552,7 @@
         {
           "victim_id": "officer-dimarco",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
@@ -24653,7 +24653,7 @@
         {
           "victim_id": "wendy-stroud",
           "ordinal": 2,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -24816,10 +24816,10 @@
       "deaths": [
         {
           "victim_id": "carol-fleming",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "ray-fleming",
@@ -24973,7 +24973,7 @@
       "deaths": [
         {
           "victim_id": "lenore-kennicut",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -25244,7 +25244,7 @@
       "deaths": [
         {
           "victim_id": "beau-williamson",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
@@ -25410,7 +25410,7 @@
       "deaths": [
         {
           "victim_id": "eric-wagner",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -25495,7 +25495,7 @@
       "deaths": [
         {
           "victim_id": "sir-roger-haversham",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -25668,7 +25668,7 @@
       "deaths": [
         {
           "victim_id": "clifford-paris",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "GreedInheritance",
@@ -26169,10 +26169,10 @@
       "deaths": [
         {
           "victim_id": "harold-van-wick",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "margaret-midas",
@@ -26492,7 +26492,7 @@
           "cause": "Shot",
           "means": "gun",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "janie-brandt",
@@ -27258,7 +27258,7 @@
           "cause": "Shot",
           "means": "gun",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "lauren-staton",
@@ -27568,7 +27568,7 @@
         {
           "victim_id": "mercy-tolliver",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -28818,7 +28818,7 @@
       "deaths": [
         {
           "victim_id": "undine-kopecki",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "FamilyProtection",
@@ -28841,7 +28841,7 @@
         },
         {
           "victim_id": "jared-renfrew",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -28859,7 +28859,7 @@
         },
         {
           "victim_id": "prostitute",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -28877,10 +28877,10 @@
         },
         {
           "victim_id": "orville-tanner",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
-          "death_type": "Unknown",
-          "motive": "Unknown",
+          "death_type": "Unstated",
+          "motive": "Unstated",
           "killers": [],
           "tropes": [],
           "is_central_death": false,
@@ -30543,7 +30543,7 @@
         {
           "victim_id": "kirby-hines",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -30613,14 +30613,14 @@
         {
           "victim_id": "colin-haymer",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "NeedsReview",
           "killers": [
             {
               "person_id": "diane-zeranski",
-              "mens_rea": "Unknown",
+              "mens_rea": "Unstated",
               "circumstance": "Neutral"
             }
           ],
@@ -30834,7 +30834,7 @@
         {
           "victim_id": "marlon-hicks",
           "ordinal": 4,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -30854,7 +30854,7 @@
         {
           "victim_id": "carter-peak",
           "ordinal": 5,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -32227,7 +32227,7 @@
         {
           "victim_id": "sally-alvarez",
           "ordinal": 2,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -32313,7 +32313,7 @@
         {
           "victim_id": "marley-sparrow",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Pathological",
@@ -32339,7 +32339,7 @@
         {
           "victim_id": "jacqueline-sandoval",
           "ordinal": 2,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Pathological",
@@ -32615,7 +32615,7 @@
         {
           "victim_id": "austin-marr",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -32884,7 +32884,7 @@
         {
           "victim_id": "keely-farlow",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Pathological",
@@ -32905,7 +32905,7 @@
         {
           "victim_id": "deputy-bob-woolgar",
           "ordinal": 2,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Pathological",
@@ -32925,7 +32925,7 @@
         {
           "victim_id": "deputy-hobbs",
           "ordinal": 3,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Pathological",
@@ -33209,7 +33209,7 @@
         {
           "victim_id": "fernanda-talan",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -33234,7 +33234,7 @@
         {
           "victim_id": "valerie-brestin",
           "ordinal": 2,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -33380,7 +33380,7 @@
         {
           "victim_id": "amber-sutherland",
           "ordinal": 2,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -33404,7 +33404,7 @@
           "cause": "Shot",
           "means": "sniper rifle",
           "death_type": "AttemptedHomicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "tom-rowley",
@@ -34005,7 +34005,7 @@
         {
           "victim_id": "ted-fisher",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
@@ -34331,7 +34331,7 @@
           "cause": "Fell",
           "means": "balcony fall",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [],
           "tropes": [],
           "is_central_death": false,
@@ -34587,8 +34587,8 @@
           "ordinal": 3,
           "cause": "Fell",
           "means": "balcony fall",
-          "death_type": "Unknown",
-          "motive": "Unknown",
+          "death_type": "Unstated",
+          "motive": "Unstated",
           "killers": [],
           "tropes": [],
           "is_central_death": false,
@@ -34962,7 +34962,7 @@
       "deaths": [
         {
           "victim_id": "boy-victim-1",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Pathological",
@@ -34982,7 +34982,7 @@
         },
         {
           "victim_id": "boy-victim-2",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Pathological",
@@ -35092,12 +35092,12 @@
           "cause": "Stabbed",
           "means": "knife",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "unnamed-homeless-man",
-              "mens_rea": "Unknown",
-              "circumstance": "Unknown"
+              "mens_rea": "Unstated",
+              "circumstance": "Unstated"
             }
           ],
           "tropes": [
@@ -35433,7 +35433,7 @@
         {
           "victim_id": "james-panzer",
           "ordinal": 3,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "cause_detail": "Found in an alley beneath Red John's trademark smiley face; killed after publicly insulting Red John on TV",
           "death_type": "Homicide",
@@ -35804,7 +35804,7 @@
         {
           "victim_id": "bank-guard-1",
           "ordinal": 2,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -35823,7 +35823,7 @@
         {
           "victim_id": "bank-guard-2",
           "ordinal": 3,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -35893,7 +35893,7 @@
           "cause": "Exploded",
           "means": "boat explosion",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "colette-santori",
@@ -35910,7 +35910,7 @@
         {
           "victim_id": "tom-maier",
           "ordinal": 2,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Penance",
@@ -36096,7 +36096,7 @@
       "deaths": [
         {
           "victim_id": "carlos-ruiz",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
@@ -36241,7 +36241,7 @@
         {
           "victim_id": "gabriel-meadows",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -36550,7 +36550,7 @@
         {
           "victim_id": "shelly",
           "ordinal": 2,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -36870,7 +36870,7 @@
           "cause": "Shot",
           "means": "shotgun",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "unknown-man",
@@ -37446,7 +37446,7 @@
           "means": "car",
           "cause_detail": "Dellinger struck Mia with his car while driving drunk; charges were dropped to a simple DUI after Kim concealed evidence.",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "winston-dellinger",
@@ -37547,7 +37547,7 @@
         {
           "victim_id": "gary-dietz",
           "ordinal": 2,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "AttemptedHomicide",
           "motive": "Freedom",
@@ -37760,7 +37760,7 @@
           "cause": "Shot",
           "means": "hunting rifle",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "nathan-dilmer",
@@ -37952,7 +37952,7 @@
         {
           "victim_id": "charlie-coates",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -38058,7 +38058,7 @@
         {
           "victim_id": "horatio-jones",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -38208,10 +38208,10 @@
         {
           "victim_id": "charney",
           "ordinal": 2,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [],
           "tropes": [
             "Whodunit"
@@ -38223,10 +38223,10 @@
         {
           "victim_id": "talbot",
           "ordinal": 3,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [],
           "tropes": [
             "Whodunit"
@@ -38286,7 +38286,7 @@
         {
           "victim_id": "linda-parfey",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -38463,7 +38463,7 @@
         {
           "victim_id": "julia-howard",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Revenge",
@@ -38520,7 +38520,7 @@
         {
           "victim_id": "lorelei-martins",
           "ordinal": 4,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -38762,7 +38762,7 @@
         {
           "victim_id": "hollis-percy",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -38906,10 +38906,10 @@
         {
           "victim_id": "parsons",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [],
           "tropes": [],
           "is_central_death": true,
@@ -38919,10 +38919,10 @@
         {
           "victim_id": "laroche-s-mother",
           "ordinal": 2,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "laroche-s-mother",
@@ -38989,10 +38989,10 @@
       "deaths": [
         {
           "victim_id": "eileen-barlow-turner",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "red-john",
@@ -39009,7 +39009,7 @@
         },
         {
           "victim_id": "lorelei-martins",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -39113,10 +39113,10 @@
         {
           "victim_id": "murder-victim",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "cody-benbow",
@@ -39134,7 +39134,7 @@
         {
           "victim_id": "gavin-yardley",
           "ordinal": 2,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
@@ -39186,7 +39186,7 @@
         {
           "victim_id": "teresa-lisbon",
           "ordinal": 4,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "AttemptedHomicide",
           "motive": "Concealment",
@@ -39286,7 +39286,7 @@
         {
           "victim_id": "sophie-miller",
           "ordinal": 2,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -39355,7 +39355,7 @@
         {
           "victim_id": "larry-kincaid",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
@@ -39379,7 +39379,7 @@
           "cause": "Shot",
           "means": "firearm",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "thomas-mcallister",
@@ -39455,7 +39455,7 @@
         {
           "victim_id": "benjamin-marx",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -39588,7 +39588,7 @@
         {
           "victim_id": "kira-tinsley",
           "ordinal": 3,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -39644,8 +39644,8 @@
           "victim_id": "unnamed-hanging-victim",
           "cause": "Hanged",
           "means": "noose",
-          "death_type": "Unknown",
-          "motive": "Unknown",
+          "death_type": "Unstated",
+          "motive": "Unstated",
           "killers": [],
           "tropes": [],
           "is_central_death": false,
@@ -40237,7 +40237,7 @@
         {
           "victim_id": "avery-schultz-s-father",
           "ordinal": 2,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "cause_detail": "Avery's father killed himself after the family lost everything financially. Method not stated.",
           "death_type": "Homicide",
@@ -40256,11 +40256,11 @@
         {
           "victim_id": "osvaldo-ardiles",
           "ordinal": 3,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "cause_detail": "Found tied to a chair and covered in blood; exact cause not established in this episode.",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [],
           "tropes": [],
           "is_central_death": false,
@@ -40336,7 +40336,7 @@
           "cause": "Shot",
           "means": "booby trap",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "motive_detail": "LaRoche was investigating who was stalking former CBI members and triggered a booby trap left by an unknown party.",
           "killers": [],
           "tropes": [],
@@ -40430,7 +40430,7 @@
           "cause": "Shot",
           "means": "firearm",
           "death_type": "AttemptedHomicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "unknown-intruder",
@@ -40767,7 +40767,7 @@
         {
           "victim_id": "peter-kilgallen",
           "ordinal": 2,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -40876,7 +40876,7 @@
           "cause": "Shot",
           "means": "firearm",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [],
           "tropes": [],
           "is_central_death": false,
@@ -40886,7 +40886,7 @@
         {
           "victim_id": "jesse-o-connor",
           "ordinal": 3,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -40961,7 +40961,7 @@
           "cause": "Shot",
           "means": "unmentioned",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "john-acardo",
@@ -41276,7 +41276,7 @@
       "deaths": [
         {
           "victim_id": "greta",
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -41413,10 +41413,10 @@
         {
           "victim_id": "jeremy-s-childhood-friend",
           "ordinal": 2,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "motive_detail": "The child was killed even after the ransom was paid during a kidnapping Jeremy Geist witnessed as a child. The perpetrators are not identified by name in the episode.",
           "killers": [],
           "tropes": [],
@@ -41642,7 +41642,7 @@
         {
           "victim_id": "security-guard-1",
           "ordinal": 2,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
@@ -41661,7 +41661,7 @@
         {
           "victim_id": "security-guard-2",
           "ordinal": 3,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "GreedFinancial",
@@ -41807,7 +41807,7 @@
         {
           "victim_id": "darrell-gonzalez",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -42089,7 +42089,7 @@
           "cause": "Clubbed",
           "means": "unmentioned",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "kelvin-bittaker",
@@ -42105,7 +42105,7 @@
         {
           "victim_id": "person-at-peg-bailey-s-house",
           "ordinal": 7,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -42127,7 +42127,7 @@
           "cause": "Shot",
           "means": "firearm",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "kimball-cho",
@@ -42180,7 +42180,7 @@
           "cause": "Shot",
           "means": "unmentioned",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "dennis-abbott",
@@ -42424,7 +42424,7 @@
           "cause": "Shot",
           "means": "9mm firearm",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "unknown-killer",
@@ -42445,7 +42445,7 @@
           "cause": "Vehicular",
           "means": "car crash",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "unknown-killer",
@@ -42463,7 +42463,7 @@
         {
           "victim_id": "ree-osbourne",
           "ordinal": 3,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -42577,10 +42577,10 @@
         {
           "victim_id": "keller-sr",
           "ordinal": 3,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
-          "death_type": "Unknown",
-          "motive": "Unknown",
+          "death_type": "Unstated",
+          "motive": "Unstated",
           "killers": [],
           "tropes": [],
           "is_central_death": false,
@@ -42931,7 +42931,7 @@
         {
           "victim_id": "dietrich-mannheim",
           "ordinal": 1,
-          "cause": "Unknown",
+          "cause": "Unstated",
           "means": "unknown",
           "death_type": "Homicide",
           "motive": "Concealment",
@@ -43066,7 +43066,7 @@
           "cause": "Fell",
           "means": "roof",
           "death_type": "Homicide",
-          "motive": "Unknown",
+          "motive": "Unstated",
           "killers": [
             {
               "person_id": "bill-hiltonbock",

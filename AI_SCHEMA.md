@@ -56,7 +56,7 @@ Every name used in a `death` event **must** be defined here first.
 
 - `id`: (string, optional) Stable slug identifier for this person within this scope (e.g. `"emily-inglethorp"`). The ingest tool auto-generates it from the name if omitted — you only need to supply it when you want a specific value (e.g. to avoid a collision or match a pre-existing ID).
 - `name`: (string, required)
-- `role_in_story`: (optional) One of: `Protagonist`, `Antagonist`, `Victim`, `Detective`, `Bystander`, `Unknown`.
+- `role_in_story`: (optional) One of: `Protagonist`, `Antagonist`, `Victim`, `Detective`, `Bystander`, `Unstated`.
 - `is_solver`: (boolean, optional) `true` if this person actively cracks the central mystery. Use this to distinguish the detective who *nominally* investigates from whoever *actually* solves it. In Sherlock Holmes, Holmes gets `is_solver: true`; in Knives Out, Marta gets `is_solver: true` (not Blanc). Leave null if ambiguous or irrelevant.
 - `is_fictional`: (boolean, default `true`)
 - `nationality`, `ethnicity`, `gender`, `approximate_age`, `profession`: (string, optional)
@@ -71,18 +71,18 @@ Every name used in a `death` event **must** be defined here first.
 - `victim_id`: ID of the victim — must match an `id` in `persons`. You may instead supply `victim_name` (the person's display name) and the ingest tool will resolve it to the ID automatically.
 - (killers) `person_id`: ID of the killer — must match an `id` in `persons`. You may instead supply `name` (the person's display name) and the ingest tool will resolve it.
 - `cause`: (required) One of:
-  `Poisoned`, `Shot`, `Stabbed`, `Clubbed`, `Strangled`, `Drowned`, `Burned`, `Hanged`, `Fell`, `Crushed`, `Suffocated`, `Exploded`, `Electrocuted`, `Frozen`, `Illness`, `Eaten`, `TornApart`, `Vehicular`, `Unknown`, `Other`.
-  Use `Vehicular` for deaths caused by a vehicle (car, train, etc.). Use `Unknown` when the cause is not specified in the narrative. Reserve `Other` only for methods that fit none of the above.
+  `Poisoned`, `Shot`, `Stabbed`, `Clubbed`, `Strangled`, `Drowned`, `Burned`, `Hanged`, `Fell`, `Crushed`, `Suffocated`, `Exploded`, `Electrocuted`, `Frozen`, `Illness`, `Eaten`, `TornApart`, `Vehicular`, `Unstated`, `Other`.
+  Use `Vehicular` for deaths caused by a vehicle (car, train, etc.). Use `Unstated` when the cause is not specified in the narrative. Reserve `Other` only for methods that fit none of the above.
   **`means` is required for every `cause` except `Other`** — see below.
 - `death_type`: (required) One of:
-  `Homicide`, `AttemptedHomicide`, `Execution`, `Accident`, `NaturalDeath`, `Unknown`.
+  `Homicide`, `AttemptedHomicide`, `Execution`, `Accident`, `NaturalDeath`, `Unstated`.
   Key rules: **suicide** is represented as `Homicide` with the victim also listed in `killers` (killer == victim). **Manslaughter** is represented as `Homicide` with the killer's `mens_rea` set to `Recklessly` or `Negligently`. **Accidents involving no human culprit** use `Accident` with an empty `killers` list.
 - `motive`: One of:
   `GreedInheritance`, `GreedFinancial`, `Blackmail`, `Jealousy`, `Revenge`, `Ideology`, `SelfDefense`, `Concealment`, `Passion`,
   `VigilanteJustice`, `Freedom`, `FamilyProtection`, `Pathological`, `Mercy`, `Penance`,
-  `Unknown`, `Other`, `NeedsReview`.
-  Key distinctions: `VigilanteJustice` = self-appointed execution of those deemed guilty who escaped legal justice; `FamilyProtection` = killing to shield family from ruin or scandal; `Freedom` = escaping an unwanted relationship or controlling figure; `Pathological` = compulsive or irrational psychological motive; `Mercy` = ending another's suffering; `Penance` = atonement or confession-driven act. Reserve `Other` only when none of the above fit. Use `Unknown` when the narrative genuinely does not state a reason; use `NeedsReview` as a placeholder when you have not yet researched it.
-  **Required for all `death_type` values except `Accident` and `NaturalDeath`** — use `Unknown` if the reason is not stated in the narrative, or `NeedsReview` if not yet researched. For `Homicide` representing a suicide, use the victim's own motive (e.g. `Penance`, `Freedom`, `Pathological`).
+  `Unstated`, `Other`, `NeedsReview`.
+  Key distinctions: `VigilanteJustice` = self-appointed execution of those deemed guilty who escaped legal justice; `FamilyProtection` = killing to shield family from ruin or scandal; `Freedom` = escaping an unwanted relationship or controlling figure; `Pathological` = compulsive or irrational psychological motive; `Mercy` = ending another's suffering; `Penance` = atonement or confession-driven act. Reserve `Other` only when none of the above fit. Use `Unstated` when the narrative genuinely does not state a reason; use `NeedsReview` as a placeholder when you have not yet researched it.
+  **Required for all `death_type` values except `Accident` and `NaturalDeath`** — use `Unstated` if the reason is not stated in the narrative, or `NeedsReview` if not yet researched. For `Homicide` representing a suicide, use the victim's own motive (e.g. `Penance`, `Freedom`, `Pathological`).
 - `killers`: (array, default `[]`) Each entry is an object describing one killer's role in the death. A death may have zero, one, or multiple killers (e.g. co-conspirators with different levels of involvement):
   - `person_id`: (string) Must match an `id` in `persons`. Alternatively, supply `name` (the person's display name) and ingest resolves it. One of the two is required.
   - `mens_rea`: **(required)** MPC mens rea — choose the highest that applies:
@@ -91,13 +91,13 @@ Every name used in a `death` event **must** be defined here first.
     - `Recklessly` — consciously disregarded a substantial risk of death
     - `Negligently` — should have known their conduct risked death
     - `Accidentally` — zero culpability; pure accident
-    - `Unknown` — media does not make the mental state clear
+    - `Unstated` — media does not make the mental state clear
     - `NeedsReview` — placeholder; not yet researched
   - `circumstance`: **(required)** Contextual justification or mitigation:
     - `Justified` — war, self-defense, euthanasia
     - `Mitigated` — diminished capacity, coercion, extreme duress
     - `Neutral` — no special circumstance
-    - `Unknown` — media does not make it clear
+    - `Unstated` — media does not make it clear
     - `NeedsReview` — placeholder; not yet researched
 - `tropes`: (array of strings, optional) Mystery tropes that apply to this death. Choose from:
   - `LockedRoom` — death occurred in a sealed space with no apparent entry/exit
@@ -113,7 +113,7 @@ Every name used in a `death` event **must** be defined here first.
   - `LeastLikelySuspect` — the killer is the character the reader would least expect
   - `FrameUp` — an innocent person is deliberately framed
   - `MistakenIdentity` — the crime stems from a case of mistaken identity
-- `means`: (string) **Required** for every `cause` except `Other`. Specify the exact substance, weapon, or mechanism (e.g. `"arsenic"`, `"revolver"`, `"kitchen knife"`, `"cliff edge"`, `"car"`). When `cause` is `Unknown`, set `means` to `"unknown"` as well. Three additional reserved values: `"unmentioned"` if the narrative never names the specific item; `"unknown"` if the protagonist genuinely does not know what was used (an open in-story mystery); `"needs_review"` if you have not yet looked it up.
+- `means`: (string) **Required** for every `cause` except `Other`. Specify the exact substance, weapon, or mechanism (e.g. `"arsenic"`, `"revolver"`, `"kitchen knife"`, `"cliff edge"`, `"car"`). When `cause` is `Unstated`, set `means` to `"unknown"` as well. Three additional reserved values: `"unmentioned"` if the narrative never names the specific item; `"unknown"` if the protagonist genuinely does not know what was used (an open in-story mystery); `"needs_review"` if you have not yet looked it up.
 - `cause_detail`, `motive_detail`: (string, optional) Extra narrative detail.
 - `ordinal`: (integer, optional) Order of death within the work.
 - `is_central_death`: (boolean, optional, default `false`) `true` if this is the primary mystery.

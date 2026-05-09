@@ -17,7 +17,7 @@ The file must be a **JSON array** of objects. Each object is one media item.
 - `title`: (string) Full title of the work.
 - `wikidata_id`: (string or null) The Wikidata ID (e.g. `"Q2577458"`). Look it up at wikidata.org. Set to `null` if no Wikidata entry exists.
 - `slug`: (string) Unique identifier. **If `wikidata_id` is set, omit this field** — the ingest script fills it in automatically. If `wikidata_id` is null, provide a URL-safe slug, e.g. `"monk-s08e16"` or `"columbo-s01e01"`.
-- `media_type`: (string) One of: `book`, `movie`, `tv_show`, `tv_episode`, `game`, `short_story`, `play`, `podcast`.
+- `media_type`: (string) One of: `Book`, `Movie`, `TvShow`, `TvEpisode`, `Game`, `ShortStory`, `Play`, `Podcast`.
 - `persons`: (array) Every character mentioned in a death event (see below).
 - `deaths`: (array) Death events (see below).
 
@@ -56,7 +56,7 @@ Every name used in a `death` event **must** be defined here first.
 
 - `id`: (string, optional) Stable slug identifier for this person within this scope (e.g. `"emily-inglethorp"`). The ingest tool auto-generates it from the name if omitted — you only need to supply it when you want a specific value (e.g. to avoid a collision or match a pre-existing ID).
 - `name`: (string, required)
-- `role_in_story`: (optional) One of: `protagonist`, `antagonist`, `victim`, `detective`, `bystander`, `unknown`.
+- `role_in_story`: (optional) One of: `Protagonist`, `Antagonist`, `Victim`, `Detective`, `Bystander`, `Unknown`.
 - `is_solver`: (boolean, optional) `true` if this person actively cracks the central mystery. Use this to distinguish the detective who *nominally* investigates from whoever *actually* solves it. In Sherlock Holmes, Holmes gets `is_solver: true`; in Knives Out, Marta gets `is_solver: true` (not Blanc). Leave null if ambiguous or irrelevant.
 - `is_fictional`: (boolean, default `true`)
 - `nationality`, `ethnicity`, `gender`, `approximate_age`, `profession`: (string, optional)
@@ -71,49 +71,49 @@ Every name used in a `death` event **must** be defined here first.
 - `victim_id`: ID of the victim — must match an `id` in `persons`. You may instead supply `victim_name` (the person's display name) and the ingest tool will resolve it to the ID automatically.
 - (killers) `person_id`: ID of the killer — must match an `id` in `persons`. You may instead supply `name` (the person's display name) and the ingest tool will resolve it.
 - `cause`: (required) One of:
-  `POISONED`, `SHOT`, `STABBED`, `CLUBBED`, `STRANGLED`, `DROWNED`, `BURNED`, `HANGED`, `FELL`, `CRUSHED`, `SUFFOCATED`, `EXPLODED`, `ELECTROCUTED`, `FROZEN`, `ILLNESS`, `EATEN`, `TORN_APART`, `VEHICULAR`, `UNKNOWN`, `OTHER`.
-  Use `VEHICULAR` for deaths caused by a vehicle (car, train, etc.). Use `UNKNOWN` when the cause is not specified in the narrative. Reserve `OTHER` only for methods that fit none of the above.
-  **`means` is required for every `cause` except `OTHER`** — see below.
+  `Poisoned`, `Shot`, `Stabbed`, `Clubbed`, `Strangled`, `Drowned`, `Burned`, `Hanged`, `Fell`, `Crushed`, `Suffocated`, `Exploded`, `Electrocuted`, `Frozen`, `Illness`, `Eaten`, `TornApart`, `Vehicular`, `Unknown`, `Other`.
+  Use `Vehicular` for deaths caused by a vehicle (car, train, etc.). Use `Unknown` when the cause is not specified in the narrative. Reserve `Other` only for methods that fit none of the above.
+  **`means` is required for every `cause` except `Other`** — see below.
 - `death_type`: (required) One of:
-  `homicide`, `attempted_homicide`, `execution`, `accident`, `natural_death`, `unknown`.
-  Key rules: **suicide** is represented as `homicide` with the victim also listed in `killers` (killer == victim). **Manslaughter** is represented as `homicide` with the killer's `mens_rea` set to `recklessly` or `negligently`. **Accidents involving no human culprit** use `accident` with an empty `killers` list.
+  `Homicide`, `AttemptedHomicide`, `Execution`, `Accident`, `NaturalDeath`, `Unknown`.
+  Key rules: **suicide** is represented as `Homicide` with the victim also listed in `killers` (killer == victim). **Manslaughter** is represented as `Homicide` with the killer's `mens_rea` set to `Recklessly` or `Negligently`. **Accidents involving no human culprit** use `Accident` with an empty `killers` list.
 - `motive`: One of:
-  `greed_inheritance`, `greed_financial`, `blackmail`, `jealousy`, `revenge`, `ideology`, `self_defense`, `concealment`, `passion`,
-  `vigilante_justice`, `freedom`, `family_protection`, `pathological`, `mercy`, `penance`,
-  `unknown`, `other`, `needs_review`.
-  Key distinctions: `vigilante_justice` = self-appointed execution of those deemed guilty who escaped legal justice; `family_protection` = killing to shield family from ruin or scandal; `freedom` = escaping an unwanted relationship or controlling figure; `pathological` = compulsive or irrational psychological motive; `mercy` = ending another's suffering; `penance` = atonement or confession-driven act. Reserve `other` only when none of the above fit. Use `unknown` when the narrative genuinely does not state a reason; use `needs_review` as a placeholder when you have not yet researched it.
-  **Required for all `death_type` values except `accident` and `natural_death`** — use `unknown` if the reason is not stated in the narrative, or `needs_review` if not yet researched. For `homicide` representing a suicide, use the victim's own motive (e.g. `penance`, `freedom`, `pathological`).
+  `GreedInheritance`, `GreedFinancial`, `Blackmail`, `Jealousy`, `Revenge`, `Ideology`, `SelfDefense`, `Concealment`, `Passion`,
+  `VigilanteJustice`, `Freedom`, `FamilyProtection`, `Pathological`, `Mercy`, `Penance`,
+  `Unknown`, `Other`, `NeedsReview`.
+  Key distinctions: `VigilanteJustice` = self-appointed execution of those deemed guilty who escaped legal justice; `FamilyProtection` = killing to shield family from ruin or scandal; `Freedom` = escaping an unwanted relationship or controlling figure; `Pathological` = compulsive or irrational psychological motive; `Mercy` = ending another's suffering; `Penance` = atonement or confession-driven act. Reserve `Other` only when none of the above fit. Use `Unknown` when the narrative genuinely does not state a reason; use `NeedsReview` as a placeholder when you have not yet researched it.
+  **Required for all `death_type` values except `Accident` and `NaturalDeath`** — use `Unknown` if the reason is not stated in the narrative, or `NeedsReview` if not yet researched. For `Homicide` representing a suicide, use the victim's own motive (e.g. `Penance`, `Freedom`, `Pathological`).
 - `killers`: (array, default `[]`) Each entry is an object describing one killer's role in the death. A death may have zero, one, or multiple killers (e.g. co-conspirators with different levels of involvement):
   - `person_id`: (string) Must match an `id` in `persons`. Alternatively, supply `name` (the person's display name) and ingest resolves it. One of the two is required.
   - `mens_rea`: **(required)** MPC mens rea — choose the highest that applies:
-    - `purposely` — desired the death (classic premeditation)
-    - `knowingly` — didn't desire death per se but knew it was certain
-    - `recklessly` — consciously disregarded a substantial risk of death
-    - `negligently` — should have known their conduct risked death
-    - `accidentally` — zero culpability; pure accident
-    - `unknown` — media does not make the mental state clear
-    - `needs_review` — placeholder; not yet researched
+    - `Purposely` — desired the death (classic premeditation)
+    - `Knowingly` — didn't desire death per se but knew it was certain
+    - `Recklessly` — consciously disregarded a substantial risk of death
+    - `Negligently` — should have known their conduct risked death
+    - `Accidentally` — zero culpability; pure accident
+    - `Unknown` — media does not make the mental state clear
+    - `NeedsReview` — placeholder; not yet researched
   - `circumstance`: **(required)** Contextual justification or mitigation:
-    - `justified` — war, self-defense, euthanasia
-    - `mitigated` — diminished capacity, coercion, extreme duress
-    - `neutral` — no special circumstance
-    - `unknown` — media does not make it clear
-    - `needs_review` — placeholder; not yet researched
+    - `Justified` — war, self-defense, euthanasia
+    - `Mitigated` — diminished capacity, coercion, extreme duress
+    - `Neutral` — no special circumstance
+    - `Unknown` — media does not make it clear
+    - `NeedsReview` — placeholder; not yet researched
 - `tropes`: (array of strings, optional) Mystery tropes that apply to this death. Choose from:
-  - `locked_room` — death occurred in a sealed space with no apparent entry/exit
-  - `impossible_crime` — the crime appears physically impossible
-  - `howcatchem` — killer is known from the start; interest is the investigation
-  - `whodunit` — identity of the killer is unknown until the end
-  - `whydunit` — killer's identity is known; the motive is the mystery
-  - `howdunit` — the method of the crime is the central puzzle
-  - `dying_clue` — the victim left a cryptic clue pointing to the killer
-  - `alibi_trick` — the killer's alibi is constructed or faked
-  - `closed_circle` — suspects are isolated together (snowbound house, island, train, etc.)
-  - `needle_in_haystack` — the killer is hidden among many plausible suspects
-  - `least_likely_suspect` — the killer is the character the reader would least expect
-  - `frame_up` — an innocent person is deliberately framed
-  - `mistaken_identity` — the crime stems from a case of mistaken identity
-- `means`: (string) **Required** for every `cause` except `OTHER`. Specify the exact substance, weapon, or mechanism (e.g. `"arsenic"`, `"revolver"`, `"kitchen knife"`, `"cliff edge"`, `"car"`). When `cause` is `UNKNOWN`, set `means` to `"unknown"` as well. Three additional reserved values: `"unmentioned"` if the narrative never names the specific item; `"unknown"` if the protagonist genuinely does not know what was used (an open in-story mystery); `"needs_review"` if you have not yet looked it up.
+  - `LockedRoom` — death occurred in a sealed space with no apparent entry/exit
+  - `ImpossibleCrime` — the crime appears physically impossible
+  - `HowCatchem` — killer is known from the start; interest is the investigation
+  - `Whodunit` — identity of the killer is unknown until the end
+  - `Whydunit` — killer's identity is known; the motive is the mystery
+  - `Howdunit` — the method of the crime is the central puzzle
+  - `DyingClue` — the victim left a cryptic clue pointing to the killer
+  - `AlibiTrick` — the killer's alibi is constructed or faked
+  - `ClosedCircle` — suspects are isolated together (snowbound house, island, train, etc.)
+  - `NeedleInHaystack` — the killer is hidden among many plausible suspects
+  - `LeastLikelySuspect` — the killer is the character the reader would least expect
+  - `FrameUp` — an innocent person is deliberately framed
+  - `MistakenIdentity` — the crime stems from a case of mistaken identity
+- `means`: (string) **Required** for every `cause` except `Other`. Specify the exact substance, weapon, or mechanism (e.g. `"arsenic"`, `"revolver"`, `"kitchen knife"`, `"cliff edge"`, `"car"`). When `cause` is `Unknown`, set `means` to `"unknown"` as well. Three additional reserved values: `"unmentioned"` if the narrative never names the specific item; `"unknown"` if the protagonist genuinely does not know what was used (an open in-story mystery); `"needs_review"` if you have not yet looked it up.
 - `cause_detail`, `motive_detail`: (string, optional) Extra narrative detail.
 - `ordinal`: (integer, optional) Order of death within the work.
 - `is_central_death`: (boolean, optional, default `false`) `true` if this is the primary mystery.
@@ -136,16 +136,16 @@ Optional object on a media item. Store the **identifier** for each source, not t
 | `steam_id` | Numeric app ID only | `"1234567"` |
 | `itch_slug` | `author/game-slug` | `"inkle/80-days"` |
 
-Each source has a paired `*_status` field — `"exists"`, `"none"`, or `"needs_review"` (default). Setting a slug auto-implies `"exists"`; use `"none"` to record that you confirmed no page exists for this work.
+Each source has a paired `*_status` field — `"Exists"`, `"None"`, or `"NeedsReview"` (default). Setting a slug auto-implies `"Exists"`; use `"None"` to record that you confirmed no page exists for this work.
 
 ```json
 "external_links": {
   "tvtropes_slug": "Literature/AndThenThereWereNone",
   "wikipedia_slug": "And_Then_There_Were_None",
   "fandom_slug": "agathachristie/And_Then_There_Were_None",
-  "fandom_status": "exists",
+  "fandom_status": "Exists",
   "goodreads_id": "16299",
-  "steam_status": "none"
+  "steam_status": "None"
 }
 ```
 
@@ -160,7 +160,7 @@ Only include fields you have data for. All fields are optional.
   {
     "wikidata_id": "Q12345",
     "title": "Example Mystery",
-    "media_type": "book",
+    "media_type": "Book",
     "creator": "Jane Doe",
     "year": 2024,
     "tags": ["golden-age"],
@@ -169,20 +169,20 @@ Only include fields you have data for. All fields are optional.
       "tvtropes_slug": "Literature/ExampleMystery"
     },
     "persons": [
-      { "name": "Alice", "role_in_story": "victim" },
-      { "name": "Bob", "role_in_story": "antagonist" }
+      { "name": "Alice", "role_in_story": "Victim" },
+      { "name": "Bob", "role_in_story": "Antagonist" }
     ],
     "deaths": [
       {
         "victim_id": "alice",
-        "cause": "POISONED",
+        "cause": "Poisoned",
         "means": "arsenic",
-        "death_type": "homicide",
+        "death_type": "Homicide",
         "killers": [
-          { "person_id": "bob", "mens_rea": "purposely", "circumstance": "neutral" }
+          { "person_id": "bob", "mens_rea": "Purposely", "circumstance": "Neutral" }
         ],
-        "motive": "revenge",
-        "tropes": ["whodunit", "closed_circle"],
+        "motive": "Revenge",
+        "tropes": ["Whodunit", "ClosedCircle"],
         "is_central_death": true,
         "is_twist": false
       }

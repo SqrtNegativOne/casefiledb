@@ -29,7 +29,7 @@ export const CAUSE_COLORS = {
   EATEN: '#8b4513',
   TORN_APART: '#641e16',
   VEHICULAR: '#7f8c8d',
-  UNKNOWN: '#bdc3c7',
+  UNSTATED: '#bdc3c7',
   OTHER: '#a04000',
 }
 
@@ -41,7 +41,7 @@ export const TYPE_LABELS = {
   natural_death: 'Natural death',
   accident: 'Accident',
   execution: 'Execution',
-  unknown: 'Unknown',
+  unknown: 'Unstated',
 }
 
 export const TYPE_COLORS = {
@@ -56,7 +56,7 @@ export const TYPE_COLORS = {
 }
 
 export function causeLabel(c) {
-  if (!c) return 'Unknown'
+  if (!c) return 'Unstated'
   return c.charAt(0) + c.slice(1).toLowerCase().replace(/_/g, ' ')
 }
 
@@ -110,12 +110,12 @@ export function computeStats(entries) {
 
   for (const { death, media } of entries) {
     if (media?.slug) works.add(media.slug)
-    const cause = death.cause || 'UNKNOWN'
+    const cause = death.cause || 'UNSTATED'
     causeMap.set(cause, (causeMap.get(cause) || 0) + 1)
     const cat = categorizeDeath(death)
     typeMap.set(cat, (typeMap.get(cat) || 0) + 1)
     if (death.motive) motiveMap.set(death.motive, (motiveMap.get(death.motive) || 0) + 1)
-    if (death.means && death.means !== 'unknown' && death.means !== 'unmentioned' && death.means !== 'needs_review') {
+    if (death.means && death.means !== 'unmentioned' && death.means !== 'needs_review') {
       const key = String(death.means).toLowerCase()
       meansMap.set(key, (meansMap.get(key) || 0) + 1)
     }

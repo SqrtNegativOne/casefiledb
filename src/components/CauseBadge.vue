@@ -2,7 +2,7 @@
 const props = defineProps({ cause: String, means: String })
 
 function label(c) {
-  if (!c) return 'Unknown'
+  if (!c) return 'Unstated'
   return c.charAt(0) + c.slice(1).toLowerCase().replace(/_/g, ' ')
 }
 </script>

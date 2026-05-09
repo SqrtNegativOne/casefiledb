@@ -1,474 +1,14 @@
 {
   "items": [
     {
-      "slug": "mentalist-s01e01",
-      "media_type": "tv_episode",
-      "title": "Pilot",
-      "url": "https://thementalist.fandom.com/wiki/Pilot",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s01e02",
-      "media_type": "tv_episode",
-      "title": "Red Hair and Silver Tape",
-      "url": "https://thementalist.fandom.com/wiki/Red_Hair_and_Silver_Tape",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s01e03",
-      "media_type": "tv_episode",
-      "title": "Red Tide",
-      "url": "https://thementalist.fandom.com/wiki/Red_Tide",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s01e04",
-      "media_type": "tv_episode",
-      "title": "Ladies in Red",
-      "url": "https://thementalist.fandom.com/wiki/Ladies_in_Red",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s01e05",
-      "media_type": "tv_episode",
-      "title": "Redwood",
-      "url": "https://thementalist.fandom.com/wiki/Redwood",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s01e06",
-      "media_type": "tv_episode",
-      "title": "Red Handed",
-      "url": "https://thementalist.fandom.com/wiki/Red_Handed",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s01e07",
-      "media_type": "tv_episode",
-      "title": "Seeing Red",
-      "url": "https://thementalist.fandom.com/wiki/Seeing_Red",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s01e08",
-      "media_type": "tv_episode",
-      "title": "The Thin Red Line",
-      "url": "https://thementalist.fandom.com/wiki/The_Thin_Red_Line",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s01e09",
-      "media_type": "tv_episode",
-      "title": "Flame Red",
-      "url": "https://thementalist.fandom.com/wiki/Flame_Red",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s01e10",
-      "media_type": "tv_episode",
-      "title": "Red Brick and Ivy",
-      "url": "https://thementalist.fandom.com/wiki/Red_Brick_and_Ivy",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s01e11",
-      "media_type": "tv_episode",
-      "title": "Red John's Friends",
-      "url": "https://thementalist.fandom.com/wiki/Red_John%27s_Friends",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s01e12",
-      "media_type": "tv_episode",
-      "title": "Red Rum",
-      "url": "https://thementalist.fandom.com/wiki/Red_Rum",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s01e13",
-      "media_type": "tv_episode",
-      "title": "Paint It Red",
-      "url": "https://thementalist.fandom.com/wiki/Paint_It_Red",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s01e14",
-      "media_type": "tv_episode",
-      "title": "Crimson Casanova",
-      "url": "https://thementalist.fandom.com/wiki/Crimson_Casanova",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s01e15",
-      "media_type": "tv_episode",
-      "title": "Scarlett Fever",
-      "url": "https://thementalist.fandom.com/wiki/Scarlett_Fever",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s01e16",
-      "media_type": "tv_episode",
-      "title": "Bloodshot",
-      "url": "https://thementalist.fandom.com/wiki/Bloodshot",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s01e17",
-      "media_type": "tv_episode",
-      "title": "Carnelian Inc.",
-      "url": "https://thementalist.fandom.com/wiki/Carnelian%2C_Inc.",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s01e18",
-      "media_type": "tv_episode",
-      "title": "Russet Potatoes",
-      "url": "https://thementalist.fandom.com/wiki/Russet_Potatoes",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s01e19",
-      "media_type": "tv_episode",
-      "title": "A Dozen Red Roses",
-      "url": "https://thementalist.fandom.com/wiki/A_Dozen_Red_Roses",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s01e20",
-      "media_type": "tv_episode",
-      "title": "Red Sauce",
-      "url": "https://thementalist.fandom.com/wiki/Red_Sauce",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s01e21",
-      "media_type": "tv_episode",
-      "title": "Miss Red",
-      "url": "https://thementalist.fandom.com/wiki/Miss_Red",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s01e22",
-      "media_type": "tv_episode",
-      "title": "Blood Brothers",
-      "url": "https://thementalist.fandom.com/wiki/Blood_Brothers",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s01e23",
-      "media_type": "tv_episode",
-      "title": "Red John's Footsteps",
-      "url": "https://thementalist.fandom.com/wiki/Red_John%27s_Footsteps",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s02e01",
-      "media_type": "tv_episode",
-      "title": "Redemption",
-      "url": "https://thementalist.fandom.com/wiki/Redemption",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s02e02",
-      "media_type": "tv_episode",
-      "title": "The Scarlet Letter",
-      "url": "https://thementalist.fandom.com/wiki/The_Scarlet_Letter",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s02e03",
-      "media_type": "tv_episode",
-      "title": "Red Badge",
-      "url": "https://thementalist.fandom.com/wiki/Red_Badge",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s02e04",
-      "media_type": "tv_episode",
-      "title": "Red Menace",
-      "url": "https://thementalist.fandom.com/wiki/Red_Menace",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s02e05",
-      "media_type": "tv_episode",
-      "title": "Red Scare",
-      "url": "https://thementalist.fandom.com/wiki/Red_Scare",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s02e06",
-      "media_type": "tv_episode",
-      "title": "Black Gold and Red Blood",
-      "url": "https://thementalist.fandom.com/wiki/Black_Gold_and_Red_Blood",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s02e07",
-      "media_type": "tv_episode",
-      "title": "Red Bulls",
-      "url": "https://thementalist.fandom.com/wiki/Red_Bulls",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s02e08",
-      "media_type": "tv_episode",
-      "title": "His Red Right Hand",
-      "url": "https://thementalist.fandom.com/wiki/His_Red_Right_Hand",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s02e09",
-      "media_type": "tv_episode",
-      "title": "A Price Above Rubies",
-      "url": "https://thementalist.fandom.com/wiki/A_Price_Above_Rubies",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s02e10",
-      "media_type": "tv_episode",
-      "title": "Throwing Fire",
-      "url": "https://thementalist.fandom.com/wiki/Throwing_Fire",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s02e11",
-      "media_type": "tv_episode",
-      "title": "Rose-Colored Glasses",
-      "url": "https://thementalist.fandom.com/wiki/Rose-Colored_Glasses",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s02e12",
-      "media_type": "tv_episode",
-      "title": "Bleeding Heart",
-      "url": "https://thementalist.fandom.com/wiki/Bleeding_Heart",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s02e13",
-      "media_type": "tv_episode",
-      "title": "Redline",
-      "url": "https://thementalist.fandom.com/wiki/Redline",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s02e14",
-      "media_type": "tv_episode",
-      "title": "Blood In, Blood Out",
-      "url": "https://thementalist.fandom.com/wiki/Blood_In%2C_Blood_Out",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s02e15",
-      "media_type": "tv_episode",
-      "title": "Red Herring",
-      "url": "https://thementalist.fandom.com/wiki/Red_Herring",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s02e16",
-      "media_type": "tv_episode",
-      "title": "Code Red",
-      "url": "https://thementalist.fandom.com/wiki/Code_Red",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s02e17",
-      "media_type": "tv_episode",
-      "title": "The Red Box",
-      "url": "https://thementalist.fandom.com/wiki/The_Red_Box",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s02e18",
-      "media_type": "tv_episode",
-      "title": "Aingavite Baa",
-      "url": "https://thementalist.fandom.com/wiki/Aingavite_Baa",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s02e19",
-      "media_type": "tv_episode",
-      "title": "Blood Money",
-      "url": "https://thementalist.fandom.com/wiki/Blood_Money",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s02e20",
-      "media_type": "tv_episode",
-      "title": "Red All Over",
-      "url": "https://thementalist.fandom.com/wiki/Red_All_Over",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s02e21",
-      "media_type": "tv_episode",
-      "title": "18-5-4",
-      "url": "https://thementalist.fandom.com/wiki/18-5-4",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s02e22",
-      "media_type": "tv_episode",
-      "title": "Red Letter",
-      "url": "https://thementalist.fandom.com/wiki/Red_Letter",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s02e23",
-      "media_type": "tv_episode",
-      "title": "Red Sky in the Morning",
-      "url": "https://thementalist.fandom.com/wiki/Red_Sky_in_the_Morning",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
       "slug": "mentalist-s03e01",
       "media_type": "tv_episode",
       "title": "Red Sky at Night",
       "url": "https://thementalist.fandom.com/wiki/Red_Sky_at_Night",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "mentalist-s03e02",
@@ -476,9 +16,9 @@
       "title": "Cackle-Bladder Blood",
       "url": "https://thementalist.fandom.com/wiki/Cackle-Bladder_Blood",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "mentalist-s03e03",
@@ -486,339 +26,9 @@
       "title": "The Blood on His Hands",
       "url": "https://thementalist.fandom.com/wiki/The_Blood_on_His_Hands",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s03e04",
-      "media_type": "tv_episode",
-      "title": "Red Carpet Treatment",
-      "url": "https://thementalist.fandom.com/wiki/Red_Carpet_Treatment",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s03e05",
-      "media_type": "tv_episode",
-      "title": "The Red Ponies",
-      "url": "https://thementalist.fandom.com/wiki/The_Red_Ponies",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s03e06",
-      "media_type": "tv_episode",
-      "title": "Pink Chanel Suit",
-      "url": "https://thementalist.fandom.com/wiki/Pink_Chanel_Suit",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s03e07",
-      "media_type": "tv_episode",
-      "title": "Red Hot",
-      "url": "https://thementalist.fandom.com/wiki/Red_Hot",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s03e08",
-      "media_type": "tv_episode",
-      "title": "Ball of Fire",
-      "url": "https://thementalist.fandom.com/wiki/Ball_of_Fire",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s03e09",
-      "media_type": "tv_episode",
-      "title": "Red Moon",
-      "url": "https://thementalist.fandom.com/wiki/Red_Moon",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s03e10",
-      "media_type": "tv_episode",
-      "title": "Jolly Red Elf",
-      "url": "https://thementalist.fandom.com/wiki/Jolly_Red_Elf",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s03e11",
-      "media_type": "tv_episode",
-      "title": "Bloodsport",
-      "url": "https://thementalist.fandom.com/wiki/Bloodsport",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s03e12",
-      "media_type": "tv_episode",
-      "title": "Bloodhounds",
-      "url": "https://thementalist.fandom.com/wiki/Bloodhounds",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s03e13",
-      "media_type": "tv_episode",
-      "title": "Red Alert",
-      "url": "https://thementalist.fandom.com/wiki/Red_Alert",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s03e14",
-      "media_type": "tv_episode",
-      "title": "Blood for Blood",
-      "url": "https://thementalist.fandom.com/wiki/Blood_for_Blood",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s03e15",
-      "media_type": "tv_episode",
-      "title": "Red Gold",
-      "url": "https://thementalist.fandom.com/wiki/Red_Gold",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s03e16",
-      "media_type": "tv_episode",
-      "title": "Red Queen",
-      "url": "https://thementalist.fandom.com/wiki/Red_Queen",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s03e17",
-      "media_type": "tv_episode",
-      "title": "Bloodstream",
-      "url": "https://thementalist.fandom.com/wiki/Bloodstream",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s03e18",
-      "media_type": "tv_episode",
-      "title": "The Red Mile",
-      "url": "https://thementalist.fandom.com/wiki/The_Red_Mile",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s03e19",
-      "media_type": "tv_episode",
-      "title": "Every Rose Has Its Thorn",
-      "url": "https://thementalist.fandom.com/wiki/Every_Rose_Has_Its_Thorn",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s03e20",
-      "media_type": "tv_episode",
-      "title": "Redacted",
-      "url": "https://thementalist.fandom.com/wiki/Redacted",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s03e21",
-      "media_type": "tv_episode",
-      "title": "Like a Redheaded Stepchild",
-      "url": "https://thementalist.fandom.com/wiki/Like_a_Redheaded_Stepchild",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s03e22",
-      "media_type": "tv_episode",
-      "title": "Rhapsody in Red",
-      "url": "https://thementalist.fandom.com/wiki/Rhapsody_in_Red",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s03e23",
-      "media_type": "tv_episode",
-      "title": "Strawberries and Cream, Part I",
-      "url": "https://thementalist.fandom.com/wiki/Strawberries_and_Cream",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s03e24",
-      "media_type": "tv_episode",
-      "title": "Strawberries and Cream, Part II",
-      "url": "https://thementalist.fandom.com/wiki/Strawberries_and_Cream",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s04e01",
-      "media_type": "tv_episode",
-      "title": "Scarlet Ribbons",
-      "url": "https://thementalist.fandom.com/wiki/Scarlet_Ribbons",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s04e02",
-      "media_type": "tv_episode",
-      "title": "Little Red Book",
-      "url": "https://thementalist.fandom.com/wiki/Little_Red_Book",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s04e03",
-      "media_type": "tv_episode",
-      "title": "Pretty Red Balloon",
-      "url": "https://thementalist.fandom.com/wiki/Pretty_Red_Balloon",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s04e04",
-      "media_type": "tv_episode",
-      "title": "Ring Around the Rosie",
-      "url": "https://thementalist.fandom.com/wiki/Ring_Around_the_Rosie",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s04e05",
-      "media_type": "tv_episode",
-      "title": "Blood and Sand",
-      "url": "https://thementalist.fandom.com/wiki/Blood_and_Sand",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s04e06",
-      "media_type": "tv_episode",
-      "title": "Where in the World is Carmine O'Brien?",
-      "url": "https://thementalist.fandom.com/wiki/Where_in_the_World_is_Carmine_O%27Brien%3F",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s04e07",
-      "media_type": "tv_episode",
-      "title": "Blinking Red Light",
-      "url": "https://thementalist.fandom.com/wiki/Blinking_Red_Light",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s04e08",
-      "media_type": "tv_episode",
-      "title": "Pink Tops",
-      "url": "https://thementalist.fandom.com/wiki/Pink_Tops",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s04e09",
-      "media_type": "tv_episode",
-      "title": "The Redshirt",
-      "url": "https://thementalist.fandom.com/wiki/The_Redshirt",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s04e10",
-      "media_type": "tv_episode",
-      "title": "Fugue in Red",
-      "url": "https://thementalist.fandom.com/wiki/Fugue_in_Red",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s04e11",
-      "media_type": "tv_episode",
-      "title": "Always Bet on Red",
-      "url": "https://thementalist.fandom.com/wiki/Always_Bet_on_Red",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s04e12",
-      "media_type": "tv_episode",
-      "title": "My Bloody Valentine",
-      "url": "https://thementalist.fandom.com/wiki/My_Bloody_Valentine",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "mentalist-s04e13",
@@ -826,189 +36,9 @@
       "title": "Red Is the New Black",
       "url": "https://thementalist.fandom.com/wiki/Red_Is_the_New_Black",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s04e14",
-      "media_type": "tv_episode",
-      "title": "At First Blush",
-      "url": "https://thementalist.fandom.com/wiki/At_First_Blush",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s04e15",
-      "media_type": "tv_episode",
-      "title": "War of the Roses",
-      "url": "https://thementalist.fandom.com/wiki/War_of_the_Roses",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s04e16",
-      "media_type": "tv_episode",
-      "title": "His Thoughts Were Red Thoughts",
-      "url": "https://thementalist.fandom.com/wiki/His_Thoughts_Were_Red_Thoughts",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s04e17",
-      "media_type": "tv_episode",
-      "title": "Cheap Burgundy",
-      "url": "https://thementalist.fandom.com/wiki/Cheap_Burgundy",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s04e18",
-      "media_type": "tv_episode",
-      "title": "Ruddy Cheeks",
-      "url": "https://thementalist.fandom.com/wiki/Ruddy_Cheeks",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s04e19",
-      "media_type": "tv_episode",
-      "title": "Pink Champagne on Ice",
-      "url": "https://thementalist.fandom.com/wiki/Pink_Champagne_on_Ice",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s04e20",
-      "media_type": "tv_episode",
-      "title": "Something's Rotten in Redmund",
-      "url": "https://thementalist.fandom.com/wiki/Something%27s_Rotten_in_Redmund",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s04e21",
-      "media_type": "tv_episode",
-      "title": "Ruby Slippers",
-      "url": "https://thementalist.fandom.com/wiki/Ruby_Slippers",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s04e22",
-      "media_type": "tv_episode",
-      "title": "So Long, and Thanks for All the Red Snapper",
-      "url": "https://thementalist.fandom.com/wiki/So_Long%2C_and_Thanks_for_All_the_Red_Snapper",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s04e23",
-      "media_type": "tv_episode",
-      "title": "Red Rover, Red Rover",
-      "url": "https://thementalist.fandom.com/wiki/Red_Rover%2C_Red_Rover",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s04e24",
-      "media_type": "tv_episode",
-      "title": "The Crimson Hat",
-      "url": "https://thementalist.fandom.com/wiki/The_Crimson_Hat",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s05e01",
-      "media_type": "tv_episode",
-      "title": "The Crimson Ticket",
-      "url": "https://thementalist.fandom.com/wiki/The_Crimson_Ticket",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s05e02",
-      "media_type": "tv_episode",
-      "title": "Devil's Cherry",
-      "url": "https://thementalist.fandom.com/wiki/Devil%27s_Cherry",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s05e03",
-      "media_type": "tv_episode",
-      "title": "Not One Red Cent",
-      "url": "https://thementalist.fandom.com/wiki/Not_One_Red_Cent",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s05e04",
-      "media_type": "tv_episode",
-      "title": "Blood Feud",
-      "url": "https://thementalist.fandom.com/wiki/Blood_Feud",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s05e05",
-      "media_type": "tv_episode",
-      "title": "Red Dawn",
-      "url": "https://thementalist.fandom.com/wiki/Red_Dawn",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s05e06",
-      "media_type": "tv_episode",
-      "title": "Cherry Picked",
-      "url": "https://thementalist.fandom.com/wiki/Cherry_Picked",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s05e07",
-      "media_type": "tv_episode",
-      "title": "If It Bleeds, It Leads",
-      "url": "https://thementalist.fandom.com/wiki/If_It_Bleeds%2C_It_Leads",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "mentalist-s05e08",
@@ -1016,289 +46,9 @@
       "title": "Red Sails in the Sunset",
       "url": "https://thementalist.fandom.com/wiki/Red_Sails_in_the_Sunset",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s05e09",
-      "media_type": "tv_episode",
-      "title": "Black Cherry",
-      "url": "https://thementalist.fandom.com/wiki/Black_Cherry",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s05e10",
-      "media_type": "tv_episode",
-      "title": "Panama Red",
-      "url": "https://thementalist.fandom.com/wiki/Panama_Red",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s05e11",
-      "media_type": "tv_episode",
-      "title": "Days of Wine and Roses",
-      "url": "https://thementalist.fandom.com/wiki/Days_of_Wine_and_Roses",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s05e12",
-      "media_type": "tv_episode",
-      "title": "Little Red Corvette",
-      "url": "https://thementalist.fandom.com/wiki/Little_Red_Corvette",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s05e13",
-      "media_type": "tv_episode",
-      "title": "The Red Barn",
-      "url": "https://thementalist.fandom.com/wiki/The_Red_Barn",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s05e14",
-      "media_type": "tv_episode",
-      "title": "Red in Tooth and Claw",
-      "url": "https://thementalist.fandom.com/wiki/Red_in_Tooth_and_Claw",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s05e15",
-      "media_type": "tv_episode",
-      "title": "Red Lacquer Nail Polish",
-      "url": "https://thementalist.fandom.com/wiki/Red_Lacquer_Nail_Polish",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s05e16",
-      "media_type": "tv_episode",
-      "title": "There Will Be Blood",
-      "url": "https://thementalist.fandom.com/wiki/There_Will_Be_Blood",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s05e17",
-      "media_type": "tv_episode",
-      "title": "Red, White and Blue",
-      "url": "https://thementalist.fandom.com/wiki/Red%2C_White_and_Blue",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s05e18",
-      "media_type": "tv_episode",
-      "title": "Behind the Red Curtain",
-      "url": "https://thementalist.fandom.com/wiki/Behind_the_Red_Curtain",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s05e19",
-      "media_type": "tv_episode",
-      "title": "Red Letter Day",
-      "url": "https://thementalist.fandom.com/wiki/Red_Letter_Day",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s05e20",
-      "media_type": "tv_episode",
-      "title": "Red Velvet Cupcakes",
-      "url": "https://thementalist.fandom.com/wiki/Red_Velvet_Cupcakes",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s05e21",
-      "media_type": "tv_episode",
-      "title": "Red and Itchy",
-      "url": "https://thementalist.fandom.com/wiki/Red_and_Itchy",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s05e22",
-      "media_type": "tv_episode",
-      "title": "Red John's Rules",
-      "url": "https://thementalist.fandom.com/wiki/Red_John%27s_Rules",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s06e01",
-      "media_type": "tv_episode",
-      "title": "The Desert Rose",
-      "url": "https://thementalist.fandom.com/wiki/The_Desert_Rose",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s06e02",
-      "media_type": "tv_episode",
-      "title": "Black-Winged Redbird",
-      "url": "https://thementalist.fandom.com/wiki/Black-Winged_Redbird",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s06e03",
-      "media_type": "tv_episode",
-      "title": "Wedding in Red",
-      "url": "https://thementalist.fandom.com/wiki/Wedding_in_Red",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s06e04",
-      "media_type": "tv_episode",
-      "title": "Red Listed",
-      "url": "https://thementalist.fandom.com/wiki/Red_Listed",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s06e05",
-      "media_type": "tv_episode",
-      "title": "The Red Tattoo",
-      "url": "https://thementalist.fandom.com/wiki/The_Red_Tattoo",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s06e06",
-      "media_type": "tv_episode",
-      "title": "Fire and Brimstone",
-      "url": "https://thementalist.fandom.com/wiki/Fire_and_Brimstone",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s06e07",
-      "media_type": "tv_episode",
-      "title": "The Great Red Dragon",
-      "url": "https://thementalist.fandom.com/wiki/The_Great_Red_Dragon",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s06e08",
-      "media_type": "tv_episode",
-      "title": "Red John",
-      "url": "https://thementalist.fandom.com/wiki/Red_John",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s06e09",
-      "media_type": "tv_episode",
-      "title": "My Blue Heaven",
-      "url": "https://thementalist.fandom.com/wiki/My_Blue_Heaven",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s06e10",
-      "media_type": "tv_episode",
-      "title": "Green Thumb",
-      "url": "https://thementalist.fandom.com/wiki/Green_Thumb",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s06e11",
-      "media_type": "tv_episode",
-      "title": "White Lines",
-      "url": "https://thementalist.fandom.com/wiki/White_Lines",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s06e12",
-      "media_type": "tv_episode",
-      "title": "The Golden Hammer",
-      "url": "https://thementalist.fandom.com/wiki/The_Golden_Hammer",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s06e13",
-      "media_type": "tv_episode",
-      "title": "Black Helicopters",
-      "url": "https://thementalist.fandom.com/wiki/Black_Helicopters",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s06e14",
-      "media_type": "tv_episode",
-      "title": "Grey Water",
-      "url": "https://thementalist.fandom.com/wiki/Grey_Water",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "mentalist-s06e15",
@@ -1306,259 +56,9 @@
       "title": "White As the Driven Snow",
       "url": "https://thementalist.fandom.com/wiki/White_As_the_Driven_Snow",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s06e16",
-      "media_type": "tv_episode",
-      "title": "Violets",
-      "url": "https://thementalist.fandom.com/wiki/Violets",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s06e17",
-      "media_type": "tv_episode",
-      "title": "Silver Wings of Time",
-      "url": "https://thementalist.fandom.com/wiki/Silver_Wings_of_Time",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s06e18",
-      "media_type": "tv_episode",
-      "title": "Forest Green",
-      "url": "https://thementalist.fandom.com/wiki/Forest_Green",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s06e19",
-      "media_type": "tv_episode",
-      "title": "Brown Eyed Girls",
-      "url": "https://thementalist.fandom.com/wiki/Brown_Eyed_Girls",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s06e20",
-      "media_type": "tv_episode",
-      "title": "Il Tavolo Bianco",
-      "url": "https://thementalist.fandom.com/wiki/Il_Tavolo_Bianco",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s06e21",
-      "media_type": "tv_episode",
-      "title": "Black Hearts",
-      "url": "https://thementalist.fandom.com/wiki/Black_Hearts",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s06e22",
-      "media_type": "tv_episode",
-      "title": "Blue Bird",
-      "url": "https://thementalist.fandom.com/wiki/Blue_Bird",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s07e01",
-      "media_type": "tv_episode",
-      "title": "Nothing But Blue Skies",
-      "url": "https://thementalist.fandom.com/wiki/Nothing_But_Blue_Skies",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s07e02",
-      "media_type": "tv_episode",
-      "title": "The Greybar Hotel",
-      "url": "https://thementalist.fandom.com/wiki/The_Greybar_Hotel",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s07e03",
-      "media_type": "tv_episode",
-      "title": "Orange Blossom Ice Cream",
-      "url": "https://thementalist.fandom.com/wiki/Orange_Blossom_Ice_Cream",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s07e04",
-      "media_type": "tv_episode",
-      "title": "Black Market",
-      "url": "https://thementalist.fandom.com/wiki/Black_Market",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s07e05",
-      "media_type": "tv_episode",
-      "title": "The Silver Briefcase",
-      "url": "https://thementalist.fandom.com/wiki/The_Silver_Briefcase",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s07e06",
-      "media_type": "tv_episode",
-      "title": "Green Light",
-      "url": "https://thementalist.fandom.com/wiki/Green_Light",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s07e07",
-      "media_type": "tv_episode",
-      "title": "Little Yellow House",
-      "url": "https://thementalist.fandom.com/wiki/Little_Yellow_House",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s07e08",
-      "media_type": "tv_episode",
-      "title": "The Whites of His Eyes",
-      "url": "https://thementalist.fandom.com/wiki/The_Whites_of_His_Eyes",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s07e09",
-      "media_type": "tv_episode",
-      "title": "Copper Bullet",
-      "url": "https://thementalist.fandom.com/wiki/Copper_Bullet",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s07e10",
-      "media_type": "tv_episode",
-      "title": "Nothing Gold Can Stay",
-      "url": "https://thementalist.fandom.com/wiki/Nothing_Gold_Can_Stay",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s07e11",
-      "media_type": "tv_episode",
-      "title": "Byzantium",
-      "url": "https://thementalist.fandom.com/wiki/Byzantium",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s07e12",
-      "media_type": "tv_episode",
-      "title": "Brown Shag Carpet",
-      "url": "https://thementalist.fandom.com/wiki/Brown_Shag_Carpet",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "mentalist-s07e13",
-      "media_type": "tv_episode",
-      "title": "White Orchids",
-      "url": "https://thementalist.fandom.com/wiki/White_Orchids",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "psych-s01e01",
-      "media_type": "tv_episode",
-      "title": "Pilot",
-      "url": "https://psychusa.fandom.com/wiki/Pilot",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "psych-s01e02",
-      "media_type": "tv_episode",
-      "title": "Spellingg Bee",
-      "url": "https://psychusa.fandom.com/wiki/Spellingg_Bee",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "psych-s01e03",
-      "media_type": "tv_episode",
-      "title": "Speak Now or Forever Hold Your Piece",
-      "url": "https://psychusa.fandom.com/wiki/Speak_Now_or_Forever_Hold_Your_Piece",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "psych-s01e04",
-      "media_type": "tv_episode",
-      "title": "Woman Seeking Dead Husband: Smokers Okay, No Pets",
-      "url": "https://psychusa.fandom.com/wiki/Woman_Seeking_Dead_Husband%3A_Smokers_Okay%2C_No_Pets",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
-    },
-    {
-      "slug": "psych-s01e05",
-      "media_type": "tv_episode",
-      "title": "9 Lives",
-      "url": "https://psychusa.fandom.com/wiki/9_Lives",
-      "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "psych-s01e06",
@@ -1566,7 +66,7 @@
       "title": "Weekend Warriors",
       "url": "https://psychusa.fandom.com/wiki/Weekend_Warriors",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -1576,8 +76,8 @@
       "title": "Who Ya Gonna Call?",
       "url": "https://psychusa.fandom.com/wiki/Who_Ya_Gonna_Call%3F",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -1586,7 +86,7 @@
       "title": "Shawn vs. the Red Phantom",
       "url": "https://psychusa.fandom.com/wiki/Shawn_vs._the_Red_Phantom",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -1596,7 +96,7 @@
       "title": "Forget Me Not",
       "url": "https://psychusa.fandom.com/wiki/Forget_Me_Not",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -1606,7 +106,7 @@
       "title": "From the Earth to Starbucks",
       "url": "https://psychusa.fandom.com/wiki/From_the_Earth_to_Starbucks",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -1616,8 +116,8 @@
       "title": "He Loves Me, He Loves Me Not, He Loves Me, Oops, He's Dead",
       "url": "https://psychusa.fandom.com/wiki/He_Loves_Me%2C_He_Loves_Me_Not%2C_He_Loves_Me%2C_Oops_He%27s_Dead%21",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -1626,7 +126,7 @@
       "title": "Cloudy... With a Chance of Murder",
       "url": "https://psychusa.fandom.com/wiki/Cloudy..._With_a_Chance_of_Murder",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -1636,8 +136,8 @@
       "title": "Game, Set... Muuurder?",
       "url": "https://psychusa.fandom.com/wiki/Game%2C_Set..._Muuurder%3F",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -1646,8 +146,8 @@
       "title": "Poker? I Barely Know Her",
       "url": "https://psychusa.fandom.com/wiki/Poker%3F_I_Barely_Know_Her",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -1656,8 +156,8 @@
       "title": "Scary Sherry: Bianca's Toast",
       "url": "https://psychusa.fandom.com/wiki/Scary_Sherry%3A_Bianca%27s_Toast",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -1666,7 +166,7 @@
       "title": "American Duos",
       "url": "https://psychusa.fandom.com/wiki/American_Duos",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -1676,7 +176,7 @@
       "title": "Sixty Five Million Years Off",
       "url": "https://psychusa.fandom.com/wiki/65_Million_Years_Off",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -1686,7 +186,7 @@
       "title": "Psy vs. Psy",
       "url": "https://psychusa.fandom.com/wiki/Psy_vs._Psy",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -1696,7 +196,7 @@
       "title": "Zero to Murder in Sixty Seconds",
       "url": "https://psychusa.fandom.com/wiki/Zero_to_Murder_in_Sixty_Seconds",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -1706,7 +206,7 @@
       "title": "And Down the Stretch Comes Murder",
       "url": "https://psychusa.fandom.com/wiki/And_Down_the_Stretch_Comes_Murder",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -1716,9 +216,9 @@
       "title": "Meat Is Murder, but Murder Is Also Murder",
       "url": "https://psychusa.fandom.com/wiki/Meat_Is_Murder%2C_but_Murder_Is_Also_Murder",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "psych-s02e07",
@@ -1726,8 +226,8 @@
       "title": "If You're So Smart, Then Why Are You Dead?",
       "url": "https://psychusa.fandom.com/wiki/If_You%27re_So_Smart%2C_Then_Why_Are_You_Dead%3F",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -1736,7 +236,7 @@
       "title": "Rob-a-Bye Baby",
       "url": "https://psychusa.fandom.com/wiki/Rob-a-Bye_Baby",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -1746,8 +246,8 @@
       "title": "Bounty Hunters!",
       "url": "https://psychusa.fandom.com/wiki/Bounty_Hunters%21",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -1756,8 +256,8 @@
       "title": "Gus' Dad May Have Killed an Old Guy",
       "url": "https://psychusa.fandom.com/wiki/Gus%27_Dad_May_Have_Killed_an_Old_Guy",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -1766,8 +266,8 @@
       "title": "There's Something About Mira",
       "url": "https://psychusa.fandom.com/wiki/There%27s_Something_About_Mira",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -1776,7 +276,7 @@
       "title": "The Old and the Restless",
       "url": "https://psychusa.fandom.com/wiki/The_Old_and_the_Restless",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -1786,8 +286,8 @@
       "title": "Lights, Camera... Homicidio",
       "url": "https://psychusa.fandom.com/wiki/Lights%2C_Camera..._Homicidio",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -1796,7 +296,7 @@
       "title": "Dis-Lodged",
       "url": "https://psychusa.fandom.com/wiki/Dis-Lodged",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -1806,8 +306,8 @@
       "title": "Black and Tan: A Crime of Fashion",
       "url": "https://psychusa.fandom.com/wiki/Black_and_Tan%3A_A_Crime_of_Fashion",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -1816,8 +316,8 @@
       "title": "Shawn (and Gus) of the Dead",
       "url": "https://psychusa.fandom.com/wiki/Shawn_%28and_Gus%29_of_the_Dead",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -1826,7 +326,7 @@
       "title": "Ghosts",
       "url": "https://psychusa.fandom.com/wiki/Ghosts",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -1836,9 +336,9 @@
       "title": "Murder?... Anyone?... Anyone?... Bueller?",
       "url": "https://psychusa.fandom.com/wiki/Murder%3F..._Anyone%3F..._Anyone%3F..._Bueller%3F",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "psych-s03e03",
@@ -1846,8 +346,8 @@
       "title": "Daredevils!",
       "url": "https://psychusa.fandom.com/wiki/Daredevils%21",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -1856,7 +356,7 @@
       "title": "The Greatest Adventure in the History of Basic Cable",
       "url": "https://psychusa.fandom.com/wiki/The_Greatest_Adventure_in_the_History_of_Basic_Cable",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -1866,8 +366,8 @@
       "title": "Disco Didn't Die. It Was Murdered!",
       "url": "https://psychusa.fandom.com/wiki/Disco_Didn%27t_Die._It_Was_Murdered%21",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -1876,7 +376,7 @@
       "title": "There Might Be Blood",
       "url": "https://psychusa.fandom.com/wiki/There_Might_Be_Blood",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -1886,7 +386,7 @@
       "title": "Talk Derby to Me",
       "url": "https://psychusa.fandom.com/wiki/Talk_Derby_to_Me",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -1896,7 +396,7 @@
       "title": "Gus Walks into a Bank",
       "url": "https://psychusa.fandom.com/wiki/Gus_Walks_into_a_Bank",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -1906,7 +406,7 @@
       "title": "Christmas Joy",
       "url": "https://psychusa.fandom.com/wiki/Christmas_Joy",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -1916,7 +416,7 @@
       "title": "Six Feet Under the Sea",
       "url": "https://psychusa.fandom.com/wiki/Six_Feet_Under_the_Sea",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -1926,8 +426,8 @@
       "title": "Lassie Did a Bad, Bad Thing",
       "url": "https://psychusa.fandom.com/wiki/Lassie_Did_a_Bad%2C_Bad_Thing",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -1936,8 +436,8 @@
       "title": "Earth, Wind and... Wait for It",
       "url": "https://psychusa.fandom.com/wiki/Earth%2C_Wind_and..._Wait_for_It",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -1946,8 +446,8 @@
       "title": "Any Given Friday Night at 10PM, 9PM Central",
       "url": "https://psychusa.fandom.com/wiki/Any_Given_Friday_Night_at_10pm%2C_9pm_Central",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -1956,7 +456,7 @@
       "title": "Truer Lies",
       "url": "https://psychusa.fandom.com/wiki/Truer_Lies",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -1966,7 +466,7 @@
       "title": "Tuesday the 17th",
       "url": "https://psychusa.fandom.com/wiki/Tuesday_the_17th",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -1976,7 +476,7 @@
       "title": "An Evening with Mr. Yang",
       "url": "https://psychusa.fandom.com/wiki/An_Evening_with_Mr._Yang",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -1986,8 +486,8 @@
       "title": "Extradition: British Columbia",
       "url": "https://psychusa.fandom.com/wiki/Extradition%3A_British_Columbia",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -1996,7 +496,7 @@
       "title": "He Dead",
       "url": "https://psychusa.fandom.com/wiki/He_Dead",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2006,7 +506,7 @@
       "title": "High Noon-ish",
       "url": "https://psychusa.fandom.com/wiki/High_Noon-ish",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2016,7 +516,7 @@
       "title": "The Devil's in the Details... and in the Upstairs Bedroom",
       "url": "https://psychusa.fandom.com/wiki/The_Devil_Is_in_the_Details..._and_the_Upstairs_Bedroom",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2026,7 +526,7 @@
       "title": "Shawn Gets the Yips",
       "url": "https://psychusa.fandom.com/wiki/Shawn_Gets_the_Yips",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2036,7 +536,7 @@
       "title": "Bollywood Homicide",
       "url": "https://psychusa.fandom.com/wiki/Bollywood_Homicide",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2046,7 +546,7 @@
       "title": "High Top Fade Out",
       "url": "https://psychusa.fandom.com/wiki/High_Top_Fade-Out",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2056,8 +556,8 @@
       "title": "Let's Get Hairy",
       "url": "https://psychusa.fandom.com/wiki/Let%27s_Get_Hairy",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -2066,7 +566,7 @@
       "title": "Shawn Takes a Shot in the Dark",
       "url": "https://psychusa.fandom.com/wiki/Shawn_Takes_a_Shot_in_the_Dark",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2076,8 +576,8 @@
       "title": "You Can't Handle This Episode",
       "url": "https://psychusa.fandom.com/wiki/You_Can%27t_Handle_This_Episode",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -2086,9 +586,9 @@
       "title": "Thrill Seekers & Hell Raisers",
       "url": "https://psychusa.fandom.com/wiki/Thrill_Seekers_%26_Hell_Raisers",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "psych-s04e12",
@@ -2096,7 +596,7 @@
       "title": "A Very Juliet Episode",
       "url": "https://psychusa.fandom.com/wiki/A_Very_Juliet_Episode",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2106,7 +606,7 @@
       "title": "Death Is in the Air",
       "url": "https://psychusa.fandom.com/wiki/Death_Is_in_the_Air",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2116,7 +616,7 @@
       "title": "Think Tank",
       "url": "https://psychusa.fandom.com/wiki/Think_Tank",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2126,8 +626,8 @@
       "title": "The Head, the Tail, the Whole Damn Episode",
       "url": "https://psychusa.fandom.com/wiki/The_Head%2C_the_Tail%2C_the_Whole_Damn_Episode",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -2136,7 +636,7 @@
       "title": "Mr. Yin Presents...",
       "url": "https://psychusa.fandom.com/wiki/Mr._Yin_Presents...",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2146,7 +646,7 @@
       "title": "Romeo and Juliet and Juliet",
       "url": "https://psychusa.fandom.com/wiki/Romeo_and_Juliet_and_Juliet",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2156,8 +656,8 @@
       "title": "Feet Don't Kill Me Now",
       "url": "https://psychusa.fandom.com/wiki/Feet_Don%27t_Kill_Me_Now",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -2166,7 +666,7 @@
       "title": "Not Even Close... Encounters",
       "url": "https://psychusa.fandom.com/wiki/Not_Even_Close..._Encounters",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2176,7 +676,7 @@
       "title": "Chivalry Is Not Dead... But Someone Is",
       "url": "https://psychusa.fandom.com/wiki/Chivalry_Is_Not_Dead..._But_Someone_Is",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2186,8 +686,8 @@
       "title": "Shawn and Gus in Drag (Racing)",
       "url": "https://psychusa.fandom.com/wiki/Shawn_and_Gus_in_Drag_%28Racing%29",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -2196,7 +696,7 @@
       "title": "Viagra Falls",
       "url": "https://psychusa.fandom.com/wiki/Viagra_Falls",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2206,7 +706,7 @@
       "title": "Ferry Tale",
       "url": "https://psychusa.fandom.com/wiki/Ferry_Tale",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2216,7 +716,7 @@
       "title": "Shawn 2.0",
       "url": "https://psychusa.fandom.com/wiki/Shawn_2.0",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2226,8 +726,8 @@
       "title": "One, Maybe Two, Ways Out",
       "url": "https://psychusa.fandom.com/wiki/One%2C_Maybe_Two%2C_Ways_Out",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -2236,8 +736,8 @@
       "title": "Extradition II: The Actual Extradition Part",
       "url": "https://psychusa.fandom.com/wiki/Extradition_II%3A_The_Actual_Extradition_Part",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -2246,7 +746,7 @@
       "title": "In Plain Fright",
       "url": "https://psychusa.fandom.com/wiki/In_Plain_Fright",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2256,7 +756,7 @@
       "title": "Dual Spires",
       "url": "https://psychusa.fandom.com/wiki/Dual_Spires",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2266,8 +766,8 @@
       "title": "We'd Like to Thank the Academy",
       "url": "https://psychusa.fandom.com/wiki/We%27d_Like_to_Thank_the_Academy",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -2276,7 +776,7 @@
       "title": "The Polarizing Express",
       "url": "https://psychusa.fandom.com/wiki/The_Polarizing_Express",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2286,7 +786,7 @@
       "title": "Dead Bear Walking",
       "url": "https://psychusa.fandom.com/wiki/Dead_Bear_Walking",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2296,7 +796,7 @@
       "title": "Yang 3 in 2D",
       "url": "https://psychusa.fandom.com/wiki/Yang_3_in_2D",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2306,7 +806,7 @@
       "title": "Shawn Rescues Darth Vader",
       "url": "https://psychusa.fandom.com/wiki/Shawn_Rescues_Darth_Vader",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2316,7 +816,7 @@
       "title": "Last Night Gus",
       "url": "https://psychusa.fandom.com/wiki/Last_Night_Gus",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2326,7 +826,7 @@
       "title": "This Episode Sucks",
       "url": "https://psychusa.fandom.com/wiki/This_Episode_Sucks",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2336,8 +836,8 @@
       "title": "The Amazing Psych-Man & Tap-Man, Issue #2",
       "url": "https://psychusa.fandom.com/wiki/The_Amazing_Psych-Man_%26_Tap-Man%2C_Issue_2",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -2346,8 +846,8 @@
       "title": "Dead Man's Curve Ball",
       "url": "https://psychusa.fandom.com/wiki/Dead_Man%27s_Curve_Ball",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -2356,8 +856,8 @@
       "title": "Shawn, Interrupted",
       "url": "https://psychusa.fandom.com/wiki/Shawn%2C_Interrupted",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -2366,7 +866,7 @@
       "title": "In for a Penny...",
       "url": "https://psychusa.fandom.com/wiki/In_for_a_Penny...",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2376,7 +876,7 @@
       "title": "The Tao of Gus",
       "url": "https://psychusa.fandom.com/wiki/The_Tao_of_Gus",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2386,8 +886,8 @@
       "title": "Neil Simon's Lover's Retreat",
       "url": "https://psychusa.fandom.com/wiki/Neil_Simon%27s_Lover%27s_Retreat",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -2396,8 +896,8 @@
       "title": "Indiana Shawn and the Temple of the Kinda Crappy, Rusty Old Dagger",
       "url": "https://psychusa.fandom.com/wiki/Indiana_Shawn_and_the_Temple_of_the_Kinda_Crappy%2C_Rusty_Old_Dagger",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -2406,8 +906,8 @@
       "title": "Heeeeere's Lassie",
       "url": "https://psychusa.fandom.com/wiki/Heeeeere%27s_Lassie",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -2416,7 +916,7 @@
       "title": "Shawn and the Real Girl",
       "url": "https://psychusa.fandom.com/wiki/Shawn_and_the_Real_Girl",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2426,8 +926,8 @@
       "title": "Let's Doo-Wop It Again",
       "url": "https://psychusa.fandom.com/wiki/Let%27s_Doo-Wop_It_Again",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -2436,7 +936,7 @@
       "title": "Autopsy Turvy",
       "url": "https://psychusa.fandom.com/wiki/Autopsy_Turvy",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2446,7 +946,7 @@
       "title": "True Grits",
       "url": "https://psychusa.fandom.com/wiki/True_Grits",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2456,7 +956,7 @@
       "title": "Santabarbaratown",
       "url": "https://psychusa.fandom.com/wiki/Santabarbaratown",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2466,7 +966,7 @@
       "title": "Santabarbaratown 2",
       "url": "https://psychusa.fandom.com/wiki/Santabarbaratown_2",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2476,7 +976,7 @@
       "title": "Juliet Takes a Luvvah",
       "url": "https://psychusa.fandom.com/wiki/Juliet_Takes_a_Luvvah",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2486,7 +986,7 @@
       "title": "Lassie Jerky",
       "url": "https://psychusa.fandom.com/wiki/Lassie_Jerky",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2496,7 +996,7 @@
       "title": "No Country for Two Old Men",
       "url": "https://psychusa.fandom.com/wiki/No_Country_for_Two_Old_Men",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2506,7 +1006,7 @@
       "title": "100 Clues",
       "url": "https://psychusa.fandom.com/wiki/100_Clues",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2516,7 +1016,7 @@
       "title": "Cirque du Soul",
       "url": "https://psychusa.fandom.com/wiki/Cirque_du_Soul",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2526,7 +1026,7 @@
       "title": "Deez Nups",
       "url": "https://psychusa.fandom.com/wiki/Deez_Nups",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2536,7 +1036,7 @@
       "title": "Right Turn or Left for Dead",
       "url": "https://psychusa.fandom.com/wiki/Right_Turn_or_Left_for_Dead",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2546,7 +1046,7 @@
       "title": "Juliet Wears the Pantsuit",
       "url": "https://psychusa.fandom.com/wiki/Juliet_Wears_the_Pantsuit",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2556,7 +1056,7 @@
       "title": "Santa Barbarian Candidate",
       "url": "https://psychusa.fandom.com/wiki/Santa_Barbarian_Candidate",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2566,7 +1066,7 @@
       "title": "Office Space",
       "url": "https://psychusa.fandom.com/wiki/Office_Space",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2576,7 +1076,7 @@
       "title": "Dead Air",
       "url": "https://psychusa.fandom.com/wiki/Dead_Air",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2586,7 +1086,7 @@
       "title": "Nip and Suck It",
       "url": "https://psychusa.fandom.com/wiki/Nip_and_Suck_It",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2596,7 +1096,7 @@
       "title": "No Trout About It",
       "url": "https://psychusa.fandom.com/wiki/No_Trout_About_It",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2606,8 +1106,8 @@
       "title": "Lock, Stock, Some Smoking Barrels and Burton Guster's Goblet of Fire",
       "url": "https://psychusa.fandom.com/wiki/Lock%2C_Stock%2C_Some_Smoking_Barrels_and_Burton_Guster%27s_Goblet_of_Fire",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -2616,7 +1116,7 @@
       "title": "S.E.I.Z.E. the Day",
       "url": "https://psychusa.fandom.com/wiki/S.E.I.Z.E._the_Day",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2626,7 +1126,7 @@
       "title": "Remake A.K.A. Cloudy... With a Chance of Improvement",
       "url": "https://psychusa.fandom.com/wiki/Remake_A.K.A._Cloudy..._With_a_Chance_of_Improvement",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2636,8 +1136,8 @@
       "title": "Someone's Got a Woody",
       "url": "https://psychusa.fandom.com/wiki/Someone%27s_Got_a_Woody",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -2646,7 +1146,7 @@
       "title": "Cog Blocked",
       "url": "https://psychusa.fandom.com/wiki/Cog_Blocked",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2656,8 +1156,8 @@
       "title": "1967: A Psych Odyssey",
       "url": "https://psychusa.fandom.com/wiki/1967%3A_A_Psych_Odyssey",
       "recipe": "tv_show",
-      "state": "pending",
-      "attempts": 0,
+      "state": "scraped",
+      "attempts": 1,
       "error": null
     },
     {
@@ -2666,7 +1166,7 @@
       "title": "Shawn and Gus Truck Things Up",
       "url": "https://psychusa.fandom.com/wiki/Shawn_and_Gus_Truck_Things_Up",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2676,7 +1176,7 @@
       "title": "A Touch of Sweevil",
       "url": "https://psychusa.fandom.com/wiki/A_Touch_of_Sweevil",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2686,7 +1186,7 @@
       "title": "A Nightmare on State Street",
       "url": "https://psychusa.fandom.com/wiki/A_Nightmare_on_State_Street",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2696,7 +1196,7 @@
       "title": "The Break Up",
       "url": "https://psychusa.fandom.com/wiki/The_Break-Up",
       "recipe": "tv_show",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2706,7 +1206,7 @@
       "title": "Psych: The Movie",
       "url": "https://psychusa.fandom.com/wiki/Psych:_The_Movie",
       "recipe": "movie",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2716,7 +1216,7 @@
       "title": "Psych 2: Lassie Come Home",
       "url": "https://psychusa.fandom.com/wiki/Psych_2:_Lassie_Come_Home",
       "recipe": "movie",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2726,7 +1226,7 @@
       "title": "Psych 3: This Is Gus",
       "url": "https://psychusa.fandom.com/wiki/Psych_3:_This_Is_Gus",
       "recipe": "movie",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2736,7 +1236,7 @@
       "title": "A Study in Scarlet",
       "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/AStudyInScarlet",
       "recipe": "book",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2746,7 +1246,7 @@
       "title": "The Sign of the Four",
       "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheSignOfTheFour",
       "recipe": "book",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2756,7 +1256,7 @@
       "title": "The Hound of the Baskervilles",
       "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheHoundOfTheBaskervilles",
       "recipe": "book",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2766,7 +1266,7 @@
       "title": "The Valley of Fear",
       "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheValleyOfFear",
       "recipe": "book",
-      "state": "pending",
+      "state": "scraped",
       "attempts": 0,
       "error": null
     },
@@ -2776,9 +1276,9 @@
       "title": "The Adventures of Sherlock Holmes",
       "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheAdventuresOfSherlockHolmes",
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-memoirs-of-sherlock-holmes",
@@ -2786,9 +1286,9 @@
       "title": "The Memoirs of Sherlock Holmes",
       "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheMemoirsOfSherlockHolmes",
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-return-of-sherlock-holmes",
@@ -2796,9 +1296,9 @@
       "title": "The Return of Sherlock Holmes",
       "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheReturnOfSherlockHolmes",
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "his-last-bow",
@@ -2806,9 +1306,9 @@
       "title": "His Last Bow",
       "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/HisLastBow",
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-case-book-of-sherlock-holmes",
@@ -2816,9 +1316,9 @@
       "title": "The Case-Book of Sherlock Holmes",
       "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheCaseBookOfSherlockHolmes",
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-innocence-of-father-brown",
@@ -2826,9 +1326,9 @@
       "title": "The Innocence of Father Brown",
       "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheInnocenceOfFatherBrown",
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-wisdom-of-father-brown",
@@ -2836,9 +1336,9 @@
       "title": "The Wisdom of Father Brown",
       "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheWisdomOfFatherBrown",
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-incredulity-of-father-brown",
@@ -2846,9 +1346,9 @@
       "title": "The Incredulity of Father Brown",
       "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheIncredulityOfFatherBrown",
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-secret-of-father-brown",
@@ -2856,9 +1356,9 @@
       "title": "The Secret of Father Brown",
       "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheSecretOfFatherBrown",
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-scandal-of-father-brown",
@@ -2866,9 +1366,9 @@
       "title": "The Scandal of Father Brown",
       "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheScandalOfFatherBrown",
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "it-walks-by-night",
@@ -2876,9 +1376,9 @@
       "title": "It Walks by Night",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "castle-skull",
@@ -2886,9 +1386,9 @@
       "title": "Castle Skull",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-lost-gallows",
@@ -2896,9 +1396,9 @@
       "title": "The Lost Gallows",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-corpse-in-the-waxworks",
@@ -2906,9 +1406,9 @@
       "title": "The Corpse in the Waxworks",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-four-false-weapons",
@@ -2916,9 +1416,9 @@
       "title": "The Four False Weapons",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "hag-s-nook",
@@ -2926,9 +1426,9 @@
       "title": "Hag's Nook",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-mad-hatter-mystery",
@@ -2936,9 +1436,9 @@
       "title": "The Mad Hatter Mystery",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-eight-of-swords",
@@ -2946,9 +1446,9 @@
       "title": "The Eight of Swords",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-blind-barber",
@@ -2956,9 +1456,9 @@
       "title": "The Blind Barber",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "death-watch",
@@ -2966,9 +1466,9 @@
       "title": "Death-Watch",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-three-coffins",
@@ -2976,9 +1476,9 @@
       "title": "The Three Coffins",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-arabian-nights-murder",
@@ -2986,9 +1486,9 @@
       "title": "The Arabian Nights Murder",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-crooked-hinge",
@@ -2996,9 +1496,9 @@
       "title": "The Crooked Hinge",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "to-wake-the-dead",
@@ -3006,9 +1506,9 @@
       "title": "To Wake the Dead",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-problem-of-the-green-capsule",
@@ -3016,9 +1516,9 @@
       "title": "The Problem of the Green Capsule",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-problem-of-the-wire-cage",
@@ -3026,9 +1526,9 @@
       "title": "The Problem of the Wire Cage",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-man-who-could-not-shudder",
@@ -3036,9 +1536,9 @@
       "title": "The Man Who Could Not Shudder",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-seat-of-the-scornful",
@@ -3046,9 +1546,9 @@
       "title": "The Seat of the Scornful",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-case-of-the-constant-suicides",
@@ -3056,9 +1556,9 @@
       "title": "The Case of the Constant Suicides",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "death-turns-the-tables",
@@ -3066,9 +1566,9 @@
       "title": "Death Turns the Tables",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "till-death-do-us-part",
@@ -3076,9 +1576,9 @@
       "title": "Till Death Do Us Part",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "he-who-whispers",
@@ -3086,9 +1586,9 @@
       "title": "He Who Whispers",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-sleeping-sphinx",
@@ -3096,9 +1596,9 @@
       "title": "The Sleeping Sphinx",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "below-suspicion",
@@ -3106,9 +1606,9 @@
       "title": "Below Suspicion",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-dead-man-s-knock",
@@ -3116,9 +1616,9 @@
       "title": "The Dead Man's Knock",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "in-spite-of-thunder",
@@ -3126,9 +1626,9 @@
       "title": "In Spite of Thunder",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-house-at-satan-s-elbow",
@@ -3136,9 +1636,9 @@
       "title": "The House at Satan's Elbow",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "panic-in-box-c",
@@ -3146,9 +1646,9 @@
       "title": "Panic in Box C",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "dark-of-the-moon",
@@ -3156,9 +1656,9 @@
       "title": "Dark of the Moon",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-plague-court-murders",
@@ -3166,9 +1666,9 @@
       "title": "The Plague Court Murders",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-white-priory-murders",
@@ -3176,9 +1676,9 @@
       "title": "The White Priory Murders",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-red-widow-murders",
@@ -3186,9 +1686,9 @@
       "title": "The Red Widow Murders",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-unicorn-murders",
@@ -3196,9 +1696,9 @@
       "title": "The Unicorn Murders",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-punch-and-judy-murders",
@@ -3206,9 +1706,9 @@
       "title": "The Punch and Judy Murders",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-peacock-feather-murders",
@@ -3216,9 +1716,9 @@
       "title": "The Peacock Feather Murders",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-judas-window",
@@ -3226,9 +1726,9 @@
       "title": "The Judas Window",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "death-in-five-boxes",
@@ -3236,9 +1736,9 @@
       "title": "Death in Five Boxes",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-reader-is-warned",
@@ -3246,9 +1746,9 @@
       "title": "The Reader Is Warned",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "and-so-to-murder",
@@ -3256,9 +1756,9 @@
       "title": "And So to Murder",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "nine-and-death-makes-ten",
@@ -3266,9 +1766,9 @@
       "title": "Nine and Death Makes Ten",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "seeing-is-believing",
@@ -3276,9 +1776,9 @@
       "title": "Seeing Is Believing",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-gilded-man",
@@ -3286,9 +1786,9 @@
       "title": "The Gilded Man",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "she-died-a-lady",
@@ -3296,9 +1796,9 @@
       "title": "She Died a Lady",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "he-wouldn-t-kill-patience",
@@ -3306,9 +1806,9 @@
       "title": "He Wouldn't Kill Patience",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-curse-of-the-bronze-lamp",
@@ -3316,9 +1816,9 @@
       "title": "The Curse of the Bronze Lamp",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "my-late-wives",
@@ -3326,9 +1826,9 @@
       "title": "My Late Wives",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-skeleton-in-the-clock",
@@ -3336,9 +1836,9 @@
       "title": "The Skeleton in the Clock",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "a-graveyard-to-let",
@@ -3346,9 +1846,9 @@
       "title": "A Graveyard to Let",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "night-at-the-mocking-widow",
@@ -3356,9 +1856,9 @@
       "title": "Night at the Mocking Widow",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "behind-the-crimson-blind",
@@ -3366,9 +1866,9 @@
       "title": "Behind the Crimson Blind",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-cavalier-s-cup",
@@ -3376,9 +1876,9 @@
       "title": "The Cavalier's Cup",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "merrivale-march-and-murder",
@@ -3386,9 +1886,9 @@
       "title": "Merrivale, March and Murder",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "poison-in-jest",
@@ -3396,9 +1896,9 @@
       "title": "Poison in Jest",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-bowstring-murders",
@@ -3406,9 +1906,9 @@
       "title": "The Bowstring Murders",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-murder-of-sir-edmund-godfrey",
@@ -3416,9 +1916,9 @@
       "title": "The Murder of Sir Edmund Godfrey",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-burning-court",
@@ -3426,9 +1926,9 @@
       "title": "The Burning Court",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "fatal-descent",
@@ -3436,9 +1936,9 @@
       "title": "Fatal Descent",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-emperor-s-snuff-box",
@@ -3446,9 +1946,9 @@
       "title": "The Emperor's Snuff-Box",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-bride-of-newgate",
@@ -3456,9 +1956,9 @@
       "title": "The Bride of Newgate",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-devil-in-velvet",
@@ -3466,9 +1966,9 @@
       "title": "The Devil in Velvet",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-nine-wrong-answers",
@@ -3476,9 +1976,9 @@
       "title": "The Nine Wrong Answers",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "captain-cut-throat",
@@ -3486,9 +1986,9 @@
       "title": "Captain Cut-Throat",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "fear-is-the-same",
@@ -3496,9 +1996,9 @@
       "title": "Fear Is the Same",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "patrick-butler-for-the-defense",
@@ -3506,9 +2006,9 @@
       "title": "Patrick Butler for the Defense",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "fire-burn",
@@ -3516,9 +2016,9 @@
       "title": "Fire, Burn!",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "scandal-at-high-chimneys",
@@ -3526,9 +2026,9 @@
       "title": "Scandal at High Chimneys",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-demoniacs",
@@ -3536,9 +2036,9 @@
       "title": "The Demoniacs",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-witch-of-the-low-tide",
@@ -3546,9 +2046,9 @@
       "title": "The Witch of the Low Tide",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "most-secret",
@@ -3556,9 +2056,9 @@
       "title": "Most Secret",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "papa-la-bas",
@@ -3566,9 +2066,9 @@
       "title": "Papa La-Bas",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-ghosts-high-noon",
@@ -3576,9 +2076,9 @@
       "title": "The Ghosts' High Noon",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "deadly-hall",
@@ -3586,9 +2086,9 @@
       "title": "Deadly Hall",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-hungry-goblin",
@@ -3596,9 +2096,9 @@
       "title": "The Hungry Goblin",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     },
     {
       "slug": "the-department-of-queer-complaints",
@@ -3606,9 +2106,9 @@
       "title": "The Department of Queer Complaints",
       "url": null,
       "recipe": "book",
-      "state": "pending",
-      "attempts": 0,
-      "error": null
+      "state": "failed",
+      "attempts": 2,
+      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 326, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
     }
   ]
 }

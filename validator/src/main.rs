@@ -15,6 +15,7 @@ fn ingest() -> Result<()> {
         .context("cannot open temp/")?
         .filter_map(|e| e.ok())
         .filter(|e| e.path().extension().and_then(|s| s.to_str()) == Some("json"))
+        .filter(|e| e.file_name().to_str().map_or(true, |n| n != "worklist.json"))
         .map(|e| e.path())
         .collect();
     temp_files.sort();

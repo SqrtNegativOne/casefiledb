@@ -14,7 +14,7 @@ A catalogued database of deaths in murder mystery media (books, TV, games, etc.)
 ```
 npm install          # install deps (first time)
 npm run dev          # dev server at localhost:5173
-npm run build        # build to docs/ (commits this for GitHub Pages)
+npm run build        # build to docs/ (deployed via GitHub Actions; docs/ is gitignored)
 ```
 
 Pages: `/` Deaths · `/authors` · `/episodes` · `/methods` · `/detectives` · `/games` · `/books` · `/compare` · `/viz` · `/media/:slug`

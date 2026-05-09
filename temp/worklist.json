@@ -846,7 +846,7 @@
       "title": "War of the Roses",
       "url": "https://thementalist.fandom.com/wiki/War_of_the_Roses",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -856,7 +856,7 @@
       "title": "His Thoughts Were Red Thoughts",
       "url": "https://thementalist.fandom.com/wiki/His_Thoughts_Were_Red_Thoughts",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -866,7 +866,7 @@
       "title": "Cheap Burgundy",
       "url": "https://thementalist.fandom.com/wiki/Cheap_Burgundy",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -876,7 +876,7 @@
       "title": "Ruddy Cheeks",
       "url": "https://thementalist.fandom.com/wiki/Ruddy_Cheeks",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -886,7 +886,7 @@
       "title": "Pink Champagne on Ice",
       "url": "https://thementalist.fandom.com/wiki/Pink_Champagne_on_Ice",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -896,7 +896,7 @@
       "title": "Something's Rotten in Redmund",
       "url": "https://thementalist.fandom.com/wiki/Something%27s_Rotten_in_Redmund",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 1,
       "error": null
     },
@@ -906,7 +906,7 @@
       "title": "Ruby Slippers",
       "url": "https://thementalist.fandom.com/wiki/Ruby_Slippers",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -916,7 +916,7 @@
       "title": "So Long, and Thanks for All the Red Snapper",
       "url": "https://thementalist.fandom.com/wiki/So_Long%2C_and_Thanks_for_All_the_Red_Snapper",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 1,
       "error": null
     },
@@ -926,7 +926,7 @@
       "title": "Red Rover, Red Rover",
       "url": "https://thementalist.fandom.com/wiki/Red_Rover%2C_Red_Rover",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 1,
       "error": null
     },
@@ -936,7 +936,7 @@
       "title": "The Crimson Hat",
       "url": "https://thementalist.fandom.com/wiki/The_Crimson_Hat",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },

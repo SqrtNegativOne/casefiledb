@@ -36118,6 +36118,857 @@
           "notes": "Amy used a tool from the vineyard bearing Eve's fingerprints as the murder weapon, and wore a blond wig to impersonate Eve."
         }
       ]
+    },
+    {
+      "slug": "mentalist-s04e15",
+      "wikidata_id": null,
+      "title": "War Of The Roses",
+      "media_type": "TvEpisode",
+      "year": 2012,
+      "creator": "Ken Woodruff",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/War_Of_The_Roses",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "natalie-gibecki",
+          "name": "Natalie Gibecki",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "Charity worker"
+        },
+        {
+          "id": "greg-relin",
+          "name": "Greg Relin",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "natalie-gibecki",
+          "ordinal": 1,
+          "cause": "Strangled",
+          "means": "hands",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "During a fight when he picked her up on the night of the murder, he strangled her to death.",
+          "killers": [
+            {
+              "person_id": "greg-relin",
+              "mens_rea": "Recklessly",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s04e16",
+      "wikidata_id": null,
+      "title": "His Thoughts Were Red Thoughts",
+      "media_type": "TvEpisode",
+      "year": 2012,
+      "creator": "Jordan Harper",
+      "series_name": "The Mentalist",
+      "tags": [
+        "whodunit",
+        "cult"
+      ],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/His_Thoughts_Were_Red_Thoughts",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "gabriel-meadows",
+          "name": "Gabriel Meadows",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "nora-hill",
+          "name": "Nora Hill",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "bret-stiles",
+          "name": "Bret Stiles",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "gabriel-meadows",
+          "ordinal": 1,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Meadows threatened to expose Hill as his informant to cult leader Stiles; Hill killed him to prevent this.",
+          "killers": [
+            {
+              "person_id": "nora-hill",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "LeastLikelySuspect"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s04e17",
+      "wikidata_id": null,
+      "title": "Cheap Burgundy",
+      "media_type": "TvEpisode",
+      "year": 2012,
+      "creator": "Bruno Heller",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Cheap_Burgundy",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": false
+        },
+        {
+          "id": "kati-bauer",
+          "name": "Kati Bauer",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "shirley-bauer",
+          "name": "Shirley Bauer",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "greg-bauer",
+          "name": "Greg Bauer",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "sandy-bauer",
+          "name": "Sandy Bauer",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        },
+        {
+          "id": "james-barca",
+          "name": "James Barca",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        },
+        {
+          "id": "matilda-cruz",
+          "name": "Matilda Cruz",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "gary-philo",
+          "name": "Gary Philo",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "ranger-sam-franklin",
+          "name": "Ranger Sam Franklin",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "kati-bauer",
+          "ordinal": 1,
+          "cause": "Stabbed",
+          "means": "knife",
+          "death_type": "Homicide",
+          "motive": "GreedFinancial",
+          "motive_detail": "Kati's in-laws murdered her to prevent a divorce that would cause the family financial loss. They drugged wine she was bringing to a picnic, waited until she and James Barca were unconscious, then stabbed her and planted the knife in Barca's hand to frame him.",
+          "killers": [
+            {
+              "person_id": "shirley-bauer",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            },
+            {
+              "person_id": "greg-bauer",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "FrameUp"
+          ],
+          "is_central_death": true,
+          "is_twist": true
+        },
+        {
+          "victim_id": "matilda-cruz",
+          "ordinal": 2,
+          "cause": "Suffocated",
+          "means": "unmentioned",
+          "cause_detail": "Smothered to death.",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Gary Philo, Cruz's boss, killed her. He was her secret Shakespeare chat partner and silenced her to conceal the relationship or information she had on him.",
+          "killers": [
+            {
+              "person_id": "gary-philo",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": false,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s04e18",
+      "wikidata_id": null,
+      "title": "Ruddy Cheeks",
+      "media_type": "TvEpisode",
+      "year": 2012,
+      "creator": "Erika Green Swafford",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Ruddy_Cheeks",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "profession": "CBI consultant"
+        },
+        {
+          "id": "archer-braddock",
+          "name": "Archer Braddock",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "car salesman"
+        },
+        {
+          "id": "betsy-firth",
+          "name": "Betsy Firth",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "profession": "nurse administrator"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "archer-braddock",
+          "ordinal": 1,
+          "cause": "Poisoned",
+          "means": "experimental drug (trial medication)",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Firth had been taking bribes to place patients in drug trials; she negligently placed Braddock without accounting for his alcohol-damaged liver, which caused the trial drug to accelerate his death rather than treat his cancer. She then stole and burned his body to prevent an autopsy from uncovering her scheme.",
+          "killers": [
+            {
+              "person_id": "betsy-firth",
+              "mens_rea": "Negligently",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": true
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s04e19",
+      "wikidata_id": null,
+      "title": "Pink Champagne on Ice",
+      "media_type": "TvEpisode",
+      "year": 2012,
+      "creator": "Eoghan Mahony",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Pink_Champagne_on_Ice",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "ryan-d-stefano",
+          "name": "Ryan D'Stefano",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "shelly",
+          "name": "Shelly",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "trish",
+          "name": "Trish",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "jack-hellion",
+          "name": "Jack Hellion",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        },
+        {
+          "id": "holly-danvers",
+          "name": "Holly Danvers",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "ryan-d-stefano",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "gun",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Trish killed Ryan because she could not trust him after he showed no remorse for killing Shelly.",
+          "killers": [
+            {
+              "person_id": "trish",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        },
+        {
+          "victim_id": "shelly",
+          "ordinal": 2,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Ryan killed Shelly to silence her as a witness to Holly's kidnapping.",
+          "killers": [
+            {
+              "person_id": "ryan-d-stefano",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s04e20",
+      "wikidata_id": null,
+      "title": "Something's Rotten in Redmund",
+      "media_type": "TvEpisode",
+      "year": 2012,
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Something%27s_Rotten_in_Redmund",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "jack-mcterny",
+          "name": "Jack McTerny",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "ms-austin",
+          "name": "Ms. Austin",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "billy",
+          "name": "Billy",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "jack-mcterny",
+          "ordinal": 1,
+          "cause": "Clubbed",
+          "means": "metal bat",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "McTerny witnessed Ms. Austin and Billy together and threatened to report them to the principal.",
+          "killers": [
+            {
+              "person_id": "ms-austin",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            },
+            {
+              "person_id": "billy",
+              "mens_rea": "Knowingly",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s04e22",
+      "wikidata_id": null,
+      "title": "So Long, and Thanks for All the Red Snapper",
+      "media_type": "TvEpisode",
+      "year": 2012,
+      "creator": "Ashley Gable",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/So_Long,_and_Thanks_for_All_the_Red_Snapper",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": false
+        },
+        {
+          "id": "jay-banner",
+          "name": "Jay Banner",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "Surfer, marine scavenger"
+        },
+        {
+          "id": "lance-gladstone",
+          "name": "Lance Gladstone",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "profession": "Landlord"
+        },
+        {
+          "id": "greg-marshall",
+          "name": "Greg Marshall",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        },
+        {
+          "id": "greta-marshall",
+          "name": "Greta Marshall",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        },
+        {
+          "id": "kimball-cho",
+          "name": "Kimball Cho",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "summer-edgecombe",
+          "name": "Summer Edgecombe",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "jay-banner",
+          "ordinal": 1,
+          "cause": "Clubbed",
+          "means": "hammer",
+          "death_type": "Homicide",
+          "motive": "GreedFinancial",
+          "motive_detail": "Dispute over dividing sunken ship treasure; Lance wanted a larger share and killed Jay in a rage during a scuffle.",
+          "killers": [
+            {
+              "person_id": "lance-gladstone",
+              "mens_rea": "Recklessly",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s04e23",
+      "wikidata_id": null,
+      "title": "Red Rover, Red Rover",
+      "media_type": "TvEpisode",
+      "year": 2012,
+      "creator": "Tom Szentgyorgyi",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Red_Rover,_Red_Rover",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "antonio-castro",
+          "name": "Antonio Castro",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "benjamin-marx",
+          "name": "Benjamin Marx",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "antonio-castro",
+          "cause": "Suffocated",
+          "means": "storage cabinet",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Benjamin Marx killed Antonio Castro to prevent him from exposing Marx's embezzlement from the firm.",
+          "killers": [
+            {
+              "person_id": "benjamin-marx",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Antonio was lured away from a fundraiser under the pretense of a hazing ritual and locked alive in a storage cabinet in an abandoned warehouse; his body was found after approximately six months."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s04e24",
+      "wikidata_id": null,
+      "title": "The Crimson Hat",
+      "media_type": "TvEpisode",
+      "year": 2012,
+      "creator": "Bruno Heller",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/The_Crimson_Hat",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "unknown-man",
+          "name": "Unknown Man",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "luther-wainwright",
+          "name": "Luther Wainwright",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "red-john",
+          "name": "Red John",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "susan-darcy",
+          "name": "Susan Darcy",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "unknown-man",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "shotgun",
+          "death_type": "Homicide",
+          "motive": "Unknown",
+          "killers": [
+            {
+              "person_id": "unknown-man",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Unidentified man witnessed by Kevin Cintron and Manfreddo shooting himself in the face with a shotgun. Suicide."
+        },
+        {
+          "victim_id": "luther-wainwright",
+          "ordinal": 2,
+          "cause": "Shot",
+          "means": "gunfire",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "red-john",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": true,
+          "notes": "Found dead and duct-taped in the back of the limo in place of Red John. Red John arranged for Wainwright to be in the limo, and Agent Darcy's FBI gunfire killed him unknowingly — Red John orchestrated this as a trap and demonstration of his reach."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s04e21",
+      "wikidata_id": null,
+      "title": "Ruby Slippers",
+      "media_type": "TvEpisode",
+      "year": 2012,
+      "creator": "Daniel Cerone",
+      "series_name": "The Mentalist",
+      "notes": "Season 4, Episode 21. The apparent murder is revealed to be a staged fake death orchestrated by a drag cabaret group to protect the intended victim from further abuse.",
+      "tags": [
+        "whodunit",
+        "fake-death",
+        "lgbtq"
+      ],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Ruby_Slippers",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "archie-bloom-jr",
+          "name": "Archie Bloom Jr.",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "approximate_age": "19",
+          "notes": "Staged his own death with the help of the cabaret group to escape abuse."
+        },
+        {
+          "id": "glennda-snow",
+          "name": "Glennda Snow",
+          "is_fictional": true,
+          "role_in_story": "Bystander",
+          "notes": "Lead performer at drag cabaret; works at a funeral home; helped stage the fake death."
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "archie-bloom-jr",
+          "cause": "Burned",
+          "means": "lighter fluid",
+          "death_type": "AttemptedHomicide",
+          "motive": "Freedom",
+          "killers": [
+            {
+              "person_id": "archie-bloom-jr",
+              "mens_rea": "Purposely",
+              "circumstance": "Mitigated"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "MistakenIdentity"
+          ],
+          "is_central_death": true,
+          "is_twist": true,
+          "notes": "Archie attempted to burn himself alive in his car (handcuffed to the steering wheel) to escape years of abuse, but was talked out of it by the cabaret group. The group then staged his death using a stolen unidentified body to give him a new life."
+        }
+      ]
     }
   ],
   "tv_shows": [],

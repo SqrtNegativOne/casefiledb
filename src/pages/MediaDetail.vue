@@ -332,7 +332,15 @@ function caseDetectives(c) {
 
       <!-- TV show episodes -->
       <template v-if="displayItem.item.media_type === 'tv_show' && displayItem.item.episodes?.length">
-        <h3>Episodes</h3>
+        <div class="subitem-header">
+          <h3>Episodes</h3>
+          <select aria-label="Jump to episode" @change="$router.push({ path: `/media/${displayItem.item.slug}`, query: { ep: $event.target.value } }); $event.target.value = ''">
+            <option value="">Jump to episode…</option>
+            <option v-for="(ep, idx) in displayItem.item.episodes" :key="idx" :value="idx">
+              {{ ep.season != null ? `S${ep.season}` : '' }}{{ ep.episode_number != null ? `E${ep.episode_number}` : '' }}{{ (ep.season != null || ep.episode_number != null) ? ' — ' : '' }}{{ ep.title }}
+            </option>
+          </select>
+        </div>
         <div class="table-wrap">
           <table>
             <thead><tr><th>S</th><th>Ep</th><th>Title</th><th>Year</th><th v-if="isMediaRevealed">Deaths</th><th>Detectives</th></tr></thead>
@@ -352,7 +360,15 @@ function caseDetectives(c) {
 
       <!-- Game cases -->
       <template v-if="displayItem.item.media_type === 'game' && displayItem.item.cases?.length">
-        <h3>Cases</h3>
+        <div class="subitem-header">
+          <h3>Cases</h3>
+          <select aria-label="Jump to case" @change="$router.push({ path: `/media/${displayItem.item.slug}`, query: { case: $event.target.value } }); $event.target.value = ''">
+            <option value="">Jump to case…</option>
+            <option v-for="(c, idx) in displayItem.item.cases" :key="idx" :value="idx">
+              {{ c.case_number != null ? `#${c.case_number}` : `#${idx + 1}` }} — {{ c.title }}
+            </option>
+          </select>
+        </div>
         <div class="table-wrap">
           <table>
             <thead><tr><th>#</th><th>Title</th><th v-if="isMediaRevealed">Deaths</th><th>Detectives</th></tr></thead>

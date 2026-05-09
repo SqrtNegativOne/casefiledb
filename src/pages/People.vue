@@ -10,6 +10,7 @@ onMounted(ensureLoaded)
 
 const search = ref('')
 const filter = ref('all') // all | victim | killer | detective | solver
+const showFilters = ref(false)
 
 onMounted(() => {
   if (route.query.filter) filter.value = String(route.query.filter)
@@ -61,7 +62,7 @@ const people = computed(() => {
         const e = ensure(p.name)
         e.sample = bestSample(e.sample, p)
         e.works.set(context.slug, context)
-        if (p.role_in_story === 'detective') e.detectiveCount++
+        if (p.role_in_story?.toLowerCase() === 'detective') e.detectiveCount++
         if (p.is_solver === true) e.solverCount++
       }
 
@@ -134,26 +135,31 @@ function roleBadges(p) {
 
 <template>
   <div>
-    <div class="filter-chips">
-      <button type="button" :class="['chip', { 'chip-active': filter === 'all' }]" @click="setFilter('all')">
-        All <span class="muted">{{ counts.all }}</span>
-      </button>
-      <button type="button" :class="['chip', { 'chip-active': filter === 'victim' }]" @click="setFilter('victim')">
-        Victims <span class="muted">{{ counts.victim }}</span>
-      </button>
-      <button type="button" :class="['chip', { 'chip-active': filter === 'killer' }]" @click="setFilter('killer')">
-        Killers <span class="muted">{{ counts.killer }}</span>
-      </button>
-      <button type="button" :class="['chip', { 'chip-active': filter === 'detective' }]" @click="setFilter('detective')">
-        Detectives <span class="muted">{{ counts.detective }}</span>
-      </button>
-      <button type="button" :class="['chip', { 'chip-active': filter === 'solver' }]" @click="setFilter('solver')">
-        Solvers <span class="muted">{{ counts.solver }}</span>
+    <div class="controls-bar">
+      <input v-model="search" type="text" placeholder="Search by name…" />
+      <button type="button" :class="['filter-toggle-btn', { 'filter-toggle-btn-active': showFilters || filter !== 'all' }]" @click="showFilters = !showFilters">
+        Filters{{ filter !== 'all' ? ' ·' : '' }}
       </button>
     </div>
 
-    <div class="controls-bar">
-      <input v-model="search" type="text" placeholder="Search by name…" />
+    <div v-show="showFilters" class="filter-panel">
+      <div class="filter-chips">
+        <button type="button" :class="['chip', { 'chip-active': filter === 'all' }]" @click="setFilter('all')">
+          All <span class="muted">{{ counts.all }}</span>
+        </button>
+        <button type="button" :class="['chip', { 'chip-active': filter === 'victim' }]" @click="setFilter('victim')">
+          Victims <span class="muted">{{ counts.victim }}</span>
+        </button>
+        <button type="button" :class="['chip', { 'chip-active': filter === 'killer' }]" @click="setFilter('killer')">
+          Killers <span class="muted">{{ counts.killer }}</span>
+        </button>
+        <button type="button" :class="['chip', { 'chip-active': filter === 'detective' }]" @click="setFilter('detective')">
+          Detectives <span class="muted">{{ counts.detective }}</span>
+        </button>
+        <button type="button" :class="['chip', { 'chip-active': filter === 'solver' }]" @click="setFilter('solver')">
+          Solvers <span class="muted">{{ counts.solver }}</span>
+        </button>
+      </div>
     </div>
     <div class="meta-row">{{ filtered.length }} {{ filter === 'all' ? 'person' : filter }}{{ filtered.length === 1 ? '' : 's' }}</div>
 

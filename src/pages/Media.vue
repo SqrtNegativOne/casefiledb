@@ -14,6 +14,11 @@ const search = ref('')
 const typeFilter = ref('')
 const sortField = ref('title')
 const sortDir = ref('asc')
+const showFilters = ref(false)
+
+const hasActiveFilters = computed(() =>
+  typeFilter.value || sortField.value !== 'title' || sortDir.value !== 'asc'
+)
 
 onMounted(() => {
   if (route.query.type) typeFilter.value = String(route.query.type)
@@ -103,34 +108,41 @@ function authorRoute(name) {
 
 <template>
   <div>
-    <div class="filter-chips">
-      <button type="button" :class="['chip', { 'chip-active': typeFilter === '' }]" @click="setType('')">
-        All <span class="muted">{{ allItems.length }}</span>
-      </button>
-      <button
-        v-for="[t, n] in mediaTypes"
-        :key="t"
-        type="button"
-        :class="['chip', { 'chip-active': typeFilter === t }]"
-        @click="setType(t)"
-      >
-        {{ t.replace(/_/g, ' ') }} <span class="muted">{{ n }}</span>
+    <div class="controls-bar">
+      <input v-model="search" type="text" placeholder="Search title, creator, series…" />
+      <button type="button" :class="['filter-toggle-btn', { 'filter-toggle-btn-active': showFilters || hasActiveFilters }]" @click="showFilters = !showFilters">
+        Filter &amp; Sort{{ hasActiveFilters ? ' ·' : '' }}
       </button>
     </div>
 
-    <div class="controls-bar">
-      <input v-model="search" type="text" placeholder="Search title, creator, series…" />
-      <select v-model="sortField">
-        <option value="title">Sort: Title</option>
-        <option value="creator">Sort: Creator</option>
-        <option value="year">Sort: Year</option>
-        <option value="series_name">Sort: Series</option>
-        <option value="deaths">Sort: Deaths</option>
-      </select>
-      <select v-model="sortDir">
-        <option value="asc">Asc</option>
-        <option value="desc">Desc</option>
-      </select>
+    <div v-show="showFilters" class="filter-panel">
+      <div class="filter-chips">
+        <button type="button" :class="['chip', { 'chip-active': typeFilter === '' }]" @click="setType('')">
+          All <span class="muted">{{ allItems.length }}</span>
+        </button>
+        <button
+          v-for="[t, n] in mediaTypes"
+          :key="t"
+          type="button"
+          :class="['chip', { 'chip-active': typeFilter === t }]"
+          @click="setType(t)"
+        >
+          {{ t.replace(/_/g, ' ') }} <span class="muted">{{ n }}</span>
+        </button>
+      </div>
+      <div style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-top:0.5rem">
+        <select v-model="sortField">
+          <option value="title">Sort: Title</option>
+          <option value="creator">Sort: Creator</option>
+          <option value="year">Sort: Year</option>
+          <option value="series_name">Sort: Series</option>
+          <option value="deaths">Sort: Deaths</option>
+        </select>
+        <select v-model="sortDir">
+          <option value="asc">Asc</option>
+          <option value="desc">Desc</option>
+        </select>
+      </div>
     </div>
     <div class="meta-row">{{ rows.length }} item{{ rows.length === 1 ? '' : 's' }}</div>
 

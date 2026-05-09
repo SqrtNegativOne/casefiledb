@@ -47,7 +47,7 @@ See `AI_SCHEMA.md` for the full field reference and an example. Key rules:
 - For `game` entries, deaths live inside `cases[*].deaths` — the top-level `deaths` list is empty. Count deaths by summing across cases.
 - For `tv_show` entries, deaths live inside `episodes[*].deaths`.
 - `cause`, `death_type`, and `motive` are controlled vocabularies — see `validator/src/models.rs` for the canonical enum definitions.
-- `means` is required on every death except when `cause` is `OTHER`. When `cause` is `UNSTATED`, set `means: "unknown"`.
+- `means` is required on every death except when `cause` is `OTHER`. When `cause` is `UNSTATED`, set `means: "unstated"`.
 - `motive` is required on every death except when `death_type` is `accident` or `natural_death`.
 
 ## Data format

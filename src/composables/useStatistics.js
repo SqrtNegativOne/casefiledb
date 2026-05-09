@@ -115,7 +115,7 @@ export function computeStats(entries) {
     const cat = categorizeDeath(death)
     typeMap.set(cat, (typeMap.get(cat) || 0) + 1)
     if (death.motive) motiveMap.set(death.motive, (motiveMap.get(death.motive) || 0) + 1)
-    if (death.means && death.means !== 'unstated' && death.means !== 'unmentioned' && death.means !== 'needs_review') {
+    if (death.means && death.means !== 'unmentioned' && death.means !== 'needs_review') {
       const key = String(death.means).toLowerCase()
       meansMap.set(key, (meansMap.get(key) || 0) + 1)
     }

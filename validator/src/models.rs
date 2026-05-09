@@ -157,7 +157,7 @@ pub enum Cause {
     Eaten { means: String },
     TornApart { means: String },
     Vehicular { means: String },
-    Unstated { means: String },
+    Unstated,
     Other,
 }
 
@@ -460,7 +460,7 @@ impl TryFrom<DeathWire> for Death {
             RawCause::Eaten => Cause::Eaten { means: needs_means(w.means, "EATEN")? },
             RawCause::TornApart => Cause::TornApart { means: needs_means(w.means, "TORN_APART")? },
             RawCause::Vehicular => Cause::Vehicular { means: needs_means(w.means, "VEHICULAR")? },
-            RawCause::Unstated => Cause::Unstated { means: needs_means(w.means, "UNSTATED")? },
+            RawCause::Unstated => Cause::Unstated,
             RawCause::Other => Cause::Other,
         };
 
@@ -527,7 +527,7 @@ impl From<Death> for DeathWire {
             Cause::Eaten { means } => (RawCause::Eaten, Some(means)),
             Cause::TornApart { means } => (RawCause::TornApart, Some(means)),
             Cause::Vehicular { means } => (RawCause::Vehicular, Some(means)),
-            Cause::Unstated { means } => (RawCause::Unstated, Some(means)),
+            Cause::Unstated => (RawCause::Unstated, None),
             Cause::Other => (RawCause::Other, None),
         };
 

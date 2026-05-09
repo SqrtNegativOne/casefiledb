@@ -113,7 +113,7 @@ Every name used in a `death` event **must** be defined here first.
   - `LeastLikelySuspect` — the killer is the character the reader would least expect
   - `FrameUp` — an innocent person is deliberately framed
   - `MistakenIdentity` — the crime stems from a case of mistaken identity
-- `means`: (string) **Required** for every `cause` except `Other`. Specify the exact substance, weapon, or mechanism (e.g. `"arsenic"`, `"revolver"`, `"kitchen knife"`, `"cliff edge"`, `"car"`). When `cause` is `Unstated`, set `means` to `"unstated"` as well. Three additional reserved values: `"unmentioned"` if the narrative never names the specific item; `"unstated"` if the protagonist genuinely does not know what was used (an open in-story mystery); `"needs_review"` if you have not yet looked it up.
+- `means`: (string) **Required** for every `cause` except `Other`. Specify the exact substance, weapon, or mechanism (e.g. `"arsenic"`, `"revolver"`, `"kitchen knife"`, `"cliff edge"`, `"car"`). Three reserved values: `"unmentioned"` if the narrative never names the specific item; `"unstated"` if the protagonist genuinely does not know what was used (an open in-story mystery); `"needs_review"` if you have not yet looked it up. When `cause` is `Unstated`, omit `means` entirely.
 - `cause_detail`, `motive_detail`: (string, optional) Extra narrative detail.
 - `ordinal`: (integer, optional) Order of death within the work.
 - `is_central_death`: (boolean, optional, default `false`) `true` if this is the primary mystery.

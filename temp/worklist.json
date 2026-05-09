@@ -946,7 +946,7 @@
       "title": "The Crimson Ticket",
       "url": "https://thementalist.fandom.com/wiki/The_Crimson_Ticket",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -956,7 +956,7 @@
       "title": "Devil's Cherry",
       "url": "https://thementalist.fandom.com/wiki/Devil%27s_Cherry",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 1,
       "error": null
     },
@@ -966,7 +966,7 @@
       "title": "Not One Red Cent",
       "url": "https://thementalist.fandom.com/wiki/Not_One_Red_Cent",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -976,7 +976,7 @@
       "title": "Blood Feud",
       "url": "https://thementalist.fandom.com/wiki/Blood_Feud",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -986,7 +986,7 @@
       "title": "Red Dawn",
       "url": "https://thementalist.fandom.com/wiki/Red_Dawn",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -996,7 +996,7 @@
       "title": "Cherry Picked",
       "url": "https://thementalist.fandom.com/wiki/Cherry_Picked",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1006,7 +1006,7 @@
       "title": "If It Bleeds, It Leads",
       "url": "https://thementalist.fandom.com/wiki/If_It_Bleeds%2C_It_Leads",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 1,
       "error": null
     },
@@ -1026,7 +1026,7 @@
       "title": "Black Cherry",
       "url": "https://thementalist.fandom.com/wiki/Black_Cherry",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1036,7 +1036,7 @@
       "title": "Panama Red",
       "url": "https://thementalist.fandom.com/wiki/Panama_Red",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1046,7 +1046,7 @@
       "title": "Days of Wine and Roses",
       "url": "https://thementalist.fandom.com/wiki/Days_of_Wine_and_Roses",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },

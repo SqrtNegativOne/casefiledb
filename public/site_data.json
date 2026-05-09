@@ -36969,6 +36969,1027 @@
           "notes": "Archie attempted to burn himself alive in his car (handcuffed to the steering wheel) to escape years of abuse, but was talked out of it by the cabaret group. The group then staged his death using a stolen unidentified body to give him a new life."
         }
       ]
+    },
+    {
+      "slug": "mentalist-s05e01",
+      "wikidata_id": null,
+      "title": "The Crimson Ticket",
+      "media_type": "TvEpisode",
+      "year": 2012,
+      "creator": "Bruno Heller",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/The_Crimson_Ticket",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "callie-karlsen",
+          "name": "Callie Karlsen",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "rex-lango",
+          "name": "Rex Lango",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "tom-yannick",
+          "name": "Tom Yannick",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "rex-lango",
+          "ordinal": 1,
+          "cause": "Clubbed",
+          "means": "champagne bottle",
+          "death_type": "Homicide",
+          "motive": "SelfDefense",
+          "killers": [
+            {
+              "person_id": "callie-karlsen",
+              "mens_rea": "Recklessly",
+              "circumstance": "Justified"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Rex attacked Callie first; she struck him with a champagne bottle in self-defence."
+        },
+        {
+          "victim_id": "callie-karlsen",
+          "ordinal": 2,
+          "cause": "Strangled",
+          "means": "manual strangulation",
+          "death_type": "Homicide",
+          "motive": "GreedFinancial",
+          "killers": [
+            {
+              "person_id": "tom-yannick",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "LeastLikelySuspect"
+          ],
+          "is_central_death": true,
+          "is_twist": true,
+          "notes": "Yannick was the responding police officer who found Callie unconscious and killed her to steal her winning lottery ticket."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s05e02",
+      "wikidata_id": null,
+      "title": "Devil's Cherry",
+      "media_type": "TvEpisode",
+      "year": 2012,
+      "creator": "Daniel Cerone",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Devil%27s_Cherry",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "victor-mendelssohn",
+          "name": "Victor Mendelssohn",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "Diamond cutter"
+        },
+        {
+          "id": "betty-fulford",
+          "name": "Betty Fulford",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "kimball-cho",
+          "name": "Kimball Cho",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "wayne-rigsby",
+          "name": "Wayne Rigsby",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "grace-van-pelt",
+          "name": "Grace Van Pelt",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "julian-gallego",
+          "name": "Julian Gallego",
+          "is_fictional": true,
+          "role_in_story": "Bystander",
+          "profession": "Diamond cutter"
+        },
+        {
+          "id": "melaina-mendelssohn",
+          "name": "Melaina Mendelssohn",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        },
+        {
+          "id": "fahad-ranjani",
+          "name": "Fahad Ranjani",
+          "is_fictional": true,
+          "role_in_story": "Bystander",
+          "profession": "Diamond cutter"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "victor-mendelssohn",
+          "ordinal": 1,
+          "cause": "Stabbed",
+          "means": "electronic saw",
+          "death_type": "Homicide",
+          "motive": "GreedFinancial",
+          "motive_detail": "Betty wanted to steal Victor's diamonds; she laced his tea with belladonna to induce hallucinations, then manipulated him into killing himself with a saw.",
+          "killers": [
+            {
+              "person_id": "betty-fulford",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "LeastLikelySuspect",
+            "FrameUp"
+          ],
+          "is_central_death": true,
+          "is_twist": true
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s05e03",
+      "wikidata_id": null,
+      "title": "Not One Red Cent",
+      "media_type": "TvEpisode",
+      "year": 2012,
+      "creator": "Ken Woodruff",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Not_One_Red_Cent",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "ernie-wright",
+          "name": "Ernie Wright",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "Bank assistant manager"
+        },
+        {
+          "id": "nancy-sterling",
+          "name": "Nancy Sterling",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "ernie-wright",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "handgun",
+          "death_type": "Homicide",
+          "motive": "Revenge",
+          "motive_detail": "Nancy discovered Ernie planned to flee to Brazil alone after she had helped him transform his life; she killed him out of betrayal and jealousy.",
+          "killers": [
+            {
+              "person_id": "nancy-sterling",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "AlibiTrick"
+          ],
+          "is_central_death": true,
+          "is_twist": true
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s05e04",
+      "wikidata_id": null,
+      "title": "Blood Feud",
+      "media_type": "TvEpisode",
+      "year": 2012,
+      "creator": "Jordan Harper",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Blood_Feud",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "andy-hoff",
+          "name": "Andy Hoff",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "Barber"
+        },
+        {
+          "id": "steve-rigsby",
+          "name": "Steve Rigsby",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "fletcher-moss",
+          "name": "Fletcher Moss",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "wayne-rigsby",
+          "name": "Wayne Rigsby",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": false
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": false
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "andy-hoff",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "unmentioned",
+          "death_type": "Homicide",
+          "motive": "GreedFinancial",
+          "motive_detail": "Moss killed Hoff to provoke a gang war between the Overtons and Low Riders, allowing his own gang to take over both criminal territories.",
+          "killers": [
+            {
+              "person_id": "fletcher-moss",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "NeedleInHaystack"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        },
+        {
+          "victim_id": "steve-rigsby",
+          "ordinal": 2,
+          "cause": "Illness",
+          "means": "stroke",
+          "cause_detail": "Steve was shot by Moss and had a shotgun pellet lodged near his heart that could not be safely removed; he subsequently suffered a fatal stroke.",
+          "death_type": "Homicide",
+          "motive": "GreedFinancial",
+          "motive_detail": "Moss shot Steve (who was trying to help Hoff) as part of his scheme to incite a gang war. Steve later died from a stroke while recovering from the gunshot wound.",
+          "killers": [
+            {
+              "person_id": "fletcher-moss",
+              "mens_rea": "Knowingly",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false
+        },
+        {
+          "victim_id": "fletcher-moss",
+          "ordinal": 3,
+          "cause": "Shot",
+          "means": "unmentioned",
+          "death_type": "Homicide",
+          "motive": "SelfDefense",
+          "killers": [
+            {
+              "person_id": "wayne-rigsby",
+              "mens_rea": "Purposely",
+              "circumstance": "Justified"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Moss was shot by Rigsby after Moss attempted to shoot Rigsby following a feigned inability to move."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s05e05",
+      "wikidata_id": null,
+      "title": "Red Dawn",
+      "media_type": "TvEpisode",
+      "year": 2012,
+      "creator": "Tom Szentgyorgyi",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Red_Dawn",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "winston-dellinger",
+          "name": "Winston Dellinger",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "nathaniel-kim",
+          "name": "Nathaniel Kim",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "mia",
+          "name": "Mia",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "winston-dellinger",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "firearm",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Kim shot Dellinger to prevent him from revealing a corrupt deal in which Kim had hidden evidence of Dellinger's earlier vehicular manslaughter in exchange for a favorable court ruling on a bar lawsuit.",
+          "killers": [
+            {
+              "person_id": "nathaniel-kim",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        },
+        {
+          "victim_id": "mia",
+          "ordinal": 2,
+          "cause": "Vehicular",
+          "means": "car",
+          "cause_detail": "Dellinger struck Mia with his car while driving drunk; charges were dropped to a simple DUI after Kim concealed evidence.",
+          "death_type": "Homicide",
+          "motive": "Unknown",
+          "killers": [
+            {
+              "person_id": "winston-dellinger",
+              "mens_rea": "Recklessly",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s05e06",
+      "wikidata_id": null,
+      "title": "Cherry Picked",
+      "media_type": "TvEpisode",
+      "year": 2012,
+      "creator": "David Appelbaum",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Cherry_Picked",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "casey-boris",
+          "name": "Casey Boris",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "gary-dietz",
+          "name": "Gary Dietz",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "sloan-dietz",
+          "name": "Sloan Dietz",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "vince",
+          "name": "Vince",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "casey-boris",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "unmentioned",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "vince",
+              "mens_rea": "Recklessly",
+              "circumstance": "Neutral"
+            },
+            {
+              "person_id": "sloan-dietz",
+              "mens_rea": "Knowingly",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Security guard shot while trying to intervene in the kidnapping; killing was unplanned according to the kidnapper."
+        },
+        {
+          "victim_id": "gary-dietz",
+          "ordinal": 2,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "AttemptedHomicide",
+          "motive": "Freedom",
+          "killers": [
+            {
+              "person_id": "sloan-dietz",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            },
+            {
+              "person_id": "vince",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": false,
+          "is_twist": true,
+          "notes": "Sloan ordered her accomplice to kill Gary during the kidnapping; Gary was rescued before the order was carried out."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s05e07",
+      "wikidata_id": null,
+      "title": "If It Bleeds, It Leads",
+      "media_type": "TvEpisode",
+      "year": 2012,
+      "creator": "Eoghan Mahony",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/If_It_Bleeds,_It_Leads",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "cassandra-flood",
+          "name": "Cassandra Flood",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "amanda-shaw",
+          "name": "Amanda Shaw",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "tommy-volker",
+          "name": "Tommy Volker",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "ed-hunt",
+          "name": "Ed Hunt",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "volker-group-man",
+          "name": "Volker Group Man",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "cassandra-flood",
+          "ordinal": 1,
+          "cause": "Suffocated",
+          "means": "hand over mouth",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "volker-group-man",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            },
+            {
+              "person_id": "tommy-volker",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            },
+            {
+              "person_id": "ed-hunt",
+              "mens_rea": "Negligently",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "HowCatchem"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Car brakes were tampered with by Ed Hunt (acting on Volker's instigation) causing Cassie's car to go off a cliff; she survived the crash but was then suffocated by an unnamed Volker associate at the scene."
+        },
+        {
+          "victim_id": "amanda-shaw",
+          "ordinal": 2,
+          "cause": "Strangled",
+          "means": "hands",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "volker-group-man",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            },
+            {
+              "person_id": "tommy-volker",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Staged as a suicide (hanging) with a fake email suicide note. Volker watched as his associate carried out the killing."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s05e09",
+      "wikidata_id": null,
+      "title": "Black Cherry",
+      "media_type": "TvEpisode",
+      "year": 2012,
+      "creator": "Erika Green Swafford",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Black_Cherry",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lemuel-mcvie",
+          "name": "Lemuel McVie",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "nathan-dilmer",
+          "name": "Nathan Dilmer",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "victor-phipps",
+          "name": "Victor Phipps",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "quentin-bosch",
+          "name": "Quentin Bosch",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "unknown-hunter",
+          "name": "Unknown Hunter",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "unknown-hunter",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "hunting rifle",
+          "death_type": "Homicide",
+          "motive": "Unknown",
+          "killers": [
+            {
+              "person_id": "nathan-dilmer",
+              "mens_rea": "Recklessly",
+              "circumstance": "Neutral"
+            },
+            {
+              "person_id": "victor-phipps",
+              "mens_rea": "Recklessly",
+              "circumstance": "Neutral"
+            },
+            {
+              "person_id": "quentin-bosch",
+              "mens_rea": "Recklessly",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": false,
+          "is_twist": true,
+          "notes": "An unnamed hunter shot during a company retreat at Carrington woods; the shooters mistook him for a deer. The death preceded the episode and was covered up by Dilmer, Phipps, and Bosch."
+        },
+        {
+          "victim_id": "lemuel-mcvie",
+          "ordinal": 2,
+          "cause": "Clubbed",
+          "means": "unmentioned",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Lemuel was beaten to death to prevent him from going to the police about the accidental shooting of a hunter during the Carrington retreat.",
+          "killers": [
+            {
+              "person_id": "nathan-dilmer",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            },
+            {
+              "person_id": "victor-phipps",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            },
+            {
+              "person_id": "quentin-bosch",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "NeedleInHaystack"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Beaten to death at the Catalina 2 model home. Autopsy showed he was struck with several different blunt objects."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s05e10",
+      "wikidata_id": null,
+      "title": "Panama Red",
+      "media_type": "TvEpisode",
+      "year": 2012,
+      "creator": "Michael Weiss",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Panama_Red",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "jeremy-reese",
+          "name": "Jeremy Reese",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "botanist"
+        },
+        {
+          "id": "matthew-gold",
+          "name": "Matthew Gold",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "profession": "marijuana farm owner"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "jeremy-reese",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "9mm handgun",
+          "death_type": "Homicide",
+          "motive": "GreedFinancial",
+          "motive_detail": "Gold killed Jeremy to obtain his valuable marijuana seeds and profit from their sale.",
+          "killers": [
+            {
+              "person_id": "matthew-gold",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s05e11",
+      "wikidata_id": null,
+      "title": "Days of Wine and Roses",
+      "media_type": "TvEpisode",
+      "year": 2013,
+      "creator": "Rebecca Perry Cutter",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Days_of_Wine_and_Roses",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "charlie-coates",
+          "name": "Charlie Coates",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "joanna-lyle",
+          "name": "Joanna Lyle",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "charles-milk",
+          "name": "Charles Milk",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "tommy-volker",
+          "name": "Tommy Volker",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "charlie-coates",
+          "ordinal": 1,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Lyle killed Charlie after convincing her to retrieve the stolen ruby necklace, to conceal her own theft driven by compulsive gambling debts.",
+          "killers": [
+            {
+              "person_id": "joanna-lyle",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        },
+        {
+          "victim_id": "charles-milk",
+          "ordinal": 2,
+          "cause": "Shot",
+          "means": "unmentioned",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Charles Milk was killed in a drive-by shooting orchestrated by Tommy Volker to silence him before investigators could reach him.",
+          "killers": [
+            {
+              "person_id": "tommy-volker",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false
+        }
+      ]
     }
   ],
   "tv_shows": [],

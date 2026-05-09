@@ -30,7 +30,7 @@ import sys
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
-from urllib.parse import quote, urlparse
+from urllib.parse import quote, unquote, urlparse
 
 import requests
 from bs4 import BeautifulSoup, Tag
@@ -224,7 +224,7 @@ def fetch_url(url: str) -> Page:
         m = re.search(r"/wiki/(.+)$", path)
         if not m:
             raise ValueError(f"cannot parse fandom title from {url}")
-        return fetch_fandom(sub, m.group(1).replace("_", " "))
+        return fetch_fandom(sub, unquote(m.group(1)).replace("_", " "))
     if host.endswith("tvtropes.org"):
         m = re.match(r"/pmwiki/pmwiki\.php/([^/]+)/([^/?#]+)", path)
         if not m:
@@ -233,7 +233,12 @@ def fetch_url(url: str) -> Page:
     raise ValueError(f"unsupported host: {host}")
 
 
-def find_page(title: str, subdomain: str | None, source: str | None) -> Page:
+def find_page(
+    title: str,
+    subdomain: str | None,
+    source: str | None,
+    namespace: str | None = None,
+) -> Page:
     """Try sources in fallback order until one succeeds."""
     order: list[str] = [source] if source else []
     if not order:
@@ -250,7 +255,14 @@ def find_page(title: str, subdomain: str | None, source: str | None) -> Page:
                 return fetch_fandom(subdomain, title)
             if src == "tvtropes":
                 pascal = re.sub(r"[^A-Za-z0-9]", "", title.title())
-                return fetch_tvtropes(pascal)
+                namespaces = [namespace] if namespace else ["Literature", "Series"]
+                ns_errors: list[str] = []
+                for ns in namespaces:
+                    try:
+                        return fetch_tvtropes(pascal, ns)
+                    except (requests.HTTPError, LookupError) as e:
+                        ns_errors.append(f"{ns}: {e}")
+                raise LookupError("tvtropes namespaces exhausted: " + "; ".join(ns_errors))
         except (requests.HTTPError, LookupError, ValueError) as e:
             errors.append(f"{src}: {e}")
             continue
@@ -281,6 +293,7 @@ def main() -> int:
     pfd.add_argument("--slug", help="Output slug (default: derived from title)")
     pfd.add_argument("--subdomain", help="Fandom subdomain, e.g. 'monk' for monk.fandom.com")
     pfd.add_argument("--source", choices=["fandom", "tvtropes"], help="Force a specific source")
+    pfd.add_argument("--namespace", help="TVTropes namespace (default: try Literature then Series)")
 
     pl = sub.add_parser("list-episodes", help="List episode page titles for a Fandom show")
     pl.add_argument("subdomain")
@@ -295,7 +308,7 @@ def main() -> int:
         return 0
 
     if args.cmd == "find":
-        page = find_page(args.title, args.subdomain, args.source)
+        page = find_page(args.title, args.subdomain, args.source, getattr(args, "namespace", None))
         slug = args.slug or re.sub(r"[^a-z0-9]+", "-", args.title.lower()).strip("-")
         tp, jp = write_page(slug, page)
         print(f"OK {page.source} -> {tp} {jp}")

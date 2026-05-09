@@ -25,7 +25,7 @@ pub enum RawCause {
     Eaten,
     TornApart,
     Vehicular,
-    Unknown,
+    Unstated,
     Other,
 }
 
@@ -36,7 +36,7 @@ pub enum RawDeathType {
     Execution,
     Accident,
     NaturalDeath,
-    Unknown,
+    Unstated,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -56,7 +56,7 @@ pub enum Motive {
     Pathological,
     Mercy,
     Penance,
-    Unknown,
+    Unstated,
     Other,
     NeedsReview,
 }
@@ -68,7 +68,7 @@ pub enum MensRea {
     Recklessly,
     Negligently,
     Accidentally,
-    Unknown,
+    Unstated,
     NeedsReview,
 }
 
@@ -77,7 +77,7 @@ pub enum KillerCircumstance {
     Justified,
     Mitigated,
     Neutral,
-    Unknown,
+    Unstated,
     NeedsReview,
 }
 
@@ -105,7 +105,7 @@ pub enum RoleInStory {
     Victim,
     Detective,
     Bystander,
-    Unknown,
+    Unstated,
 }
 
 #[derive(Debug, Clone, Copy, Serialize, Deserialize)]
@@ -157,7 +157,7 @@ pub enum Cause {
     Eaten { means: String },
     TornApart { means: String },
     Vehicular { means: String },
-    Unknown { means: String },
+    Unstated,
     Other,
 }
 
@@ -169,7 +169,7 @@ pub enum DeathType {
     Homicide { motive: Motive, motive_detail: Option<String> },
     AttemptedHomicide { motive: Motive, motive_detail: Option<String> },
     Execution { motive: Motive, motive_detail: Option<String> },
-    Unknown { motive: Motive, motive_detail: Option<String> },
+    Unstated { motive: Motive, motive_detail: Option<String> },
     Accident,
     NaturalDeath,
 }
@@ -460,7 +460,7 @@ impl TryFrom<DeathWire> for Death {
             RawCause::Eaten => Cause::Eaten { means: needs_means(w.means, "EATEN")? },
             RawCause::TornApart => Cause::TornApart { means: needs_means(w.means, "TORN_APART")? },
             RawCause::Vehicular => Cause::Vehicular { means: needs_means(w.means, "VEHICULAR")? },
-            RawCause::Unknown => Cause::Unknown { means: needs_means(w.means, "UNKNOWN")? },
+            RawCause::Unstated => Cause::Unstated,
             RawCause::Other => Cause::Other,
         };
 
@@ -481,8 +481,8 @@ impl TryFrom<DeathWire> for Death {
                 motive: needs_motive(w.motive, "execution")?,
                 motive_detail: w.motive_detail,
             },
-            RawDeathType::Unknown => DeathType::Unknown {
-                motive: needs_motive(w.motive, "unknown")?,
+            RawDeathType::Unstated => DeathType::Unstated {
+                motive: needs_motive(w.motive, "unstated")?,
                 motive_detail: w.motive_detail,
             },
             RawDeathType::Accident => DeathType::Accident,
@@ -527,7 +527,7 @@ impl From<Death> for DeathWire {
             Cause::Eaten { means } => (RawCause::Eaten, Some(means)),
             Cause::TornApart { means } => (RawCause::TornApart, Some(means)),
             Cause::Vehicular { means } => (RawCause::Vehicular, Some(means)),
-            Cause::Unknown { means } => (RawCause::Unknown, Some(means)),
+            Cause::Unstated => (RawCause::Unstated, None),
             Cause::Other => (RawCause::Other, None),
         };
 
@@ -541,8 +541,8 @@ impl From<Death> for DeathWire {
             DeathType::Execution { motive, motive_detail } => {
                 (RawDeathType::Execution, Some(motive), motive_detail)
             }
-            DeathType::Unknown { motive, motive_detail } => {
-                (RawDeathType::Unknown, Some(motive), motive_detail)
+            DeathType::Unstated { motive, motive_detail } => {
+                (RawDeathType::Unstated, Some(motive), motive_detail)
             }
             DeathType::Accident => (RawDeathType::Accident, None, None),
             DeathType::NaturalDeath => (RawDeathType::NaturalDeath, None, None),

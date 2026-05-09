@@ -24,9 +24,21 @@ Exactly one file: `temp/<slug>.json`. It must be a JSON array (even if it contai
 - For `game` items: deaths live inside `cases[*].deaths`; the top-level `deaths` array is empty.
 - Slug rule: if a real `wikidata_id` exists in the source, set `wikidata_id` to it and let ingest derive the slug. Otherwise set `wikidata_id: null` and use the slug the dispatcher provided.
 
+## Enum casing (critical)
+
+All enum fields use **PascalCase** exactly as shown in `AI_SCHEMA.md`. For example:
+- `cause`: `"Poisoned"`, `"Shot"`, `"Unknown"`, `"TornApart"` — NOT `"POISONED"`, `"SHOT"`, `"UNKNOWN"`
+- `death_type`: `"Homicide"`, `"AttemptedHomicide"`, `"Accident"`, `"NaturalDeath"` — NOT `"homicide"`, `"attempted_homicide"`
+- `motive`: `"Revenge"`, `"GreedFinancial"`, `"Concealment"` — NOT `"revenge"`, `"greed_financial"`
+- `mens_rea`: `"Purposely"`, `"Recklessly"` — NOT `"purposely"`, `"recklessly"`
+- `circumstance`: `"Neutral"`, `"Justified"` — NOT `"neutral"`, `"justified"`
+- `tropes`: `"Whodunit"`, `"LockedRoom"`, `"ClosedCircle"` — NOT `"whodunit"`, `"locked_room"`
+- `role_in_story`: `"Victim"`, `"Detective"`, `"Antagonist"` — NOT `"victim"`, `"detective"`
+- `media_type`: `"TvEpisode"`, `"Book"`, `"Movie"` — NOT `"tv_episode"`, `"book"`, `"movie"`
+
 ## On uncertainty
 
-If the page is ambiguous (e.g. cause of death not stated), pick the closest controlled-vocab value defined in `AI_SCHEMA.md` and set `cause: "UNKNOWN"` with `means: "unknown"` rather than guessing. Do not add free-text fields the schema does not define.
+If the page is ambiguous (e.g. cause of death not stated), pick the closest controlled-vocab value defined in `AI_SCHEMA.md` and set `cause: "Unknown"` with `means: "unknown"` rather than guessing. Do not add free-text fields the schema does not define.
 
 ## Done
 

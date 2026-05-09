@@ -16,6 +16,11 @@ const deathTypeFilter = ref('')
 const twistFilter = ref(false)
 const sortField = ref('media')
 const sortDir = ref('asc')
+const showFilters = ref(false)
+
+const hasActiveFilters = computed(() =>
+  causeFilter.value || typeFilter.value || deathTypeFilter.value || twistFilter.value || sortField.value !== 'media' || sortDir.value !== 'asc'
+)
 
 const allDeathRows = computed(() => {
   const out = []
@@ -118,6 +123,12 @@ function sortState(field) {
   <div>
     <div class="controls-bar">
       <input v-model="search" type="text" placeholder="Search victim, killer, media…" />
+      <button type="button" :class="['filter-toggle-btn', { 'filter-toggle-btn-active': showFilters || hasActiveFilters }]" @click="showFilters = !showFilters">
+        Filter &amp; Sort{{ hasActiveFilters ? ' ·' : '' }}
+      </button>
+    </div>
+
+    <div v-show="showFilters" class="filter-panel">
       <select v-model="causeFilter" aria-label="Filter by cause">
         <option value="">All causes</option>
         <option v-for="c in causes" :key="c" :value="c">{{ c }}</option>
@@ -131,7 +142,7 @@ function sortState(field) {
         <option v-for="t in mediaTypes" :key="t" :value="t">{{ t }}</option>
       </select>
       <label class="checkbox-filter">
-        <input type="checkbox" v-model="twistFilter" /> Twist
+        <input type="checkbox" v-model="twistFilter" /> Twist only
       </label>
       <select v-model="sortField" aria-label="Sort field">
         <option value="media">Sort: Media</option>

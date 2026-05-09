@@ -254,6 +254,55 @@ select:focus {
   cursor: pointer;
 }
 
+/* ─── Filter toggle ─────────────────────────────────────────────── */
+.filter-toggle-btn {
+  padding: 0.4rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 0.875rem;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: border-color 150ms, color 150ms, background 150ms;
+}
+
+.filter-toggle-btn:hover {
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.filter-toggle-btn-active {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 8%, var(--surface));
+}
+
+.filter-panel {
+  padding: 0.6rem 0.75rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+/* ─── Subitem header (h3 + jump select inline) ───────────────────── */
+.subitem-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1.25rem 0 0.5rem;
+}
+
+.subitem-header h3 {
+  margin: 0;
+}
+
 /* ─── Buttons ───────────────────────────────────────────────────── */
 button,
 .btn {

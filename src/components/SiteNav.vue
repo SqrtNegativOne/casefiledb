@@ -16,6 +16,7 @@ const links = [
   { to: '/methods', label: 'Methods' },
   { to: '/people', label: 'People' },
   { to: '/media', label: 'Media' },
+  { to: '/compare', label: 'Compare' },
 ]
 
 function isActive(path) {

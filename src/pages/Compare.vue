@@ -45,6 +45,8 @@ const modeA = ref('author')
 const modeB = ref('author')
 const selA = ref('')
 const selB = ref('')
+const searchA = ref('')
+const searchB = ref('')
 
 const authors = computed(() => {
   const map = new Map()
@@ -76,6 +78,13 @@ function optionsFor(mode) {
   return [...allItems.value]
     .sort((a, b) => String(a.title).localeCompare(String(b.title)))
     .map((m) => ({ value: `media:${m.slug}`, label: `${m.title} (${m.year || '?'})` }))
+}
+
+function filteredOptions(mode, search) {
+  const all = optionsFor(mode)
+  const q = search.trim().toLowerCase()
+  if (!q) return all
+  return all.filter((o) => !o.disabled && o.label.toLowerCase().includes(q))
 }
 
 function topN(counts, n) {
@@ -149,14 +158,22 @@ function categoryLabel(cat) { return cat === 'world' ? 'World' : cat === 'countr
       { mode: modeB, sel: selB, panel: panelB },
     ]" :key="side" class="compare-panel">
       <div class="compare-panel-header">
-        <select :value="mode" @change="side === 0 ? (modeA = $event.target.value, selA = '') : (modeB = $event.target.value, selB = '')">
+        <select :value="mode" @change="side === 0 ? (modeA = $event.target.value, selA = '', searchA = '') : (modeB = $event.target.value, selB = '', searchB = '')">
           <option value="author">Author</option>
           <option value="media">Work</option>
           <option value="real">Real World</option>
         </select>
+        <input
+          v-if="mode !== 'real'"
+          type="text"
+          :placeholder="mode === 'media' ? 'Search works…' : 'Search authors…'"
+          :value="side === 0 ? searchA : searchB"
+          @input="side === 0 ? searchA = $event.target.value : searchB = $event.target.value"
+          style="width:100%"
+        />
         <select :value="sel" @change="side === 0 ? selA = $event.target.value : selB = $event.target.value">
           <option value="">— select —</option>
-          <option v-for="o in optionsFor(mode)" :key="o.value + o.label" :value="o.value" :disabled="o.disabled">{{ o.label }}</option>
+          <option v-for="o in filteredOptions(mode, side === 0 ? searchA : searchB)" :key="o.value + o.label" :value="o.value" :disabled="o.disabled">{{ o.label }}</option>
         </select>
       </div>
       <div class="compare-panel-body">

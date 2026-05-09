@@ -1366,7 +1366,7 @@
       "title": "Black Hearts",
       "url": "https://thementalist.fandom.com/wiki/Black_Hearts",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1376,7 +1376,7 @@
       "title": "Blue Bird",
       "url": "https://thementalist.fandom.com/wiki/Blue_Bird",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1386,7 +1386,7 @@
       "title": "Nothing But Blue Skies",
       "url": "https://thementalist.fandom.com/wiki/Nothing_But_Blue_Skies",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1396,7 +1396,7 @@
       "title": "The Greybar Hotel",
       "url": "https://thementalist.fandom.com/wiki/The_Greybar_Hotel",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1406,7 +1406,7 @@
       "title": "Orange Blossom Ice Cream",
       "url": "https://thementalist.fandom.com/wiki/Orange_Blossom_Ice_Cream",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1416,7 +1416,7 @@
       "title": "Black Market",
       "url": "https://thementalist.fandom.com/wiki/Black_Market",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1426,7 +1426,7 @@
       "title": "The Silver Briefcase",
       "url": "https://thementalist.fandom.com/wiki/The_Silver_Briefcase",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1436,7 +1436,7 @@
       "title": "Green Light",
       "url": "https://thementalist.fandom.com/wiki/Green_Light",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1446,7 +1446,7 @@
       "title": "Little Yellow House",
       "url": "https://thementalist.fandom.com/wiki/Little_Yellow_House",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -1456,7 +1456,7 @@
       "title": "The Whites of His Eyes",
       "url": "https://thementalist.fandom.com/wiki/The_Whites_of_His_Eyes",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },

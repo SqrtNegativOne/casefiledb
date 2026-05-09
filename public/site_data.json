@@ -40995,6 +40995,1152 @@
           "notes": "Multiple corpses found in a freezer in what appears to be an organ harvesting operation; the bodies had been cut open and their hearts removed. These are victims from the human trafficking ring investigated by Cho and Abbott."
         }
       ]
+    },
+    {
+      "slug": "mentalist-s06e21",
+      "wikidata_id": null,
+      "title": "Black Hearts",
+      "media_type": "TvEpisode",
+      "year": 2014,
+      "creator": "Bruno Heller",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Black_Hearts",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "kimball-cho",
+          "name": "Kimball Cho",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "michael-ridley",
+          "name": "Michael Ridley",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "anthony-tremel",
+          "name": "Anthony Tremel",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "alexander-lark",
+          "name": "Alexander Lark",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "trafficking-victim-1",
+          "name": "Trafficking Victim 1",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "trafficking-victim-2",
+          "name": "Trafficking Victim 2",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "trafficking-victim-3",
+          "name": "Trafficking Victim 3",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "qasimi-brother-1",
+          "name": "Qasimi Brother 1",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "qasimi-brother-2",
+          "name": "Qasimi Brother 2",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "trafficking-victim-1",
+          "ordinal": 1,
+          "cause": "Suffocated",
+          "means": "propofol and organ harvesting",
+          "death_type": "Homicide",
+          "motive": "GreedFinancial",
+          "killers": [
+            {
+              "person_id": "alexander-lark",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            },
+            {
+              "person_id": "michael-ridley",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "One of three unnamed women killed at the medical facility as part of a human trafficking organ harvesting operation run by Ridley; Lark administered propofol then harvested vital organs."
+        },
+        {
+          "victim_id": "trafficking-victim-2",
+          "ordinal": 2,
+          "cause": "Suffocated",
+          "means": "propofol and organ harvesting",
+          "death_type": "Homicide",
+          "motive": "GreedFinancial",
+          "killers": [
+            {
+              "person_id": "alexander-lark",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            },
+            {
+              "person_id": "michael-ridley",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "One of three unnamed women killed at the medical facility as part of a human trafficking organ harvesting operation."
+        },
+        {
+          "victim_id": "trafficking-victim-3",
+          "ordinal": 3,
+          "cause": "Suffocated",
+          "means": "propofol and organ harvesting",
+          "death_type": "Homicide",
+          "motive": "GreedFinancial",
+          "killers": [
+            {
+              "person_id": "alexander-lark",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            },
+            {
+              "person_id": "michael-ridley",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "One of three unnamed women killed at the medical facility as part of a human trafficking organ harvesting operation."
+        },
+        {
+          "victim_id": "qasimi-brother-1",
+          "ordinal": 4,
+          "cause": "Stabbed",
+          "means": "unmentioned",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "michael-ridley",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "One of the Qasimi brothers found stabbed to death in their prison cells; killing attributed to Ridley's operation to eliminate potential witnesses."
+        },
+        {
+          "victim_id": "qasimi-brother-2",
+          "ordinal": 5,
+          "cause": "Stabbed",
+          "means": "unmentioned",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "michael-ridley",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "One of the Qasimi brothers found stabbed to death in their prison cells; killing attributed to Ridley's operation to eliminate potential witnesses."
+        },
+        {
+          "victim_id": "alexander-lark",
+          "ordinal": 6,
+          "cause": "Hanged",
+          "means": "unmentioned",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "alexander-lark",
+              "mens_rea": "Purposely",
+              "circumstance": "Mitigated"
+            },
+            {
+              "person_id": "michael-ridley",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whydunit"
+          ],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Lark hanged himself in his prison cell; Patrick surmises this was coerced by Ridley threatening his daughter April's life (Anthony had broken into April's apartment and stolen her locket as a demonstration). Represented as Homicide with Lark also in killers due to coerced suicide."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s06e22",
+      "wikidata_id": null,
+      "title": "Blue Bird",
+      "media_type": "TvEpisode",
+      "year": 2014,
+      "creator": "Bruno Heller",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Blue_Bird",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "greta",
+          "name": "Greta",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "monica-giraldi",
+          "name": "Monica Giraldi",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "vince",
+          "name": "Vince",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "greta",
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Monica Giraldi's embezzlement; Greta was killed to conceal the financial crime.",
+          "killers": [
+            {
+              "person_id": "monica-giraldi",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            },
+            {
+              "person_id": "vince",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "NeedleInHaystack"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Cold case revisited in this episode. Greta was the original murder victim; her business partner Monica Giraldi and yoga instructor Vince are revealed as the killers. Method of death not specified in the source."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s07e01",
+      "wikidata_id": null,
+      "title": "Nothing But Blue Skies",
+      "media_type": "TvEpisode",
+      "year": 2014,
+      "creator": "Tom Szentgyorgyi",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Nothing_But_Blue_Skies",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "jeremy-geist",
+          "name": "Jeremy Geist",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "FBI undercover agent"
+        },
+        {
+          "id": "mason-hunston",
+          "name": "Mason Hunston",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "profession": "Bowling alley owner"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "profession": "Consultant"
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "profession": "FBI agent"
+        },
+        {
+          "id": "kimball-cho",
+          "name": "Kimball Cho",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "profession": "FBI agent"
+        },
+        {
+          "id": "dennis-abbott",
+          "name": "Dennis Abbott",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "profession": "FBI agent"
+        },
+        {
+          "id": "michelle-vega",
+          "name": "Michelle Vega",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "profession": "FBI agent"
+        },
+        {
+          "id": "jason-wylie",
+          "name": "Jason Wylie",
+          "is_fictional": true,
+          "role_in_story": "Bystander",
+          "profession": "FBI agent"
+        },
+        {
+          "id": "jeremy-s-childhood-friend",
+          "name": "Jeremy's childhood friend",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "notes": "Unnamed 12-year-old killed during a kidnapping witnessed by young Jeremy Geist; backstory referenced in the episode."
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "jeremy-geist",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "firearm",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Hunston shot Jeremy because Jeremy had been snooping in his office and was close to uncovering the illegal gun sales operation at the bowling alley.",
+          "killers": [
+            {
+              "person_id": "mason-hunston",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Jeremy was an undercover FBI agent. He was shot twice in the chest in the alley behind Rocket Bowling Alley."
+        },
+        {
+          "victim_id": "jeremy-s-childhood-friend",
+          "ordinal": 2,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Unknown",
+          "motive_detail": "The child was killed even after the ransom was paid during a kidnapping Jeremy Geist witnessed as a child. The perpetrators are not identified by name in the episode.",
+          "killers": [],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Historical backstory death referenced in the episode. Jeremy witnessed his friend being taken during a sleepover; the friend was killed even after the ransom was paid. This event was the reason Jeremy became an FBI agent."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s07e02",
+      "wikidata_id": null,
+      "title": "The Greybar Hotel",
+      "media_type": "TvEpisode",
+      "year": 2014,
+      "creator": "Jordan Harper",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/The_Greybar_Hotel",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "clerk",
+          "name": "Clerk",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "cole-foster",
+          "name": "Cole Foster",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "clerk",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "handgun",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "cole-foster",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Gas station clerk shot multiple times by Cole Foster, including once more after already down, to eliminate a potential witness during the gang's escape."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s07e03",
+      "wikidata_id": null,
+      "title": "Orange Blossom Ice Cream",
+      "media_type": "TvEpisode",
+      "year": 2014,
+      "creator": "Bruno Heller",
+      "series_name": "The Mentalist",
+      "series_number": 7.0,
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Orange_Blossom_Ice_Cream",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "jean-paul",
+          "name": "Jean Paul",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "kimball-cho",
+          "name": "Kimball Cho",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "jean-paul",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "firearm",
+          "death_type": "Homicide",
+          "motive": "SelfDefense",
+          "killers": [
+            {
+              "person_id": "kimball-cho",
+              "mens_rea": "Knowingly",
+              "circumstance": "Justified"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Jean Paul (Nemec's contact in Atlanta) fled law enforcement at a roadhouse, opened fire on officers, and was shot by Cho."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s07e04",
+      "wikidata_id": null,
+      "title": "Black Market",
+      "media_type": "TvEpisode",
+      "year": 2014,
+      "creator": "Tom Donaghy",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Black_Market",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "kirk-upton",
+          "name": "Kirk Upton",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "security-guard-1",
+          "name": "Security Guard 1",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "security-guard-2",
+          "name": "Security Guard 2",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "bibby-fortensky",
+          "name": "Bibby Fortensky",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "elon-bell",
+          "name": "Elon Bell",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "kimball-cho",
+          "name": "Kimball Cho",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "dennis-abbott",
+          "name": "Dennis Abbott",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        },
+        {
+          "id": "michelle-vega",
+          "name": "Michelle Vega",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "kirk-upton",
+          "ordinal": 1,
+          "cause": "Clubbed",
+          "means": "unmentioned",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Kirk was part of the diamond heist scheme but panicked when he saw FBI agents at the gem show; Bibby killed him to prevent him from exposing the operation.",
+          "killers": [
+            {
+              "person_id": "bibby-fortensky",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "NeedleInHaystack"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        },
+        {
+          "victim_id": "security-guard-1",
+          "ordinal": 2,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "GreedFinancial",
+          "motive_detail": "The guards were killed during a diamond heist outside Fort Worth, Texas while transporting half a million dollars worth of diamonds.",
+          "killers": [
+            {
+              "person_id": "elon-bell",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false
+        },
+        {
+          "victim_id": "security-guard-2",
+          "ordinal": 3,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "GreedFinancial",
+          "motive_detail": "The guards were killed during a diamond heist outside Fort Worth, Texas while transporting half a million dollars worth of diamonds.",
+          "killers": [
+            {
+              "person_id": "elon-bell",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s07e05",
+      "wikidata_id": null,
+      "title": "The Silver Briefcase",
+      "media_type": "TvEpisode",
+      "year": 2014,
+      "creator": "Jordan Harper",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/The_Silver_Briefcase",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "nicole-raymond",
+          "name": "Nicole Raymond",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "colonel-aaron-raymond",
+          "name": "Colonel Aaron Raymond",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "denise-sparks",
+          "name": "Denise Sparks",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "nicole-raymond",
+          "ordinal": 1,
+          "cause": "Stabbed",
+          "means": "kitchen knife",
+          "death_type": "Homicide",
+          "motive": "GreedFinancial",
+          "motive_detail": "Colonel Raymond wanted to avoid a costly divorce; Denise Sparks acted on Raymond's promise of a future together.",
+          "killers": [
+            {
+              "person_id": "colonel-aaron-raymond",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            },
+            {
+              "person_id": "denise-sparks",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "AlibiTrick",
+            "FrameUp"
+          ],
+          "is_central_death": true,
+          "is_twist": true,
+          "notes": "Conflicting confessions make it unclear whether Raymond or Denise dealt the fatal blow; both participated in the murder. An innocent man (Zach Jefferson) was framed when Raymond dumped his wife's car in a bad neighbourhood. Denise disguised herself as Nicole to trigger a red-light camera and establish a false alibi."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s07e06",
+      "wikidata_id": null,
+      "title": "Green Light",
+      "media_type": "TvEpisode",
+      "year": 2015,
+      "creator": "Alex Berger",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Green_Light",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "darrell-gonzalez",
+          "name": "Darrell Gonzalez",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "DEA Agent"
+        },
+        {
+          "id": "pedro-orosco",
+          "name": "Pedro Orosco",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "profession": "DEA Agent"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "darrell-gonzalez",
+          "ordinal": 1,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Orosco killed Gonzalez because Gonzalez had installed tracking software on Orosco's computer and was about to expose him as a mole working for the Sosa cartel.",
+          "killers": [
+            {
+              "person_id": "pedro-orosco",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "NeedleInHaystack"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Gonzalez was found dead in a chair, blindfolded with duct tape over his mouth. The specific cause of death is not stated in the episode."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s07e07",
+      "wikidata_id": null,
+      "title": "Little Yellow House",
+      "media_type": "TvEpisode",
+      "year": 2015,
+      "creator": "Marisa Wegrzyn",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Little_Yellow_House",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "nathan-barnes",
+          "name": "Nathan Barnes",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "charlie-mcinnis",
+          "name": "Charlie McInnis",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "nathan-barnes",
+          "ordinal": 1,
+          "cause": "Clubbed",
+          "means": "unmentioned",
+          "death_type": "Homicide",
+          "motive": "Jealousy",
+          "motive_detail": "Charlie suspected Nathan of having an affair with his fiancee after finding his monogrammed shirt on Nathan; Nathan had also beaten him at cards.",
+          "killers": [
+            {
+              "person_id": "charlie-mcinnis",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Nathan Barnes was found beaten to death behind a hotel in Dallas. He was a law clerk and son of a judge who did pro bono work for battered women. Charlie McInnis, also a law clerk and fellow poker player, killed him believing Nathan was having an affair with his fiancee Heidi Pendleton — it was later revealed Heidi had merely lent Nathan a shirt when he spilled coffee."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s07e08",
+      "wikidata_id": null,
+      "title": "The Whites of His Eyes",
+      "media_type": "TvEpisode",
+      "year": 2015,
+      "creator": "Erin Donovan",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/The_Whites_of_His_Eyes",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "lydon",
+          "name": "Lydon",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "edwin-hu",
+          "name": "Edwin Hu",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "fbi-agent-guard-1",
+          "name": "FBI Agent Guard 1",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "fbi-agent-guard-2",
+          "name": "FBI Agent Guard 2",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "realtor",
+          "name": "Realtor",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "construction-site-man",
+          "name": "Construction Site Man",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "person-at-peg-bailey-s-house",
+          "name": "Person at Peg Bailey's House",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "jamie-owen",
+          "name": "Jamie Owen",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "kimball-cho",
+          "name": "Kimball Cho",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": false
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "kelvin-bittaker",
+          "name": "Kelvin Bittaker",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "construction-site-man",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "unmentioned",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "lydon",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Unnamed man shot by Lydon at a multi-story construction site, apparently to clear the space for setting up a sniper rifle."
+        },
+        {
+          "victim_id": "edwin-hu",
+          "ordinal": 2,
+          "cause": "Shot",
+          "means": "sniper rifle",
+          "death_type": "Homicide",
+          "motive": "GreedFinancial",
+          "killers": [
+            {
+              "person_id": "lydon",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Witness who was about to testify against Kelvin Bittaker; shot by sniper Lydon outside the courthouse."
+        },
+        {
+          "victim_id": "fbi-agent-guard-1",
+          "ordinal": 3,
+          "cause": "Shot",
+          "means": "sniper rifle",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "lydon",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "One of two FBI agent escorts killed by Lydon's sniper fire at the courthouse."
+        },
+        {
+          "victim_id": "fbi-agent-guard-2",
+          "ordinal": 4,
+          "cause": "Shot",
+          "means": "sniper rifle",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "lydon",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "One of two FBI agent escorts killed by Lydon's sniper fire at the courthouse."
+        },
+        {
+          "victim_id": "realtor",
+          "ordinal": 5,
+          "cause": "Shot",
+          "means": "sniper rifle",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "lydon",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Realtor caught in the courthouse shooting by Lydon."
+        },
+        {
+          "victim_id": "jamie-owen",
+          "ordinal": 6,
+          "cause": "Clubbed",
+          "means": "unmentioned",
+          "death_type": "Homicide",
+          "motive": "Unknown",
+          "killers": [
+            {
+              "person_id": "kelvin-bittaker",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Prior death; Kelvin Bittaker's victim whose beating death is the original crime that Edwin Hu and Lily Stoppard witnessed. Described as a brutal slaying where the victim could not fight back."
+        },
+        {
+          "victim_id": "person-at-peg-bailey-s-house",
+          "ordinal": 7,
+          "cause": "Unknown",
+          "means": "unknown",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "lydon",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Dead body discovered by Agent Spackman at Peg Bailey's house; cause and identity not specified. Lydon (posing as cousin Billy) was present at the scene."
+        },
+        {
+          "victim_id": "lydon",
+          "ordinal": 8,
+          "cause": "Shot",
+          "means": "firearm",
+          "death_type": "Homicide",
+          "motive": "Unknown",
+          "killers": [
+            {
+              "person_id": "kimball-cho",
+              "mens_rea": "Purposely",
+              "circumstance": "Justified"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Assassin Lydon shot by Agent Cho during the sting operation at the hotel."
+        }
+      ]
     }
   ],
   "tv_shows": [],

@@ -8692,6 +8692,450 @@
           "is_twist": false
         }
       ]
+    },
+    {
+      "slug": "a-study-in-scarlet",
+      "wikidata_id": null,
+      "title": "A Study in Scarlet",
+      "media_type": "Book",
+      "year": 1887,
+      "creator": "Arthur Conan Doyle",
+      "series_name": "Sherlock Holmes",
+      "series_number": 1.0,
+      "tags": [],
+      "external_links": {
+        "tvtropes_slug": "Literature/AStudyInScarlet",
+        "tvtropes_status": "Exists",
+        "wikipedia_status": "NeedsReview",
+        "fandom_status": "NeedsReview",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "sherlock-holmes",
+          "name": "Sherlock Holmes",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "consulting detective"
+        },
+        {
+          "id": "dr-john-watson",
+          "name": "Dr. John Watson",
+          "is_fictional": true,
+          "role_in_story": "Protagonist",
+          "is_solver": false,
+          "gender": "male",
+          "profession": "doctor"
+        },
+        {
+          "id": "jefferson-hope",
+          "name": "Jefferson Hope",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "gender": "male"
+        },
+        {
+          "id": "enoch-drebber",
+          "name": "Enoch Drebber",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "gender": "male"
+        },
+        {
+          "id": "joseph-stangerson",
+          "name": "Joseph Stangerson",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "gender": "male"
+        },
+        {
+          "id": "john-ferrier",
+          "name": "John Ferrier",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "gender": "male"
+        },
+        {
+          "id": "lucy-ferrier",
+          "name": "Lucy Ferrier",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "gender": "female"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "enoch-drebber",
+          "ordinal": 1,
+          "cause": "Poisoned",
+          "means": "poison pill",
+          "death_type": "Homicide",
+          "motive": "VigilanteJustice",
+          "motive_detail": "Jefferson Hope sought revenge for the murder of John Ferrier and the forced marriage and subsequent death of Lucy Ferrier.",
+          "killers": [
+            {
+              "person_id": "jefferson-hope",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        },
+        {
+          "victim_id": "joseph-stangerson",
+          "ordinal": 2,
+          "cause": "Stabbed",
+          "means": "knife",
+          "death_type": "Homicide",
+          "motive": "VigilanteJustice",
+          "motive_detail": "Stangerson refused to participate in the pill game so Hope stabbed him in the heart. Hope held him responsible alongside Drebber for the deaths of John Ferrier and Lucy Ferrier.",
+          "killers": [
+            {
+              "person_id": "jefferson-hope",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": false,
+          "is_twist": false
+        },
+        {
+          "victim_id": "john-ferrier",
+          "ordinal": 3,
+          "cause": "Other",
+          "death_type": "Homicide",
+          "motive": "Ideology",
+          "motive_detail": "Ferrier was murdered by the Danites (Mormon vigilante group) after he refused to surrender Lucy to a polygamous marriage and attempted to flee Salt Lake City.",
+          "killers": [],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Killed by unnamed Danite members acting on religious/ideological grounds. The exact killer is not identified in the narrative."
+        },
+        {
+          "victim_id": "lucy-ferrier",
+          "ordinal": 4,
+          "cause": "Illness",
+          "means": "unmentioned",
+          "death_type": "NaturalDeath",
+          "killers": [],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Lucy Ferrier died of despair after being forced into a polygamous marriage to Enoch Drebber."
+        },
+        {
+          "victim_id": "jefferson-hope",
+          "ordinal": 5,
+          "cause": "Illness",
+          "means": "aortic aneurysm",
+          "death_type": "NaturalDeath",
+          "killers": [],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Hope died in custody the night of his arrest due to a long-standing heart condition (aortic aneurysm)."
+        }
+      ]
+    },
+    {
+      "slug": "the-sign-of-the-four",
+      "wikidata_id": null,
+      "title": "The Sign of the Four",
+      "media_type": "Book",
+      "year": 1890,
+      "creator": "Arthur Conan Doyle",
+      "series_name": "Sherlock Holmes",
+      "series_number": 2.0,
+      "tags": [
+        "whodunit",
+        "locked-room"
+      ],
+      "external_links": {
+        "tvtropes_slug": "Literature/TheSignOfTheFour",
+        "tvtropes_status": "Exists",
+        "wikipedia_status": "NeedsReview",
+        "fandom_status": "NeedsReview",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "sherlock-holmes",
+          "name": "Sherlock Holmes",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "profession": "Consulting detective"
+        },
+        {
+          "id": "dr-watson",
+          "name": "Dr. Watson",
+          "is_fictional": true,
+          "role_in_story": "Protagonist",
+          "profession": "Doctor"
+        },
+        {
+          "id": "captain-arthur-morstan",
+          "name": "Captain Arthur Morstan",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "major-john-sholto",
+          "name": "Major John Sholto",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "bartholomew-sholto",
+          "name": "Bartholomew Sholto",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "tonga",
+          "name": "Tonga",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "notes": "Jonathan Small's accomplice; island native"
+        },
+        {
+          "id": "jonathan-small",
+          "name": "Jonathan Small",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "notes": "Big Bad; former soldier who lost his leg to a crocodile in India"
+        },
+        {
+          "id": "the-rajah-s-servant",
+          "name": "The rajah's servant",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "notes": "Killed in backstory during the theft of the Agra treasure"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "the-rajah-s-servant",
+          "ordinal": 1,
+          "cause": "Unstated",
+          "death_type": "Homicide",
+          "motive": "GreedFinancial",
+          "motive_detail": "Killed by Jonathan Small and his confederates during the theft of the Agra treasure in India",
+          "killers": [
+            {
+              "person_id": "jonathan-small",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Occurs in backstory (flashback confession by Small); body was discovered, leading to capture of the Four"
+        },
+        {
+          "victim_id": "captain-arthur-morstan",
+          "ordinal": 2,
+          "cause": "Fell",
+          "means": "treasure chest corner",
+          "cause_detail": "Suffered a heart attack during a quarrel over the treasure, fell backward and struck his head on the corner of the treasure chest",
+          "death_type": "Accident",
+          "killers": [],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": true,
+          "notes": "Classified as 'Accident, Not Murder' in the text; Major Sholto concealed the death out of fear of being accused of murder"
+        },
+        {
+          "victim_id": "major-john-sholto",
+          "ordinal": 3,
+          "cause": "Illness",
+          "means": "unmentioned",
+          "death_type": "NaturalDeath",
+          "killers": [],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Dies of illness during the narrative, interrupted before revealing the location of the treasure"
+        },
+        {
+          "victim_id": "bartholomew-sholto",
+          "ordinal": 4,
+          "cause": "Poisoned",
+          "means": "poison dart",
+          "cause_detail": "Killed with a poison blow dart fired through a hidden opening; found dead in a locked room",
+          "death_type": "Homicide",
+          "motive": "GreedFinancial",
+          "motive_detail": "Tonga killed Bartholomew while he and Small attempted to retrieve the Agra treasure",
+          "killers": [
+            {
+              "person_id": "tonga",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "LockedRoom",
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        },
+        {
+          "victim_id": "tonga",
+          "ordinal": 5,
+          "cause": "Shot",
+          "means": "revolver",
+          "cause_detail": "Shot by Watson during the boat chase after Tonga fired a poison dart at the pursuing party",
+          "death_type": "Homicide",
+          "motive": "SelfDefense",
+          "killers": [
+            {
+              "person_id": "dr-watson",
+              "mens_rea": "Purposely",
+              "circumstance": "Justified"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Body was lost in the Thames"
+        }
+      ]
+    },
+    {
+      "slug": "the-valley-of-fear",
+      "wikidata_id": null,
+      "title": "The Valley of Fear",
+      "media_type": "Book",
+      "year": 1915,
+      "creator": "Arthur Conan Doyle",
+      "series_name": "Sherlock Holmes",
+      "tags": [
+        "whodunit",
+        "golden-age",
+        "undercover",
+        "secret-society"
+      ],
+      "external_links": {
+        "tvtropes_slug": "Literature/TheValleyOfFear",
+        "tvtropes_status": "Exists",
+        "wikipedia_status": "NeedsReview",
+        "fandom_status": "NeedsReview",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "sherlock-holmes",
+          "name": "Sherlock Holmes",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "nationality": "British",
+          "gender": "male",
+          "profession": "Consulting detective"
+        },
+        {
+          "id": "dr-john-watson",
+          "name": "Dr. John Watson",
+          "is_fictional": true,
+          "role_in_story": "Protagonist",
+          "is_solver": false,
+          "nationality": "British",
+          "gender": "male",
+          "profession": "Doctor"
+        },
+        {
+          "id": "teddy-baldwin",
+          "name": "Teddy Baldwin",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "gender": "male",
+          "profession": "Scowrer assassin",
+          "notes": "Sent to assassinate Birdy Edwards; killed in a gun struggle with Douglas"
+        },
+        {
+          "id": "john-douglas",
+          "name": "John Douglas",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "gender": "male",
+          "profession": "Former Pinkerton agent",
+          "notes": "Real name Birdy Edwards; undercover Pinkerton agent who destroyed the Scowrers; later killed by Moriarty's agents"
+        },
+        {
+          "id": "professor-moriarty",
+          "name": "Professor Moriarty",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "gender": "male",
+          "profession": "Criminal mastermind",
+          "notes": "Never appears in person; orchestrates Douglas's eventual death"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "teddy-baldwin",
+          "cause": "Shot",
+          "means": "sawed-off shotgun",
+          "cause_detail": "Baldwin's face was blown off at close range during a struggle over the shotgun he had brought to kill Douglas",
+          "death_type": "Homicide",
+          "motive": "SelfDefense",
+          "killers": [
+            {
+              "person_id": "john-douglas",
+              "mens_rea": "Recklessly",
+              "circumstance": "Justified"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "MistakenIdentity",
+            "ImpossibleCrime"
+          ],
+          "is_central_death": true,
+          "is_twist": true,
+          "notes": "Baldwin's corpse was dressed in Douglas's clothes to fake Douglas's death; the central mystery of the novel hinges on the misidentification"
+        },
+        {
+          "victim_id": "john-douglas",
+          "cause": "Drowned",
+          "means": "thrown overboard",
+          "cause_detail": "Douglas 'fell overboard' in a gale off Saint Helena; made to look like an accident by Moriarty's operatives",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Moriarty could not afford to fail a client; his reputation depended on completing the contract on Douglas",
+          "killers": [
+            {
+              "person_id": "professor-moriarty",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "HowCatchem"
+          ],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Occurs in the epilogue after Douglas and his wife flee to South Africa; Holmes deduces Moriarty's signature 'make it look like an accident' style"
+        }
+      ]
     }
   ],
   "games": [
@@ -14681,6 +15125,238 @@
             "LeastLikelySuspect"
           ],
           "is_central_death": false,
+          "is_twist": true
+        }
+      ]
+    },
+    {
+      "slug": "psych-2-lassie-come-home",
+      "wikidata_id": null,
+      "title": "Psych 2: Lassie Come Home",
+      "media_type": "Movie",
+      "year": 2020,
+      "creator": "Steve Franks",
+      "series_name": "Psych",
+      "series_number": 2.0,
+      "tags": [
+        "whodunit"
+      ],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "psychusa/Psych_2%3A_Lassie_Come_Home",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "carlton-lassiter",
+          "name": "Carlton Lassiter",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "gender": "male",
+          "profession": "police detective"
+        },
+        {
+          "id": "per-asblorn",
+          "name": "Per Asblorn",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "gender": "male"
+        },
+        {
+          "id": "devon-tileback",
+          "name": "Devon Tileback",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "gender": "male",
+          "profession": "CEO"
+        },
+        {
+          "id": "ova-asblorn",
+          "name": "Ova Asblorn",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "nationality": "Norwegian",
+          "gender": "male"
+        },
+        {
+          "id": "dolores-o-riordan",
+          "name": "Dolores O'Riordan",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "gender": "female",
+          "profession": "nurse"
+        },
+        {
+          "id": "shawn-spencer",
+          "name": "Shawn Spencer",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "fake psychic consultant"
+        },
+        {
+          "id": "burton-guster",
+          "name": "Burton Guster",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "pharmaceutical sales rep"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "carlton-lassiter",
+          "cause": "Shot",
+          "means": "pistol",
+          "death_type": "AttemptedHomicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "per-asblorn",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Lassiter was shot multiple times when he got too close to the blackmail scheme. He survived."
+        },
+        {
+          "victim_id": "devon-tileback",
+          "cause": "Shot",
+          "means": "unmentioned",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "per-asblorn",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": false,
+          "is_twist": true,
+          "notes": "Tileback had faked his own death but was tracked down and killed by a hidden shooter working for Per's operation."
+        },
+        {
+          "victim_id": "ova-asblorn",
+          "cause": "Unstated",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "per-asblorn",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": true,
+          "notes": "Ova's corpse was found in the freezer at the Viking's Den bar. His son Per killed him, apparently because Ova's reformed lifestyle threatened Per's criminal ambitions."
+        },
+        {
+          "victim_id": "carlton-lassiter",
+          "cause": "Poisoned",
+          "means": "poisoned IV drip",
+          "death_type": "AttemptedHomicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "dolores-o-riordan",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": true,
+          "notes": "Dolores attempted to poison Lassiter's IV drip at the Herschel House recovery clinic. Lassiter survived by shooting the drip bag and arresting her."
+        }
+      ]
+    },
+    {
+      "slug": "psych-3-this-is-gus",
+      "wikidata_id": null,
+      "title": "Psych 3: This Is Gus",
+      "media_type": "Movie",
+      "year": 2021,
+      "creator": "Steve Franks",
+      "series_name": "Psych",
+      "series_number": 3.0,
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "psychusa/Psych_3:_This_Is_Gus",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "ronald-cole",
+          "name": "Ronald Cole",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "Brewery CEO / drug-smuggling arms dealer"
+        },
+        {
+          "id": "alan-decker",
+          "name": "Alan Decker",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "profession": "Private investigator"
+        },
+        {
+          "id": "shawn-spencer",
+          "name": "Shawn Spencer",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "burton-guster",
+          "name": "Burton Guster",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "ronald-cole",
+          "cause": "Shot",
+          "means": "unmentioned",
+          "cause_detail": "Shot in the head; body discovered by Shawn and Gus at the brewery",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Alan killed Cole and intended to frame Shawn and Gus for the murder to cover his own actions while obtaining Cole's ledger",
+          "killers": [
+            {
+              "person_id": "alan-decker",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "FrameUp"
+          ],
+          "is_central_death": true,
           "is_twist": true
         }
       ]
@@ -54442,6 +55118,207 @@
             "Whodunit"
           ],
           "is_central_death": true,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "psych-s08e03",
+      "wikidata_id": null,
+      "title": "Remake A.K.A. Cloudy... With a Chance of Improvement",
+      "media_type": "TvEpisode",
+      "year": 2014,
+      "creator": "Andy Berman",
+      "series_name": "Psych",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "psychusa/Remake_A.K.A._Cloudy..._With_a_Chance_of_Improvement",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "jackson-hale",
+          "name": "Jackson Hale",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "mortimer-camp",
+          "name": "Mortimer Camp",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "ruben-leonard",
+          "name": "Ruben Leonard",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "jackson-hale",
+          "ordinal": 1,
+          "cause": "Stabbed",
+          "means": "unmentioned",
+          "death_type": "Homicide",
+          "motive": "Jealousy",
+          "killers": [
+            {
+              "person_id": "mortimer-camp",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "FrameUp",
+            "MistakenIdentity",
+            "AlibiTrick"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Morty killed Hale believing he was with Connie (his wife), but Hale was actually with Sandra. He wore a green suit to blend into the green screen and conceal his identity."
+        },
+        {
+          "victim_id": "ruben-leonard",
+          "ordinal": 2,
+          "cause": "Poisoned",
+          "means": "unmentioned",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "killers": [
+            {
+              "person_id": "mortimer-camp",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Ruben was killed to prevent him from revealing the real killer's identity; he dropped dead on-air before he could name the killer."
+        }
+      ]
+    },
+    {
+      "slug": "psych-s08e10",
+      "wikidata_id": null,
+      "title": "The Break-Up",
+      "media_type": "TvEpisode",
+      "year": 2014,
+      "creator": "Steve Franks",
+      "series_name": "Psych",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "psychusa/The_Break-Up",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "warren-dern",
+          "name": "Warren Dern",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "klaus-goedecke",
+          "name": "Klaus Goedecke",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "chris-cheramie",
+          "name": "Chris Cheramie",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "ian-collins",
+          "name": "Ian Collins",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "chris-cheramie",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "9mm gun",
+          "death_type": "Homicide",
+          "motive": "GreedFinancial",
+          "motive_detail": "Ian Collins and Warren Dern killed Chris Cheramie, a land speculator, to eliminate him as a rival bidder so they could win a real estate auction.",
+          "killers": [
+            {
+              "person_id": "ian-collins",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            },
+            {
+              "person_id": "warren-dern",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Occurred three years before the episode's present-day events. Body was buried in the woods. Ian buried the body; Warren buried the murder weapon separately."
+        },
+        {
+          "victim_id": "warren-dern",
+          "ordinal": 2,
+          "cause": "Shot",
+          "means": "9mm gun",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Ian Collins hired Goedecke to kill Warren after Warren left their business partnership and threatened to use the buried murder weapon as leverage against Ian.",
+          "killers": [
+            {
+              "person_id": "klaus-goedecke",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        },
+        {
+          "victim_id": "klaus-goedecke",
+          "ordinal": 3,
+          "cause": "Unstated",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Ian Collins killed the hitman Goedecke to eliminate a witness and recover the hidden map leading to the buried murder weapon.",
+          "killers": [
+            {
+              "person_id": "ian-collins",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": false,
           "is_twist": false
         }
       ]

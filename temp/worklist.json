@@ -4,91 +4,91 @@
       "slug": "mentalist-s03e01",
       "media_type": "tv_episode",
       "title": "Red Sky at Night",
-      "url": "https://thementalist.fandom.com/wiki/Red_Sky_at_Night",
+      "url": "https://thementalist.fandom.com/wiki/Red_Sky_At_Night",
       "recipe": "tv_show",
-      "state": "failed",
-      "attempts": 2,
-      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
+      "state": "ingested",
+      "attempts": 0,
+      "error": null
     },
     {
       "slug": "mentalist-s03e02",
       "media_type": "tv_episode",
       "title": "Cackle-Bladder Blood",
-      "url": "https://thementalist.fandom.com/wiki/Cackle-Bladder_Blood",
+      "url": "https://thementalist.fandom.com/wiki/Cackle-bladder_Blood",
       "recipe": "tv_show",
-      "state": "failed",
-      "attempts": 2,
-      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
+      "state": "ingested",
+      "attempts": 0,
+      "error": null
     },
     {
       "slug": "mentalist-s03e03",
       "media_type": "tv_episode",
       "title": "The Blood on His Hands",
-      "url": "https://thementalist.fandom.com/wiki/The_Blood_on_His_Hands",
+      "url": "https://thementalist.fandom.com/wiki/The_Blood_On_His_Hands",
       "recipe": "tv_show",
-      "state": "failed",
-      "attempts": 2,
-      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
+      "state": "ingested",
+      "attempts": 0,
+      "error": null
     },
     {
       "slug": "mentalist-s04e13",
       "media_type": "tv_episode",
       "title": "Red Is the New Black",
-      "url": "https://thementalist.fandom.com/wiki/Red_Is_the_New_Black",
+      "url": "https://thementalist.fandom.com/wiki/Red_Is_The_New_Black",
       "recipe": "tv_show",
-      "state": "failed",
-      "attempts": 2,
-      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
+      "state": "ingested",
+      "attempts": 0,
+      "error": null
     },
     {
       "slug": "mentalist-s05e08",
       "media_type": "tv_episode",
       "title": "Red Sails in the Sunset",
-      "url": "https://thementalist.fandom.com/wiki/Red_Sails_in_the_Sunset",
+      "url": "https://thementalist.fandom.com/wiki/Red_Sails_In_The_Sunset",
       "recipe": "tv_show",
-      "state": "failed",
-      "attempts": 2,
-      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
+      "state": "ingested",
+      "attempts": 0,
+      "error": null
     },
     {
       "slug": "mentalist-s06e15",
       "media_type": "tv_episode",
       "title": "White As the Driven Snow",
-      "url": "https://thementalist.fandom.com/wiki/White_As_the_Driven_Snow",
+      "url": "https://thementalist.fandom.com/wiki/White_as_the_Driven_Snow",
       "recipe": "tv_show",
-      "state": "failed",
-      "attempts": 2,
-      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
+      "state": "ingested",
+      "attempts": 0,
+      "error": null
     },
     {
       "slug": "psych-s02e06",
       "media_type": "tv_episode",
       "title": "Meat Is Murder, but Murder Is Also Murder",
-      "url": "https://psychusa.fandom.com/wiki/Meat_Is_Murder%2C_but_Murder_Is_Also_Murder",
+      "url": "https://psychusa.fandom.com/wiki/Meat_Is_Murder,_But_Murder_Is_Also_Murder",
       "recipe": "tv_show",
-      "state": "failed",
-      "attempts": 2,
-      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
+      "state": "ingested",
+      "attempts": 0,
+      "error": null
     },
     {
       "slug": "psych-s03e02",
       "media_type": "tv_episode",
       "title": "Murder?... Anyone?... Anyone?... Bueller?",
-      "url": "https://psychusa.fandom.com/wiki/Murder%3F..._Anyone%3F..._Anyone%3F..._Bueller%3F",
+      "url": "https://psychusa.fandom.com/wiki/Murder%3F_..._Anyone%3F_..._Anyone%3F_..._Bueller%3F",
       "recipe": "tv_show",
-      "state": "failed",
-      "attempts": 2,
-      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
+      "state": "ingested",
+      "attempts": 0,
+      "error": null
     },
     {
       "slug": "psych-s04e11",
       "media_type": "tv_episode",
       "title": "Thrill Seekers & Hell Raisers",
-      "url": "https://psychusa.fandom.com/wiki/Thrill_Seekers_%26_Hell_Raisers",
+      "url": "https://psychusa.fandom.com/wiki/Thrill_Seekers_and_Hell_Raisers",
       "recipe": "tv_show",
-      "state": "failed",
-      "attempts": 2,
-      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
+      "state": "ingested",
+      "attempts": 0,
+      "error": null
     },
     {
       "slug": "psych-s08e03",
@@ -164,101 +164,101 @@
       "slug": "the-adventures-of-sherlock-holmes",
       "media_type": "book",
       "title": "The Adventures of Sherlock Holmes",
-      "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheAdventuresOfSherlockHolmes",
+      "url": "https://bakerstreet.fandom.com/wiki/The_Adventures_of_Sherlock_Holmes",
       "recipe": "book",
-      "state": "failed",
-      "attempts": 2,
-      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
+      "state": "ingested",
+      "attempts": 0,
+      "error": null
     },
     {
       "slug": "the-memoirs-of-sherlock-holmes",
       "media_type": "book",
       "title": "The Memoirs of Sherlock Holmes",
-      "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheMemoirsOfSherlockHolmes",
+      "url": "https://bakerstreet.fandom.com/wiki/The_Memoirs_of_Sherlock_Holmes",
       "recipe": "book",
-      "state": "failed",
-      "attempts": 2,
-      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
+      "state": "scraped",
+      "attempts": 0,
+      "error": null
     },
     {
       "slug": "the-return-of-sherlock-holmes",
       "media_type": "book",
       "title": "The Return of Sherlock Holmes",
-      "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheReturnOfSherlockHolmes",
+      "url": "https://bakerstreet.fandom.com/wiki/The_Return_of_Sherlock_Holmes",
       "recipe": "book",
-      "state": "failed",
-      "attempts": 2,
-      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
+      "state": "scraped",
+      "attempts": 0,
+      "error": null
     },
     {
       "slug": "his-last-bow",
       "media_type": "book",
       "title": "His Last Bow",
-      "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/HisLastBow",
+      "url": "https://bakerstreet.fandom.com/wiki/His_Last_Bow_(short_stories)",
       "recipe": "book",
-      "state": "failed",
-      "attempts": 2,
-      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
+      "state": "scraped",
+      "attempts": 0,
+      "error": null
     },
     {
       "slug": "the-case-book-of-sherlock-holmes",
       "media_type": "book",
       "title": "The Case-Book of Sherlock Holmes",
-      "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheCaseBookOfSherlockHolmes",
+      "url": "https://bakerstreet.fandom.com/wiki/The_Case-Book_of_Sherlock_Holmes",
       "recipe": "book",
-      "state": "failed",
-      "attempts": 2,
-      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
+      "state": "scraped",
+      "attempts": 0,
+      "error": null
     },
     {
       "slug": "the-innocence-of-father-brown",
       "media_type": "book",
       "title": "The Innocence of Father Brown",
-      "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheInnocenceOfFatherBrown",
+      "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/FatherBrown",
       "recipe": "book",
-      "state": "failed",
-      "attempts": 2,
-      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
+      "state": "scraped",
+      "attempts": 0,
+      "error": null
     },
     {
       "slug": "the-wisdom-of-father-brown",
       "media_type": "book",
       "title": "The Wisdom of Father Brown",
-      "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheWisdomOfFatherBrown",
+      "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/FatherBrown",
       "recipe": "book",
-      "state": "failed",
-      "attempts": 2,
-      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
+      "state": "scraped",
+      "attempts": 0,
+      "error": null
     },
     {
       "slug": "the-incredulity-of-father-brown",
       "media_type": "book",
       "title": "The Incredulity of Father Brown",
-      "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheIncredulityOfFatherBrown",
+      "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/FatherBrown",
       "recipe": "book",
-      "state": "failed",
-      "attempts": 2,
-      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
+      "state": "scraped",
+      "attempts": 0,
+      "error": null
     },
     {
       "slug": "the-secret-of-father-brown",
       "media_type": "book",
       "title": "The Secret of Father Brown",
-      "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheSecretOfFatherBrown",
+      "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/FatherBrown",
       "recipe": "book",
-      "state": "failed",
-      "attempts": 2,
-      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
+      "state": "scraped",
+      "attempts": 0,
+      "error": null
     },
     {
       "slug": "the-scandal-of-father-brown",
       "media_type": "book",
       "title": "The Scandal of Father Brown",
-      "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheScandalOfFatherBrown",
+      "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/FatherBrown",
       "recipe": "book",
-      "state": "failed",
-      "attempts": 2,
-      "error": "Traceback (most recent call last):\n  File \"/home/user/casefiledb/scripts/scrape_media.py\", line 313, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/home/user/casefiledb/scripts/scrape_m"
+      "state": "scraped",
+      "attempts": 0,
+      "error": null
     },
     {
       "slug": "it-walks-by-night",

@@ -9136,6 +9136,243 @@
           "notes": "Occurs in the epilogue after Douglas and his wife flee to South Africa; Holmes deduces Moriarty's signature 'make it look like an accident' style"
         }
       ]
+    },
+    {
+      "slug": "the-adventures-of-sherlock-holmes",
+      "wikidata_id": null,
+      "title": "The Adventures of Sherlock Holmes",
+      "media_type": "Book",
+      "year": 1892,
+      "creator": "Arthur Conan Doyle",
+      "series_name": "Sherlock Holmes",
+      "series_number": 3.0,
+      "notes": "Short story collection of 12 stories. Deaths catalogued from the individual stories; the collection-level source page did not contain death-level detail.",
+      "tags": [
+        "golden-age",
+        "short-story-collection"
+      ],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "bakerstreet/The_Adventures_of_Sherlock_Holmes",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "sherlock-holmes",
+          "name": "Sherlock Holmes",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "nationality": "British",
+          "gender": "male",
+          "profession": "Consulting detective"
+        },
+        {
+          "id": "dr-john-watson",
+          "name": "Dr. John Watson",
+          "is_fictional": true,
+          "role_in_story": "Protagonist",
+          "is_solver": false,
+          "nationality": "British",
+          "gender": "male",
+          "profession": "Doctor"
+        },
+        {
+          "id": "charles-mccarthy",
+          "name": "Charles McCarthy",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "nationality": "British",
+          "gender": "male",
+          "notes": "Victim in The Boscombe Valley Mystery"
+        },
+        {
+          "id": "john-turner",
+          "name": "John Turner",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "nationality": "British",
+          "gender": "male",
+          "notes": "Killer in The Boscombe Valley Mystery; terminally ill and dies of natural causes by the story's end"
+        },
+        {
+          "id": "elias-openshaw",
+          "name": "Elias Openshaw",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "nationality": "British",
+          "gender": "male",
+          "notes": "Uncle of John Openshaw; found dead in The Five Orange Pips"
+        },
+        {
+          "id": "joseph-openshaw",
+          "name": "Joseph Openshaw",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "nationality": "British",
+          "gender": "male",
+          "notes": "Father of John Openshaw; killed in The Five Orange Pips"
+        },
+        {
+          "id": "john-openshaw",
+          "name": "John Openshaw",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "nationality": "British",
+          "gender": "male",
+          "notes": "Central victim in The Five Orange Pips; client of Holmes who is killed before Holmes can act"
+        },
+        {
+          "id": "julia-stoner",
+          "name": "Julia Stoner",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "nationality": "British",
+          "gender": "female",
+          "notes": "Victim in The Adventure of the Speckled Band; died before the story begins"
+        },
+        {
+          "id": "dr-grimesby-roylott",
+          "name": "Dr. Grimesby Roylott",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "nationality": "British",
+          "gender": "male",
+          "profession": "Doctor",
+          "notes": "Villain in The Adventure of the Speckled Band; killed by his own trained snake after Holmes redirects it"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "charles-mccarthy",
+          "ordinal": 1,
+          "cause": "Clubbed",
+          "means": "blunt object",
+          "cause_detail": "Struck from behind near the Boscombe Pool.",
+          "death_type": "Homicide",
+          "motive": "Blackmail",
+          "motive_detail": "McCarthy was blackmailing Turner over Turner's criminal past in Australia.",
+          "killers": [
+            {
+              "person_id": "john-turner",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "chapter_or_act": "The Boscombe Valley Mystery"
+        },
+        {
+          "victim_id": "john-turner",
+          "ordinal": 2,
+          "cause": "Illness",
+          "means": "unmentioned",
+          "cause_detail": "Turner was terminally ill and died of natural causes within a few months of the events of the story.",
+          "death_type": "NaturalDeath",
+          "killers": [],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "chapter_or_act": "The Boscombe Valley Mystery"
+        },
+        {
+          "victim_id": "elias-openshaw",
+          "ordinal": 3,
+          "cause": "Unstated",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Killed by the KKK to prevent exposure of their secrets and to retrieve documents in his possession.",
+          "killers": [],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": false,
+          "is_twist": false,
+          "chapter_or_act": "The Five Orange Pips",
+          "notes": "Killed by the Ku Klux Klan; specific killers unnamed in the story."
+        },
+        {
+          "victim_id": "joseph-openshaw",
+          "ordinal": 4,
+          "cause": "Unstated",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Killed by the KKK to prevent exposure of their secrets.",
+          "killers": [],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": false,
+          "is_twist": false,
+          "chapter_or_act": "The Five Orange Pips",
+          "notes": "Killed by the Ku Klux Klan; specific killers unnamed in the story."
+        },
+        {
+          "victim_id": "john-openshaw",
+          "ordinal": 5,
+          "cause": "Drowned",
+          "means": "unmentioned",
+          "cause_detail": "Pushed into the Thames by KKK operatives on his way home after consulting Holmes.",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Killed by the KKK to prevent exposure of their secrets.",
+          "killers": [],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "chapter_or_act": "The Five Orange Pips",
+          "notes": "Central client-victim; specific KKK killers unnamed in the story."
+        },
+        {
+          "victim_id": "julia-stoner",
+          "ordinal": 6,
+          "cause": "Other",
+          "cause_detail": "Fatally bitten by a trained swamp adder (venomous snake) introduced through a ventilator into her locked room.",
+          "death_type": "Homicide",
+          "motive": "GreedInheritance",
+          "motive_detail": "Dr. Roylott stood to lose income from his stepdaughters' annuities upon their marriage.",
+          "killers": [
+            {
+              "person_id": "dr-grimesby-roylott",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "LockedRoom",
+            "Howdunit",
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "chapter_or_act": "The Adventure of the Speckled Band"
+        },
+        {
+          "victim_id": "dr-grimesby-roylott",
+          "ordinal": 7,
+          "cause": "Other",
+          "cause_detail": "Bitten by his own trained swamp adder after Holmes redirected the snake back through the ventilator.",
+          "death_type": "Accident",
+          "killers": [],
+          "tropes": [
+            "Howdunit"
+          ],
+          "is_central_death": false,
+          "is_twist": true,
+          "chapter_or_act": "The Adventure of the Speckled Band",
+          "notes": "Holmes deflected the snake back; his role is ambiguous but no intent to kill is established."
+        }
+      ]
     }
   ],
   "games": [
@@ -55320,6 +55557,972 @@
           ],
           "is_central_death": false,
           "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s03e01",
+      "wikidata_id": null,
+      "title": "Red Sky at Night",
+      "media_type": "TvEpisode",
+      "year": 2010,
+      "creator": "Bruno Heller",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Red_Sky_At_Night",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "pete-russo",
+          "name": "Pete Russo",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "Chauffeur"
+        },
+        {
+          "id": "harvey-dublin",
+          "name": "Harvey Dublin",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "Lawyer and state house lobbyist"
+        },
+        {
+          "id": "keith-farrow",
+          "name": "Keith Farrow",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": false
+        },
+        {
+          "id": "kimball-cho",
+          "name": "Kimball Cho",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": false
+        },
+        {
+          "id": "wayne-rigsby",
+          "name": "Wayne Rigsby",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": false
+        },
+        {
+          "id": "grace-van-pelt",
+          "name": "Grace Van Pelt",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": false
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "pete-russo",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "unmentioned",
+          "death_type": "Homicide",
+          "motive": "Revenge",
+          "motive_detail": "Keith Farrow killed Pete Russo after Pete beat him up in front of his wife and step-daughter during a dispute over Keith disciplining the child.",
+          "killers": [
+            {
+              "person_id": "keith-farrow",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "AlibiTrick"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Russo was shot in the head next to the limousine. A fake kidnapping of Dublin was staged to disguise the murder and divert suspicion from Keith."
+        },
+        {
+          "victim_id": "harvey-dublin",
+          "ordinal": 2,
+          "cause": "Unstated",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Dublin was killed by Keith Farrow as collateral damage to provide cover for the murder of Pete Russo.",
+          "killers": [
+            {
+              "person_id": "keith-farrow",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Dublin's body was found in a ditch. His disappearance had been staged as a kidnapping to distract from the real target, Pete Russo."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s03e02",
+      "wikidata_id": null,
+      "title": "Cackle-bladder Blood",
+      "media_type": "TvEpisode",
+      "year": 2010,
+      "creator": "Ashley Gable",
+      "series_name": "The Mentalist",
+      "series_number": 3.0,
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Cackle-bladder_Blood",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "landon-wale",
+          "name": "Landon Wale",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "Businessman"
+        },
+        {
+          "id": "concetta-wale",
+          "name": "Concetta Wale",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "landon-wale",
+          "ordinal": 1,
+          "cause": "Unstated",
+          "death_type": "Homicide",
+          "motive": "Jealousy",
+          "motive_detail": "His wife believed he was giving a valuable statue to his mistress; she followed him to his office to retrieve it and killed him.",
+          "killers": [
+            {
+              "person_id": "concetta-wale",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s03e03",
+      "wikidata_id": null,
+      "title": "The Blood on His Hands",
+      "media_type": "TvEpisode",
+      "year": 2010,
+      "creator": "Tom Szentgyorgyi",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/The_Blood_On_His_Hands",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "celia-jovanovich",
+          "name": "Celia Jovanovich",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "gender": "female",
+          "profession": "Cult security (Vigilance)"
+        },
+        {
+          "id": "julius-coles",
+          "name": "Julius Coles",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "gender": "male",
+          "profession": "Lawyer"
+        },
+        {
+          "id": "david-herren",
+          "name": "David Herren",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "gender": "male"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "CBI consultant"
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "gender": "female",
+          "profession": "CBI agent"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "celia-jovanovich",
+          "ordinal": 1,
+          "cause": "Unstated",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Killer silenced her to prevent disclosure of their affair via recorded confession videos",
+          "killers": [
+            {
+              "person_id": "julius-coles",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        },
+        {
+          "victim_id": "julius-coles",
+          "ordinal": 2,
+          "cause": "Shot",
+          "means": "unmentioned",
+          "death_type": "Homicide",
+          "motive": "Revenge",
+          "motive_detail": "Herren shoots Coles after Coles is exposed as the killer of his fiancée",
+          "killers": [
+            {
+              "person_id": "david-herren",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": true
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s04e13",
+      "wikidata_id": null,
+      "title": "Red Is the New Black",
+      "media_type": "TvEpisode",
+      "year": 2012,
+      "creator": "Eoghan Mahony",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Red_Is_The_New_Black",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "wyck-theissens",
+          "name": "Wyck Theissens",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "Fashion designer"
+        },
+        {
+          "id": "sasha",
+          "name": "Sasha",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "profession": "Model"
+        },
+        {
+          "id": "derek",
+          "name": "Derek",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "Morgue attendant"
+        },
+        {
+          "id": "red-john",
+          "name": "Red John",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "wyck-theissens",
+          "ordinal": 1,
+          "cause": "Stabbed",
+          "means": "fabric shears",
+          "death_type": "Homicide",
+          "motive": "Jealousy",
+          "motive_detail": "Sasha, a model who considered herself Theissens' muse, killed him after he told her she was too old to wear his showcase dress and had chosen a younger replacement.",
+          "killers": [
+            {
+              "person_id": "sasha",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "NeedleInHaystack"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        },
+        {
+          "victim_id": "derek",
+          "ordinal": 2,
+          "cause": "Unstated",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Red John killed the morgue attendant to suppress the witness who could confirm that Rosalind Harker had visited the body and potentially undermine the story that Red John was dead.",
+          "killers": [
+            {
+              "person_id": "red-john",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": true
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s05e08",
+      "wikidata_id": null,
+      "title": "Red Sails in the Sunset",
+      "media_type": "TvEpisode",
+      "year": 2012,
+      "creator": "Daniel Cerone",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/Red_Sails_In_The_Sunset",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "miranda-roman",
+          "name": "Miranda Roman",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "gender": "female"
+        },
+        {
+          "id": "red-john",
+          "name": "Red John",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male"
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "gender": "female"
+        },
+        {
+          "id": "lorelei-martins",
+          "name": "Lorelei Martins",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "gender": "female"
+        },
+        {
+          "id": "robert-kirkland",
+          "name": "Robert Kirkland",
+          "is_fictional": true,
+          "role_in_story": "Bystander",
+          "gender": "male"
+        },
+        {
+          "id": "dana-martins",
+          "name": "Dana Martins",
+          "is_fictional": true,
+          "role_in_story": "Bystander",
+          "gender": "female"
+        },
+        {
+          "id": "marta-roman",
+          "name": "Marta Roman",
+          "is_fictional": true,
+          "role_in_story": "Bystander",
+          "gender": "female"
+        },
+        {
+          "id": "virgil-roman",
+          "name": "Virgil Roman",
+          "is_fictional": true,
+          "role_in_story": "Bystander",
+          "gender": "male"
+        },
+        {
+          "id": "bret-stiles",
+          "name": "Bret Stiles",
+          "is_fictional": true,
+          "role_in_story": "Bystander",
+          "gender": "male"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "miranda-roman",
+          "cause": "Other",
+          "death_type": "Homicide",
+          "motive": "Pathological",
+          "motive_detail": "Miranda was raped and left chained in an empty warehouse where she died of heatstroke over two days; attributed to Red John.",
+          "killers": [
+            {
+              "person_id": "red-john",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "DyingClue",
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "notes": "Miranda died prior to this episode; her murder is investigated during the episode. The only clue left at the scene was the name 'Roy' carved into the floor beside her body."
+        }
+      ]
+    },
+    {
+      "slug": "mentalist-s06e15",
+      "wikidata_id": null,
+      "title": "White as the Driven Snow",
+      "media_type": "TvEpisode",
+      "year": 2014,
+      "creator": "Eoghan Mahony",
+      "series_name": "The Mentalist",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "thementalist/White_as_the_Driven_Snow",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "richard-haibach",
+          "name": "Richard Haibach",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "gender": "male"
+        },
+        {
+          "id": "wayne-rigsby",
+          "name": "Wayne Rigsby",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "gender": "male"
+        },
+        {
+          "id": "hazel-haibach",
+          "name": "Hazel Haibach",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "gender": "female"
+        },
+        {
+          "id": "patrick-jane",
+          "name": "Patrick Jane",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "gender": "male"
+        },
+        {
+          "id": "grace-van-pelt",
+          "name": "Grace Van Pelt",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "gender": "female"
+        },
+        {
+          "id": "dennis-abbott",
+          "name": "Dennis Abbott",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "gender": "male"
+        },
+        {
+          "id": "teresa-lisbon",
+          "name": "Teresa Lisbon",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "gender": "female"
+        },
+        {
+          "id": "kimball-cho",
+          "name": "Kimball Cho",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "gender": "male"
+        },
+        {
+          "id": "kim-fischer",
+          "name": "Kim Fischer",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "gender": "female"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "richard-haibach",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "shotgun",
+          "death_type": "Homicide",
+          "motive": "SelfDefense",
+          "killers": [
+            {
+              "person_id": "wayne-rigsby",
+              "mens_rea": "Purposely",
+              "circumstance": "Justified"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": true,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "psych-s02e06",
+      "wikidata_id": null,
+      "title": "Meat Is Murder, but Murder Is Also Murder",
+      "media_type": "TvEpisode",
+      "year": 2007,
+      "creator": "Daniel Hsia",
+      "series_name": "Psych",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "psychusa/Meat_Is_Murder%2C_But_Murder_Is_Also_Murder",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "vince-wagner",
+          "name": "Vince Wagner",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "restaurant critic"
+        },
+        {
+          "id": "nick",
+          "name": "Nick",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "profession": "newspaper editorial assistant"
+        },
+        {
+          "id": "homeless-man",
+          "name": "Homeless man",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "shawn-spencer",
+          "name": "Shawn Spencer",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "profession": "fake psychic detective"
+        },
+        {
+          "id": "burton-guster",
+          "name": "Burton Guster",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "profession": "pharmaceutical sales rep / detective"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "vince-wagner",
+          "ordinal": 1,
+          "cause": "Poisoned",
+          "means": "death cap mushrooms",
+          "death_type": "Homicide",
+          "motive": "GreedFinancial",
+          "motive_detail": "Nick wanted Wagner's coveted restaurant critic job and poisoned him to remove the obstacle.",
+          "killers": [
+            {
+              "person_id": "nick",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "FrameUp",
+            "NeedleInHaystack"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        },
+        {
+          "victim_id": "homeless-man",
+          "ordinal": 2,
+          "cause": "Poisoned",
+          "means": "death cap mushrooms",
+          "cause_detail": "Died from eating discarded Death Cap mushrooms from a dumpster near the newspaper office.",
+          "death_type": "Accident",
+          "killers": [],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": false
+        }
+      ]
+    },
+    {
+      "slug": "psych-s03e02",
+      "wikidata_id": null,
+      "title": "Murder? ... Anyone? ... Anyone? ... Bueller?",
+      "media_type": "TvEpisode",
+      "year": 2008,
+      "creator": "Andy Berman",
+      "series_name": "Psych",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "psychusa/Murder%3F_..._Anyone%3F_..._Anyone%3F_..._Bueller%3F",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "peter-colter",
+          "name": "Peter Colter",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "gender": "male",
+          "notes": "Former classmate of Shawn and Gus; took the blame for a car accident caused by Howie"
+        },
+        {
+          "id": "howie-tolkin",
+          "name": "Howie Tolkin",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "gender": "male",
+          "profession": "Politician (running for state assembly)",
+          "notes": "Former high school quarterback; the actual drunk driver in the car accident"
+        },
+        {
+          "id": "eileen-mazwell",
+          "name": "Eileen Mazwell",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "gender": "female",
+          "notes": "Howie's wife; co-conspirator in Peter's death"
+        },
+        {
+          "id": "shawn-spencer",
+          "name": "Shawn Spencer",
+          "is_fictional": true,
+          "role_in_story": "Protagonist",
+          "is_solver": true,
+          "gender": "male",
+          "profession": "Psychic consultant"
+        },
+        {
+          "id": "burton-guster",
+          "name": "Burton Guster",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "gender": "male",
+          "profession": "Pharmaceutical salesman"
+        },
+        {
+          "id": "carlton-lassiter",
+          "name": "Carlton Lassiter",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "gender": "male",
+          "profession": "Police detective"
+        },
+        {
+          "id": "juliet-o-hara",
+          "name": "Juliet O'Hara",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "gender": "female",
+          "profession": "Police detective"
+        },
+        {
+          "id": "car-accident-victim",
+          "name": "Car Accident Victim",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "notes": "Unnamed victim of the car accident caused by Howie Tolkin; died after seven months in a coma from internal injuries"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "peter-colter",
+          "ordinal": 1,
+          "cause": "Fell",
+          "means": "rooftop push",
+          "cause_detail": "Pushed off the roof of the high school by Howie and Eileen during a confrontation",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Howie and Eileen killed Peter to prevent him from exposing that Howie was the real drunk driver in a car accident, which would have destroyed Howie's political career",
+          "killers": [
+            {
+              "person_id": "howie-tolkin",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            },
+            {
+              "person_id": "eileen-mazwell",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "FrameUp"
+          ],
+          "is_central_death": true,
+          "is_twist": false
+        },
+        {
+          "victim_id": "car-accident-victim",
+          "ordinal": 2,
+          "cause": "Vehicular",
+          "means": "car",
+          "cause_detail": "Struck in a head-on collision; survived in a coma for seven months before succumbing to internal injuries; Peter Colter was charged but Howie Tolkin was actually driving drunk",
+          "death_type": "Homicide",
+          "motive": "Unstated",
+          "motive_detail": "Howie was drunk driving; no deliberate intent to kill",
+          "killers": [
+            {
+              "person_id": "howie-tolkin",
+              "mens_rea": "Recklessly",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "FrameUp"
+          ],
+          "is_central_death": false,
+          "is_twist": true,
+          "notes": "Backstory death; occurred approximately 13 years before the episode. Peter Colter was wrongly charged (FrameUp) while Howie was the actual drunk driver."
+        }
+      ]
+    },
+    {
+      "slug": "psych-s04e11",
+      "wikidata_id": null,
+      "title": "Thrill Seekers & Hell Raisers",
+      "media_type": "TvEpisode",
+      "year": 2010,
+      "creator": "Saladin K. Patterson and Kell Cahoon",
+      "series_name": "Psych",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "psychusa/Thrill_Seekers_and_Hell_Raisers",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "shawn-spencer",
+          "name": "Shawn Spencer",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true
+        },
+        {
+          "id": "burton-guster",
+          "name": "Burton Guster",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": false
+        },
+        {
+          "id": "carlton-lassiter",
+          "name": "Carlton Lassiter",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": false
+        },
+        {
+          "id": "juliet-o-hara",
+          "name": "Juliet O'Hara",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": false
+        },
+        {
+          "id": "ruby-jay",
+          "name": "Ruby Jay",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        },
+        {
+          "id": "jessica",
+          "name": "Jessica",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        },
+        {
+          "id": "derek-walker",
+          "name": "Derek Walker",
+          "is_fictional": true,
+          "role_in_story": "Antagonist"
+        },
+        {
+          "id": "stu",
+          "name": "Stu",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "brian-sampson",
+          "name": "Brian Sampson",
+          "is_fictional": true,
+          "role_in_story": "Victim"
+        },
+        {
+          "id": "charles-lucas",
+          "name": "Charles Lucas",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        },
+        {
+          "id": "henry-spencer",
+          "name": "Henry Spencer",
+          "is_fictional": true,
+          "role_in_story": "Bystander"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "brian-sampson",
+          "ordinal": 1,
+          "cause": "Shot",
+          "means": "Winchester 70 rifle",
+          "death_type": "Homicide",
+          "motive": "Revenge",
+          "motive_detail": "Derek killed Sampson to make him pay for bankrupting Stu's company through his exorbitant lifestyle and misuse of company funds.",
+          "killers": [
+            {
+              "person_id": "derek-walker",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "FrameUp"
+          ],
+          "is_central_death": false,
+          "is_twist": false,
+          "notes": "Staged to look like a hunting accident in the woods. Derek framed it to implicate Stu, who had a million-dollar life insurance policy on Sampson."
+        },
+        {
+          "victim_id": "stu",
+          "ordinal": 2,
+          "cause": "Shot",
+          "means": "Winchester 70 rifle",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "Derek killed Stu to silence him after Stu discovered that Derek had murdered Sampson and panicked.",
+          "killers": [
+            {
+              "person_id": "derek-walker",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "FrameUp"
+          ],
+          "is_central_death": true,
+          "is_twist": true,
+          "notes": "Staged to look like a self-inflicted gunshot wound. The rifle used was identified as a Winchester 70; Derek framed it to appear like Jessica's gun was used."
         }
       ]
     }

@@ -96,7 +96,7 @@
       "title": "Remake A.K.A. Cloudy... With a Chance of Improvement",
       "url": "https://psychusa.fandom.com/wiki/Remake_A.K.A._Cloudy..._With_a_Chance_of_Improvement",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -106,7 +106,7 @@
       "title": "The Break Up",
       "url": "https://psychusa.fandom.com/wiki/The_Break-Up",
       "recipe": "tv_show",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -116,7 +116,7 @@
       "title": "Psych 2: Lassie Come Home",
       "url": "https://psychusa.fandom.com/wiki/Psych_2:_Lassie_Come_Home",
       "recipe": "movie",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -126,7 +126,7 @@
       "title": "Psych 3: This Is Gus",
       "url": "https://psychusa.fandom.com/wiki/Psych_3:_This_Is_Gus",
       "recipe": "movie",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -136,7 +136,7 @@
       "title": "A Study in Scarlet",
       "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/AStudyInScarlet",
       "recipe": "book",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -146,7 +146,7 @@
       "title": "The Sign of the Four",
       "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheSignOfTheFour",
       "recipe": "book",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -156,7 +156,7 @@
       "title": "The Valley of Fear",
       "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheValleyOfFear",
       "recipe": "book",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },

@@ -9373,6 +9373,411 @@
           "notes": "Holmes deflected the snake back; his role is ambiguous but no intent to kill is established."
         }
       ]
+    },
+    {
+      "slug": "the-memoirs-of-sherlock-holmes",
+      "wikidata_id": null,
+      "title": "The Memoirs of Sherlock Holmes",
+      "media_type": "Book",
+      "year": 1893,
+      "creator": "Arthur Conan Doyle",
+      "series_name": "Sherlock Holmes",
+      "notes": "Short story collection of 12 stories, including The Adventure of the Final Problem. Originally published 1893 in The Strand Magazine; collected edition 1894.",
+      "tags": [
+        "short-story-collection",
+        "victorian",
+        "detective-fiction"
+      ],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "bakerstreet/The_Memoirs_of_Sherlock_Holmes",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [],
+      "deaths": []
+    },
+    {
+      "slug": "the-return-of-sherlock-holmes",
+      "wikidata_id": null,
+      "title": "The Return of Sherlock Holmes",
+      "media_type": "Book",
+      "year": 1905,
+      "creator": "Arthur Conan Doyle",
+      "series_name": "Sherlock Holmes",
+      "notes": "Short story collection of 13 stories, first published February 1905. Stories: The Adventure of the Empty House, The Adventure of the Norwood Builder, The Adventure of the Dancing Men, The Adventure of the Solitary Cyclist, The Adventure of the Priory School, The Adventure of Black Peter, The Adventure of Charles Augustus Milverton, The Adventure of the Six Napoleons, The Adventure of the Three Students, The Adventure of the Golden Pince-Nez, The Adventure of the Missing Three-Quarter, The Adventure of the Abbey Grange, The Adventure of the Second Stain.",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "bakerstreet/The_Return_of_Sherlock_Holmes",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [],
+      "deaths": []
+    },
+    {
+      "slug": "his-last-bow",
+      "wikidata_id": null,
+      "title": "His Last Bow",
+      "media_type": "Book",
+      "year": 1917,
+      "creator": "Arthur Conan Doyle",
+      "series_name": "Sherlock Holmes",
+      "notes": "Short story collection. Contains: The Adventure of Wisteria Lodge, The Adventure of the Cardboard Box, The Adventure of the Red Circle, The Adventure of the Bruce-Partington Plans, The Adventure of the Dying Detective, The Disappearance of Lady Frances Carfax, The Adventure of the Devil's Foot, His Last Bow.",
+      "tags": [],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "bakerstreet/His_Last_Bow_(short_stories)",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [],
+      "deaths": []
+    },
+    {
+      "slug": "the-case-book-of-sherlock-holmes",
+      "wikidata_id": null,
+      "title": "The Case-Book of Sherlock Holmes",
+      "media_type": "Book",
+      "year": 1927,
+      "creator": "Arthur Conan Doyle",
+      "series_name": "Sherlock Holmes",
+      "notes": "Short story collection containing 12 stories: The Adventure of the Mazarin Stone, The Problem of Thor Bridge, The Adventure of the Creeping Man, The Adventure of the Sussex Vampire, The Adventure of the Three Garridebs, The Adventure of the Illustrious Client, The Adventure of the Three Gables, The Adventure of the Blanched Soldier, The Adventure of the Lion's Mane, The Adventure of the Retired Colourman, The Adventure of the Veiled Lodger, The Adventure of Shoscombe Old Place.",
+      "tags": [
+        "sherlock-holmes",
+        "short-story-collection"
+      ],
+      "external_links": {
+        "tvtropes_status": "NeedsReview",
+        "wikipedia_status": "NeedsReview",
+        "fandom_slug": "bakerstreet/The_Case-Book_of_Sherlock_Holmes",
+        "fandom_status": "Exists",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [],
+      "deaths": []
+    },
+    {
+      "slug": "the-innocence-of-father-brown",
+      "wikidata_id": null,
+      "title": "The Innocence of Father Brown",
+      "media_type": "Book",
+      "year": 1911,
+      "creator": "G.K. Chesterton",
+      "series_name": "Father Brown",
+      "series_number": 1.0,
+      "tags": [
+        "golden-age",
+        "short-story-collection",
+        "whodunit"
+      ],
+      "external_links": {
+        "tvtropes_slug": "Literature/FatherBrown",
+        "tvtropes_status": "Exists",
+        "wikipedia_slug": "The_Innocence_of_Father_Brown",
+        "wikipedia_status": "Exists",
+        "fandom_status": "NeedsReview",
+        "goodreads_status": "NeedsReview",
+        "steam_status": "NeedsReview",
+        "itch_status": "NeedsReview"
+      },
+      "persons": [
+        {
+          "id": "father-brown",
+          "name": "Father Brown",
+          "is_fictional": true,
+          "role_in_story": "Detective",
+          "is_solver": true,
+          "profession": "Catholic priest",
+          "notes": "The series detective, a Roman Catholic parish priest"
+        },
+        {
+          "id": "aristide-valentin",
+          "name": "Aristide Valentin",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "profession": "Head of the French police",
+          "notes": "Introduced as a hero in The Blue Cross; revealed as murderer in The Secret Garden; commits suicide"
+        },
+        {
+          "id": "the-victim-the-secret-garden",
+          "name": "The Victim (The Secret Garden)",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "notes": "Beheaded victim found in Valentin's secret garden; killed to prevent a large donation to the Church"
+        },
+        {
+          "id": "flambeau",
+          "name": "Flambeau",
+          "is_fictional": true,
+          "role_in_story": "Bystander",
+          "profession": "Thief turned private detective",
+          "notes": "Arch-criminal who reforms after The Flying Stars; recurring ally"
+        },
+        {
+          "id": "the-invisible-man-s-victim",
+          "name": "The Invisible Man's Victim",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "notes": "Man murdered; witnesses said they saw nobody enter"
+        },
+        {
+          "id": "the-postman-the-invisible-man",
+          "name": "The Postman (The Invisible Man)",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "profession": "Postman",
+          "notes": "Murderer in The Invisible Man; overlooked by witnesses because postmen go unnoticed"
+        },
+        {
+          "id": "pauline-stacy",
+          "name": "Pauline Stacy",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "notes": "Blind woman; tricked by Kalon into falling down an elevator shaft"
+        },
+        {
+          "id": "kalon",
+          "name": "Kalon",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "profession": "Priest of a sun-worshipping religion",
+          "notes": "Fake American (Fake Brit in-universe); lured Pauline Stacy to her death for her inheritance"
+        },
+        {
+          "id": "wilfred-bohun",
+          "name": "Wilfred Bohun",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "notes": "Murderer in The Hammer of God; went mad from isolation; committed 'Death from Above'"
+        },
+        {
+          "id": "norman-bohun",
+          "name": "Norman Bohun",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "notes": "The overly antagonistic brother killed by the quieter Wilfred in The Hammer of God"
+        },
+        {
+          "id": "prince-saradine",
+          "name": "Prince Saradine",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "notes": "One of two evil brothers (Paul/Stephen) in The Sins of Prince Saradine; killed in a duel"
+        },
+        {
+          "id": "stephen-saradine",
+          "name": "Stephen Saradine",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "notes": "Evil twin brother in The Sins of Prince Saradine; kills his brother in a duel"
+        },
+        {
+          "id": "sir-aaron-armstrong",
+          "name": "Sir Aaron Armstrong",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "profession": "Campaigner for abstinence",
+          "notes": "Commits suicide in The Three Tools of Death; everyone thinks it is murder"
+        },
+        {
+          "id": "general-the-sign-of-the-broken-sword",
+          "name": "General (The Sign of the Broken Sword)",
+          "is_fictional": true,
+          "role_in_story": "Antagonist",
+          "profession": "Military general",
+          "notes": "Killed a subordinate who discovered he was a traitor; hid the body among battlefield dead"
+        },
+        {
+          "id": "the-subordinate-the-sign-of-the-broken-sword",
+          "name": "The Subordinate (The Sign of the Broken Sword)",
+          "is_fictional": true,
+          "role_in_story": "Victim",
+          "notes": "Killed by the general after discovering the general's treachery; body hidden in a field of corpses"
+        }
+      ],
+      "deaths": [
+        {
+          "victim_id": "the-victim-the-secret-garden",
+          "cause": "Stabbed",
+          "means": "unmentioned",
+          "death_type": "Homicide",
+          "motive": "Ideology",
+          "motive_detail": "Valentin, a raging atheist, killed to prevent a large donation to the Church",
+          "killers": [
+            {
+              "person_id": "aristide-valentin",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": true,
+          "chapter_or_act": "The Secret Garden",
+          "notes": "The body was beheaded with strange cuts around the severed neck to mislead investigators into thinking the head belonged to the body"
+        },
+        {
+          "victim_id": "aristide-valentin",
+          "cause": "Unstated",
+          "death_type": "Homicide",
+          "motive": "Freedom",
+          "motive_detail": "Valentin commits suicide rather than submit to arrest after being exposed as the murderer; the act is described as driven by immense pride",
+          "killers": [
+            {
+              "person_id": "aristide-valentin",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": false,
+          "is_twist": true,
+          "chapter_or_act": "The Secret Garden",
+          "notes": "Suicide on exposure; 'on the blind face of the suicide was more than the pride of Cato'"
+        },
+        {
+          "victim_id": "the-invisible-man-s-victim",
+          "cause": "Unstated",
+          "death_type": "Homicide",
+          "motive": "Unstated",
+          "killers": [
+            {
+              "person_id": "the-postman-the-invisible-man",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "ImpossibleCrime"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "chapter_or_act": "The Invisible Man",
+          "notes": "Witnesses said they saw nobody enter; Father Brown deduced the murderer was a postman whom nobody notices"
+        },
+        {
+          "victim_id": "pauline-stacy",
+          "cause": "Fell",
+          "means": "elevator shaft",
+          "death_type": "Homicide",
+          "motive": "GreedInheritance",
+          "motive_detail": "Kalon lured Pauline into falling down the elevator shaft to claim her inheritance",
+          "killers": [
+            {
+              "person_id": "kalon",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit",
+            "Howdunit"
+          ],
+          "is_central_death": true,
+          "is_twist": true,
+          "chapter_or_act": "The Eye of Apollo",
+          "notes": "Pauline was blind; Kalon told her he was holding the elevator, then went up a floor so she stepped into the empty shaft. Silent, doorless lifts made this possible."
+        },
+        {
+          "victim_id": "norman-bohun",
+          "cause": "Clubbed",
+          "means": "unmentioned",
+          "death_type": "Homicide",
+          "motive": "Pathological",
+          "motive_detail": "Wilfred Bohun went mad from isolation; the practice of praying at great height and literally looking down on everybody made him feel infallible and entitled to kill",
+          "killers": [
+            {
+              "person_id": "wilfred-bohun",
+              "mens_rea": "Purposely",
+              "circumstance": "Mitigated"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "chapter_or_act": "The Hammer of God",
+          "notes": "Death from Above; Cain and Abel dynamic where the overly antagonistic brother is killed by the quieter but more vindictive sibling"
+        },
+        {
+          "victim_id": "prince-saradine",
+          "cause": "Unstated",
+          "death_type": "Homicide",
+          "motive": "Revenge",
+          "killers": [
+            {
+              "person_id": "stephen-saradine",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "chapter_or_act": "The Sins of Prince Saradine",
+          "notes": "Duel to the Death between two evil brothers (Paul and Stephen); the overly antagonistic brother is killed by the quieter but more vindictive sibling"
+        },
+        {
+          "victim_id": "sir-aaron-armstrong",
+          "cause": "Fell",
+          "means": "window",
+          "death_type": "Homicide",
+          "motive": "Freedom",
+          "motive_detail": "Armstrong was a Stepford Smiler whose cheerful public persona concealed deep unhappiness; he collected multiple means of suicide and ultimately jumped through a window",
+          "killers": [
+            {
+              "person_id": "sir-aaron-armstrong",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [],
+          "is_central_death": true,
+          "is_twist": true,
+          "chapter_or_act": "The Three Tools of Death",
+          "notes": "Apparent murder is revealed to be suicide. Patrick Royce (his secretary) had tried to prevent it by tying Armstrong up, but Armstrong's daughter misunderstood and cut the ropes."
+        },
+        {
+          "victim_id": "the-subordinate-the-sign-of-the-broken-sword",
+          "cause": "Unstated",
+          "death_type": "Homicide",
+          "motive": "Concealment",
+          "motive_detail": "The general killed his subordinate to conceal that he was a greedy, corrupted traitor; he then provoked a pointless suicidal military attack to hide the body among the battlefield dead",
+          "killers": [
+            {
+              "person_id": "general-the-sign-of-the-broken-sword",
+              "mens_rea": "Purposely",
+              "circumstance": "Neutral"
+            }
+          ],
+          "tropes": [
+            "Whodunit"
+          ],
+          "is_central_death": true,
+          "is_twist": false,
+          "chapter_or_act": "The Sign of the Broken Sword",
+          "notes": "Uriah Gambit: the general hid the body by engineering a battlefield massacre — 'Where would a wise man hide a leaf? In the forest.'"
+        }
+      ]
     }
   ],
   "games": [

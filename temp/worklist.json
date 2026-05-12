@@ -176,7 +176,7 @@
       "title": "The Memoirs of Sherlock Holmes",
       "url": "https://bakerstreet.fandom.com/wiki/The_Memoirs_of_Sherlock_Holmes",
       "recipe": "book",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -186,7 +186,7 @@
       "title": "The Return of Sherlock Holmes",
       "url": "https://bakerstreet.fandom.com/wiki/The_Return_of_Sherlock_Holmes",
       "recipe": "book",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -196,7 +196,7 @@
       "title": "His Last Bow",
       "url": "https://bakerstreet.fandom.com/wiki/His_Last_Bow_(short_stories)",
       "recipe": "book",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -206,7 +206,7 @@
       "title": "The Case-Book of Sherlock Holmes",
       "url": "https://bakerstreet.fandom.com/wiki/The_Case-Book_of_Sherlock_Holmes",
       "recipe": "book",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },
@@ -216,7 +216,7 @@
       "title": "The Innocence of Father Brown",
       "url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/FatherBrown",
       "recipe": "book",
-      "state": "scraped",
+      "state": "ingested",
       "attempts": 0,
       "error": null
     },

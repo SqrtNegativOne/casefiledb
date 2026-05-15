@@ -854,7 +854,8 @@
           "approximate_age": "3",
           "skills": [],
           "archetype": "inciting victim",
-          "notes": "Kidnapped and murdered by Cassetti/Ratchett; her death set the entire revenge plot in motion"
+          "notes": "Kidnapped and murdered by Cassetti/Ratchett; her death set the entire revenge plot in motion",
+          "profession": "child"
         },
         {
           "id": "hector-macqueen",
@@ -1279,21 +1280,24 @@
           "name": "Alice Ascher",
           "is_fictional": true,
           "role_in_story": "Victim",
-          "notes": "First ABC victim; tobacconist in Andover."
+          "notes": "First ABC victim; tobacconist in Andover.",
+          "profession": "tobacconist"
         },
         {
           "id": "betty-barnard",
           "name": "Betty Barnard",
           "is_fictional": true,
           "role_in_story": "Victim",
-          "notes": "Second ABC victim; waitress in Bexhill."
+          "notes": "Second ABC victim; waitress in Bexhill.",
+          "profession": "waitress"
         },
         {
           "id": "george-earlsfield",
           "name": "George Earlsfield",
           "is_fictional": true,
           "role_in_story": "Victim",
-          "notes": "Third ABC victim; killed in Churston to obscure the real target."
+          "notes": "Third ABC victim; killed in Churston to obscure the real target.",
+          "profession": "barber"
         }
       ],
       "deaths": [
@@ -2744,7 +2748,8 @@
           "name": "Enoch Arden",
           "is_fictional": true,
           "role_in_story": "Victim",
-          "notes": "Blackmailer posing under a false identity."
+          "notes": "Blackmailer posing under a false identity.",
+          "profession": "blackmailer"
         }
       ],
       "deaths": [
@@ -3631,7 +3636,8 @@
           "name": "Leopold Reynolds",
           "is_fictional": true,
           "role_in_story": "Victim",
-          "notes": "Boy who claimed to have witnessed a murder; killed to silence him."
+          "notes": "Boy who claimed to have witnessed a murder; killed to silence him.",
+          "profession": "schoolboy"
         }
       ],
       "deaths": [
@@ -3873,7 +3879,8 @@
           "name": "Dr. Franklin",
           "is_fictional": true,
           "role_in_story": "Antagonist",
-          "notes": "Researcher who unknowingly supplies the poison used to kill Barbara Franklin."
+          "notes": "Researcher who unknowingly supplies the poison used to kill Barbara Franklin.",
+          "profession": "research chemist"
         }
       ],
       "deaths": [
@@ -5025,7 +5032,8 @@
           "name": "Victoria Johnson",
           "is_fictional": true,
           "role_in_story": "Victim",
-          "notes": "Maid at the hotel who saw too much and was killed to silence her."
+          "notes": "Maid at the hotel who saw too much and was killed to silence her.",
+          "profession": "hotel maid"
         }
       ],
       "deaths": [
@@ -5242,7 +5250,8 @@
           "name": "Verity Hunt",
           "is_fictional": true,
           "role_in_story": "Victim",
-          "notes": "Young woman strangled years before the main plot; the murder Miss Marple investigates."
+          "notes": "Young woman strangled years before the main plot; the murder Miss Marple investigates.",
+          "profession": "young woman"
         }
       ],
       "deaths": [
@@ -5465,7 +5474,8 @@
           "name": "Rita Vandemeyer",
           "is_fictional": true,
           "role_in_story": "Victim",
-          "notes": "Associate of Mr. Brown poisoned before she could talk."
+          "notes": "Associate of Mr. Brown poisoned before she could talk.",
+          "profession": "socialite"
         }
       ],
       "deaths": [
@@ -5571,7 +5581,8 @@
           "name": "Sheila Perenna",
           "is_fictional": true,
           "role_in_story": "Victim",
-          "notes": "Shot by Mrs. Sprot to prevent exposure of the spy ring."
+          "notes": "Shot by Mrs. Sprot to prevent exposure of the spy ring.",
+          "profession": "boarding house assistant"
         }
       ],
       "deaths": [
@@ -5920,35 +5931,40 @@
           "name": "Anthony Marston",
           "is_fictional": true,
           "role_in_story": "Victim",
-          "notes": "First victim; poisoned cyanide in his drink."
+          "notes": "First victim; poisoned cyanide in his drink.",
+          "profession": "playboy"
         },
         {
           "id": "mrs-rogers",
           "name": "Mrs. Rogers",
           "is_fictional": true,
           "role_in_story": "Victim",
-          "notes": "Second victim; overdosed with chloral hydrate in her sleep."
+          "notes": "Second victim; overdosed with chloral hydrate in her sleep.",
+          "profession": "cook"
         },
         {
           "id": "thomas-rogers",
           "name": "Thomas Rogers",
           "is_fictional": true,
           "role_in_story": "Victim",
-          "notes": "Third victim; killed with a chopper while chopping wood."
+          "notes": "Third victim; killed with a chopper while chopping wood.",
+          "profession": "butler"
         },
         {
           "id": "dr-armstrong",
           "name": "Dr. Armstrong",
           "is_fictional": true,
           "role_in_story": "Victim",
-          "notes": "Drowned by Wargrave after being manipulated into complicity."
+          "notes": "Drowned by Wargrave after being manipulated into complicity.",
+          "profession": "physician"
         },
         {
           "id": "william-blore",
           "name": "William Blore",
           "is_fictional": true,
           "role_in_story": "Victim",
-          "notes": "Crushed by a marble clock bear pushed from a window."
+          "notes": "Crushed by a marble clock bear pushed from a window.",
+          "profession": "former police inspector turned private investigator"
         }
       ],
       "deaths": [
@@ -6365,14 +6381,16 @@
           "name": "Tommy Pierce",
           "is_fictional": true,
           "role_in_story": "Victim",
-          "notes": "Nasty young man; pushed from a height by Honoria Waynflete."
+          "notes": "Nasty young man; pushed from a height by Honoria Waynflete.",
+          "profession": "odd-job boy"
         },
         {
           "id": "dr-humbleby",
           "name": "Dr. Humbleby",
           "is_fictional": true,
           "role_in_story": "Victim",
-          "notes": "Local doctor poisoned to prevent him exposing the killer."
+          "notes": "Local doctor poisoned to prevent him exposing the killer.",
+          "profession": "general practitioner"
         }
       ],
       "deaths": [
@@ -6529,14 +6547,16 @@
           "name": "Satipy",
           "is_fictional": true,
           "role_in_story": "Victim",
-          "notes": "Wife of Yahmose; pushed to her death after threatening to expose him."
+          "notes": "Wife of Yahmose; pushed to her death after threatening to expose him.",
+          "profession": "wife of Yahmose"
         },
         {
           "id": "sobek",
           "name": "Sobek",
           "is_fictional": true,
           "role_in_story": "Victim",
-          "notes": "Son of Imhotep; poisoned by Yahmose."
+          "notes": "Son of Imhotep; poisoned by Yahmose.",
+          "profession": "son of Imhotep"
         }
       ],
       "deaths": [
@@ -6791,7 +6811,8 @@
           "name": "Edith de Haviland",
           "is_fictional": true,
           "role_in_story": "Antagonist",
-          "notes": "Kills Josephine Leonides by running her over, then takes her own life."
+          "notes": "Kills Josephine Leonides by running her over, then takes her own life.",
+          "profession": "household manager"
         }
       ],
       "deaths": [
@@ -7044,7 +7065,8 @@
           "name": "Father Gorman",
           "is_fictional": true,
           "role_in_story": "Victim",
-          "notes": "Priest killed by Osborne after hearing a dying confession implicating the scheme."
+          "notes": "Priest killed by Osborne after hearing a dying confession implicating the scheme.",
+          "profession": "Roman Catholic priest"
         },
         {
           "id": "multiple-unnamed-victims",
@@ -7634,7 +7656,8 @@
             "determination"
           ],
           "archetype": "resourceful amateur",
-          "notes": "Investigates to exonerate her fiance"
+          "notes": "Investigates to exonerate her fiance",
+          "profession": "amateur sleuth"
         },
         {
           "id": "inspector-narracott",
@@ -7690,7 +7713,8 @@
             "seance"
           ],
           "archetype": "suspicious newcomer",
-          "notes": "Renting Sittaford House; hosted the table-turning seance"
+          "notes": "Renting Sittaford House; hosted the table-turning seance",
+          "profession": "tenant"
         },
         {
           "id": "violet-willett",
@@ -7702,7 +7726,8 @@
           "approximate_age": "20s",
           "skills": [],
           "archetype": "young woman",
-          "notes": "Mrs Willett's daughter"
+          "notes": "Mrs Willett's daughter",
+          "profession": "socialite"
         },
         {
           "id": "mr-duke",
@@ -7726,7 +7751,8 @@
           "approximate_age": "20s",
           "skills": [],
           "archetype": "wrongly accused",
-          "notes": "Emily's fiance; initially suspected of the murder"
+          "notes": "Emily's fiance; initially suspected of the murder",
+          "profession": "office clerk"
         }
       ],
       "deaths": [
@@ -8270,7 +8296,8 @@
             "impersonation"
           ],
           "archetype": "reluctant spy",
-          "notes": "Deserted wife planning suicide who is recruited for a secret mission; impersonates Olive Betterton"
+          "notes": "Deserted wife planning suicide who is recruited for a secret mission; impersonates Olive Betterton",
+          "profession": "housewife"
         },
         {
           "id": "mr-jessop",
@@ -8312,7 +8339,8 @@
           "approximate_age": "30s",
           "skills": [],
           "archetype": "tragic wife",
-          "notes": "Thomas's second wife; dies from injuries in a plane crash before reaching Marrakesh"
+          "notes": "Thomas's second wife; dies from injuries in a plane crash before reaching Marrakesh",
+          "profession": "wife of a scientist"
         },
         {
           "id": "elsa-betterton",
@@ -8599,35 +8627,40 @@
           "id": "sir-charles-baskerville",
           "name": "Sir Charles Baskerville",
           "is_fictional": true,
-          "role_in_story": "Victim"
+          "role_in_story": "Victim",
+          "profession": "philanthropist and landowner"
         },
         {
           "id": "jack-stapleton",
           "name": "Jack Stapleton",
           "is_fictional": true,
           "role_in_story": "Antagonist",
-          "notes": "Descendant of Rodger Baskerville; poses as an entomologist and neighbour; the true murderer"
+          "notes": "Descendant of Rodger Baskerville; poses as an entomologist and neighbour; the true murderer",
+          "profession": "entomologist and former schoolmaster"
         },
         {
           "id": "selden",
           "name": "Selden",
           "is_fictional": true,
           "role_in_story": "Bystander",
-          "notes": "Escaped convict; brother of Eliza Barrymore"
+          "notes": "Escaped convict; brother of Eliza Barrymore",
+          "profession": "escaped convict"
         },
         {
           "id": "sir-henry-baskerville",
           "name": "Sir Henry Baskerville",
           "is_fictional": true,
           "role_in_story": "Bystander",
-          "notes": "Heir to the Baskerville estate; intended victim of Stapleton"
+          "notes": "Heir to the Baskerville estate; intended victim of Stapleton",
+          "profession": "heir to the Baskerville estate"
         },
         {
           "id": "beryl-stapleton",
           "name": "Beryl Stapleton",
           "is_fictional": true,
           "role_in_story": "Bystander",
-          "notes": "Jack Stapleton's wife, forced to pose as his sister"
+          "notes": "Jack Stapleton's wife, forced to pose as his sister",
+          "profession": "Stapleton's wife"
         },
         {
           "id": "dr-mortimer",
@@ -8641,7 +8674,8 @@
           "name": "Laura Lyons",
           "is_fictional": true,
           "role_in_story": "Bystander",
-          "notes": "Daughter of Mr. Frankland; used by Stapleton to lure Sir Charles"
+          "notes": "Daughter of Mr. Frankland; used by Stapleton to lure Sir Charles",
+          "profession": "typist"
         }
       ],
       "deaths": [
@@ -14460,7 +14494,8 @@
           "is_fictional": true,
           "role_in_story": "Bystander",
           "gender": "female",
-          "notes": "Rick Eden's wife"
+          "notes": "Rick Eden's wife",
+          "profession": "socialite"
         },
         {
           "id": "captain-lisa-rudner",
@@ -14547,19 +14582,22 @@
           "id": "samuel-sloane",
           "name": "Samuel Sloane",
           "is_fictional": true,
-          "role_in_story": "Victim"
+          "role_in_story": "Victim",
+          "profession": "police detective"
         },
         {
           "id": "william-mcgoldrick",
           "name": "William McGoldrick",
           "is_fictional": true,
-          "role_in_story": "Antagonist"
+          "role_in_story": "Antagonist",
+          "profession": "criminal informant turned criminal"
         },
         {
           "id": "heather-rockrear",
           "name": "Heather Rockrear",
           "is_fictional": true,
-          "role_in_story": "Antagonist"
+          "role_in_story": "Antagonist",
+          "profession": "mercenary"
         },
         {
           "id": "black-gentleman-ninja",
@@ -14614,13 +14652,15 @@
           "id": "iris-vick",
           "name": "Iris Vick",
           "is_fictional": true,
-          "role_in_story": "Bystander"
+          "role_in_story": "Bystander",
+          "profession": "student"
         },
         {
           "id": "nick-conforth",
           "name": "Nick Conforth",
           "is_fictional": true,
-          "role_in_story": "Bystander"
+          "role_in_story": "Bystander",
+          "profession": "police academy instructor"
         },
         {
           "id": "woodrow-strode",
@@ -14640,13 +14680,15 @@
           "id": "el-proveedor",
           "name": "El Proveedor",
           "is_fictional": true,
-          "role_in_story": "Bystander"
+          "role_in_story": "Bystander",
+          "profession": "criminal"
         },
         {
           "id": "selene-gilmore",
           "name": "Selene Gilmore",
           "is_fictional": true,
-          "role_in_story": "Bystander"
+          "role_in_story": "Bystander",
+          "profession": "criminal associate"
         },
         {
           "id": "ewan-o-hara",
@@ -25611,19 +25653,22 @@
           "id": "carol-fleming",
           "name": "Carol Fleming",
           "is_fictional": true,
-          "role_in_story": "Victim"
+          "role_in_story": "Victim",
+          "profession": "psychiatrist's wife"
         },
         {
           "id": "ray-fleming",
           "name": "Ray Fleming",
           "is_fictional": true,
-          "role_in_story": "Antagonist"
+          "role_in_story": "Antagonist",
+          "profession": "psychiatrist"
         },
         {
           "id": "joan-hudson",
           "name": "Joan Hudson",
           "is_fictional": true,
-          "role_in_story": "Antagonist"
+          "role_in_story": "Antagonist",
+          "profession": "actress"
         }
       ],
       "deaths": [
@@ -25710,13 +25755,15 @@
           "id": "jim-ferris",
           "name": "Jim Ferris",
           "is_fictional": true,
-          "role_in_story": "Victim"
+          "role_in_story": "Victim",
+          "profession": "mystery writer"
         },
         {
           "id": "ken-franklin",
           "name": "Ken Franklin",
           "is_fictional": true,
-          "role_in_story": "Antagonist"
+          "role_in_story": "Antagonist",
+          "profession": "mystery writer"
         }
       ],
       "deaths": [
@@ -25773,13 +25820,15 @@
           "id": "lenore-kennicut",
           "name": "Lenore Kennicut",
           "is_fictional": true,
-          "role_in_story": "Victim"
+          "role_in_story": "Victim",
+          "profession": "socialite"
         },
         {
           "id": "carl-brimmer",
           "name": "Carl Brimmer",
           "is_fictional": true,
-          "role_in_story": "Antagonist"
+          "role_in_story": "Antagonist",
+          "profession": "private investigator"
         }
       ],
       "deaths": [
@@ -25872,13 +25921,15 @@
           "id": "edna-matthews",
           "name": "Edna Matthews",
           "is_fictional": true,
-          "role_in_story": "Victim"
+          "role_in_story": "Victim",
+          "profession": "socialite"
         },
         {
           "id": "dale-kingston",
           "name": "Dale Kingston",
           "is_fictional": true,
-          "role_in_story": "Antagonist"
+          "role_in_story": "Antagonist",
+          "profession": "art critic"
         }
       ],
       "deaths": [
@@ -25936,7 +25987,8 @@
           "name": "Beth Chadwick",
           "is_fictional": true,
           "role_in_story": "Antagonist",
-          "notes": "Shot her controlling brother Bryce to gain her freedom. Claimed it was an accident (mistook him for a burglar) but Columbo proves it was premeditated."
+          "notes": "Shot her controlling brother Bryce to gain her freedom. Claimed it was an accident (mistook him for a burglar) but Columbo proves it was premeditated.",
+          "profession": "advertising executive"
         },
         {
           "id": "bryce-chadwick",
@@ -25944,7 +25996,8 @@
           "is_fictional": true,
           "role_in_story": "Victim",
           "gender": "male",
-          "notes": "Beth's domineering older brother whose controlling nature cost him his life."
+          "notes": "Beth's domineering older brother whose controlling nature cost him his life.",
+          "profession": "advertising agency director"
         }
       ],
       "deaths": [
@@ -26001,7 +26054,8 @@
           "id": "roger-stanford",
           "name": "Roger Stanford",
           "is_fictional": true,
-          "role_in_story": "Antagonist"
+          "role_in_story": "Antagonist",
+          "profession": "chemistry student"
         }
       ],
       "deaths": []
@@ -26049,7 +26103,8 @@
           "is_fictional": true,
           "role_in_story": "Victim",
           "gender": "male",
-          "notes": "Wealthy client whose body was concealed in concrete at a construction site."
+          "notes": "Wealthy client whose body was concealed in concrete at a construction site.",
+          "profession": "millionaire businessman"
         }
       ],
       "deaths": [
@@ -26105,7 +26160,8 @@
           "id": "alex-benedict",
           "name": "Alex Benedict",
           "is_fictional": true,
-          "role_in_story": "Antagonist"
+          "role_in_story": "Antagonist",
+          "profession": "orchestra conductor"
         }
       ],
       "deaths": []
@@ -26142,7 +26198,8 @@
           "id": "tony-goodland",
           "name": "Tony Goodland",
           "is_fictional": true,
-          "role_in_story": "Victim"
+          "role_in_story": "Victim",
+          "profession": "wealthy layabout"
         },
         {
           "id": "jarvis-goodland",
@@ -26208,13 +26265,15 @@
           "id": "eric-wagner",
           "name": "Eric Wagner",
           "is_fictional": true,
-          "role_in_story": "Victim"
+          "role_in_story": "Victim",
+          "profession": "sports team owner"
         },
         {
           "id": "paul-hanlon",
           "name": "Paul Hanlon",
           "is_fictional": true,
-          "role_in_story": "Antagonist"
+          "role_in_story": "Antagonist",
+          "profession": "sports franchise general manager"
         }
       ],
       "deaths": [
@@ -26271,7 +26330,8 @@
           "name": "Tanner",
           "is_fictional": true,
           "role_in_story": "Bystander",
-          "notes": "Character identity uncertain; originally entered as victim in error."
+          "notes": "Character identity uncertain; originally entered as victim in error.",
+          "profession": "butler"
         },
         {
           "id": "sir-roger-haversham",
@@ -26427,7 +26487,8 @@
           "id": "emmet-clayton",
           "name": "Emmet Clayton",
           "is_fictional": true,
-          "role_in_story": "Antagonist"
+          "role_in_story": "Antagonist",
+          "profession": "chess grandmaster"
         }
       ],
       "deaths": []
@@ -26464,7 +26525,8 @@
           "id": "clifford-paris",
           "name": "Clifford Paris",
           "is_fictional": true,
-          "role_in_story": "Victim"
+          "role_in_story": "Victim",
+          "profession": "wealthy retiree"
         },
         {
           "id": "sergeant-murray",
@@ -26526,7 +26588,8 @@
           "id": "viveca-scott",
           "name": "Viveca Scott",
           "is_fictional": true,
-          "role_in_story": "Antagonist"
+          "role_in_story": "Antagonist",
+          "profession": "cosmetics company CEO"
         }
       ],
       "deaths": []
@@ -26563,7 +26626,8 @@
           "id": "adrian-carsini",
           "name": "Adrian Carsini",
           "is_fictional": true,
-          "role_in_story": "Antagonist"
+          "role_in_story": "Antagonist",
+          "profession": "winemaker"
         }
       ],
       "deaths": []
@@ -26600,7 +26664,8 @@
           "id": "nelson-hayward",
           "name": "Nelson Hayward",
           "is_fictional": true,
-          "role_in_story": "Antagonist"
+          "role_in_story": "Antagonist",
+          "profession": "senatorial candidate"
         }
       ],
       "deaths": []
@@ -26637,7 +26702,8 @@
           "id": "vic-norris",
           "name": "Vic Norris",
           "is_fictional": true,
-          "role_in_story": "Antagonist"
+          "role_in_story": "Antagonist",
+          "profession": "businessman"
         }
       ],
       "deaths": []
@@ -26673,13 +26739,15 @@
           "id": "alan-mallory",
           "name": "Alan Mallory",
           "is_fictional": true,
-          "role_in_story": "Victim"
+          "role_in_story": "Victim",
+          "profession": "writer"
         },
         {
           "id": "publisher-riley-greenleaf",
           "name": "Publisher Riley Greenleaf",
           "is_fictional": true,
-          "role_in_story": "Antagonist"
+          "role_in_story": "Antagonist",
+          "profession": "publisher"
         }
       ],
       "deaths": [
@@ -26964,13 +27032,15 @@
           "id": "harold-van-wick",
           "name": "Harold Van Wick",
           "is_fictional": true,
-          "role_in_story": "Victim"
+          "role_in_story": "Victim",
+          "profession": "electronics company president"
         },
         {
           "id": "margaret-midas",
           "name": "Margaret Midas",
           "is_fictional": true,
-          "role_in_story": "Antagonist"
+          "role_in_story": "Antagonist",
+          "profession": "electronics company chairperson"
         }
       ],
       "deaths": [
@@ -27057,7 +27127,8 @@
           "id": "henry-willis",
           "name": "Henry Willis",
           "is_fictional": true,
-          "role_in_story": "Antagonist"
+          "role_in_story": "Antagonist",
+          "profession": "physician"
         }
       ],
       "deaths": []
@@ -27283,13 +27354,15 @@
           "id": "darryl",
           "name": "Darryl",
           "is_fictional": true,
-          "role_in_story": "Victim"
+          "role_in_story": "Victim",
+          "profession": "hairstylist"
         },
         {
           "id": "janie-brandt",
           "name": "Janie Brandt",
           "is_fictional": true,
-          "role_in_story": "Antagonist"
+          "role_in_story": "Antagonist",
+          "profession": "museum employee"
         }
       ],
       "deaths": [
@@ -27436,7 +27509,8 @@
           "id": "kay-freestone",
           "name": "Kay Freestone",
           "is_fictional": true,
-          "role_in_story": "Antagonist"
+          "role_in_story": "Antagonist",
+          "profession": "television programming executive"
         }
       ],
       "deaths": []
@@ -27504,7 +27578,8 @@
           "id": "vincent-pauley",
           "name": "Vincent Pauley",
           "is_fictional": true,
-          "role_in_story": "Antagonist"
+          "role_in_story": "Antagonist",
+          "profession": "arms dealer"
         }
       ],
       "deaths": []
@@ -27975,7 +28050,8 @@
           "id": "bill-bailey",
           "name": "Bill Bailey",
           "is_fictional": true,
-          "role_in_story": "Antagonist"
+          "role_in_story": "Antagonist",
+          "profession": "hotel caretaker"
         }
       ],
       "deaths": []
@@ -28012,7 +28088,8 @@
           "id": "harold-mccain",
           "name": "Harold McCain",
           "is_fictional": true,
-          "role_in_story": "Antagonist"
+          "role_in_story": "Antagonist",
+          "profession": "gambler"
         }
       ],
       "deaths": []
@@ -28049,13 +28126,15 @@
           "id": "nick-franco",
           "name": "Nick Franco",
           "is_fictional": true,
-          "role_in_story": "Victim"
+          "role_in_story": "Victim",
+          "profession": "gambler"
         },
         {
           "id": "lauren-staton",
           "name": "Lauren Staton",
           "is_fictional": true,
-          "role_in_story": "Antagonist"
+          "role_in_story": "Antagonist",
+          "profession": "wealthy socialite"
         }
       ],
       "deaths": [
@@ -28173,7 +28252,8 @@
           "id": "graham-mcveigh",
           "name": "Graham McVeigh",
           "is_fictional": true,
-          "role_in_story": "Antagonist"
+          "role_in_story": "Antagonist",
+          "profession": "horse ranch owner"
         }
       ],
       "deaths": []

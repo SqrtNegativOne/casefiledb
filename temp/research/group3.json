@@ -1,0 +1,179 @@
+[
+  {
+    "id": "Q2790732",
+    "persons": [
+      {"name": "Dr. Gideon Fell", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "cause": "Unstated",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["LockedRoom", "ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Guests at Inverary Castle, Scotland, are found dead in a sealed tower room that family tradition requires them to use; each death appears to be a suicidal leap. Fell investigates whether the supernatural 'sack' attributed to a family ghost is responsible."
+      }
+    ]
+  },
+  {
+    "id": "Q19678602",
+    "persons": [
+      {"name": "Tony Morrell", "role_in_story": "Victim"},
+      {"name": "Dr. Gideon Fell", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Tony Morrell",
+        "cause": "Unstated",
+        "death_type": "Homicide",
+        "motive": "FamilyProtection",
+        "killers": [],
+        "tropes": ["Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Tony Morrell dies during a blackjack game at a Brighton hotel; the murder is entangled with a disputed will and a family secret concealed for decades."
+      }
+    ]
+  },
+  {
+    "id": "Q4003741",
+    "persons": [
+      {"name": "Sir Harvey Gilman", "role_in_story": "Victim"},
+      {"name": "Lesley Grant", "role_in_story": "Killer"},
+      {"name": "Dr. Gideon Fell", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Sir Harvey Gilman",
+        "cause": "Poisoned",
+        "means": "hypodermic injection",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [
+          {"name": "Lesley Grant", "mens_rea": "Purposely", "circumstance": "Neutral"}
+        ],
+        "tropes": ["LockedRoom", "Whodunit", "Howdunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Sir Harvey Gilman is found poisoned by hypodermic injection inside a sealed cottage. The murder method depends on an ingenious locked-room mechanism; the killer's true identity is the central revelation of the novel."
+      }
+    ]
+  },
+  {
+    "id": "Q2791106",
+    "persons": [
+      {"name": "Howard Brooke", "role_in_story": "Victim"},
+      {"name": "Dr. Gideon Fell", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Howard Brooke",
+        "cause": "Stabbed",
+        "means": "sword-cane",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Howard Brooke is stabbed on the open roof-platform of a tower at Chartres, France, in full view of witnesses below who saw no one else near him. The impossibility centres on how the killer struck and vanished unseen."
+      }
+    ]
+  },
+  {
+    "id": "Q13182156",
+    "persons": [
+      {"name": "Margot Devereaux", "role_in_story": "Victim"},
+      {"name": "Dr. Gideon Fell", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Margot Devereaux",
+        "cause": "Unstated",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Margot Devereaux is found dead; the investigation is set against an Egyptology-themed household and the apparent influence of a mummy's curse."
+      }
+    ]
+  },
+  {
+    "id": "Q7729305",
+    "persons": [
+      {"name": "Rose Lestrange", "role_in_story": "Victim"},
+      {"name": "Dr. Gideon Fell", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Rose Lestrange",
+        "cause": "Stabbed",
+        "means": "dagger",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["LockedRoom", "ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Rose Lestrange is found stabbed in a locked room at a Virginia college; the dagger and a set of seemingly poisoned playing cards are central to the impossibility."
+      }
+    ]
+  },
+  {
+    "id": "Q6010867",
+    "persons": [
+      {"name": "Hector Matthews", "role_in_story": "Victim"},
+      {"name": "Eve Ferrier", "role_in_story": "Victim"},
+      {"name": "Dr. Gideon Fell", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Hector Matthews",
+        "cause": "Fell",
+        "means": "hotel balcony",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Hector Matthews falls to his death from a hotel balcony in Geneva; witnesses confirm he was alone on the balcony, making it an apparently impossible murder."
+      },
+      {
+        "victim_name": "Eve Ferrier",
+        "cause": "Fell",
+        "means": "balcony",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["ImpossibleCrime"],
+        "is_central_death": false,
+        "is_twist": false,
+        "notes": "A second victim also falls from a balcony under similarly impossible circumstances."
+      }
+    ]
+  },
+  {
+    "id": "Q13182165",
+    "persons": [
+      {"name": "Dr. Gideon Fell", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "cause": "Shot",
+        "means": "revolver",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["LockedRoom", "ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "A victim is shot inside a locked room at a manor whose name hints at diabolism; the murder is connected to a notorious sealed room the household refuses to open."
+      }
+    ]
+  }
+]

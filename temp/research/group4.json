@@ -1,0 +1,101 @@
+[
+  {
+    "id": "Q7720033",
+    "persons": [
+      {"name": "Dick Darlington", "role_in_story": "Protagonist"}
+    ],
+    "deaths": [
+      {
+        "cause": "Unstated",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Set in Regency London (1815); Dick Darlington is condemned to hang for a murder he did not commit and escapes to investigate and clear his name."
+      }
+    ]
+  },
+  {
+    "id": "Q7730012",
+    "persons": [
+      {"name": "Nicholas Fenton", "role_in_story": "Protagonist"}
+    ],
+    "deaths": [
+      {
+        "cause": "Unstated",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "A 20th-century man exchanges souls with a 17th-century nobleman in order to prevent a historical murder; set in Restoration England (1675)."
+      }
+    ]
+  },
+  {
+    "id": "Q5451249",
+    "persons": [
+      {"name": "Margaret Renfrew", "role_in_story": "Victim"},
+      {"name": "Alan Henley", "role_in_story": "Killer"},
+      {"name": "John Cheviot", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Margaret Renfrew",
+        "cause": "Shot",
+        "means": "air gun concealed in cane",
+        "death_type": "Homicide",
+        "motive": "Concealment",
+        "killers": [
+          {"name": "Alan Henley", "mens_rea": "Purposely", "circumstance": "Neutral"}
+        ],
+        "tropes": ["ImpossibleCrime", "Howdunit", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Set in 1829 London; Margaret Renfrew is shot in a public street by a charge from an air gun hidden inside a walking cane. John Cheviot, a modern-day policeman transported to the past, investigates the seemingly inexplicable killing."
+      }
+    ]
+  },
+  {
+    "id": "Q7429901",
+    "persons": [
+      {"name": "Matthew Damon", "role_in_story": "Victim"}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Matthew Damon",
+        "cause": "Unstated",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Set in Victorian England (1865); the Damon household is rocked by murder and scandal, with a daguerreotype photograph providing a key clue to an impossible crime."
+      }
+    ]
+  },
+  {
+    "id": "Q7775300",
+    "persons": [
+      {"name": "Glynis", "role_in_story": "Victim"},
+      {"name": "Dr. Bryan Doris", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Glynis",
+        "cause": "Unstated",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Set in Edwardian England (1907); Glynis is found dead on a tidal flat where her footprints simply end in unmarked mud — no other footprints appear anywhere near the body."
+      }
+    ]
+  }
+]

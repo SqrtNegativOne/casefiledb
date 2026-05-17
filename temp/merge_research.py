@@ -44,7 +44,11 @@ def build_lookups(site_data: dict) -> tuple[dict, dict]:
 
 
 def is_placeholder_death(deaths: list[dict]) -> bool:
-    """Return True if deaths list contains only the NeedsReview placeholder."""
+    """Return True if deaths list contains only the bare NeedsReview placeholder.
+
+    Entries that have notes, tropes, or a victim_name carry real research data
+    even when cause/motive are still Unstated/NeedsReview, so they return False.
+    """
     if len(deaths) != 1:
         return False
     d = deaths[0]
@@ -54,6 +58,9 @@ def is_placeholder_death(deaths: list[dict]) -> bool:
         and d.get("motive") == "NeedsReview"
         and d.get("killers") == []
         and d.get("is_central_death") is True
+        and not d.get("notes")
+        and not d.get("tropes")
+        and not d.get("victim_name")
     )
 
 

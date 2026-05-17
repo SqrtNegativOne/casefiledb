@@ -1,0 +1,136 @@
+[
+  {
+    "id": "Q7773771",
+    "persons": [
+      {"name": "Henri Bencolin", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "cause": "Stabbed",
+        "means": "knife",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["Whodunit"],
+        "is_central_death": true,
+        "is_twist": false
+      },
+      {
+        "cause": "Stabbed",
+        "means": "knife",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": [],
+        "is_central_death": false,
+        "is_twist": false
+      }
+    ]
+  },
+  {
+    "id": "Q13182031",
+    "persons": [
+      {"name": "Rose Klonec", "role_in_story": "Victim"},
+      {"name": "Henri Bencolin", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Rose Klonec",
+        "cause": "Other",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["Whodunit", "Howdunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Four obvious weapons (pistol, razor, poison pills, stiletto) are all false; a fifth, unconventional weapon is the actual murder instrument."
+      }
+    ]
+  },
+  {
+    "id": "Q7208469",
+    "persons": [
+      {"name": "Judge Quayle", "role_in_story": "Victim"}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Judge Quayle",
+        "cause": "Poisoned",
+        "means": "unmentioned",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "More than one poison is used in murder attempts; shadowy figures prowl the halls at night."
+      }
+    ]
+  },
+  {
+    "id": "Q2362600",
+    "persons": [
+      {"name": "Miles Despard", "role_in_story": "Victim"}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Miles Despard",
+        "cause": "Poisoned",
+        "means": "unmentioned",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": true,
+        "notes": "Official cause was gastroenteritis; the body subsequently vanishes from a sealed, bricked-up crypt. The ending blends rational solution with supernatural ambiguity."
+      }
+    ]
+  },
+  {
+    "id": "Q19678936",
+    "persons": [
+      {"name": "Larry Hurst", "role_in_story": "Victim"},
+      {"name": "Gaylord Hurst", "role_in_story": "Antagonist"},
+      {"name": "Hatto", "role_in_story": "Antagonist"}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Larry Hurst",
+        "cause": "Poisoned",
+        "means": "unmentioned",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [
+          {"name": "Gaylord Hurst", "mens_rea": "Purposely", "circumstance": "Neutral"},
+          {"name": "Hatto", "mens_rea": "Purposely", "circumstance": "Neutral"}
+        ],
+        "tropes": ["Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Larry is almost immediately poisoned after hiring Bill Dawson to impersonate him. The climax occurs in a reconstruction of the Sherlock Holmes sitting room."
+      }
+    ]
+  },
+  {
+    "id": "Q7146182",
+    "persons": [
+      {"name": "Abu of Ispahan", "role_in_story": "Victim"},
+      {"name": "Patrick Butler", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Abu of Ispahan",
+        "cause": "Stabbed",
+        "means": "unmentioned",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Abu gasps 'Your gloves' before dying; the gloves are a central clue that barrister Patrick Butler must interpret."
+      }
+    ]
+  }
+]

@@ -1,0 +1,236 @@
+[
+  {
+    "id": "Q7736443",
+    "persons": [
+      {"name": "Dwight Stanhope", "role_in_story": "Victim"},
+      {"name": "Sir Henry Merrivale", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Dwight Stanhope",
+        "cause": "Stabbed",
+        "means": "unmentioned",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Dwight Stanhope is found stabbed; the case involves a Caribbean setting and the legend of El Dorado."
+      }
+    ]
+  },
+  {
+    "id": "Q28691154",
+    "persons": [
+      {"name": "Rita Wainwright", "role_in_story": "Victim"},
+      {"name": "Barry Sullivan", "role_in_story": "Victim"},
+      {"name": "Sir Henry Merrivale", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Rita Wainwright",
+        "cause": "Shot",
+        "means": "small-calibre revolver",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Rita Wainwright and Barry Sullivan are found shot at the foot of a cliff; only their own footprints appear in rain-soaked mud on the cliff path, and no weapon is found."
+      },
+      {
+        "victim_name": "Barry Sullivan",
+        "cause": "Shot",
+        "means": "small-calibre revolver",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["ImpossibleCrime"],
+        "is_central_death": false,
+        "is_twist": false,
+        "notes": "Second victim found shot at the same impossible scene."
+      }
+    ]
+  },
+  {
+    "id": "Q7722617",
+    "persons": [
+      {"name": "Dr. Edward Benton", "role_in_story": "Victim"},
+      {"name": "Sir Henry Merrivale", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Dr. Edward Benton",
+        "cause": "Suffocated",
+        "means": "gas",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["LockedRoom", "ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Dr. Edward Benton is found gassed to death inside the reptile house of a zoo — a room sealed from the inside with no gas supply present."
+      }
+    ]
+  },
+  {
+    "id": "Q13181962",
+    "persons": [
+      {"name": "Sir Henry Merrivale", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "cause": "Unstated",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Set partly in Egypt; a woman apparently disappears from a locked and guarded room in a London museum, and a murder follows."
+      }
+    ]
+  },
+  {
+    "id": "Q6945809",
+    "persons": [
+      {"name": "Mildred Lyons", "role_in_story": "Victim"},
+      {"name": "Roger Bewlay", "role_in_story": "Killer"},
+      {"name": "Sir Henry Merrivale", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Mildred Lyons",
+        "cause": "Unstated",
+        "death_type": "Homicide",
+        "motive": "Pathological",
+        "killers": [
+          {"name": "Roger Bewlay", "mens_rea": "Purposely", "circumstance": "Neutral"}
+        ],
+        "tropes": ["Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Roger Bewlay, a Bluebeard figure who serially murders his wives, kills Mildred Lyons. The investigation involves an actor adopting Bewlay's identity to unmask him."
+      }
+    ]
+  },
+  {
+    "id": "Q19678998",
+    "persons": [
+      {"name": "Sir George Fleet", "role_in_story": "Victim"},
+      {"name": "Enid Puckston", "role_in_story": "Victim"},
+      {"name": "Sir Henry Merrivale", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Sir George Fleet",
+        "cause": "Fell",
+        "means": "roof parapet",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Sir George Fleet falls from the roof of Assize Court House with witnesses below; the case is reopened years later when a second death repeats the pattern."
+      },
+      {
+        "victim_name": "Enid Puckston",
+        "cause": "Unstated",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["ImpossibleCrime"],
+        "is_central_death": false,
+        "is_twist": false,
+        "notes": "A second death linked to the original cold case."
+      }
+    ]
+  },
+  {
+    "id": "Q4657158",
+    "persons": [
+      {"name": "Frederick Manning", "role_in_story": "Victim"},
+      {"name": "Sir Henry Merrivale", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Frederick Manning",
+        "cause": "Unstated",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Frederick Manning vanishes from an indoor swimming pool under the eyes of witnesses; his body is eventually found but the means of murder is the central impossibility."
+      }
+    ]
+  },
+  {
+    "id": "Q19679588",
+    "persons": [
+      {"name": "Sir Henry Merrivale", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "cause": "Unstated",
+        "death_type": "Homicide",
+        "motive": "Blackmail",
+        "killers": [],
+        "tropes": ["Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "A village spinster is found dead in circumstances staged to look like suicide; a blackmailer who had been exploiting local secrets is also killed."
+      },
+      {
+        "cause": "Unstated",
+        "death_type": "Homicide",
+        "motive": "Concealment",
+        "killers": [],
+        "tropes": [],
+        "is_central_death": false,
+        "is_twist": false,
+        "notes": "The blackmailer's death, connected to the staged suicide."
+      }
+    ]
+  },
+  {
+    "id": "Q4880837",
+    "persons": [
+      {"name": "Sir Henry Merrivale", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "cause": "Unstated",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Set in Tangier; a murder occurs behind a crimson blind — a closed window-blind that should have made the killing visible to outside witnesses."
+      }
+    ]
+  },
+  {
+    "id": "Q16385239",
+    "persons": [
+      {"name": "Sir Henry Merrivale", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "cause": "Unstated",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["LockedRoom", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "A priceless Cavalier-era loving cup is at risk of theft during a country-house gathering; a locked-room murder follows."
+      }
+    ]
+  }
+]

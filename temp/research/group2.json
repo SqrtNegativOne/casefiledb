@@ -1,0 +1,201 @@
+[
+  {
+    "id": "Q24876983",
+    "persons": [
+      {"name": "Dr. Gideon Fell", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "cause": "Fell",
+        "means": "prison balcony",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "The eldest Starberth heir is found dead with a broken neck below the balcony of the old Chatterham prison, where family tradition required him to spend his 25th birthday night."
+      }
+    ]
+  },
+  {
+    "id": "Q3793285",
+    "persons": [
+      {"name": "Philip Driscoll", "role_in_story": "Victim"},
+      {"name": "Dr. Gideon Fell", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Philip Driscoll",
+        "cause": "Unstated",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Journalist found murdered at the Tower of London with an oversized top hat pushed down over his ears. He had been investigating the 'Mad Hatter' hat thefts. Connected to an unpublished Poe manuscript."
+      }
+    ]
+  },
+  {
+    "id": "Q7731657",
+    "persons": [
+      {"name": "Septimus Depping", "role_in_story": "Victim"},
+      {"name": "Dr. Gideon Fell", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Septimus Depping",
+        "cause": "Shot",
+        "means": "his own gun",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Found shot with his own gun in his Gloucestershire country house, clutching a Tarot card—the Eight of Swords, symbolising condemning justice."
+      }
+    ]
+  },
+  {
+    "id": "Q2700566",
+    "persons": [
+      {"name": "Professor Charles Grimaud", "role_in_story": "Victim"},
+      {"name": "Pierre Fley", "role_in_story": "Victim"},
+      {"name": "Dr. Gideon Fell", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Professor Charles Grimaud",
+        "cause": "Shot",
+        "means": "revolver",
+        "death_type": "Homicide",
+        "motive": "Concealment",
+        "killers": [
+          {"name": "Pierre Fley", "mens_rea": "Purposely", "circumstance": "Neutral"}
+        ],
+        "tropes": ["LockedRoom", "ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Shot in his locked study while only footprints in fresh snow outside the window are his own. Grimaud had used a cardboard mask and overcoat stuffed to appear present, and a mirror to create the illusion that Fley had vanished after firing."
+      },
+      {
+        "victim_name": "Pierre Fley",
+        "cause": "Shot",
+        "means": "revolver",
+        "death_type": "Homicide",
+        "motive": "Concealment",
+        "killers": [
+          {"name": "Professor Charles Grimaud", "mens_rea": "Purposely", "circumstance": "Neutral"}
+        ],
+        "tropes": ["ImpossibleCrime"],
+        "is_central_death": false,
+        "is_twist": false,
+        "notes": "Found shot in an empty street with only his own footprints in the snow. Fley had been blackmailing Grimaud over the death of their third brother in a Transylvanian labour-camp escape."
+      }
+    ]
+  },
+  {
+    "id": "Q13181927",
+    "persons": [
+      {"name": "Dr. Gideon Fell", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "cause": "Stabbed",
+        "means": "Persian dagger",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Body found in an exhibit carriage at the Wade Museum of Oriental Art, wearing false whiskers and clutching a cookbook. The dagger was described as 'elaborate'."
+      }
+    ]
+  },
+  {
+    "id": "Q5441498",
+    "persons": [
+      {"name": "John Farnleigh", "role_in_story": "Victim"},
+      {"name": "Dr. Gideon Fell", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "John Farnleigh",
+        "cause": "Stabbed",
+        "means": "blade",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["ImpossibleCrime", "Whodunit", "MistakenIdentity"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Throat slashed in full view of three witnesses, none of whom saw anyone near the victim. The plot centres on a disputed identity: a Titanic survivor and a claimant both claim to be the rightful squire. A mysterious automaton modelled on Maelzel's Chess Player is involved."
+      }
+    ]
+  },
+  {
+    "id": "Q3815515",
+    "persons": [
+      {"name": "Marcus Chesney", "role_in_story": "Victim"},
+      {"name": "Dr. Gideon Fell", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Marcus Chesney",
+        "cause": "Poisoned",
+        "means": "green capsule",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["ImpossibleCrime", "Whodunit", "Howdunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Chesney staged an eyewitness-reliability test; while three witnesses and a movie camera recorded staged events, a masked figure in black spectacles slipped him a large green poisoned capsule. Fell solves it by analysing the film footage."
+      }
+    ]
+  },
+  {
+    "id": "Q13182019",
+    "persons": [
+      {"name": "Frank Dorrance", "role_in_story": "Victim"},
+      {"name": "Dr. Gideon Fell", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Frank Dorrance",
+        "cause": "Strangled",
+        "means": "unmentioned",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Strangled near the centre of a clay tennis court; only the victim's own footprints appear in the soft clay, making it impossible for anyone to have reached him. A mysteriously vanishing picnic basket is a key clue."
+      }
+    ]
+  },
+  {
+    "id": "Q10904448",
+    "persons": [
+      {"name": "Dr. Gideon Fell", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "cause": "Shot",
+        "means": "revolver",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Three witnesses agree that a revolver hanging on the wall jumped off its hook and shot a seated guest with no hand holding it. Fell investigates and produces a spectacular, fiery resolution. (The elderly butler who died swinging from a chandelier decades earlier is backstory.)"
+      }
+    ]
+  }
+]

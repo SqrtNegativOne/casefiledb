@@ -1,0 +1,313 @@
+[
+  {
+    "id": "Q7719558",
+    "persons": [
+      {"name": "Lord Rayle", "role_in_story": "Victim"},
+      {"name": "John Gaunt", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Lord Rayle",
+        "cause": "Strangled",
+        "means": "bowstring",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Lord Rayle is found strangled with a bowstring inside a sealed room during a masquerade party at a Sussex manor."
+      }
+    ]
+  },
+  {
+    "id": "Q7757350",
+    "persons": [
+      {"name": "Roger Darworth", "role_in_story": "Victim"},
+      {"name": "Sir Henry Merrivale", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Roger Darworth",
+        "cause": "Stabbed",
+        "means": "dagger of Louis Playge",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["LockedRoom", "ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Roger Darworth, a fraudulent medium, is stabbed in a stone outhouse at Plague Court — a room sealed from the inside with windows nailed shut and sand spread on the floor to catch footprints. The murder weapon is a 17th-century dagger said to be cursed."
+      }
+    ]
+  },
+  {
+    "id": "Q7774549",
+    "persons": [
+      {"name": "Marcia Tait", "role_in_story": "Victim"},
+      {"name": "Sir Henry Merrivale", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Marcia Tait",
+        "cause": "Clubbed",
+        "means": "blunt instrument",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Film actress Marcia Tait is found beaten to death in the central pavilion of White Priory, surrounded only by her own footprints in overnight snow — no other prints approach the body."
+      }
+    ]
+  },
+  {
+    "id": "Q13182082",
+    "persons": [
+      {"name": "Sir Henry Merrivale", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "cause": "Poisoned",
+        "means": "curare",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["LockedRoom", "ImpossibleCrime", "Whodunit", "Howdunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "A guest agrees to spend the night in the notorious Red Widow's chamber, a room which no occupant has ever left alive. He is found poisoned with curare; the impossibility centres on how the drug could have been administered in a sealed room."
+      }
+    ]
+  },
+  {
+    "id": "Q7771507",
+    "persons": [
+      {"name": "Sir Henry Merrivale", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "cause": "Other",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "A man is found dead aboard a Channel steamer with a small circular hole in his forehead made by no conventional weapon; the murder takes place in a crowded public area yet no one saw it happen."
+      }
+    ]
+  },
+  {
+    "id": "Q3700770",
+    "persons": [
+      {"name": "Paul Hogenauer", "role_in_story": "Victim"},
+      {"name": "Dr. Keppel", "role_in_story": "Victim"},
+      {"name": "Sir Henry Merrivale", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Paul Hogenauer",
+        "cause": "Poisoned",
+        "means": "strychnine",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Paul Hogenauer is poisoned with strychnine; the case involves a stolen collection of Napoleon relics and a priceless letter."
+      },
+      {
+        "victim_name": "Dr. Keppel",
+        "cause": "Poisoned",
+        "means": "strychnine",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": [],
+        "is_central_death": false,
+        "is_twist": false,
+        "notes": "A second victim is also poisoned with strychnine."
+      }
+    ]
+  },
+  {
+    "id": "Q3794796",
+    "persons": [
+      {"name": "Vance Keating", "role_in_story": "Victim"},
+      {"name": "William Dartley", "role_in_story": "Victim"},
+      {"name": "Sir Henry Merrivale", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Vance Keating",
+        "cause": "Shot",
+        "means": "revolver",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["LockedRoom", "ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Vance Keating is shot inside a locked London flat; the gun is found outside, and entry appears impossible. The case mirrors a decades-old murder of William Dartley under similar locked-room conditions."
+      },
+      {
+        "victim_name": "William Dartley",
+        "cause": "Shot",
+        "means": "revolver",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["LockedRoom", "ImpossibleCrime"],
+        "is_central_death": false,
+        "is_twist": false,
+        "notes": "Historical murder linked to the present-day impossible crime."
+      }
+    ]
+  },
+  {
+    "id": "Q6581958",
+    "persons": [
+      {"name": "Avory Hume", "role_in_story": "Victim"},
+      {"name": "Sir Henry Merrivale", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Avory Hume",
+        "cause": "Stabbed",
+        "means": "arrow",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["LockedRoom", "ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Avory Hume is found dead inside a hermetically sealed study; H.M. defends the accused at trial and identifies the 'Judas window' — a secret aperture — as the mechanism by which the killer struck."
+      }
+    ]
+  },
+  {
+    "id": "Q3736337",
+    "persons": [
+      {"name": "Felix Haye", "role_in_story": "Victim"},
+      {"name": "Sir Henry Merrivale", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Felix Haye",
+        "cause": "Stabbed",
+        "means": "unmentioned",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Felix Haye is stabbed at a dinner party; three other guests simultaneously suffer attempted poisoning with atropine administered in an apparently impossible manner."
+      },
+      {
+        "cause": "Poisoned",
+        "means": "atropine",
+        "death_type": "AttemptedHomicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["ImpossibleCrime", "Howdunit"],
+        "is_central_death": false,
+        "is_twist": false,
+        "notes": "Three dinner guests are simultaneously dosed with atropine; none saw how the drug was administered."
+      }
+    ]
+  },
+  {
+    "id": "Q7759545",
+    "persons": [
+      {"name": "Sir Henry Merrivale", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "cause": "Unstated",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "A man dies after receiving explicit warnings from a self-proclaimed witch; the impossible element is that the death appears to have been caused by mental suggestion alone, with no physical agency detectable."
+      }
+    ]
+  },
+  {
+    "id": "Q5308438",
+    "persons": [
+      {"name": "Sir Ernest Tallant", "role_in_story": "Victim"},
+      {"name": "Sir Henry Merrivale", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Sir Ernest Tallant",
+        "cause": "Stabbed",
+        "means": "unmentioned",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["LockedRoom", "ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Sir Ernest Tallant is found stabbed inside a lift (elevator) that witnesses confirm never stopped on the relevant floor, making access to the victim apparently impossible."
+      }
+    ]
+  },
+  {
+    "id": "Q4753354",
+    "persons": [
+      {"name": "Tilly Parsons", "role_in_story": "Victim"},
+      {"name": "Monica Stanton", "role_in_story": "Victim"},
+      {"name": "Sir Henry Merrivale", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "victim_name": "Tilly Parsons",
+        "cause": "Poisoned",
+        "means": "poisoned cigarette",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "Tilly Parsons, a continuity girl at Sodbury Cross Film Studios, is killed by a poisoned cigarette. A campaign of threatening letters targets screenwriter Monica Stanton throughout."
+      },
+      {
+        "victim_name": "Monica Stanton",
+        "cause": "Other",
+        "death_type": "AttemptedHomicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": [],
+        "is_central_death": false,
+        "is_twist": false,
+        "notes": "Monica Stanton survives an acid attack; she is the intended target throughout the novel."
+      }
+    ]
+  },
+  {
+    "id": "Q6937771",
+    "persons": [
+      {"name": "Sir Henry Merrivale", "role_in_story": "Detective", "is_solver": true}
+    ],
+    "deaths": [
+      {
+        "cause": "Unstated",
+        "death_type": "Homicide",
+        "motive": "NeedsReview",
+        "killers": [],
+        "tropes": ["ImpossibleCrime", "Whodunit"],
+        "is_central_death": true,
+        "is_twist": false,
+        "notes": "A murder is committed aboard a troopship crossing the Atlantic; all suspects can account for their whereabouts when it happened, making it an apparently impossible crime."
+      }
+    ]
+  }
+]

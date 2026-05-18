@@ -8856,7 +8856,9 @@
       },
       "persons": [
         {
+          "id": "henri-bencolin",
           "name": "Henri Bencolin",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
@@ -8910,18 +8912,22 @@
       },
       "persons": [
         {
+          "id": "rose-klonec",
           "name": "Rose Klonec",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "henri-bencolin",
           "name": "Henri Bencolin",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Rose Klonec",
+          "victim_id": "rose-klonec",
           "cause": "Other",
           "death_type": "Homicide",
           "motive": "NeedsReview",
@@ -8958,13 +8964,15 @@
       },
       "persons": [
         {
+          "id": "judge-quayle",
           "name": "Judge Quayle",
+          "is_fictional": true,
           "role_in_story": "Victim"
         }
       ],
       "deaths": [
         {
-          "victim_name": "Judge Quayle",
+          "victim_id": "judge-quayle",
           "cause": "Poisoned",
           "means": "unmentioned",
           "death_type": "Homicide",
@@ -9003,7 +9011,9 @@
       },
       "persons": [
         {
+          "id": "dr-gideon-fell",
           "name": "Dr. Gideon Fell",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
@@ -9049,18 +9059,22 @@
       },
       "persons": [
         {
+          "id": "philip-driscoll",
           "name": "Philip Driscoll",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "dr-gideon-fell",
           "name": "Dr. Gideon Fell",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Philip Driscoll",
+          "victim_id": "philip-driscoll",
           "cause": "Unstated",
           "death_type": "Homicide",
           "motive": "NeedsReview",
@@ -9097,18 +9111,22 @@
       },
       "persons": [
         {
+          "id": "lord-rayle",
           "name": "Lord Rayle",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "john-gaunt",
           "name": "John Gaunt",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Lord Rayle",
+          "victim_id": "lord-rayle",
           "cause": "Strangled",
           "means": "bowstring",
           "death_type": "Homicide",
@@ -9148,18 +9166,22 @@
       },
       "persons": [
         {
+          "id": "septimus-depping",
           "name": "Septimus Depping",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "dr-gideon-fell",
           "name": "Dr. Gideon Fell",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Septimus Depping",
+          "victim_id": "septimus-depping",
           "cause": "Shot",
           "means": "his own gun",
           "death_type": "Homicide",
@@ -9234,18 +9256,22 @@
       },
       "persons": [
         {
+          "id": "roger-darworth",
           "name": "Roger Darworth",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "sir-henry-merrivale",
           "name": "Sir Henry Merrivale",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Roger Darworth",
+          "victim_id": "roger-darworth",
           "cause": "Stabbed",
           "means": "dagger of Louis Playge",
           "death_type": "Homicide",
@@ -9287,18 +9313,22 @@
       },
       "persons": [
         {
+          "id": "marcia-tait",
           "name": "Marcia Tait",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "sir-henry-merrivale",
           "name": "Sir Henry Merrivale",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Marcia Tait",
+          "victim_id": "marcia-tait",
           "cause": "Clubbed",
           "means": "blunt instrument",
           "death_type": "Homicide",
@@ -9374,29 +9404,35 @@
       },
       "persons": [
         {
+          "id": "professor-charles-grimaud",
           "name": "Professor Charles Grimaud",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "pierre-fley",
           "name": "Pierre Fley",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "dr-gideon-fell",
           "name": "Dr. Gideon Fell",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Professor Charles Grimaud",
+          "victim_id": "professor-charles-grimaud",
           "cause": "Shot",
           "means": "revolver",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
-              "name": "Pierre Fley",
+              "person_id": "pierre-fley",
               "mens_rea": "Purposely",
               "circumstance": "Neutral"
             }
@@ -9411,14 +9447,14 @@
           "notes": "Shot in his locked study while only footprints in fresh snow outside the window are his own. Grimaud had used a cardboard mask and overcoat stuffed to appear present, and a mirror to create the illusion that Fley had vanished after firing."
         },
         {
-          "victim_name": "Pierre Fley",
+          "victim_id": "pierre-fley",
           "cause": "Shot",
           "means": "revolver",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
-              "name": "Professor Charles Grimaud",
+              "person_id": "professor-charles-grimaud",
               "mens_rea": "Purposely",
               "circumstance": "Neutral"
             }
@@ -9457,7 +9493,9 @@
       },
       "persons": [
         {
+          "id": "sir-henry-merrivale",
           "name": "Sir Henry Merrivale",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
@@ -9506,7 +9544,9 @@
       },
       "persons": [
         {
+          "id": "sir-henry-merrivale",
           "name": "Sir Henry Merrivale",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
@@ -9551,7 +9591,9 @@
       },
       "persons": [
         {
+          "id": "dr-gideon-fell",
           "name": "Dr. Gideon Fell",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
@@ -9598,22 +9640,28 @@
       },
       "persons": [
         {
+          "id": "paul-hogenauer",
           "name": "Paul Hogenauer",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "dr-keppel",
           "name": "Dr. Keppel",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "sir-henry-merrivale",
           "name": "Sir Henry Merrivale",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Paul Hogenauer",
+          "victim_id": "paul-hogenauer",
           "cause": "Poisoned",
           "means": "strychnine",
           "death_type": "Homicide",
@@ -9627,7 +9675,7 @@
           "notes": "Paul Hogenauer is poisoned with strychnine; the case involves a stolen collection of Napoleon relics and a priceless letter."
         },
         {
-          "victim_name": "Dr. Keppel",
+          "victim_id": "dr-keppel",
           "cause": "Poisoned",
           "means": "strychnine",
           "death_type": "Homicide",
@@ -9662,13 +9710,15 @@
       },
       "persons": [
         {
+          "id": "miles-despard",
           "name": "Miles Despard",
+          "is_fictional": true,
           "role_in_story": "Victim"
         }
       ],
       "deaths": [
         {
-          "victim_name": "Miles Despard",
+          "victim_id": "miles-despard",
           "cause": "Poisoned",
           "means": "unmentioned",
           "death_type": "Homicide",
@@ -9710,22 +9760,28 @@
       },
       "persons": [
         {
+          "id": "vance-keating",
           "name": "Vance Keating",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "william-dartley",
           "name": "William Dartley",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "sir-henry-merrivale",
           "name": "Sir Henry Merrivale",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Vance Keating",
+          "victim_id": "vance-keating",
           "cause": "Shot",
           "means": "revolver",
           "death_type": "Homicide",
@@ -9741,7 +9797,7 @@
           "notes": "Vance Keating is shot inside a locked London flat; the gun is found outside, and entry appears impossible. The case mirrors a decades-old murder of William Dartley under similar locked-room conditions."
         },
         {
-          "victim_name": "William Dartley",
+          "victim_id": "william-dartley",
           "cause": "Shot",
           "means": "revolver",
           "death_type": "Homicide",
@@ -9816,18 +9872,22 @@
       },
       "persons": [
         {
+          "id": "john-farnleigh",
           "name": "John Farnleigh",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "dr-gideon-fell",
           "name": "Dr. Gideon Fell",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "John Farnleigh",
+          "victim_id": "john-farnleigh",
           "cause": "Stabbed",
           "means": "blade",
           "death_type": "Homicide",
@@ -9869,18 +9929,22 @@
       },
       "persons": [
         {
+          "id": "avory-hume",
           "name": "Avory Hume",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "sir-henry-merrivale",
           "name": "Sir Henry Merrivale",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Avory Hume",
+          "victim_id": "avory-hume",
           "cause": "Stabbed",
           "means": "arrow",
           "death_type": "Homicide",
@@ -9922,18 +9986,22 @@
       },
       "persons": [
         {
+          "id": "felix-haye",
           "name": "Felix Haye",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "sir-henry-merrivale",
           "name": "Sir Henry Merrivale",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Felix Haye",
+          "victim_id": "felix-haye",
           "cause": "Stabbed",
           "means": "unmentioned",
           "death_type": "Homicide",
@@ -9987,18 +10055,22 @@
       },
       "persons": [
         {
+          "id": "marcus-chesney",
           "name": "Marcus Chesney",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "dr-gideon-fell",
           "name": "Dr. Gideon Fell",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Marcus Chesney",
+          "victim_id": "marcus-chesney",
           "cause": "Poisoned",
           "means": "green capsule",
           "death_type": "Homicide",
@@ -10039,18 +10111,22 @@
       },
       "persons": [
         {
+          "id": "frank-dorrance",
           "name": "Frank Dorrance",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "dr-gideon-fell",
           "name": "Dr. Gideon Fell",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Frank Dorrance",
+          "victim_id": "frank-dorrance",
           "cause": "Strangled",
           "means": "unmentioned",
           "death_type": "Homicide",
@@ -10091,7 +10167,9 @@
       },
       "persons": [
         {
+          "id": "sir-henry-merrivale",
           "name": "Sir Henry Merrivale",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
@@ -10136,18 +10214,22 @@
       },
       "persons": [
         {
+          "id": "sir-ernest-tallant",
           "name": "Sir Ernest Tallant",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "sir-henry-merrivale",
           "name": "Sir Henry Merrivale",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Sir Ernest Tallant",
+          "victim_id": "sir-ernest-tallant",
           "cause": "Stabbed",
           "means": "unmentioned",
           "death_type": "Homicide",
@@ -10188,7 +10270,9 @@
       },
       "persons": [
         {
+          "id": "dr-gideon-fell",
           "name": "Dr. Gideon Fell",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
@@ -10235,22 +10319,28 @@
       },
       "persons": [
         {
+          "id": "tilly-parsons",
           "name": "Tilly Parsons",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "monica-stanton",
           "name": "Monica Stanton",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "sir-henry-merrivale",
           "name": "Sir Henry Merrivale",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Tilly Parsons",
+          "victim_id": "tilly-parsons",
           "cause": "Poisoned",
           "means": "poisoned cigarette",
           "death_type": "Homicide",
@@ -10264,7 +10354,7 @@
           "notes": "Tilly Parsons, a continuity girl at Sodbury Cross Film Studios, is killed by a poisoned cigarette. A campaign of threatening letters targets screenwriter Monica Stanton throughout."
         },
         {
-          "victim_name": "Monica Stanton",
+          "victim_id": "monica-stanton",
           "cause": "Other",
           "death_type": "AttemptedHomicide",
           "motive": "NeedsReview",
@@ -10302,7 +10392,9 @@
       },
       "persons": [
         {
+          "id": "sir-henry-merrivale",
           "name": "Sir Henry Merrivale",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
@@ -10347,7 +10439,9 @@
       },
       "persons": [
         {
+          "id": "dr-gideon-fell",
           "name": "Dr. Gideon Fell",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
@@ -10394,18 +10488,22 @@
       },
       "persons": [
         {
+          "id": "tony-morrell",
           "name": "Tony Morrell",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "dr-gideon-fell",
           "name": "Dr. Gideon Fell",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Tony Morrell",
+          "victim_id": "tony-morrell",
           "cause": "Unstated",
           "death_type": "Homicide",
           "motive": "FamilyProtection",
@@ -10513,18 +10611,22 @@
       },
       "persons": [
         {
+          "id": "dwight-stanhope",
           "name": "Dwight Stanhope",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "sir-henry-merrivale",
           "name": "Sir Henry Merrivale",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Dwight Stanhope",
+          "victim_id": "dwight-stanhope",
           "cause": "Stabbed",
           "means": "unmentioned",
           "death_type": "Homicide",
@@ -10564,22 +10666,28 @@
       },
       "persons": [
         {
+          "id": "rita-wainwright",
           "name": "Rita Wainwright",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "barry-sullivan",
           "name": "Barry Sullivan",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "sir-henry-merrivale",
           "name": "Sir Henry Merrivale",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Rita Wainwright",
+          "victim_id": "rita-wainwright",
           "cause": "Shot",
           "means": "small-calibre revolver",
           "death_type": "Homicide",
@@ -10594,7 +10702,7 @@
           "notes": "Rita Wainwright and Barry Sullivan are found shot at the foot of a cliff; only their own footprints appear in rain-soaked mud on the cliff path, and no weapon is found."
         },
         {
-          "victim_name": "Barry Sullivan",
+          "victim_id": "barry-sullivan",
           "cause": "Shot",
           "means": "small-calibre revolver",
           "death_type": "Homicide",
@@ -10633,29 +10741,35 @@
       },
       "persons": [
         {
+          "id": "sir-harvey-gilman",
           "name": "Sir Harvey Gilman",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "lesley-grant",
           "name": "Lesley Grant",
+          "is_fictional": true,
           "role_in_story": "Antagonist"
         },
         {
+          "id": "dr-gideon-fell",
           "name": "Dr. Gideon Fell",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Sir Harvey Gilman",
+          "victim_id": "sir-harvey-gilman",
           "cause": "Poisoned",
           "means": "hypodermic injection",
           "death_type": "Homicide",
           "motive": "NeedsReview",
           "killers": [
             {
-              "name": "Lesley Grant",
+              "person_id": "lesley-grant",
               "mens_rea": "Purposely",
               "circumstance": "Neutral"
             }
@@ -10696,18 +10810,22 @@
       },
       "persons": [
         {
+          "id": "dr-edward-benton",
           "name": "Dr. Edward Benton",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "sir-henry-merrivale",
           "name": "Sir Henry Merrivale",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Dr. Edward Benton",
+          "victim_id": "dr-edward-benton",
           "cause": "Suffocated",
           "means": "gas",
           "death_type": "Homicide",
@@ -10750,7 +10868,9 @@
       },
       "persons": [
         {
+          "id": "sir-henry-merrivale",
           "name": "Sir Henry Merrivale",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
@@ -10795,18 +10915,22 @@
       },
       "persons": [
         {
+          "id": "howard-brooke",
           "name": "Howard Brooke",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "dr-gideon-fell",
           "name": "Dr. Gideon Fell",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Howard Brooke",
+          "victim_id": "howard-brooke",
           "cause": "Stabbed",
           "means": "sword-cane",
           "death_type": "Homicide",
@@ -10847,28 +10971,34 @@
       },
       "persons": [
         {
+          "id": "mildred-lyons",
           "name": "Mildred Lyons",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "roger-bewlay",
           "name": "Roger Bewlay",
+          "is_fictional": true,
           "role_in_story": "Antagonist"
         },
         {
+          "id": "sir-henry-merrivale",
           "name": "Sir Henry Merrivale",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Mildred Lyons",
+          "victim_id": "mildred-lyons",
           "cause": "Unstated",
           "death_type": "Homicide",
           "motive": "Pathological",
           "killers": [
             {
-              "name": "Roger Bewlay",
+              "person_id": "roger-bewlay",
               "mens_rea": "Purposely",
               "circumstance": "Neutral"
             }
@@ -10906,18 +11036,22 @@
       },
       "persons": [
         {
+          "id": "margot-devereaux",
           "name": "Margot Devereaux",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "dr-gideon-fell",
           "name": "Dr. Gideon Fell",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Margot Devereaux",
+          "victim_id": "margot-devereaux",
           "cause": "Unstated",
           "death_type": "Homicide",
           "motive": "NeedsReview",
@@ -10956,22 +11090,28 @@
       },
       "persons": [
         {
+          "id": "sir-george-fleet",
           "name": "Sir George Fleet",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "enid-puckston",
           "name": "Enid Puckston",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "sir-henry-merrivale",
           "name": "Sir Henry Merrivale",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Sir George Fleet",
+          "victim_id": "sir-george-fleet",
           "cause": "Fell",
           "means": "roof parapet",
           "death_type": "Homicide",
@@ -10986,7 +11126,7 @@
           "notes": "Sir George Fleet falls from the roof of Assize Court House with witnesses below; the case is reopened years later when a second death repeats the pattern."
         },
         {
-          "victim_name": "Enid Puckston",
+          "victim_id": "enid-puckston",
           "cause": "Unstated",
           "death_type": "Homicide",
           "motive": "NeedsReview",
@@ -11060,18 +11200,22 @@
       },
       "persons": [
         {
+          "id": "frederick-manning",
           "name": "Frederick Manning",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "sir-henry-merrivale",
           "name": "Sir Henry Merrivale",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Frederick Manning",
+          "victim_id": "frederick-manning",
           "cause": "Unstated",
           "death_type": "Homicide",
           "motive": "NeedsReview",
@@ -11110,7 +11254,9 @@
       },
       "persons": [
         {
+          "id": "dick-darlington",
           "name": "Dick Darlington",
+          "is_fictional": true,
           "role_in_story": "Protagonist"
         }
       ],
@@ -11154,7 +11300,9 @@
       },
       "persons": [
         {
+          "id": "sir-henry-merrivale",
           "name": "Sir Henry Merrivale",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
@@ -11208,7 +11356,9 @@
       },
       "persons": [
         {
+          "id": "nicholas-fenton",
           "name": "Nicholas Fenton",
+          "is_fictional": true,
           "role_in_story": "Protagonist"
         }
       ],
@@ -11249,33 +11399,39 @@
       },
       "persons": [
         {
+          "id": "larry-hurst",
           "name": "Larry Hurst",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "gaylord-hurst",
           "name": "Gaylord Hurst",
+          "is_fictional": true,
           "role_in_story": "Antagonist"
         },
         {
+          "id": "hatto",
           "name": "Hatto",
+          "is_fictional": true,
           "role_in_story": "Antagonist"
         }
       ],
       "deaths": [
         {
-          "victim_name": "Larry Hurst",
+          "victim_id": "larry-hurst",
           "cause": "Poisoned",
           "means": "unmentioned",
           "death_type": "Homicide",
           "motive": "NeedsReview",
           "killers": [
             {
-              "name": "Gaylord Hurst",
+              "person_id": "gaylord-hurst",
               "mens_rea": "Purposely",
               "circumstance": "Neutral"
             },
             {
-              "name": "Hatto",
+              "person_id": "hatto",
               "mens_rea": "Purposely",
               "circumstance": "Neutral"
             }
@@ -11314,7 +11470,9 @@
       },
       "persons": [
         {
+          "id": "sir-henry-merrivale",
           "name": "Sir Henry Merrivale",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
@@ -11360,7 +11518,9 @@
       },
       "persons": [
         {
+          "id": "sir-henry-merrivale",
           "name": "Sir Henry Merrivale",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
@@ -11438,18 +11598,22 @@
       },
       "persons": [
         {
+          "id": "abu-of-ispahan",
           "name": "Abu of Ispahan",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "patrick-butler",
           "name": "Patrick Butler",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Abu of Ispahan",
+          "victim_id": "abu-of-ispahan",
           "cause": "Stabbed",
           "means": "unmentioned",
           "death_type": "Homicide",
@@ -11523,29 +11687,35 @@
       },
       "persons": [
         {
+          "id": "margaret-renfrew",
           "name": "Margaret Renfrew",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "alan-henley",
           "name": "Alan Henley",
+          "is_fictional": true,
           "role_in_story": "Antagonist"
         },
         {
+          "id": "john-cheviot",
           "name": "John Cheviot",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Margaret Renfrew",
+          "victim_id": "margaret-renfrew",
           "cause": "Shot",
           "means": "air gun concealed in cane",
           "death_type": "Homicide",
           "motive": "Concealment",
           "killers": [
             {
-              "name": "Alan Henley",
+              "person_id": "alan-henley",
               "mens_rea": "Purposely",
               "circumstance": "Neutral"
             }
@@ -11585,18 +11755,22 @@
       },
       "persons": [
         {
+          "id": "rose-lestrange",
           "name": "Rose Lestrange",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "dr-gideon-fell",
           "name": "Dr. Gideon Fell",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Rose Lestrange",
+          "victim_id": "rose-lestrange",
           "cause": "Stabbed",
           "means": "dagger",
           "death_type": "Homicide",
@@ -11637,13 +11811,15 @@
       },
       "persons": [
         {
+          "id": "matthew-damon",
           "name": "Matthew Damon",
+          "is_fictional": true,
           "role_in_story": "Victim"
         }
       ],
       "deaths": [
         {
-          "victim_name": "Matthew Damon",
+          "victim_id": "matthew-damon",
           "cause": "Unstated",
           "death_type": "Homicide",
           "motive": "NeedsReview",
@@ -11682,22 +11858,28 @@
       },
       "persons": [
         {
+          "id": "hector-matthews",
           "name": "Hector Matthews",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "eve-ferrier",
           "name": "Eve Ferrier",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "dr-gideon-fell",
           "name": "Dr. Gideon Fell",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Hector Matthews",
+          "victim_id": "hector-matthews",
           "cause": "Fell",
           "means": "hotel balcony",
           "death_type": "Homicide",
@@ -11712,7 +11894,7 @@
           "notes": "Hector Matthews falls to his death from a hotel balcony in Geneva; witnesses confirm he was alone on the balcony, making it an apparently impossible murder."
         },
         {
-          "victim_name": "Eve Ferrier",
+          "victim_id": "eve-ferrier",
           "cause": "Fell",
           "means": "balcony",
           "death_type": "Homicide",
@@ -11751,18 +11933,22 @@
       },
       "persons": [
         {
+          "id": "glynis",
           "name": "Glynis",
+          "is_fictional": true,
           "role_in_story": "Victim"
         },
         {
+          "id": "dr-bryan-doris",
           "name": "Dr. Bryan Doris",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }
       ],
       "deaths": [
         {
-          "victim_name": "Glynis",
+          "victim_id": "glynis",
           "cause": "Unstated",
           "death_type": "Homicide",
           "motive": "NeedsReview",
@@ -11870,7 +12056,9 @@
       },
       "persons": [
         {
+          "id": "dr-gideon-fell",
           "name": "Dr. Gideon Fell",
+          "is_fictional": true,
           "role_in_story": "Detective",
           "is_solver": true
         }

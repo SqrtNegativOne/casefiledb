@@ -15,6 +15,12 @@ function resolveName(persons, id) {
   if (!id) return null
   return persons?.find((p) => p.id === id)?.name ?? id
 }
+
+function displayRole(role) {
+  if (!role) return '—'
+  if (role === 'Victim') return 'Decedent'
+  return role
+}
 </script>
 
 <template>
@@ -42,7 +48,7 @@ function resolveName(persons, id) {
               <RouterLink v-if="p.role_in_story === 'detective'" :to="{ path: '/people', query: { filter: 'detective', q: p.name } }">{{ p.name }}</RouterLink>
               <template v-else>{{ p.name }}</template>
             </td>
-            <td>{{ p.role_in_story || '—' }}</td>
+            <td>{{ displayRole(p.role_in_story) }}</td>
             <td>{{ p.is_solver ? '✓' : '' }}</td>
             <td>{{ p.profession || '—' }}</td>
             <td>{{ p.archetype || '—' }}</td>
@@ -62,9 +68,9 @@ function resolveName(persons, id) {
         <tbody>
           <tr v-for="(d, i) in item.deaths" :key="i">
             <td>{{ d.ordinal || '—' }}</td>
-            <td>{{ resolveName(item.persons, d.victim_id) || 'Unknown' }}</td>
+            <td>{{ resolveName(item.persons, d.victim_id) || d.victim_name || 'Unknown' }}</td>
             <td><CauseBadge :cause="d.cause" :means="d.means" /></td>
-            <td>{{ d.killers?.map(k => resolveName(item.persons, k.person_id)).join(', ') || 'Unknown' }}</td>
+            <td>{{ d.killers?.map(k => resolveName(item.persons, k.person_id) || k.name).join(', ') || 'Unknown' }}</td>
             <td>{{ d.motive ? d.motive.charAt(0).toUpperCase() + d.motive.slice(1).replace(/_/g, ' ') : '—' }}</td>
             <td>{{ d.death_type || '—' }}</td>
             <td>{{ d.is_twist ? 'Yes' : 'No' }}</td>

@@ -500,47 +500,6 @@ html[data-theme="dark"] .cause-ILLNESS    { border-color: #76b041; color: #a8d88
   user-select: auto;
 }
 
-/* Note hover popover */
-.note-hover {
-  position: relative;
-  display: inline-block;
-  max-width: 260px;
-}
-
-.note-trigger {
-  color: var(--muted);
-  text-decoration: underline dotted;
-  cursor: help;
-  font-size: 0.85rem;
-}
-
-.note-popover {
-  position: absolute;
-  left: 0;
-  top: 1.4rem;
-  z-index: 10;
-  width: min(360px, 80vw);
-  padding: 0.5rem 0.65rem;
-  border-radius: 6px;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
-  font-size: 0.85rem;
-  line-height: 1.5;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity 120ms ease;
-  color: var(--text);
-  text-shadow: none;
-}
-
-.note-hover:hover .note-popover,
-.note-hover.note-active .note-popover,
-.note-hover:focus-within .note-popover {
-  visibility: visible;
-  opacity: 1;
-}
-
 /* ─── Utility ───────────────────────────────────────────────────── */
 .muted { color: var(--muted); }
 .hidden { display: none; }

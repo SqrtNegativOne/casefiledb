@@ -15,6 +15,12 @@ function resolveName(persons, id) {
   if (!id) return null
   return persons?.find((p) => p.id === id)?.name ?? id
 }
+
+function displayRole(role) {
+  if (!role) return '—'
+  if (role === 'Victim') return 'Decedent'
+  return role
+}
 </script>
 
 <template>
@@ -42,7 +48,7 @@ function resolveName(persons, id) {
               <RouterLink v-if="p.role_in_story === 'detective'" :to="{ path: '/people', query: { filter: 'detective', q: p.name } }">{{ p.name }}</RouterLink>
               <template v-else>{{ p.name }}</template>
             </td>
-            <td>{{ p.role_in_story || '—' }}</td>
+            <td>{{ displayRole(p.role_in_story) }}</td>
             <td>{{ p.is_solver ? '✓' : '' }}</td>
             <td>{{ p.profession || '—' }}</td>
             <td>{{ p.archetype || '—' }}</td>
